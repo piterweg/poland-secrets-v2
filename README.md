@@ -35,15 +35,15 @@ Cel	Komenda
 # 1. Otwórz blog-posts.json w VS Code, popraw literówkę, zapisz.
 
 # 2. Przegeneruj HTML-e (jeśli edytowałeś JSON)
-node generate-blog.js
+- node generate-blog.js
 
 # 3. Sprawdź, co się zmieniło
-git status
+- git status
 
 # 4. Dodaj, commituj, wypchnij
-git add -A
-git commit -m "Fix typo in Kashubian cuisine article"
-git push origin main
+- git add -A
+- git commit -m "Fix typo in Kashubian cuisine article"
+- git push origin main
 
 # 5. Odśwież GitHub, zobacz nowy commit.
 
