@@ -1,0 +1,1862 @@
+[
+  {
+    "id": "baltyk",
+    "category": "woda",
+    "place": "Vistula Spit",
+    "region": "Pomerania",
+    "days": "2–3 days",
+    "title": "The Baltic Off-Season",
+    "text": "Dunes, empty beaches, and fresh fish straight from the cutter. An ideal destination for a peaceful weekend.",
+    "art": "coastal",
+    "plan": [
+      "Walk from Krynica Morska to the lighthouse",
+      "Cruise on the Vistula Lagoon",
+      "Sunset on the beach in Stegna"
+    ]
+  },
+  {
+    "id": "tatry",
+    "category": "gory",
+    "place": "Western Tatras",
+    "region": "Lesser Poland",
+    "days": "3 days",
+    "title": "Tatras Without the Rush",
+    "text": "Kościeliska Valley, thermal baths, and views that don't require mountaineering experience.",
+    "art": "tatry",
+    "plan": [
+      "Kościeliska Valley in the morning",
+      "Hala Ornak and mountain shelter",
+      "Evening relaxing in thermal baths"
+    ]
+  },
+  {
+    "id": "bieszczady",
+    "category": "gory",
+    "place": "Bieszczady",
+    "region": "Subcarpathia",
+    "days": "3–4 days",
+    "title": "Mountain Meadows & Silence",
+    "text": "A trip for those who want to breathe deeper and look further across endless horizons.",
+    "art": "bieszczady",
+    "plan": [
+      "Połonina Wetlińska trail",
+      "Lake Solina",
+      "Local cuisine in Cisna"
+    ]
+  },
+  {
+    "id": "mazury",
+    "category": "woda",
+    "place": "Masurian Heights",
+    "region": "Warmia-Masuria",
+    "days": "2–4 days",
+    "title": "Slowing Down by the Lake",
+    "text": "Kayaks, wooden piers, and mornings that don't start with an alarm clock.",
+    "art": "mazury",
+    "plan": [
+      "Kayaking down Czarna Hańcza",
+      "Overnight stay by the lake",
+      "Biking through the Primeval Forest"
+    ]
+  },
+  {
+    "id": "wroclaw",
+    "category": "miasta",
+    "place": "Wrocław",
+    "region": "Lower Silesia",
+    "days": "1–2 days",
+    "title": "City of a Hundred Bridges",
+    "text": "Great coffee, islands on the Oder River, and wandering without a rigid plan.",
+    "art": "wroclaw",
+    "plan": [
+      "Ostrów Tumski at dawn",
+      "Oder River islands",
+      "Evening in Nadodrze district"
+    ]
+  },
+  {
+    "id": "karkonosze",
+    "category": "gory",
+    "place": "Karkonosze",
+    "region": "Lower Silesia",
+    "days": "2–3 days",
+    "title": "Towards Mount Śnieżka",
+    "text": "Waterfalls, mountain huts, and granite paths overlooking the Czech border.",
+    "art": "karkonosze",
+    "plan": [
+      "Kamieńczyk Waterfall",
+      "Ascent to Śnieżka peak",
+      "Evening in Szklarska Poręba"
+    ]
+  },
+  {
+    "id": "pieniny",
+    "category": "gory",
+    "place": "Pieniny",
+    "region": "Lesser Poland",
+    "days": "2 days",
+    "title": "Dunajec River Perspective",
+    "text": "Gentle trails and a limestone river gorge best admired from a traditional wooden raft.",
+    "art": "pieniny",
+    "plan": [
+      "Trzy Korony peak at sunrise",
+      "Dunajec River rafting",
+      "Walk through Szczawnica spa town"
+    ]
+  },
+  {
+    "id": "gorce",
+    "category": "gory",
+    "place": "Gorce",
+    "region": "Lesser Poland",
+    "days": "2 days",
+    "title": "Meadows Without the Crowds",
+    "text": "Wooden shepherd huts, panoramic mountain vistas, and gentle trails ideal for an easy start.",
+    "art": "gorce",
+    "plan": [
+      "Observation tower on Gorc",
+      "Hala Turbacz meadow",
+      "Stare Wierchy mountain shelter"
+    ]
+  },
+  {
+    "id": "beskid-niski",
+    "category": "gory",
+    "place": "Low Beskids",
+    "region": "Lesser Poland",
+    "days": "3 days",
+    "title": "Poland's Quietest Mountains",
+    "text": "Lemko wooden churches, deserted roads, and rolling hills without any race to the summit.",
+    "art": "beskid-niski",
+    "plan": [
+      "Magura National Park",
+      "Wooden Orthodox churches in Kwiatoń",
+      "Evening in Hańczowa"
+    ]
+  },
+  {
+    "id": "stolowe",
+    "category": "gory",
+    "place": "Table Mountains",
+    "region": "Lower Silesia",
+    "days": "2 days",
+    "title": "Rock Labyrinths",
+    "text": "Fanciful sandstone formations and scenic routes that delight hikers of all ages.",
+    "art": "stolowe",
+    "plan": [
+      "Błędne Skały rock maze",
+      "Szczeliniec Wielki summit",
+      "Kudowa-Zdrój spa town"
+    ]
+  },
+  {
+    "id": "kaszuby",
+    "category": "woda",
+    "place": "Kashubia",
+    "region": "Pomerania",
+    "days": "2–3 days",
+    "title": "Lakes and a Distinct Culture",
+    "text": "Lush green hills, clear swimming spots, and regional traditions in northern Poland.",
+    "art": "kaszuby",
+    "plan": [
+      "Kayaking along Wda River",
+      "Wieżyca observation tower",
+      "Dinner in Kościerzyna"
+    ]
+  },
+  {
+    "id": "hel",
+    "category": "woda",
+    "place": "Hel Peninsula",
+    "region": "Pomerania",
+    "days": "2 days",
+    "title": "Between Two Shores",
+    "text": "Bay breezes, dedicated coastal bike paths, and beaches on both sides of the narrow spit.",
+    "art": "hel",
+    "plan": [
+      "Cycling from Władysławowo to Hel",
+      "Historic Hel Lighthouse",
+      "Puck Bay at sunset"
+    ]
+  },
+  {
+    "id": "suwalszczyzna",
+    "category": "woda",
+    "place": "Suwałki Region",
+    "region": "Podlasie",
+    "days": "3 days",
+    "title": "The Coolest Summer",
+    "text": "Glacial post-lake valleys, rolling hills, and open northern landscapes full of fresh air.",
+    "art": "suwalszczyzna",
+    "plan": [
+      "Lake Hańcza — Poland's deepest lake",
+      "Historic railway bridges in Stańczyki",
+      "Suwałki and regional culinary treats"
+    ]
+  },
+  {
+    "id": "szczecin-zalew",
+    "category": "woda",
+    "place": "Szczecin Lagoon",
+    "region": "West Pomerania",
+    "days": "2 days",
+    "title": "Waters on the Border",
+    "text": "Islands, fishing harbor towns, and wide open horizons in western Poland.",
+    "art": "szczecin-zalew",
+    "plan": [
+      "Ferry to Wolin Island",
+      "Świnoujście Lighthouse",
+      "Stroll along Międzyzdroje promenade"
+    ]
+  },
+  {
+    "id": "roztocze",
+    "category": "woda",
+    "place": "Roztocze",
+    "region": "Lublin Region",
+    "days": "3 days",
+    "title": "Cascades, Ponds & Bicycles",
+    "text": "Warm rivers, historic wooden watermills, and scenic trails through fragrant pine forests.",
+    "art": "roztocze",
+    "plan": [
+      "Szumy waterfalls on the Tanew River",
+      "Central Roztocze cycling trail",
+      "Zwierzyniec and Echo Ponds"
+    ]
+  },
+  {
+    "id": "krakow",
+    "category": "miasta",
+    "place": "Kraków",
+    "region": "Lesser Poland",
+    "days": "2 days",
+    "title": "Kraków Beyond the Postcard",
+    "text": "Kazimierz at morning calm, after-hours museums, and relaxing walks along the Vistula River.",
+    "art": "krakow",
+    "plan": [
+      "Breakfast in historic Kazimierz",
+      "MOCAK Contemporary Art or National Museum",
+      "Vistula riverbank boulevards"
+    ]
+  },
+  {
+    "id": "gdansk",
+    "category": "miasta",
+    "place": "Gdańsk",
+    "region": "Pomerania",
+    "days": "2 days",
+    "title": "City with the Sea in the Backdrop",
+    "text": "Brick Hanseatic streets, shipyard heritage, and coffee beside the Motława River.",
+    "art": "gdansk",
+    "plan": [
+      "European Solidarity Centre",
+      "Mariacka Street amber stalls",
+      "Sunset on Ołowianka Island"
+    ]
+  },
+  {
+    "id": "torun",
+    "category": "miasta",
+    "place": "Toruń",
+    "region": "Kuyavia-Pomerania",
+    "days": "1–2 days",
+    "title": "Gingerbread & Gothic Charm",
+    "text": "A compact UNESCO old town, riverside atmosphere, and the perfect leisurely weekend vibe.",
+    "art": "torun",
+    "plan": [
+      "Philadelphia Boulevard by the river",
+      "House of Nicolaus Copernicus",
+      "Evening stroll through the Old Town"
+    ]
+  },
+  {
+    "id": "lublin",
+    "category": "miasta",
+    "place": "Lublin",
+    "region": "Lublin Region",
+    "days": "2 days",
+    "title": "The East with Character",
+    "text": "Kraków Gate, hidden courtyards, and outstanding local cuisine in quaint bistros.",
+    "art": "lublin",
+    "plan": [
+      "Historic Old Town & Castle",
+      "Centre for the Meeting of Cultures",
+      "Evening at Plac Po Farze square"
+    ]
+  },
+  {
+    "id": "poznan",
+    "category": "miasta",
+    "place": "Poznań",
+    "region": "Greater Poland",
+    "days": "2 days",
+    "title": "The Great Rhythm of Poznań",
+    "text": "St. Martin's croissants, design shops, and an unhurried stroll through Jeżyce district.",
+    "art": "poznan",
+    "plan": [
+      "Old Market Square in the morning",
+      "Śródka and Cathedral Island (Ostrów Tumski)",
+      "Dinner in artistic Jeżyce"
+    ]
+  },
+  {
+    "id": "lodz",
+    "category": "miasta",
+    "place": "Łódź",
+    "region": "Łódź Region",
+    "days": "2 days",
+    "title": "A City in Transformation",
+    "text": "Post-industrial brick lofts, film history, and the vibrant pulse of Piotrkowska Street.",
+    "art": "lodz",
+    "plan": [
+      "OFF Piotrkowska creative hub",
+      "EC1 complex and planetarium",
+      "Historic Księży Młyn textile mill estate"
+    ]
+  },
+  {
+    "id": "zamosc",
+    "category": "miasta",
+    "place": "Zamość",
+    "region": "Lublin Region",
+    "days": "1–2 days",
+    "title": "The Ideal Renaissance Town",
+    "text": "Colorful arcaded townhouses and a symmetrical grand market square straight from an Italian dream.",
+    "art": "zamosc",
+    "plan": [
+      "Great Market Square (Rynek Wielki)",
+      "Roztocze National Park gateway",
+      "Coffee under the Renaissance arcades"
+    ]
+  },
+  {
+    "id": "barycz",
+    "category": "natura",
+    "place": "Barycz Valley",
+    "region": "Lower Silesia",
+    "days": "2 days",
+    "title": "Birdwatching Weekend",
+    "text": "Milicz Ponds, cycling trails, and lively water bird mornings on Europe's largest carp ponds.",
+    "art": "barycz",
+    "plan": [
+      "Milicz Ponds Nature Reserve",
+      "Barycz Valley cycle loop",
+      "Wildlife observation tower"
+    ]
+  },
+  {
+    "id": "notecka",
+    "category": "natura",
+    "place": "Notecka Primeval Forest",
+    "region": "Greater Poland",
+    "days": "2 days",
+    "title": "Expanses of Pine",
+    "text": "Long forest trails and hidden lakes that are best discovered from the saddle of a bicycle.",
+    "art": "notecka",
+    "plan": [
+      "Cycling route around Sieraków",
+      "Lake Jaroszewskie",
+      "Picnic in the deep pine woods"
+    ]
+  },
+  {
+    "id": "podhale",
+    "category": "gory",
+    "place": "Podhale",
+    "region": "Lesser Poland",
+    "days": "2–3 days",
+    "title": "Highland Ease & Mountain Cheese",
+    "text": "Zakopane, dwarf pine trails, and peaceful morning alpine panoramas without the stress.",
+    "art": "tatry",
+    "plan": [
+      "Walk along historic Krupówki",
+      "Trail to Strążyska Valley",
+      "Campfire evening with traditional oscypek cheese"
+    ]
+  },
+  {
+    "id": "sandomierz",
+    "category": "miasta",
+    "place": "Sandomierz",
+    "region": "Holy Cross Region",
+    "days": "1–2 days",
+    "title": "Historic Town Above the Vistula",
+    "text": "Medieval walls, craft shops, and a calm historic pace that requires no frantic sightseeing.",
+    "art": "wroclaw",
+    "plan": [
+      "Market square and historic townhouses",
+      "Vistula River boulevards",
+      "Regional museum and local culinary tastings"
+    ]
+  },
+  {
+    "id": "sopot",
+    "category": "woda",
+    "place": "Sopot",
+    "region": "Pomerania",
+    "days": "1–2 days",
+    "title": "The Pier and a Relaxing Weekend",
+    "text": "Sandy beaches, wide promenades, and sea air that always works wonders for a quick reset.",
+    "art": "baltyk",
+    "plan": [
+      "Walk on Europe's longest wooden pier",
+      "Beachfront cafes and seaside stroll",
+      "Evening sea breeze in the coastal park"
+    ]
+  },
+  {
+    "id": "kudowa",
+    "category": "gory",
+    "place": "Kudowa-Zdrój",
+    "region": "Lower Silesia",
+    "days": "2 days",
+    "title": "Breathe in the Mountains",
+    "text": "A historic spa resort, lush park avenues, and sweeping panoramas of the Sudeten ranges.",
+    "art": "stolowe",
+    "plan": [
+      "Walk through the central Spa Park",
+      "Mountain ridge viewpoints",
+      "Dinner in a cozy local guesthouse"
+    ]
+  },
+  {
+    "id": "olsztyn",
+    "category": "miasta",
+    "place": "Olsztyn",
+    "region": "Warmia-Masuria",
+    "days": "1 day",
+    "title": "Town with a Green Heart",
+    "text": "A charming market square, cozy bistros, and a relaxed tempo that invites you back again.",
+    "art": "wroclaw",
+    "plan": [
+      "Market square and central fountain",
+      "Warmian Chapter Castle",
+      "Walk along the Łyna River"
+    ]
+  },
+  {
+    "id": "zakopane",
+    "category": "gory",
+    "place": "Zakopane",
+    "region": "Lesser Poland",
+    "days": "2–3 days",
+    "title": "Tatras in the Highland Rhythm",
+    "text": "Dwarf pine, traditional wooden architecture, and mountain views that soothe any hectic lifestyle.",
+    "art": "tatry",
+    "plan": [
+      "Krupówki street and local market",
+      "Kościeliska Valley trail",
+      "Evening with smoked highland cheese and mountain views"
+    ]
+  },
+  {
+    "id": "morskie-oko",
+    "category": "gory",
+    "place": "Morskie Oko",
+    "region": "Lesser Poland",
+    "days": "1 day",
+    "title": "The Famous Alpine Lake",
+    "text": "Mirror-like glacial waters and a classic mountain trail delivering maximum reward for moderate effort.",
+    "art": "tatry",
+    "plan": [
+      "Early morning start from Palenica Białczańska",
+      "Walk to the emerald mountain lake",
+      "Spectacular photography at dawn and dusk"
+    ]
+  },
+  {
+    "id": "giewont",
+    "category": "gory",
+    "place": "Mount Giewont",
+    "region": "Lesser Poland",
+    "days": "1–2 days",
+    "title": "Giewont and High Peak Vistas",
+    "text": "The iconic rocky silhouette of the sleeping knight, paired with mountain stillness and rewarding hikes.",
+    "art": "tatry",
+    "plan": [
+      "Trail starting from Kuźnice",
+      "Panorama from Hala Gąsienicowa",
+      "Relaxing return to Zakopane"
+    ]
+  },
+  {
+    "id": "kasprowy-wierch",
+    "category": "gory",
+    "place": "Kasprowy Wierch",
+    "region": "Lesser Poland",
+    "days": "1 day",
+    "title": "On the Highest Ridge",
+    "text": "The fastest and most accessible way to reach 360-degree panoramic views over the High Tatras.",
+    "art": "tatry",
+    "plan": [
+      "Depart from Zakopane Kuźnice",
+      "Scenic cable car ride or ridge hike",
+      "Views across northern and southern ridges"
+    ]
+  },
+  {
+    "id": "dolina-koscieliska",
+    "category": "gory",
+    "place": "Kościeliska Valley",
+    "region": "Lesser Poland",
+    "days": "1–2 days",
+    "title": "The Friendliest Tatra Valley",
+    "text": "Wide scenic paths, mountain clearings, and an exceptionally calm atmosphere perfect for weekenders.",
+    "art": "tatry",
+    "plan": [
+      "Best early morning start",
+      "Walk to trails near the caves",
+      "Cozy evening in a highland guesthouse"
+    ]
+  },
+  {
+    "id": "sniezka",
+    "category": "gory",
+    "place": "Mount Śnieżka",
+    "region": "Lower Silesia",
+    "days": "1–2 days",
+    "title": "Highest Peak of the Giant Mountains",
+    "text": "Expansive alpine vistas, crisp high-altitude wind, and dramatic mountain weather in any season.",
+    "art": "sniezka",
+    "plan": [
+      "Summit viewing platform",
+      "Mountain refuge and hot coffee",
+      "Scenic hike across Karkonosze ridges"
+    ]
+  },
+  {
+    "id": "samotnia",
+    "category": "gory",
+    "place": "Samotnia Mountain Refuge",
+    "region": "Lower Silesia",
+    "days": "1 day",
+    "title": "Haven of Peace and Scenic Views",
+    "text": "A legendary lakeside mountain shelter nestled under cirque cliffs, surrounded by spruce trees.",
+    "art": "karkonosze",
+    "plan": [
+      "Trail from the historic wooden Wang church",
+      "Walk to surrounding ridge viewpoints",
+      "Evening relaxation by Mały Staw pond"
+    ]
+  },
+  {
+    "id": "polonina-wetlinska",
+    "category": "gory",
+    "place": "Połonina Wetlińska",
+    "region": "Subcarpathia",
+    "days": "2 days",
+    "title": "Bieszczady's Open Horizons",
+    "text": "Expansive alpine grasslands, endless sky, and sweeping mountain panoramas that calm the soul.",
+    "art": "bieszczady",
+    "plan": [
+      "View from the main mountain crest",
+      "Trek along the grassy ridge",
+      "Evening tranquility at the mountain hut"
+    ]
+  },
+  {
+    "id": "polonina-carynska",
+    "category": "gory",
+    "place": "Połonina Caryńska",
+    "region": "Subcarpathia",
+    "days": "2 days",
+    "title": "A Trail for Rest and Broad Vistas",
+    "text": "The best mountain route for an unhurried, restorative climb with 360-degree Carpathian vistas.",
+    "art": "bieszczady1",
+    "plan": [
+      "Start from Wyżniańska Pass",
+      "Ridge walk across the meadow summits",
+      "Overnight stay overlooking the Bieszczady mountains"
+    ]
+  },
+  {
+    "id": "jezioro-solinskie",
+    "category": "woda",
+    "place": "Lake Solina",
+    "region": "Subcarpathia",
+    "days": "1–2 days",
+    "title": "Waterside Relaxation in Bieszczady",
+    "text": "Deep blue water, green hills, and quiet coves that make for an ideal unstructured getaway.",
+    "art": "solina",
+    "plan": [
+      "Lakeside walk and dam viewpoint",
+      "Picnic and sunbathing in quiet bays",
+      "Sunset boat cruise over the water"
+    ]
+  },
+  {
+    "id": "kolorowe-jeziorka",
+    "category": "natura",
+    "place": "Colorful Lakes",
+    "region": "Lower Silesia",
+    "days": "1 day",
+    "title": "Vibrant Mineral Lakes in Rudawy",
+    "text": "Remarkable natural colors in former pyrite quarries create a landscape that looks like a fairytale.",
+    "art": "mazury",
+    "plan": [
+      "Trail linking the Purple, Blue, and Green lakes",
+      "Photography in shifting natural light",
+      "Short hike into Rudawy Janowickie hills"
+    ]
+  },
+  {
+    "id": "szczeliniec",
+    "category": "gory",
+    "place": "Szczeliniec Wielki",
+    "region": "Lower Silesia",
+    "days": "1 day",
+    "title": "Rock Labyrinth in the Table Mountains",
+    "text": "Fascinating natural rock sculptures, narrow crevices, and stunning sunset views over the valley.",
+    "art": "stolowe",
+    "plan": [
+      "Walk through the sandstone labyrinth",
+      "Nearby Błędne Skały rock maze",
+      "Relaxing break in the mountain haven"
+    ]
+  },
+  {
+    "id": "swietokrzyskie",
+    "category": "gory",
+    "place": "Holy Cross Mountains",
+    "region": "Holy Cross Region",
+    "days": "1–2 days",
+    "title": "Gentle Hills, Deep Stillness",
+    "text": "Ancient quartzite boulder fields, leafy beech groves, and easy trails tailored for weekend escapes.",
+    "art": "ojcow",
+    "plan": [
+      "Viewpoint atop Mount Łysica",
+      "Walk along the ancient forested ridges",
+      "Coffee and regional treats after the hike"
+    ]
+  },
+  {
+    "id": "lasy-janowskie",
+    "category": "natura",
+    "place": "Janów Forests",
+    "region": "Lublin Region",
+    "days": "1–2 days",
+    "title": "Serenity in Eastern Poland",
+    "text": "Flat trails, uncrowded paths, and an idyllic atmosphere for a quiet woodland stay.",
+    "art": "polesie",
+    "plan": [
+      "Early morning forest trails",
+      "Picnic among old trees and ponds",
+      "Unhurried return in the late afternoon"
+    ]
+  },
+  {
+    "id": "puszcza-notecka",
+    "category": "natura",
+    "place": "Notecka Primeval Forest",
+    "region": "Greater Poland",
+    "days": "1–2 days",
+    "title": "A Forest in No Hurry",
+    "text": "Sandy dune trails, quiet paths, and a peaceful escape from the frantic city pace.",
+    "art": "notecka",
+    "plan": [
+      "Walk along pine forest paths",
+      "Designated nature rest area",
+      "Evening views over the canopy"
+    ]
+  },
+  {
+    "id": "leba",
+    "category": "woda",
+    "place": "Łeba",
+    "region": "Pomerania",
+    "days": "2 days",
+    "title": "Dunes & Endless Beach Walks",
+    "text": "Wonderful for unwinding when you just want to listen to the waves without a complicated schedule.",
+    "art": "baltyk",
+    "plan": [
+      "Hike across the giant coastal dunes",
+      "Beach and coffee by the promenade",
+      "Evening relaxation by Lake Łebsko"
+    ]
+  },
+  {
+    "id": "ustka",
+    "category": "woda",
+    "place": "Ustka",
+    "region": "Pomerania",
+    "days": "1–2 days",
+    "title": "Maritime Charm & A Quiet Weekend",
+    "text": "A seaside retreat featuring a historic lighthouse, sandy promenades, and calm coastal vibes.",
+    "art": "baltyk",
+    "plan": [
+      "Historic lighthouse and harbour promenade",
+      "Walk along the western beach",
+      "Fresh seafood dinner with sea views"
+    ]
+  },
+  {
+    "id": "beskid-zywiecki",
+    "category": "gory",
+    "place": "Żywiec Beskids",
+    "region": "Silesia",
+    "days": "2–3 days",
+    "title": "Mountains with Room to Rest",
+    "text": "Lush greenery, scenic summits, and unhurried paths for a zero-pressure mountain holiday.",
+    "art": "bieszczady",
+    "plan": [
+      "Morning walk along the slopes",
+      "Vistas from high mountain ridges",
+      "Evening savoring regional highland cuisine"
+    ]
+  },
+  {
+    "id": "augustowska",
+    "category": "natura",
+    "place": "Augustów Primeval Forest",
+    "region": "Podlasie",
+    "days": "2 days",
+    "title": "Forest Silence & Uncrowded Lakes",
+    "text": "A wonderful choice for a short getaway when you want to return to nature and recharge in peace.",
+    "art": "mazury",
+    "plan": [
+      "Quiet forest trail explorations",
+      "Lakeside swimming and resting on the shore",
+      "Evening stroll along Augustów Canal"
+    ]
+  },
+  {
+    "id": "malbork",
+    "category": "zamki",
+    "place": "Malbork",
+    "region": "Pomerania",
+    "days": "1 day",
+    "title": "The World's Largest Brick Castle",
+    "text": "A Gothic fortress on the Nogat, built over 200 years. Slow exploration of cloisters, courtyards, and refectories.",
+    "art": "zamki",
+    "plan": [
+      "High Castle and Great Refectory",
+      "Walk along the walls above the Nogat",
+      "Evening illumination of the castle"
+    ]
+  },
+  {
+    "id": "wawel",
+    "category": "zamki",
+    "place": "Wawel",
+    "region": "Lesser Poland",
+    "days": "1 day",
+    "title": "The Coronation Hill of Kings",
+    "text": "Cathedral, Renaissance castle, and the dragon legend. Wawel at a slow pace means a morning without crowds and coffee with a view of the Vistula.",
+    "art": "zamki",
+    "plan": [
+      "Wawel Cathedral at dawn",
+      "Arcaded courtyard and royal chambers",
+      "Walk along the Vistula boulevards below the hill"
+    ]
+  },
+  {
+    "id": "ksiaz",
+    "category": "zamki",
+    "place": "Książ Castle",
+    "region": "Lower Silesia",
+    "days": "1 day",
+    "title": "Castle Above the Precipice",
+    "text": "The third-largest castle in Poland, hidden in the forests of Wałbrzych. Underground tunnels, garden terraces, and Sudeten panoramas.",
+    "art": "zamki",
+    "plan": [
+      "Chambers and ballroom tour",
+      "Walk through the garden terraces",
+      "Underground tourist route"
+    ]
+  },
+  {
+    "id": "moszna",
+    "category": "zamki",
+    "place": "Moszna",
+    "region": "Opole Region",
+    "days": "1 day",
+    "title": "A Fairytale Castle with 99 Towers",
+    "text": "A neo-Baroque residence surrounded by an English park. Perfect for a lazy afternoon among old oaks.",
+    "art": "zamki",
+    "plan": [
+      "Chambers and chapel tour",
+      "Walk through the English park",
+      "Afternoon at the castle café"
+    ]
+  },
+  {
+    "id": "niedzica",
+    "category": "zamki",
+    "place": "Niedzica",
+    "region": "Lesser Poland",
+    "days": "1 day",
+    "title": "Dunajec Castle Above the Reservoir",
+    "text": "A stronghold on a rock above Czorsztyn, with views of the Pieniny and the Tatras. Perfect for a weekend stop en route.",
+    "art": "zamki",
+    "plan": [
+      "Castle and chapel tour",
+      "Cruise on Lake Czorsztyn",
+      "View of the Pieniny from the courtyard"
+    ]
+  },
+  {
+    "id": "ogrodzieniec",
+    "category": "zamki",
+    "place": "Ogrodzieniec",
+    "region": "Silesia",
+    "days": "1 day",
+    "title": "Eagle's Nest on the Jura",
+    "text": "The largest castle ruins of the Kraków-Częstochowa Jura. Limestone rocks, legends, and sunset over the valley.",
+    "art": "zamki",
+    "plan": [
+      "Tour of the castle ruins",
+      "Climb to Góra Birów",
+      "Sunset from the viewpoint"
+    ]
+  },
+  {
+    "id": "lancut",
+    "category": "zamki",
+    "place": "Łańcut",
+    "region": "Subcarpathia",
+    "days": "1 day",
+    "title": "A Magnate's Palace with Theatre",
+    "text": "The Lubomirski and Potocki residence with an English park. Slow tour of the interiors, orchid house, and carriage house.",
+    "art": "zamki",
+    "plan": [
+      "Palace apartments",
+      "Orchid house and carriage house",
+      "Walk through the park and orangery"
+    ]
+  },
+  {
+    "id": "pszczyna",
+    "category": "zamki",
+    "place": "Pszczyna",
+    "region": "Silesia",
+    "days": "1 day",
+    "title": "Renaissance Pearl of Upper Silesia",
+    "text": "A palace with preserved 19th-century interiors and an English-style park. A town with a postcard market square.",
+    "art": "zamki",
+    "plan": [
+      "Guided palace tour",
+      "Pszczyna Park and European Bison Show Farm",
+      "Walk around the market square"
+    ]
+  },
+  {
+    "id": "wieliczka",
+    "category": "unesco",
+    "place": "Wieliczka",
+    "region": "Lesser Poland",
+    "days": "1 day",
+    "title": "Underground Kingdom of Salt",
+    "text": "A salt labyrinth 300 meters underground. St. Kinga's Chapel, lakes, and galleries carved since the 13th century.",
+    "art": "unesco",
+    "plan": [
+      "Tourist route with St. Kinga's Chapel",
+      "Kraków Saltworks Museum",
+      "Relaxation in the brine graduation tower"
+    ]
+  },
+  {
+    "id": "bochnia",
+    "category": "unesco",
+    "place": "Bochnia",
+    "region": "Lesser Poland",
+    "days": "1 day",
+    "title": "Poland's Oldest Salt Mine",
+    "text": "The quieter sister of Wieliczka. Underground train, boat crossing, and a unique geological route.",
+    "art": "unesco",
+    "plan": [
+      "Descent by the Campi shaft",
+      "Underground boat crossing",
+      "Geological route with salt exhibition"
+    ]
+  },
+  {
+    "id": "auschwitz",
+    "category": "unesco",
+    "place": "Auschwitz-Birkenau",
+    "region": "Lesser Poland",
+    "days": "1 day",
+    "title": "Memorial and Museum",
+    "text": "The former Nazi concentration camp. A silent visit with a guide, as a conscious experience.",
+    "art": "unesco",
+    "plan": [
+      "Guided tour (mandatory)",
+      "Auschwitz-Birkenau Memorial and Museum",
+      "Time for personal reflection"
+    ]
+  },
+  {
+    "id": "kalwaria-zebrzydowska",
+    "category": "unesco",
+    "place": "Kalwaria Zebrzydowska",
+    "region": "Lesser Poland",
+    "days": "1 day",
+    "title": "Sanctuary in the Landscape",
+    "text": "A 17th-century monastic complex and Calvary paths inscribed on the UNESCO list. Perfect for a walk in silence.",
+    "art": "unesco",
+    "plan": [
+      "Basilica and monastery tour",
+      "The Paths of the Lord Jesus",
+      "View of the Beskid Mały from surrounding hills"
+    ]
+  },
+  {
+    "id": "tarnowskie-gory",
+    "category": "unesco",
+    "place": "Tarnowskie Góry",
+    "region": "Silesia",
+    "days": "1 day",
+    "title": "Underground of Silver and Lead",
+    "text": "A historic mine with an underground boat route. The only such trail in Europe.",
+    "art": "unesco",
+    "plan": [
+      "Underground route with boat crossing",
+      "Steam Engine Open-Air Museum",
+      "Walk around the market square and town park"
+    ]
+  },
+  {
+    "id": "krzemionki",
+    "category": "unesco",
+    "place": "Krzemionki Opatowskie",
+    "region": "Holy Cross Region",
+    "days": "1 day",
+    "title": "Neolithic Flint Mines",
+    "text": "Prehistoric pits from 5,000 years ago. An underground route and an archaeological reserve amid forests.",
+    "art": "unesco",
+    "plan": [
+      "Underground route in the Neolithic mine",
+      "Neolithic village",
+      "Walk through the archaeological reserve"
+    ]
+  },
+  {
+    "id": "kazimierz-dolny",
+    "category": "miasteczka",
+    "place": "Kazimierz Dolny",
+    "region": "Lublin Region",
+    "days": "1–2 days",
+    "title": "Artists' Town on the Vistula",
+    "text": "A market square with historic townhouses, loess ravines, and artists' workshops. Perfect for a slow weekend.",
+    "art": "miasteczka",
+    "plan": [
+      "Market square and Senatorska Street",
+      "Korzeniowy Dół ravine",
+      "Sunset over the Vistula"
+    ]
+  },
+  {
+    "id": "chelmno",
+    "category": "miasteczka",
+    "place": "Chełmno",
+    "region": "Kuyavia-Pomerania",
+    "days": "1 day",
+    "title": "Town of the Lovestruck",
+    "text": "Medieval walls and six Gothic churches. A quiet little town with a view of the Vistula.",
+    "art": "miasteczka",
+    "plan": [
+      "Walk along the defensive walls",
+      "Collegiate church and monastery",
+      "View of the Vistula valley from the tower"
+    ]
+  },
+  {
+    "id": "klodzko",
+    "category": "miasteczka",
+    "place": "Kłodzko",
+    "region": "Lower Silesia",
+    "days": "1–2 days",
+    "title": "Fortress on the Nysa Kłodzka",
+    "text": "A town on the Czech border with an impressive fortress and Gothic bridge. Gateway to the Sudetes.",
+    "art": "miasteczka",
+    "plan": [
+      "Kłodzko Fortress tour",
+      "Walk along the Gothic bridge",
+      "Underground tourist route"
+    ]
+  },
+  {
+    "id": "paczkow",
+    "category": "miasteczka",
+    "place": "Paczków",
+    "region": "Opole Region",
+    "days": "1 day",
+    "title": "The Polish Carcassonne",
+    "text": "One of the best-preserved fortified towns in Poland. Walls, towers, and a gate that remembers the Middle Ages.",
+    "art": "miasteczka",
+    "plan": [
+      "Walk along the defensive walls",
+      "Town hall tower and market square",
+      "St. John the Evangelist Church"
+    ]
+  },
+  {
+    "id": "cieszyn",
+    "category": "miasteczka",
+    "place": "Cieszyn",
+    "region": "Silesia",
+    "days": "1 day",
+    "title": "A Town on the Border",
+    "text": "Cieszyn Venice, the Three Brothers Well, and the Friendship Bridge. Coffee on one side of the Olza, dessert on the other.",
+    "art": "miasteczka",
+    "plan": [
+      "Market square and the Three Brothers Well",
+      "Castle Hill and the Rotunda",
+      "Walk along the Friendship Bridge"
+    ]
+  },
+  {
+    "id": "przemysl",
+    "category": "miasteczka",
+    "place": "Przemyśl",
+    "region": "Subcarpathia",
+    "days": "1–2 days",
+    "title": "City on Seven Hills",
+    "text": "The Fortress, cathedrals of three rites, and a panorama of the Carpathians. The eastern gate of Poland at a slow pace.",
+    "art": "miasteczka",
+    "plan": [
+      "Przemyśl Fortress tour",
+      "Three-rite cathedrals",
+      "Panorama from the Tatar Mound"
+    ]
+  },
+  {
+    "id": "sanok",
+    "category": "miasteczka",
+    "place": "Sanok",
+    "region": "Subcarpathia",
+    "days": "1 day",
+    "title": "Gateway to the Bieszczady",
+    "text": "An open-air museum of wooden architecture and an Icon Museum. A perfect base for Bieszczady trips.",
+    "art": "miasteczka",
+    "plan": [
+      "Sanok Skansen (Folk Architecture Museum)",
+      "Icon collection at the Historical Museum",
+      "Walk around the market square and along the San"
+    ]
+  },
+  {
+    "id": "krynica-zdroj",
+    "category": "miasteczka",
+    "place": "Krynica-Zdrój",
+    "region": "Lesser Poland",
+    "days": "2 days",
+    "title": "Pearl of Polish Spas",
+    "text": "Pump room, promenade, and Parkowa Hill with a funicular. Rest in the rhythm of an old spa town.",
+    "art": "miasteczka",
+    "plan": [
+      "Promenade and pump room walk",
+      "Funicular to Parkowa Hill",
+      "Evening at the Modrzejewska Theatre"
+    ]
+  },
+  {
+    "id": "szczawnica",
+    "category": "miasteczka",
+    "place": "Szczawnica",
+    "region": "Lesser Poland",
+    "days": "2 days",
+    "title": "Spa at the Foot of the Pieniny",
+    "text": "Wooden architecture, mineral water, and views of Trzy Korony. A perfect base for a Dunajec raft trip.",
+    "art": "miasteczka",
+    "plan": [
+      "Walk through the Lower and Upper Park",
+      "Mineral water pump room",
+      "View of the Pieniny from Palenica"
+    ]
+  },
+  {
+    "id": "suprasl",
+    "category": "miasteczka",
+    "place": "Supraśl",
+    "region": "Podlasie",
+    "days": "1 day",
+    "title": "Orthodox Monastery in the Forest",
+    "text": "A monastery surrounded by the Knyszyn Forest. Iconostasis, chants, and a silence that soothes.",
+    "art": "miasteczka",
+    "plan": [
+      "Monastery and icon museum tour",
+      "Walk through the Knyszyn Forest",
+      "Quiet evening in Supraśl"
+    ]
+  },
+  {
+    "id": "green-velo",
+    "category": "szlaki",
+    "place": "Green Velo",
+    "region": "Eastern Poland",
+    "days": "10–14 days",
+    "title": "Poland's Longest Cycling Route",
+    "text": "Over 2,000 km through five voivodeships. Warmia, Masuria, Podlasie, the Lublin region, and Subcarpathia.",
+    "art": "szlaki",
+    "plan": [
+      "Warmian-Masurian stage around the lakes",
+      "Podlasie — Białowieża and Biebrza",
+      "Finale in the Bieszczady and above the San"
+    ]
+  },
+  {
+    "id": "velo-dunajec",
+    "category": "szlaki",
+    "place": "Velo Dunajec",
+    "region": "Lesser Poland",
+    "days": "3–4 days",
+    "title": "By Bike Along the Dunajec",
+    "text": "240 km through the Pieniny, Beskid Sądecki, and Podhale. A route for those who love water and mountains.",
+    "art": "szlaki",
+    "plan": [
+      "Nowy Targ — Czorsztyn",
+      "Pieniny and Szczawnica",
+      "Finale in Nowy Sącz"
+    ]
+  },
+  {
+    "id": "velo-baltica",
+    "category": "szlaki",
+    "place": "Velo Baltica",
+    "region": "Pomerania",
+    "days": "5–7 days",
+    "title": "Baltic Coastal Cycling Route",
+    "text": "Along the Baltic coast, through seaside towns and Słowiński National Park.",
+    "art": "szlaki",
+    "plan": [
+      "Świnoujście — Kołobrzeg",
+      "Darłowo — Łeba",
+      "Finale in Hel"
+    ]
+  },
+  {
+    "id": "wielka-petla-wielkopolski",
+    "category": "szlaki",
+    "place": "Greater Poland Loop",
+    "region": "Greater Poland",
+    "days": "4–5 days",
+    "title": "The Great Greater Poland Loop",
+    "text": "600 km through Wielkopolski National Park, the Warta Valley, and the surroundings of Poznań. A route for patient cyclists.",
+    "art": "szlaki",
+    "plan": [
+      "Poznań — Puszczykowo",
+      "Wielkopolski National Park",
+      "Rogalin, Kórnik and surroundings"
+    ]
+  },
+  {
+    "id": "dolina-bugu",
+    "category": "szlaki",
+    "place": "Bug Valley",
+    "region": "Podlasie",
+    "days": "3–4 days",
+    "title": "By Bike Through the Wild River",
+    "text": "A route along Poland's wildest river. Villages, Orthodox churches, and Bug-side landscapes.",
+    "art": "szlaki",
+    "plan": [
+      "Drohiczyn — Mielnik",
+      "Mielnik — Janów Podlaski",
+      "Finale near Włodawa"
+    ]
+  },
+  {
+    "id": "kanal-augustowski",
+    "category": "szlaki",
+    "place": "Augustów Canal",
+    "region": "Podlasie",
+    "days": "2–3 days",
+    "title": "By Bike Along a 19th-Century Canal",
+    "text": "Locks, the Augustów Primeval Forest, and lakes. A cycling route with the soul of old engineering.",
+    "art": "szlaki",
+    "plan": [
+      "Augustów — Przewięź Lock",
+      "Gorczyca Lock and Studziany Las",
+      "Finale in Augustów on the Netta"
+    ]
+  },
+  {
+    "id": "kuchnia-podlasie",
+    "category": "kuchnia",
+    "place": "Podlasie",
+    "region": "Podlasie",
+    "days": "3–4 days",
+    "title": "Kibiny, Kartacze and Potato Babka",
+    "text": "Borderland cuisine — Tatar, Orthodox, and Polish in one. Hearty, simple, and deeply rooted in the land.",
+    "art": "kuchnia",
+    "plan": [
+      "Kibiny at a milk bar in Białystok",
+      "Kartacze in a village inn",
+      "Potato babka in Supraśl"
+    ]
+  },
+  {
+    "id": "kuchnia-kaszuby",
+    "category": "kuchnia",
+    "place": "Kashubia",
+    "region": "Pomerania",
+    "days": "2–3 days",
+    "title": "Herring, Eel and Kashubian Broth",
+    "text": "Fish from the Baltic and lakes, potatoes, cabbage, and mushrooms. Kashubian cuisine is the taste of the sea meeting the forest.",
+    "art": "kuchnia",
+    "plan": [
+      "Herring in oil in Kościerzyna",
+      "Smoked eel from the lake",
+      "Kashubian broth in a local inn"
+    ]
+  },
+  {
+    "id": "kuchnia-podhale",
+    "category": "kuchnia",
+    "place": "Podhale",
+    "region": "Lesser Poland",
+    "days": "2–3 days",
+    "title": "Oscypek, Kwaśnica and Bryjka",
+    "text": "Shepherd cheeses, sauerkraut, and highland soups. Cuisine straight from the shepherd's hut — thick and warming.",
+    "art": "kuchnia",
+    "plan": [
+      "Grilled oscypek on Krupówki",
+      "Kwaśnica in a mountain hut",
+      "Bryjka with cranberry in a shepherd's hut"
+    ]
+  },
+  {
+    "id": "kuchnia-slask",
+    "category": "kuchnia",
+    "place": "Silesia",
+    "region": "Silesia",
+    "days": "2 days",
+    "title": "Roulade, Dumplings and Modra Kapusta",
+    "text": "Silesian cuisine is substance, heartiness, and respect for tradition. Roulade with dumplings is a classic that tastes like home.",
+    "art": "kuchnia",
+    "plan": [
+      "Silesian roulade with dumplings in Katowice",
+      "Modra kapusta and ribs",
+      "Silesian kołocz for dessert"
+    ]
+  },
+  {
+    "id": "kuchnia-roztocze",
+    "category": "kuchnia",
+    "place": "Roztocze",
+    "region": "Lublin Region",
+    "days": "2–3 days",
+    "title": "Pierogi with Bryndza and Cebularze",
+    "text": "The cuisine of Roztocze is a mix of Polish, Ukrainian, and Jewish traditions. Simple, earthy, and deeply filling.",
+    "art": "kuchnia",
+    "plan": [
+      "Lublin cebularz for breakfast",
+      "Pierogi with bryndza in Zamość",
+      "Roztocze trout in a local smokehouse"
+    ]
+  },
+  {
+    "id": "kuchnia-kurpie",
+    "category": "kuchnia",
+    "place": "Kurpie",
+    "region": "Masovia",
+    "days": "2 days",
+    "title": "Rejbak, Fafernuchy and Pierogi",
+    "text": "Kurpie cuisine is dishes made of potatoes, flour, and mushrooms. Simple, rural, and still alive in the homes of the Kurpie people.",
+    "art": "kuchnia",
+    "plan": [
+      "Rejbak in a Kurpie homestead",
+      "Fafernuchy in Kadzidło",
+      "Pierogi with cabbage and mushrooms"
+    ]
+  },
+  {
+    "id": "kuchnia-wielkopolska",
+    "category": "kuchnia",
+    "place": "Greater Poland",
+    "region": "Greater Poland",
+    "days": "2 days",
+    "title": "St. Martin's Croissants and Pyry z Gzikiem",
+    "text": "Greater Poland's cuisine is potatoes in every form, croissants with white poppy seeds, and goose for St. Martin's Day.",
+    "art": "kuchnia",
+    "plan": [
+      "St. Martin's croissant in Poznań",
+      "Pyry z gzikiem in a village inn",
+      "Goose with modra kapusta in autumn"
+    ]
+  },
+  {
+    "id": "kuchnia-warmia",
+    "category": "kuchnia",
+    "place": "Warmia-Masuria",
+    "region": "Warmia-Masuria",
+    "days": "2–3 days",
+    "title": "Vendace, Marzipan and Kindziuk",
+    "text": "The cuisine of Warmia and Masuria is fish from the lakes, game, mushrooms, and Olsztyn marzipan. Rural flavors of the land of a thousand lakes.",
+    "art": "kuchnia",
+    "plan": [
+      "Smoked vendace by the lake",
+      "Olsztyn marzipan for dessert",
+      "Kindziuk sausage from game in a Warmian tavern"
+    ]
+  },
+  {
+    "id": "kuchnia-kociewie",
+    "category": "kuchnia",
+    "place": "Kociewie",
+    "region": "Pomerania",
+    "days": "1–2 days",
+    "title": "Kociewie Soups and Baltic Herring",
+    "text": "Kociewie cuisine is simple, nourishing soups, fish from the Baltic, and dishes made with groats. A region where home cooking tastes best.",
+    "art": "kuchnia",
+    "plan": [
+      "Kociewie soup in Tczew",
+      "Baltic herring in Starogard",
+      "Kaszanka with onions for lunch"
+    ]
+  },
+  {
+    "id": "kuchnia-lemkowska",
+    "category": "kuchnia",
+    "place": "Lemko Region",
+    "region": "Lesser Poland",
+    "days": "2 days",
+    "title": "Proziaki, Fuczki and Lemko Kwaśnica",
+    "text": "Lemko cuisine is simple dishes made of flour, potatoes, and cabbage. The flavors of an old village, coming back into fashion.",
+    "art": "kuchnia",
+    "plan": [
+      "Proziaki with garlic butter",
+      "Fuczki with cabbage in a Beskid inn",
+      "Lemko kwaśnica on a cold day"
+    ]
+  },
+  {
+    "id": "wsie-podlasie",
+    "category": "wsie",
+    "place": "Podlasie",
+    "region": "Podlasie",
+    "days": "3–4 days",
+    "title": "Multicultural Villages",
+    "text": "Orthodox churches, Tatar mosques, and wooden cottages in one landscape. Villages where religions and cultures intersect.",
+    "art": "wsie",
+    "plan": [
+      "Villages with Orthodox churches around Supraśl",
+      "Mosques in Bohoniki and Kruszyniany",
+      "Wooden architecture of Podlasie villages"
+    ]
+  },
+  {
+    "id": "wsie-lemkowszczyzna",
+    "category": "wsie",
+    "place": "Lemko Region",
+    "region": "Lesser Poland",
+    "days": "3 days",
+    "title": "Lemko Villages",
+    "text": "Wooden churches, shingle-roofed cottages, and traces of a culture that survived despite deportations. Beskid villages with extraordinary history.",
+    "art": "wsie",
+    "plan": [
+      "Churches in Kwiatoń, Owczary, and Bartne",
+      "Lemko cottages in Hańczowa",
+      "Traces of displacement in the Low Beskids"
+    ]
+  },
+  {
+    "id": "wsie-kurpie",
+    "category": "wsie",
+    "place": "Kurpie",
+    "region": "Masovia",
+    "days": "2–3 days",
+    "title": "Kurpie Wooden Villages",
+    "text": "White cottages with ornate shutters, paper cutouts, and wood carvings. Villages where folklore is still alive.",
+    "art": "wsie",
+    "plan": [
+      "Open-air museum in Kadzidło",
+      "Kurpie paper-cut workshops",
+      "Kurpie farmsteads in Myszyniec area"
+    ]
+  },
+  {
+    "id": "wsie-kociewie",
+    "category": "wsie",
+    "place": "Kociewie",
+    "region": "Pomerania",
+    "days": "2 days",
+    "title": "Kociewie Villages with Embroidery",
+    "text": "Colorful embroidery, wooden churches, and villages where traditional holidays are still celebrated. A region next to Kashubia.",
+    "art": "wsie",
+    "plan": [
+      "Villages with Kociewie embroidery around Tczew",
+      "Wooden churches of Kociewie",
+      "Farmsteads and open-air museums in the region"
+    ]
+  },
+  {
+    "id": "wsie-warmia",
+    "category": "wsie",
+    "place": "Warmia",
+    "region": "Warmia-Masuria",
+    "days": "3 days",
+    "title": "Warmian Villages with Gothic",
+    "text": "Rural Gothic churches, Warmian red-brick cottages, and roadside shrines. A region where the village meets history.",
+    "art": "wsie",
+    "plan": [
+      "Warmian Gothic churches (Frombork and surroundings)",
+      "Warmian red-brick farmsteads",
+      "Roadside shrines of Warmia"
+    ]
+  },
+  {
+    "id": "wsie-kaszuby",
+    "category": "wsie",
+    "place": "Kashubia",
+    "region": "Pomerania",
+    "days": "3 days",
+    "title": "Kashubian Villages with Chëcze",
+    "text": "Thatched wooden cottages, Kashubian embroidery, and bilingual village signs. Villages where Kashubian is still spoken.",
+    "art": "wsie",
+    "plan": [
+      "Open-air museum in Wdzydze Kiszewskie",
+      "Villages with bilingual signs",
+      "Kashubian embroidery in Żukowo"
+    ]
+  },
+  {
+    "id": "wsie-beskid-niski",
+    "category": "wsie",
+    "place": "Low Beskids",
+    "region": "Lesser Poland",
+    "days": "3 days",
+    "title": "Abandoned Lemko Villages",
+    "text": "Villages that disappeared from the map after 1947. Today only cottage foundations, old orchards, and lonely churches remain.",
+    "art": "wsie",
+    "plan": [
+      "Villages with churches in Radocyna and Grab",
+      "Cemeteries and cottage foundations",
+      "Trails through abandoned villages"
+    ]
+  },
+  {
+    "id": "wsie-roztocze",
+    "category": "wsie",
+    "place": "Roztocze",
+    "region": "Lublin Region",
+    "days": "2–3 days",
+    "title": "Roztocze Villages with Mills",
+    "text": "Wooden water mills, thatched farmsteads, and villages where time flows more slowly than anywhere else.",
+    "art": "wsie",
+    "plan": [
+      "Water mill in Zwierzyniec",
+      "Villages with wooden architecture near Krasnobród",
+      "Roztocze farmsteads"
+    ]
+  },
+  {
+    "id": "wsie-mazowsze",
+    "category": "wsie",
+    "place": "Łowicz Masovia",
+    "region": "Masovia",
+    "days": "2 days",
+    "title": "Łowicz Villages with Striped Fabrics",
+    "text": "Colorful striped fabrics, paper cutouts, and floral motifs. Księżak villages where folklore is still a living part of everyday life.",
+    "art": "wsie",
+    "plan": [
+      "Open-air museums in Sierpc and Łowicz",
+      "Villages with Łowicz striped fabrics",
+      "Łowicz cutouts and embroidery"
+    ]
+  },
+  {
+    "id": "wsie-dolny-slask",
+    "category": "wsie",
+    "place": "Sudeten Villages",
+    "region": "Lower Silesia",
+    "days": "3 days",
+    "title": "Sudeten Villages with Weaving Mills",
+    "text": "Villages where weavers' houses have stood side by side since the 18th century. The Sudetes, where industrial history meets the mountains.",
+    "art": "wsie",
+    "plan": [
+      "Weavers' villages in the Sudetes (near Bystrzyca Kłodzka)",
+      "Half-timbered houses in the Izera Mountains",
+      "Churches of Grace and Evangelical villages"
+    ]
+  },
+  {
+    "id": "szlak-kulinarny",
+    "category": "podroze-tematyczne",
+    "place": "Polish Culinary Trail",
+    "region": "All of Poland",
+    "days": "7–14 days",
+    "title": "Across Poland Through Regional Flavors",
+    "text": "A route through the most interesting culinary regions of Poland — from Podlasie kibiny to Kashubian herring, from Podhale oscypek to Silesian roulade.",
+    "art": "tematyczne",
+    "plan": [
+      "Podlasie — kibiny, kartacze, potato babka",
+      "Lesser Poland — oscypek, kwaśnica, bryjka",
+      "Kashubia — herring, eel, Kashubian broth"
+    ]
+  },
+  {
+    "id": "szlak-rzemieslniczy",
+    "category": "podroze-tematyczne",
+    "place": "Craft Trail",
+    "region": "All of Poland",
+    "days": "7–10 days",
+    "title": "In the Footsteps of Vanishing Trades",
+    "text": "A route through craft workshops, ateliers, and manufactories — from Kashubian embroidery to Podhale wood carving.",
+    "art": "tematyczne",
+    "plan": [
+      "Kashubian embroidery workshops in Żukowo",
+      "Kurpie paper-cut workshops in Kadzidło",
+      "Wood carving in Zakopane"
+    ]
+  },
+  {
+    "id": "szlak-architektury-drewnianej",
+    "category": "podroze-tematyczne",
+    "place": "Wooden Architecture Trail",
+    "region": "Lesser Poland and Subcarpathia",
+    "days": "5–7 days",
+    "title": "Wooden Pearls of the Carpathians",
+    "text": "A route through the most beautiful wooden churches, cottages, and villages of southern Poland. UNESCO sites, open-air museums, and villages with living carpentry tradition.",
+    "art": "tematyczne",
+    "plan": [
+      "Churches in Kwiatoń and Owczary",
+      "Churches in Sękowa and Binarowa",
+      "Open-air museums in Sanok and Nowy Sącz"
+    ]
+  },
+  {
+    "id": "szlak-industrialny",
+    "category": "podroze-tematyczne",
+    "place": "Industrial Trail",
+    "region": "Silesia and Lesser Poland",
+    "days": "4–6 days",
+    "title": "Heritage of the Age of Steam and Steel",
+    "text": "A route through post-industrial pearls — mines, steelworks, factories, and workers' housing estates. From the historic silver mine to Łódź factories.",
+    "art": "tematyczne",
+    "plan": [
+      "Silver mine in Tarnowskie Góry",
+      "Księży Młyn in Łódź and EC1",
+      "Steelworks and workers' estates in Silesia"
+    ]
+  },
+  {
+    "id": "szlak-cerkwi",
+    "category": "podroze-tematyczne",
+    "place": "Orthodox Churches Trail",
+    "region": "Podlasie and the Carpathians",
+    "days": "5–7 days",
+    "title": "Wooden and Brick Orthodox Churches",
+    "text": "A route through the most beautiful Orthodox and Greek Catholic churches — from Podlasie to the Bieszczady. Iconostases, frescoes, and multicultural heritage.",
+    "art": "tematyczne",
+    "plan": [
+      "Podlasie churches in Supraśl and Puchły",
+      "Lemko churches in Kwiatoń and Bartne",
+      "Supraśl Monastery and Grabarka Sanctuary"
+    ]
+  },
+  {
+    "id": "szlak-winnic",
+    "category": "podroze-tematyczne",
+    "place": "Vineyard Trail",
+    "region": "Lubusz and Lesser Poland",
+    "days": "4–6 days",
+    "title": "Polish Wine from the Source",
+    "text": "A route through Polish vineyards — from Zielona Góra to the Lesser Poland Vistula Gorge. Tastings, workshops, and evenings among the vines.",
+    "art": "tematyczne",
+    "plan": [
+      "Vineyards around Zielona Góra",
+      "Lesser Poland Vistula Gorge — Sandomierz and Kazimierz",
+      "Vineyards in the Sudetes and Lower Silesia"
+    ]
+  },
+  {
+    "id": "szlak-bursztynowy",
+    "category": "podroze-tematyczne",
+    "place": "Amber Trail",
+    "region": "Pomerania",
+    "days": "4–6 days",
+    "title": "In the Footsteps of Baltic Amber",
+    "text": "A route through amber workshops and amber-related sites — from Gdańsk to Kashubia. History, craft, and workshops.",
+    "art": "tematyczne",
+    "plan": [
+      "Amber workshops in Gdańsk",
+      "Amber Museum and fairs in Gdynia",
+      "Amber workshops in Kashubia"
+    ]
+  },
+  {
+    "id": "szlak-piastowski",
+    "category": "podroze-tematyczne",
+    "place": "Piast Trail",
+    "region": "Greater Poland and Kuyavia",
+    "days": "3–5 days",
+    "title": "The Cradle of Poland",
+    "text": "A route through places connected with the beginnings of the Polish state — Gniezno, Poznań, Kruszwica, Ostrów Lednicki. Polish history from its sources.",
+    "art": "tematyczne",
+    "plan": [
+      "Gniezno Cathedral and Gniezno Doors",
+      "Ostrów Lednicki and Museum of the First Piasts",
+      "Kruszwica and the Mouse Tower"
+    ]
+  },
+  {
+    "id": "szlak-uzdrowisk",
+    "category": "podroze-tematyczne",
+    "place": "Polish Spa Trail",
+    "region": "All of Poland",
+    "days": "7–14 days",
+    "title": "Waters, Air, and Peace",
+    "text": "A route through the oldest Polish spas — from Krynica to Kudowa, from Szczawnica to Nałęczów. Pump rooms, spa parks, and walks at a slow pace.",
+    "art": "tematyczne",
+    "plan": [
+      "Krynica-Zdrój and Szczawnica",
+      "Kudowa-Zdrój and Lądek-Zdrój",
+      "Nałęczów and Busko-Zdrój"
+    ]
+  },
+  {
+    "id": "szlak-fortyfikacji",
+    "category": "podroze-tematyczne",
+    "place": "Fortification Trail",
+    "region": "All of Poland",
+    "days": "5–8 days",
+    "title": "Fortresses, Bunkers, Shelters",
+    "text": "A route through the greatest military works of Poland — from Przemyśl Fortress to the bunkers of the Pomeranian Wall. Military history at a slow pace.",
+    "art": "tematyczne",
+    "plan": [
+      "Przemyśl Fortress and Fort Salis Soglio",
+      "Kłodzko Fortress and Owl Mountains bunkers",
+      "Pomeranian Wall and Międzyrzecz Fortified Region"
+    ]
+  },
+  {
+    "id": "pn-babiogorski",
+    "category": "parki-narodowe",
+    "place": "Babia Góra National Park",
+    "region": "Lesser Poland",
+    "days": "1–2 days",
+    "title": "Queen of the Beskids, Protected",
+    "text": "The highest peak of the Beskids and the oldest nature reserve in Poland. Diablak, Markowe Szczawiny, and a forest that remembers the Ice Age.",
+    "art": "parki",
+    "plan": [
+      "Summit Diablak at dawn",
+      "Markowe Szczawiny mountain hut",
+      "Educational trails in Zawoja"
+    ]
+  },
+  {
+    "id": "pn-bialowieski",
+    "category": "parki-narodowe",
+    "place": "Białowieża National Park",
+    "region": "Podlasie",
+    "days": "2 days",
+    "title": "Europe's Last Primeval Forest",
+    "text": "The oldest national park in Poland. Bison, oaks over 400 years old, and a strict reserve where nature rules by its own laws.",
+    "art": "parki",
+    "plan": [
+      "Strict Reserve with a guide",
+      "European Bison Breeding Centre",
+      "Bison Trail in Białowieża"
+    ]
+  },
+  {
+    "id": "pn-biebrzanski",
+    "category": "parki-narodowe",
+    "place": "Biebrza National Park",
+    "region": "Podlasie",
+    "days": "2–3 days",
+    "title": "The Largest Wetlands in Europe",
+    "text": "A land of peat bogs, moose, and birds. The largest national park in Poland — no roads, no crowds, with wooden boardwalks over the marshes.",
+    "art": "parki",
+    "plan": [
+      "Długa Luka boardwalk",
+      "Observation towers in Goniądz",
+      "Kayaking on the Biebrza"
+    ]
+  },
+  {
+    "id": "pn-bory-tucholskie",
+    "category": "parki-narodowe",
+    "place": "Tuchola Forest National Park",
+    "region": "Kuyavia-Pomerania",
+    "days": "1–2 days",
+    "title": "Pines, Lakes, and Silence",
+    "text": "A park in the middle of the largest pine forest complex in Poland. Lobelia lakes, peat bogs, and trails perfect for cycling.",
+    "art": "parki",
+    "plan": [
+      "Nature trail by Lake Charzykowskie",
+      "Kulawa River Valley Reserve",
+      "Cycling route around the park"
+    ]
+  },
+  {
+    "id": "pn-drawienski",
+    "category": "parki-narodowe",
+    "place": "Drawa National Park",
+    "region": "West Pomerania",
+    "days": "2 days",
+    "title": "Wild Drawa and Beavers",
+    "text": "One of the wildest parks in Poland. The Drawa River, beavers, otters, and trails where you can walk for hours without meeting a human.",
+    "art": "parki",
+    "plan": [
+      "Kayaking down the Drawa",
+      "Drawa nature trail",
+      "Overnight at a campsite"
+    ]
+  },
+  {
+    "id": "pn-kampinoski",
+    "category": "parki-narodowe",
+    "place": "Kampinos National Park",
+    "region": "Masovia",
+    "days": "1 day",
+    "title": "Wilderness by Warsaw",
+    "text": "A national park 30 km from the centre of Warsaw. Inland dunes, pine forests, and moose you can meet on the trail.",
+    "art": "parki",
+    "plan": [
+      "Trail to Granica",
+      "Kampinos Forest Museum",
+      "Sunset over the dunes"
+    ]
+  },
+  {
+    "id": "pn-magurski",
+    "category": "parki-narodowe",
+    "place": "Magura National Park",
+    "region": "Lesser Poland",
+    "days": "1–2 days",
+    "title": "Low Beskids Without Crowds",
+    "text": "A park in the quietest corner of the Low Beskids. Lemko villages, Orthodox churches, and forests where you can walk for hours without meeting a tourist.",
+    "art": "parki",
+    "plan": [
+      "Nature trail in Krempna",
+      "Orthodox church in Bartne",
+      "Views from Magura Wątkowska"
+    ]
+  },
+  {
+    "id": "pn-narwianski",
+    "category": "parki-narodowe",
+    "place": "Narew National Park",
+    "region": "Podlasie",
+    "days": "1 day",
+    "title": "Polish Amazonia",
+    "text": "A park in the Narew river valley. The river flows in dozens of channels, creating a unique water labyrinth — the Polish Amazonia.",
+    "art": "parki",
+    "plan": [
+      "Śliwno-Waniewo boardwalk",
+      "Observation tower in Waniewo",
+      "Kayaking on the Narew"
+    ]
+  },
+  {
+    "id": "pn-ojcowski",
+    "category": "parki-narodowe",
+    "place": "Ojców National Park",
+    "region": "Lesser Poland",
+    "days": "1 day",
+    "title": "Limestone Cliffs and Caves",
+    "text": "The smallest national park in Poland. Prądnik Valley, Kraków Gate, caves, and castle ruins — all in one day.",
+    "art": "parki",
+    "plan": [
+      "Kraków Gate",
+      "Łokietek Cave",
+      "Ojców Castle"
+    ]
+  },
+  {
+    "id": "pn-poleski",
+    "category": "parki-narodowe",
+    "place": "Polesie National Park",
+    "region": "Lublin Region",
+    "days": "1–2 days",
+    "title": "Land of Marshes and Cranes",
+    "text": "A park in Polesie Lubelskie. Peat bogs, cranes, European pond turtles, and trails where you only meet birds.",
+    "art": "parki",
+    "plan": [
+      "Dąb Dominik educational trail",
+      "Observation tower over the lake",
+      "Peat bog reserve"
+    ]
+  },
+  {
+    "id": "pn-slowinski",
+    "category": "parki-narodowe",
+    "place": "Słowiński National Park",
+    "region": "Pomerania",
+    "days": "1–2 days",
+    "title": "Shifting Dunes on the Baltic",
+    "text": "A park with shifting dunes — Polish Sahara by the sea. Łeba, Rowokół, and coastal lakes separated from the Baltic by a belt of dunes.",
+    "art": "parki",
+    "plan": [
+      "Łącka Dune — shifting dunes",
+      "Łebsko and Gardno lakes",
+      "Cycling route around the park"
+    ]
+  },
+  {
+    "id": "pn-tatrzanski",
+    "category": "parki-narodowe",
+    "place": "Tatra National Park",
+    "region": "Lesser Poland",
+    "days": "2–3 days",
+    "title": "The Highest Mountains in Poland",
+    "text": "The only park in Poland with an alpine character. The High Tatras, Morskie Oko, Five Lakes Valley, and trails for every level.",
+    "art": "parki",
+    "plan": [
+      "Morskie Oko",
+      "Five Lakes Valley",
+      "Kasprowy Wierch and Świnica"
+    ]
+  },
+  {
+    "id": "pn-ujscie-warty",
+    "category": "parki-narodowe",
+    "place": "Ujście Warty National Park",
+    "region": "Lubusz",
+    "days": "1 day",
+    "title": "Bird Kingdom",
+    "text": "The youngest national park in Poland. The Warta and Oder floodplains, 250 bird species, and observation towers.",
+    "art": "parki",
+    "plan": [
+      "Observation tower in Chyrzyno",
+      "Bird Paradise Trail",
+      "Cruise on the Warta"
+    ]
+  },
+  {
+    "id": "pn-wielkopolski",
+    "category": "parki-narodowe",
+    "place": "Wielkopolski National Park",
+    "region": "Greater Poland",
+    "days": "1 day",
+    "title": "Lakes Near Poznań",
+    "text": "A park 15 km from Poznań. Glacial lakes, moraine hills, and pine forests — perfect for a day trip.",
+    "art": "parki",
+    "plan": [
+      "Lake Góreckie",
+      "Osowa Góra hill",
+      "Trail in Puszczykowo"
+    ]
+  },
+  {
+    "id": "pn-wigierski",
+    "category": "parki-narodowe",
+    "place": "Wigry National Park",
+    "region": "Podlasie",
+    "days": "1–2 days",
+    "title": "Lake Wigry and the Monastery",
+    "text": "A park around Lake Wigry. The Camaldolese monastery on a peninsula, glacial lakes, and trails through primeval forests.",
+    "art": "parki",
+    "plan": [
+      "Camaldolese monastery in Wigry",
+      "Cruise on Lake Wigry",
+      "Trail around the lake"
+    ]
+  },
+  {
+    "id": "pn-wolinski",
+    "category": "parki-narodowe",
+    "place": "Wolin National Park",
+    "region": "West Pomerania",
+    "days": "1–2 days",
+    "title": "Cliffs and Bison on Wolin",
+    "text": "A park on Wolin Island. Cliff coastline, bison enclosure, and the most beautiful fragments of coastal forest.",
+    "art": "parki",
+    "plan": [
+      "Gosań cliff",
+      "Bison enclosure in Karsibór",
+      "View from Kawcza Góra"
+    ]
+  }
+]

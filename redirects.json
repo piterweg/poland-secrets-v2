@@ -1,0 +1,89 @@
+{
+  "generated": "2026-10-11",
+  "rules": [
+    {
+      "from": "kierunki/sopot-plaza.html",
+      "to": "kierunki/sopot.html"
+    },
+    {
+      "from": "kierunki/pn-karkonoski.html",
+      "to": "kierunki/karkonosze.html"
+    },
+    {
+      "from": "kierunki/pn-bieszczadzki.html",
+      "to": "kierunki/bieszczady.html"
+    },
+    {
+      "from": "kierunki/pn-pieninski.html",
+      "to": "kierunki/pieniny.html"
+    },
+    {
+      "from": "kierunki/pn-gor-stolowych.html",
+      "to": "kierunki/stolowe.html"
+    },
+    {
+      "from": "kierunki/pn-roztoczanski.html",
+      "to": "kierunki/roztocze.html"
+    },
+    {
+      "from": "kierunki/pn-swietokrzyski.html",
+      "to": "kierunki/swietokrzyskie.html"
+    },
+    {
+      "from": "kierunki/tatrzanski-park.html",
+      "to": "kierunki/tatry.html"
+    },
+    {
+      "from": "kierunki/bialowieza.html",
+      "to": "kierunki/pn-bialowieski.html"
+    },
+    {
+      "from": "kierunki/biebrza.html",
+      "to": "kierunki/pn-biebrzanski.html"
+    },
+    {
+      "from": "kierunki/babia.html",
+      "to": "kierunki/pn-babiogorski.html"
+    },
+    {
+      "from": "kierunki/ojcow.html",
+      "to": "kierunki/pn-ojcowski.html"
+    },
+    {
+      "from": "kierunki/kampinos.html",
+      "to": "kierunki/pn-kampinoski.html"
+    },
+    {
+      "from": "kierunki/narew.html",
+      "to": "kierunki/pn-narwianski.html"
+    },
+    {
+      "from": "kierunki/polesie.html",
+      "to": "kierunki/pn-poleski.html"
+    },
+    {
+      "from": "kierunki/wigierski-park.html",
+      "to": "kierunki/pn-wigierski.html"
+    },
+    {
+      "from": "kierunki/drawa.html",
+      "to": "kierunki/pn-drawienski.html"
+    },
+    {
+      "from": "kierunki/drawsko.html",
+      "to": "kierunki/pn-drawienski.html"
+    },
+    {
+      "from": "kierunki/bory-tucholskie.html",
+      "to": "kierunki/pn-bory-tucholskie.html"
+    },
+    {
+      "from": "kierunki/slowinski-park.html",
+      "to": "kierunki/pn-slowinski.html"
+    },
+    {
+      "from": "kierunki/pn-gorczanski.html",
+      "to": "kierunki/gorce.html"
+    }
+  ]
+}

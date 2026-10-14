@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Backupy (nie commitujemy)
+backup-*/
+backup-*.zip
+*.bak
+*.backup
+*-old.*
+
+# System operacyjny
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Edytory
+.vscode/
+.idea/
+*.swp
+
+# Tymczasowe
+dist/
+.cache/
+tmp/
+*.log
+
+# Python (jeśli używasz skryptów pomocniczych)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Lokalne konfiguracje (klucze API, itp.)
+.env
+.env.local
+local.settings.json

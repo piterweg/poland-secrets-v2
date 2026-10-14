@@ -1,0 +1,76 @@
+/* Strony kierunków (kierunki/*.html) – uzupełnienie do style.css i article.css */
+
+.dest-breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 28px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.dest-breadcrumbs a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all .3s ease;
+}
+.dest-breadcrumbs a:hover {
+  color: var(--orange);
+  border-color: var(--orange);
+}
+.dest-breadcrumbs [aria-current="page"] {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+/* nagłówki kart w panelu bocznym to <h2> (poprawna hierarchia nagłówków) – wygląd jak dotąd .aside-card h3 */
+.aside-card h2 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'DM Mono';
+  font-weight: 400;
+  color: var(--orange);
+  margin: 0 0 15px;
+  letter-spacing: 1px;
+}
+
+.dest-related {
+  margin-top: 70px;
+  padding-top: 40px;
+  border-top: 1px solid rgba(24, 51, 44, 0.12);
+}
+.dest-related h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(26px, 3vw, 36px);
+  margin: 0 0 24px;
+}
+.dest-related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+.dest-related-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 24px;
+  background: var(--cream);
+  border-radius: 20px;
+  color: var(--ink);
+  text-decoration: none;
+  box-shadow: 0 14px 30px rgba(24, 51, 44, 0.06);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+.dest-related-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(24, 51, 44, 0.12);
+}
+.dest-related-card strong {
+  font-size: 20px;
+}
+.dest-related-card span:last-child {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}

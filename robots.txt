@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /index-en.html
+Allow: /index-es.html
+Allow: /article.html
+Allow: /images/
+Allow: /style.css
+Allow: /article.css
+Allow: /app.js
+Allow: /app-es.js
+Allow: /trips-pl.json
+Allow: /trips-en.json
+Allow: /articles/
+
+Disallow: /local.settings.json
+Disallow: /.venv/
+Disallow: /__pycache__/
+Disallow: /*.py
+Disallow: /function_app.py
+Disallow: /host.json
+Disallow: /requirements.txt
+Disallow: /generate-sitemap.js
+Disallow: /check-images.js
+
+Sitemap: https://polandsecrets.com/sitemap.xml

@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" id="meta-description" content="Szczegółowy plan wyjazdu i inspiracja podróżnicza po Polsce. Sprawdź trasę, wskazówki i najpiękniejsze miejsca w stylu slow travel.">
+    <meta name="keywords" content="podróże po polsce, przewodnik polska, weekend w polsce, slow travel, trasy wycieczkowe">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#18332c">
+    <meta name="author" content="Polska bliżej">
+
+    <title id="page-title">Polska bliżej — Szczegóły miejsca</title>
+
+    <link rel="canonical" id="canonical-url" href="https://polandsecrets.com/article.html">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Polska bliżej">
+    <meta property="og:title" id="og-title" content="Polska bliżej — Przewodnik po Polsce">
+    <meta property="og:description" id="og-description" content="Poznaj najciekawsze zakątki Polski w rytmie slow travel.">
+    <meta property="og:image" id="og-image" content="https://polandsecrets.com/images/hero-polska.webp">
+    <meta property="og:url" id="og-url" content="https://polandsecrets.com/article.html">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" id="tw-title" content="Polska bliżej — Przewodnik po Polsce">
+    <meta name="twitter:description" id="tw-description" content="Poznaj najciekawsze zakątki Polski w rytmie slow travel.">
+    <meta name="twitter:image" id="tw-image" content="https://polandsecrets.com/images/hero-polska.webp">
+
+    <script type="application/ld+json" id="schema-json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Przewodnik po Polsce — Polska bliżej",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Polska bliżej",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "/images/polandway (1).jpg"
+        }
+      }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="article.css">
+<link rel="stylesheet" href="search.css">
+<script src="search.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a class="logo" href="index.html" aria-label="Polska bliżej"><img src="images/logo.svg" alt="Polska bliżej" height="48"></a>
+        <nav id="nav">
+            <a href="index.html">Powrót do mapy</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="article-hero">
+            <div id="article-image" class="article-image"></div>
+            <div class="article-header">
+                <p id="article-region" class="label"></p>
+                <h1 id="article-title"></h1>
+                <div class="article-meta">
+                    <span id="article-days"></span>
+                    <span id="article-difficulty">łatwa trasa</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="article-container">
+            <article class="article-content">
+                <div id="article-gallery" class="article-gallery"></div>
+                <div class="content-grid">
+                    <div class="main-text">
+                        <p id="article-lead" class="lead"></p>
+                        <div id="article-body" class="body-text">
+                            <!-- Tutaj trafią szczegółowe treści artykułu -->
+                        </div>
+                    </div>
+                    <aside class="article-aside">
+                        <div class="aside-card">
+                            <h3>Plan wyjazdu</h3>
+                            <ol id="article-plan"></ol>
+                        </div>
+                        <div class="aside-card">
+                            <h3>Wskazówka</h3>
+                            <p id="article-tip">Zawsze sprawdzaj aktualną pogodę przed wyruszeniem w drogę.</p>
+                        </div>
+                    </aside>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <a class="logo" href="index.html" aria-label="Polska bliżej"><img src="images/logo-white.svg" alt="Polska bliżej" height="42"></a>
+        <p>© 2026 Polska bliżej</p>
+        <div><a href="index.html#o-nas">O projekcie</a><a href="mailto:hello@polandsecrets.com">Kontakt</a></div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', async () => {
+            const params = new URLSearchParams(window.location.search);
+            const tripId = params.get('id');
+
+            if (tripId) {
+                let trip = null;
+                try {
+                    const tripsRes = await fetch('trips-pl.json');
+                    const tripsList = await tripsRes.json();
+                    trip = tripsList.find(t => t.id === tripId);
+                } catch(e) {
+                    console.error(e);
+                }
+                if (trip) {
+                    document.title = `${trip.title} — Polska bliżej`;
+                    document.getElementById('article-title').textContent = trip.title;
+                    document.getElementById('article-region').textContent = trip.region;
+                    document.getElementById('article-days').textContent = trip.days;
+
+                    const photoMap = typeof photos !== 'undefined' ? photos : {};
+                    const imgPath = photoMap[trip.id] || trip.img || 'hero-polska.webp';
+                    document.getElementById('article-image').style.backgroundImage = `url('images/${imgPath}')`;
+
+                    const planList = document.getElementById('article-plan');
+                    trip.plan.forEach(item => {
+                        const li = document.createElement('li');
+                        li.textContent = item;
+                        planList.appendChild(li);
+                    });
+
+                    try {
+                        const response = await fetch(`articles/${tripId}.json`);
+                        if (!response.ok) throw new Error(`Plik nie znaleziony: ${response.status}`);
+
+                        const data = await response.json();
+
+                        // Wstawianie treści
+                        document.getElementById('article-lead').textContent = data.lead;
+                        document.getElementById('article-body').innerHTML = data.body;
+                        document.getElementById('article-tip').textContent = data.tip;
+
+                        // Dynamiczna aktualizacja SEO
+                        const metaDesc = document.getElementById('meta-description');
+                        if (metaDesc) metaDesc.setAttribute('content', data.lead || trip.text);
+
+                        const fullUrl = `https://polandsecrets.com/article.html?id=${tripId}`;
+                        const fullImg = `https://polandsecrets.com/images/${imgPath}`;
+
+                        const canonical = document.getElementById('canonical-url');
+                        if (canonical) canonical.setAttribute('href', fullUrl);
+
+                        const ogTitle = document.getElementById('og-title');
+                        if (ogTitle) ogTitle.setAttribute('content', `${trip.title} — Polska bliżej`);
+                        const ogDesc = document.getElementById('og-description');
+                        if (ogDesc) ogDesc.setAttribute('content', data.lead || trip.text);
+                        const ogImg = document.getElementById('og-image');
+                        if (ogImg) ogImg.setAttribute('content', fullImg);
+                        const ogUrl = document.getElementById('og-url');
+                        if (ogUrl) ogUrl.setAttribute('content', fullUrl);
+
+                        const twTitle = document.getElementById('tw-title');
+                        if (twTitle) twTitle.setAttribute('content', `${trip.title} — Polska bliżej`);
+                        const twDesc = document.getElementById('tw-description');
+                        if (twDesc) twDesc.setAttribute('content', data.lead || trip.text);
+                        const twImg = document.getElementById('tw-image');
+                        if (twImg) twImg.setAttribute('content', fullImg);
+
+                        // Schema.org
+                        const schemaEl = document.getElementById('schema-json');
+                        if (schemaEl) {
+                            schemaEl.textContent = JSON.stringify({
+                                "@context": "https://schema.org",
+                                "@type": "TouristDestination",
+                                "name": trip.title,
+                                "description": data.lead || trip.text,
+                                "image": fullImg,
+                                "url": fullUrl,
+                                "touristType": trip.category,
+                                "containedInPlace": {
+                                    "@type": "AdministrativeArea",
+                                    "name": trip.region
+                                }
+                            });
+                        }
+
+                        // NAPRAWIONA GALERIA: używamy data.gallery, a nie photos
+                        if (data.gallery && Array.isArray(data.gallery)) {
+                            const galleryDiv = document.getElementById('article-gallery');
+                            galleryDiv.innerHTML = data.gallery.map(img =>
+                                `<img src="images/${img}" class="gallery-img" alt="${trip.title} — zdjęcie z podróży" loading="lazy">`
+                            ).join('');
+                        }
+                    } catch (e) {
+                        console.error('Błąd:', e);
+                        document.getElementById('article-body').innerHTML = `<p class="error-message" style="color:#bc4f32;font-size:15px;line-height:1.6">Błąd ładowania treści: ${e.message}</p>`;
+                    }
+                } else {
+                    document.body.innerHTML = '<div style="padding:50px;text-align:center"><h2>Nie znaleziono tego miejsca.</h2><a href="index.html">Wróć do strony głównej</a></div>';
+                }
+            } else {
+                window.location.href = 'index.html';
+            }
+        });
+    </script>
+<script src="cookie-consent.js" defer></script></body>
+</html>

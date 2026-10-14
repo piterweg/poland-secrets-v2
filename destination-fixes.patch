@@ -1,0 +1,89 @@
+--- a/generate-destinations.js
++++ b/generate-destinations.js
+@@ -120,14 +120,29 @@
+ const esc = (s = '') =>
+   String(s).replace(/[<>&"]/g, (c) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;' }[c]));
+-const stripTags = (s = '') =>
+-  String(s)
+-    .replace(/<\/?(strong|em|b|i|a|span|u|mark)(\s[^>]*)?>/gi, '')
+-    .replace(/<[^>]+>/g, ' ')
+-    .replace(/&nbsp;/g, ' ')
+-    .replace(/&amp;/g, '&')
+-    .replace(/\s+/g, ' ')
+-    .trim();
++// Encje HTML dekodujemy PRZED liczeniem słów i budową meta description.
++// Bez tego „&lt;” / „&#8217;” liczyły się jako osobne „słowa”,
++// a description bywał ucięty w środku encji (np. „…&nbs…”).
++const ENTITIES = {
++  '&nbsp;': ' ', '&amp;': '&', '&lt;': '<', '&gt;': '>',
++  '&quot;': '"', '&#39;': "'", '&apos;': "'", '&hellip;': '…',
++  '&mdash;': '—', '&ndash;': '–', '&oacute;': 'ó', '&aacute;': 'á',
++  '&eacute;': 'é', '&iacute;': 'í', '&ntilde;': 'ñ', '&uuml;': 'ü',
++  '&oelig;': 'œ', '&sect;': '§', '&copy;': '©', '&reg;': '®',
++};
++const stripTags = (s = '') =>
++  String(s)
++    .replace(/<\/?(strong|em|b|i|a|span|u|mark)(\s[^>]*)?>/gi, '')
++    .replace(/<[^>]+>/g, ' ')
++    // znane encje → znak; nieznane → spacja (nie psuje liczenia słów)
++    .replace(/&[a-z#0-9]+;/gi, (m) => ENTITIES[m.toLowerCase()] ?? ' ')
++    .replace(/\s+/g, ' ')
++    .trim();
+
+@@ -180,11 +195,17 @@
+ function loadPhotos() {
+   const js = fs.readFileSync('app.js', 'utf8');
+   const m = js.match(/const photos\s*=\s*\{([\s\S]*?)\};/);
+   const out = {};
+-  if (!m) return out;
++  if (!m) {
++    bad('nie znaleziono mapy `photos` w app.js (oczekiwano `const photos = {...};`) – sprawdź, czy app.js nie został zminifikowany/zmieniony');
++    return out;
++  }
+   const re = /['"]?([\w-]+)['"]?\s*:\s*['"]([^'"]+)['"]/g;
+   let x;
+   while ((x = re.exec(m[1])) !== null) out[x[1]] = x[2];
++  if (Object.keys(out).length === 0) {
++    bad('mapa `photos` w app.js jest pusta – wszystkie strony użyją hero-polska.webp');
++  }
+   return out;
+ }
+
+@@ -289,11 +310,16 @@
+   const langSwitch = (code) => {
+-    const target = code === m.lang ? self : ctx.pages[code].get(m.id);
++    // aktywny język: <span>, nie self-link
++    if (code === m.lang) {
++      return `<span class="lang-switch active" aria-current="true" title="${esc(L.langTitle[code])}">${code.toUpperCase()}</span>`;
++    }
++    const target = ctx.pages[code].get(m.id);
+     const fallback = code === 'pl' ? 'index.html' : 'index-en.html';
+     const href = target ? target.path.replace(`${OUT_DIR}/`, '') : `../${fallback}`;
+-    return `<a href="${href}" class="lang-switch${code === m.lang ? ' active' : ''}" title="${esc(L.langTitle[code])}">${code.toUpperCase()}</a>`;
++    return `<a href="${href}" class="lang-switch" hreflang="${code}" title="${esc(L.langTitle[code])}">${code.toUpperCase()}</a>`;
+   };
+
+@@ -296,7 +322,7 @@
+-<meta property="og:type" content="article">
++<meta property="og:type" content="place">
+
+@@ -380,10 +406,14 @@
+         <div class="main-text">
+           <p class="lead">${esc(m.lead)}</p>
+-          <div class="body-text">
+-${m.body}
+-          </div>
++${
++  m.body
++    ? `          <div class="body-text">
++${m.body}
++          </div>
++`
++    : ''
++}        </div>
+         <aside class="article-aside">
+
+@@ -524,7 +553,7 @@
+-const items = { ...(ONLY ? prevManifest.items : {}) };
++// deep-copy przy --only: prevManifest.items nie dzieli już referencji z items
++const items = ONLY ? JSON.parse(JSON.stringify(prevManifest.items || {})) : {};

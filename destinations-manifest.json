@@ -1,0 +1,2485 @@
+{
+  "domain": "https://polandsecrets.com",
+  "items": {
+    "baltyk": {
+      "pl": {
+        "path": "kierunki/baltyk.html",
+        "title": "Mierzeja Wiślana — Bałtyk poza sezonem",
+        "image": "baltyk.webp",
+        "words": 1202,
+        "indexable": true,
+        "hash": "575a0c363c84",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/baltyk-en.html",
+        "title": "Vistula Spit — The Baltic Off-Season",
+        "image": "baltyk.webp",
+        "words": 1341,
+        "indexable": true,
+        "hash": "a6dfb0160e36",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "tatry": {
+      "pl": {
+        "path": "kierunki/tatry.html",
+        "title": "Tatry Zachodnie — Tatry bez pośpiechu",
+        "image": "tatry.webp",
+        "words": 1102,
+        "indexable": true,
+        "hash": "6faa7078c89a",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/tatry-en.html",
+        "title": "Western Tatras — Tatras Without the Rush",
+        "image": "tatry.webp",
+        "words": 1200,
+        "indexable": true,
+        "hash": "ea36af04a614",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "bieszczady": {
+      "pl": {
+        "path": "kierunki/bieszczady.html",
+        "title": "Bieszczady — Połoniny i cisza",
+        "image": "bieszczady.webp",
+        "words": 864,
+        "indexable": true,
+        "hash": "87e6efafb8f7",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/bieszczady-en.html",
+        "title": "Bieszczady — Mountain Meadows & Silence",
+        "image": "bieszczady.webp",
+        "words": 941,
+        "indexable": true,
+        "hash": "9565852a4d0f",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "mazury": {
+      "pl": {
+        "path": "kierunki/mazury.html",
+        "title": "Pojezierze Mazurskie — Zwolnij nad jeziorem",
+        "image": "mazury1.webp",
+        "words": 1082,
+        "indexable": true,
+        "hash": "a8a6bd4dd49d",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/mazury-en.html",
+        "title": "Masurian Heights — Slowing Down by the Lake",
+        "image": "mazury1.webp",
+        "words": 1193,
+        "indexable": true,
+        "hash": "7c2aba85dbae",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "wroclaw": {
+      "pl": {
+        "path": "kierunki/wroclaw.html",
+        "title": "Wrocław — Miasto stu mostów",
+        "image": "wroclaw.webp",
+        "words": 1092,
+        "indexable": true,
+        "hash": "a7e5b0ccbda9",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/wroclaw-en.html",
+        "title": "Wrocław — City of a Hundred Bridges",
+        "image": "wroclaw.webp",
+        "words": 1247,
+        "indexable": true,
+        "hash": "867ba06e3107",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "karkonosze": {
+      "pl": {
+        "path": "kierunki/karkonosze.html",
+        "title": "Karkonosze — W stronę Śnieżki",
+        "image": "karkonosze.webp",
+        "words": 631,
+        "indexable": true,
+        "hash": "901f84486c04",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/karkonosze-en.html",
+        "title": "Karkonosze — Towards Mount Śnieżka",
+        "image": "karkonosze.webp",
+        "words": 724,
+        "indexable": true,
+        "hash": "24f04d0f1122",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "pieniny": {
+      "pl": {
+        "path": "kierunki/pieniny.html",
+        "title": "Pieniny — Perspektywa Dunajca",
+        "image": "pieniny.webp",
+        "words": 638,
+        "indexable": true,
+        "hash": "355a2ec07187",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/pieniny-en.html",
+        "title": "Pieniny — Dunajec River Perspective",
+        "image": "pieniny.webp",
+        "words": 728,
+        "indexable": true,
+        "hash": "3f3d091732ef",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "gorce": {
+      "pl": {
+        "path": "kierunki/gorce.html",
+        "title": "Gorce — Hale bez tłumów",
+        "image": "gorce.webp",
+        "words": 1002,
+        "indexable": true,
+        "hash": "ecde9f973db4",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/gorce-en.html",
+        "title": "Gorce — Meadows Without the Crowds",
+        "image": "gorce.webp",
+        "words": 1098,
+        "indexable": true,
+        "hash": "dde638a6bb76",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "beskid-niski": {
+      "pl": {
+        "path": "kierunki/beskid-niski.html",
+        "title": "Beskid Niski — Najspokojniejsze góry Polski",
+        "image": "beskid-niski.webp",
+        "words": 710,
+        "indexable": true,
+        "hash": "ed222e94515e",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/beskid-niski-en.html",
+        "title": "Low Beskids — Poland's Quietest Mountains",
+        "image": "beskid-niski.webp",
+        "words": 786,
+        "indexable": true,
+        "hash": "89974b7bd978",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "stolowe": {
+      "pl": {
+        "path": "kierunki/stolowe.html",
+        "title": "Góry Stołowe — Skalne labirynty",
+        "image": "stolowe.webp",
+        "words": 961,
+        "indexable": true,
+        "hash": "65d1097e489a",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/stolowe-en.html",
+        "title": "Table Mountains — Rock Labyrinths",
+        "image": "stolowe.webp",
+        "words": 1057,
+        "indexable": true,
+        "hash": "de2fac8f5a0e",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "kaszuby": {
+      "pl": {
+        "path": "kierunki/kaszuby.html",
+        "title": "Kaszuby — Jeziora i odrębna kultura",
+        "image": "kaszuby1.webp",
+        "words": 670,
+        "indexable": true,
+        "hash": "5b59df0defa9",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/kaszuby-en.html",
+        "title": "Kashubia — Lakes and a Distinct Culture",
+        "image": "kaszuby1.webp",
+        "words": 760,
+        "indexable": true,
+        "hash": "e91c7523c5c5",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "hel": {
+      "pl": {
+        "path": "kierunki/hel.html",
+        "title": "Półwysep Helski — Między dwoma brzegami",
+        "image": "hel1.webp",
+        "words": 1003,
+        "indexable": true,
+        "hash": "70963ad9676e",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/hel-en.html",
+        "title": "Hel Peninsula — Between Two Shores",
+        "image": "hel1.webp",
+        "words": 1180,
+        "indexable": true,
+        "hash": "64217e050984",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "suwalszczyzna": {
+      "pl": {
+        "path": "kierunki/suwalszczyzna.html",
+        "title": "Suwalszczyzna — Najchłodniejsze lato",
+        "image": "suwalszczyzna1.webp",
+        "words": 968,
+        "indexable": true,
+        "hash": "3aba9d52f467",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/suwalszczyzna-en.html",
+        "title": "Suwałki Region — The Coolest Summer",
+        "image": "suwalszczyzna1.webp",
+        "words": 1132,
+        "indexable": true,
+        "hash": "9c005fd98e5b",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "szczecin-zalew": {
+      "pl": {
+        "path": "kierunki/szczecin-zalew.html",
+        "title": "Zalew Szczeciński — Wody na granicy",
+        "image": "szczecin-zalew.webp",
+        "words": 1056,
+        "indexable": true,
+        "hash": "f1cdd691e179",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/szczecin-zalew-en.html",
+        "title": "Szczecin Lagoon — Waters on the Border",
+        "image": "szczecin-zalew.webp",
+        "words": 1179,
+        "indexable": true,
+        "hash": "1672d0a2ed31",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "roztocze": {
+      "pl": {
+        "path": "kierunki/roztocze.html",
+        "title": "Roztocze — Szumy, stawy i rowery",
+        "image": "roztocze.webp",
+        "words": 991,
+        "indexable": true,
+        "hash": "5f5a384696ac",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/roztocze-en.html",
+        "title": "Roztocze — Cascades, Ponds & Bicycles",
+        "image": "roztocze.webp",
+        "words": 1115,
+        "indexable": true,
+        "hash": "e092b069bb0b",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "krakow": {
+      "pl": {
+        "path": "kierunki/krakow.html",
+        "title": "Kraków — Kraków poza pocztówką",
+        "image": "krakow.webp",
+        "words": 1164,
+        "indexable": true,
+        "hash": "c0e0739b5d5c",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/krakow-en.html",
+        "title": "Kraków — Kraków Beyond the Postcard",
+        "image": "krakow.webp",
+        "words": 1309,
+        "indexable": true,
+        "hash": "04d6aceb0d39",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "gdansk": {
+      "pl": {
+        "path": "kierunki/gdansk.html",
+        "title": "Gdańsk — Miasto z morzem w tle",
+        "image": "gdansk.webp",
+        "words": 1197,
+        "indexable": true,
+        "hash": "b438855942bb",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/gdansk-en.html",
+        "title": "Gdańsk — City with the Sea in the Backdrop",
+        "image": "gdansk.webp",
+        "words": 1357,
+        "indexable": true,
+        "hash": "b6ea8e3350c9",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "torun": {
+      "pl": {
+        "path": "kierunki/torun.html",
+        "title": "Toruń — Pierniki i gotycki urok",
+        "image": "torun.webp",
+        "words": 1102,
+        "indexable": true,
+        "hash": "cfa7b67dc916",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/torun-en.html",
+        "title": "Toruń — Gingerbread & Gothic Charm",
+        "image": "torun.webp",
+        "words": 1266,
+        "indexable": true,
+        "hash": "f2c4dd8a0f5d",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "lublin": {
+      "pl": {
+        "path": "kierunki/lublin.html",
+        "title": "Lublin — Wschód z charakterem",
+        "image": "lublin.webp",
+        "words": 631,
+        "indexable": true,
+        "hash": "9b8f30c4cb84",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/lublin-en.html",
+        "title": "Lublin — The East with Character",
+        "image": "lublin.webp",
+        "words": 741,
+        "indexable": true,
+        "hash": "57afcdb7f0e0",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "poznan": {
+      "pl": {
+        "path": "kierunki/poznan.html",
+        "title": "Poznań — Wielki rytm Poznania",
+        "image": "poznan.webp",
+        "words": 1079,
+        "indexable": true,
+        "hash": "2bd5d2852710",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/poznan-en.html",
+        "title": "Poznań — The Great Rhythm of Poznań",
+        "image": "poznan.webp",
+        "words": 1274,
+        "indexable": true,
+        "hash": "0be75ee2e15e",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "lodz": {
+      "pl": {
+        "path": "kierunki/lodz.html",
+        "title": "Łódź — Miasto w transformacji",
+        "image": "lodz.webp",
+        "words": 1090,
+        "indexable": true,
+        "hash": "1d7084e008ac",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/lodz-en.html",
+        "title": "Łódź — A City in Transformation",
+        "image": "lodz.webp",
+        "words": 1223,
+        "indexable": true,
+        "hash": "f0d5c5d426fc",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "zamosc": {
+      "pl": {
+        "path": "kierunki/zamosc.html",
+        "title": "Zamość — Idealne miasto renesansu",
+        "image": "zamosc.webp",
+        "words": 1034,
+        "indexable": true,
+        "hash": "5ac4f71aca4d",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/zamosc-en.html",
+        "title": "Zamość — The Ideal Renaissance Town",
+        "image": "zamosc.webp",
+        "words": 1204,
+        "indexable": true,
+        "hash": "5666681794f9",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "barycz": {
+      "pl": {
+        "path": "kierunki/barycz.html",
+        "title": "Dolina Baryczy — Weekend z ptakami",
+        "image": "barycz1.webp",
+        "words": 935,
+        "indexable": true,
+        "hash": "4fbbf3096ec6",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/barycz-en.html",
+        "title": "Barycz Valley — Birdwatching Weekend",
+        "image": "barycz1.webp",
+        "words": 1074,
+        "indexable": true,
+        "hash": "f174929daf55",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "notecka": {
+      "pl": {
+        "path": "kierunki/notecka.html",
+        "title": "Puszcza Notecka — Przestrzenie sosen",
+        "image": "notecka.webp",
+        "words": 654,
+        "indexable": true,
+        "hash": "4ad65990c5d5",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/notecka-en.html",
+        "title": "Notecka Primeval Forest — Expanses of Pine",
+        "image": "notecka.webp",
+        "words": 792,
+        "indexable": true,
+        "hash": "225ceb004790",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "podhale": {
+      "pl": {
+        "path": "kierunki/podhale.html",
+        "title": "Podhale — Góralska swoboda i oscypek",
+        "image": "podhale.webp",
+        "words": 641,
+        "indexable": true,
+        "hash": "e0404dae66b5",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/podhale-en.html",
+        "title": "Podhale — Highland Ease & Mountain Cheese",
+        "image": "podhale.webp",
+        "words": 740,
+        "indexable": true,
+        "hash": "144b42d74ade",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "sandomierz": {
+      "pl": {
+        "path": "kierunki/sandomierz.html",
+        "title": "Sandomierz — Historyczne miasto nad Wisłą",
+        "image": "sandomierz.webp",
+        "words": 977,
+        "indexable": true,
+        "hash": "ca2c5d8c0073",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/sandomierz-en.html",
+        "title": "Sandomierz — Historic Town Above the Vistula",
+        "image": "sandomierz.webp",
+        "words": 1163,
+        "indexable": true,
+        "hash": "d70136b5f137",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "sopot": {
+      "pl": {
+        "path": "kierunki/sopot.html",
+        "title": "Sopot — Molo i relaksujący weekend",
+        "image": "sopot.webp",
+        "words": 1109,
+        "indexable": true,
+        "hash": "6c1c2a6ccba6",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/sopot-en.html",
+        "title": "Sopot — The Pier and a Relaxing Weekend",
+        "image": "sopot.webp",
+        "words": 1254,
+        "indexable": true,
+        "hash": "64321ce3bc87",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "kudowa": {
+      "pl": {
+        "path": "kierunki/kudowa.html",
+        "title": "Kudowa-Zdrój — Odetchnij w górach",
+        "image": "kudowa.webp",
+        "words": 649,
+        "indexable": true,
+        "hash": "bf0d41bd85c9",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/kudowa-en.html",
+        "title": "Kudowa-Zdrój — Breathe in the Mountains",
+        "image": "kudowa.webp",
+        "words": 765,
+        "indexable": true,
+        "hash": "8567cd90631e",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "olsztyn": {
+      "pl": {
+        "path": "kierunki/olsztyn.html",
+        "title": "Olsztyn — Miasto z zielonym sercem",
+        "image": "olsztyn.webp",
+        "words": 960,
+        "indexable": true,
+        "hash": "924e5b1104b5",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/olsztyn-en.html",
+        "title": "Olsztyn — Town with a Green Heart",
+        "image": "olsztyn.webp",
+        "words": 1136,
+        "indexable": true,
+        "hash": "65129d29f667",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "zakopane": {
+      "pl": {
+        "path": "kierunki/zakopane.html",
+        "title": "Zakopane — Tatry w góralskim rytmie",
+        "image": "zakopane.webp",
+        "words": 1233,
+        "indexable": true,
+        "hash": "546b077a8feb",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/zakopane-en.html",
+        "title": "Zakopane — Tatras in the Highland Rhythm",
+        "image": "zakopane.webp",
+        "words": 1320,
+        "indexable": true,
+        "hash": "ab949c3f8fcd",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "morskie-oko": {
+      "pl": {
+        "path": "kierunki/morskie-oko.html",
+        "title": "Morskie Oko — Słynne jezioro alpejskie",
+        "image": "morskie-oko.webp",
+        "words": 987,
+        "indexable": true,
+        "hash": "6c5d4b22f45e",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/morskie-oko-en.html",
+        "title": "Morskie Oko — The Famous Alpine Lake",
+        "image": "morskie-oko.webp",
+        "words": 1080,
+        "indexable": true,
+        "hash": "71dd5c092eaa",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "giewont": {
+      "pl": {
+        "path": "kierunki/giewont.html",
+        "title": "Giewont — Giewont i panoramy wysokich szczytów",
+        "image": "giewont.webp",
+        "words": 1047,
+        "indexable": true,
+        "hash": "72328fb4a58d",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/giewont-en.html",
+        "title": "Mount Giewont — Giewont and High Peak Vistas",
+        "image": "giewont.webp",
+        "words": 1132,
+        "indexable": true,
+        "hash": "24bf1b592314",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "kasprowy-wierch": {
+      "pl": {
+        "path": "kierunki/kasprowy-wierch.html",
+        "title": "Kasprowy Wierch — Na najwyższej grani",
+        "image": "kasprowy-wierch.webp",
+        "words": 1039,
+        "indexable": true,
+        "hash": "e990207602a0",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/kasprowy-wierch-en.html",
+        "title": "Kasprowy Wierch — On the Highest Ridge",
+        "image": "kasprowy-wierch.webp",
+        "words": 1158,
+        "indexable": true,
+        "hash": "074c0a069fb7",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "dolina-koscieliska": {
+      "pl": {
+        "path": "kierunki/dolina-koscieliska.html",
+        "title": "Dolina Kościeliska — Najprzyjaźniejsza dolina tatrzańska",
+        "image": "dolina-koscieliska.webp",
+        "words": 1016,
+        "indexable": true,
+        "hash": "cd5732ca3b7c",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/dolina-koscieliska-en.html",
+        "title": "Kościeliska Valley — The Friendliest Tatra Valley",
+        "image": "dolina-koscieliska.webp",
+        "words": 1121,
+        "indexable": true,
+        "hash": "6bca7b80e825",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "sniezka": {
+      "pl": {
+        "path": "kierunki/sniezka.html",
+        "title": "Śnieżka — Najwyższy szczyt Karkonoszy",
+        "image": "sniezka.webp",
+        "words": 978,
+        "indexable": true,
+        "hash": "a089fb6cd570",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/sniezka-en.html",
+        "title": "Mount Śnieżka — Highest Peak of the Giant Mountains",
+        "image": "sniezka.webp",
+        "words": 1100,
+        "indexable": true,
+        "hash": "2e7c8a567f2a",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "samotnia": {
+      "pl": {
+        "path": "kierunki/samotnia.html",
+        "title": "Schronisko Samotnia — Przystań ciszy i widoków",
+        "image": "samotnia.webp",
+        "words": 972,
+        "indexable": true,
+        "hash": "5b1cb81a0b11",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/samotnia-en.html",
+        "title": "Samotnia Mountain Refuge — Haven of Peace and Scenic Views",
+        "image": "samotnia.webp",
+        "words": 1093,
+        "indexable": true,
+        "hash": "8d567fb30c90",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "polonina-wetlinska": {
+      "pl": {
+        "path": "kierunki/polonina-wetlinska.html",
+        "title": "Połonina Wetlińska — Bieszczadzkie otwarte horyzonty",
+        "image": "polonina-wetlinska.webp",
+        "words": 881,
+        "indexable": true,
+        "hash": "45a391c78284",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/polonina-wetlinska-en.html",
+        "title": "Połonina Wetlińska — Bieszczady's Open Horizons",
+        "image": "polonina-wetlinska.webp",
+        "words": 985,
+        "indexable": true,
+        "hash": "64395c54a831",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "polonina-carynska": {
+      "pl": {
+        "path": "kierunki/polonina-carynska.html",
+        "title": "Połonina Caryńska — Szlak na odpoczynek i szerokie widoki",
+        "image": "polonina-carynska.webp",
+        "words": 924,
+        "indexable": true,
+        "hash": "19d8218d419e",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/polonina-carynska-en.html",
+        "title": "Połonina Caryńska — A Trail for Rest and Broad Vistas",
+        "image": "polonina-carynska.webp",
+        "words": 1040,
+        "indexable": true,
+        "hash": "742476a04c10",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "jezioro-solinskie": {
+      "pl": {
+        "path": "kierunki/jezioro-solinskie.html",
+        "title": "Jezioro Solińskie — Relaks nad wodą w Bieszczadach",
+        "image": "solina.webp",
+        "words": 1130,
+        "indexable": true,
+        "hash": "2ba66d487935",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/jezioro-solinskie-en.html",
+        "title": "Lake Solina — Waterside Relaxation in Bieszczady",
+        "image": "solina.webp",
+        "words": 1261,
+        "indexable": true,
+        "hash": "f16300e95556",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "kolorowe-jeziorka": {
+      "pl": {
+        "path": "kierunki/kolorowe-jeziorka.html",
+        "title": "Kolorowe Jeziorka — Barwne jeziora mineralne w Rudawach",
+        "image": "kolorowe-jeziorka.webp",
+        "words": 950,
+        "indexable": true,
+        "hash": "86d679cb9cb9",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/kolorowe-jeziorka-en.html",
+        "title": "Colorful Lakes — Vibrant Mineral Lakes in Rudawy",
+        "image": "kolorowe-jeziorka.webp",
+        "words": 1087,
+        "indexable": true,
+        "hash": "9a358b156a17",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "szczeliniec": {
+      "pl": {
+        "path": "kierunki/szczeliniec.html",
+        "title": "Szczeliniec Wielki — Skalny labirynt w Górach Stołowych",
+        "image": "szczeliniec.webp",
+        "words": 633,
+        "indexable": true,
+        "hash": "25b654a7a1d9",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/szczeliniec-en.html",
+        "title": "Szczeliniec Wielki — Rock Labyrinth in the Table Mountains",
+        "image": "szczeliniec.webp",
+        "words": 755,
+        "indexable": true,
+        "hash": "d82cfcdd9eaf",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "swietokrzyskie": {
+      "pl": {
+        "path": "kierunki/swietokrzyskie.html",
+        "title": "Góry Świętokrzyskie — Łagodne wzgórza, głęboki spokój",
+        "image": "swietokrzyskie.webp",
+        "words": 647,
+        "indexable": true,
+        "hash": "f436ac1d1b91",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/swietokrzyskie-en.html",
+        "title": "Holy Cross Mountains — Gentle Hills, Deep Stillness",
+        "image": "swietokrzyskie.webp",
+        "words": 758,
+        "indexable": true,
+        "hash": "05503dacf9a3",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "lasy-janowskie": {
+      "pl": {
+        "path": "kierunki/lasy-janowskie.html",
+        "title": "Lasy Janowskie — Spokój na wschodzie Polski",
+        "image": "lasy-janowskie.webp",
+        "words": 930,
+        "indexable": true,
+        "hash": "babf20f4173f",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/lasy-janowskie-en.html",
+        "title": "Janów Forests — Serenity in Eastern Poland",
+        "image": "lasy-janowskie.webp",
+        "words": 1081,
+        "indexable": true,
+        "hash": "b3273da6819c",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "puszcza-notecka": {
+      "pl": {
+        "path": "kierunki/puszcza-notecka.html",
+        "title": "Puszcza Notecka — Las bez pośpiechu",
+        "image": "notecka.webp",
+        "words": 629,
+        "indexable": true,
+        "hash": "228ebd959cbd",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/puszcza-notecka-en.html",
+        "title": "Notecka Primeval Forest — A Forest in No Hurry",
+        "image": "notecka.webp",
+        "words": 751,
+        "indexable": true,
+        "hash": "9aba6694f4d1",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "leba": {
+      "pl": {
+        "path": "kierunki/leba.html",
+        "title": "Łeba — Wydmy i nieskończone spacery plażą",
+        "image": "leba.webp",
+        "words": 996,
+        "indexable": true,
+        "hash": "eb7af733beb6",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/leba-en.html",
+        "title": "Łeba — Dunes & Endless Beach Walks",
+        "image": "leba.webp",
+        "words": 1116,
+        "indexable": true,
+        "hash": "2e1071a44ef5",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "ustka": {
+      "pl": {
+        "path": "kierunki/ustka.html",
+        "title": "Ustka — Morski urok i cichy weekend",
+        "image": "ustka.webp",
+        "words": 981,
+        "indexable": true,
+        "hash": "3d4d4996a9a8",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/ustka-en.html",
+        "title": "Ustka — Maritime Charm & A Quiet Weekend",
+        "image": "ustka.webp",
+        "words": 1123,
+        "indexable": true,
+        "hash": "7f7f85812c8f",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "beskid-zywiecki": {
+      "pl": {
+        "path": "kierunki/beskid-zywiecki.html",
+        "title": "Beskid Żywiecki — Góry z przestrzenią na odpoczynek",
+        "image": "beskid-zywiecki.webp",
+        "words": 994,
+        "indexable": true,
+        "hash": "c7a6169a13c2",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/beskid-zywiecki-en.html",
+        "title": "Żywiec Beskids — Mountains with Room to Rest",
+        "image": "beskid-zywiecki.webp",
+        "words": 1091,
+        "indexable": true,
+        "hash": "25b421c09b82",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "augustowska": {
+      "pl": {
+        "path": "kierunki/augustowska.html",
+        "title": "Puszcza Augustowska — Leśna cisza i niezatłoczone jeziora",
+        "image": "augustowska.webp",
+        "words": 632,
+        "indexable": true,
+        "hash": "4e7088218055",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/augustowska-en.html",
+        "title": "Augustów Primeval Forest — Forest Silence & Uncrowded Lakes",
+        "image": "augustowska.webp",
+        "words": 749,
+        "indexable": true,
+        "hash": "cd31141326c3",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "malbork": {
+      "pl": {
+        "path": "kierunki/malbork.html",
+        "title": "Malbork — Największy ceglany zamek świata",
+        "image": "malbork.webp",
+        "words": 998,
+        "indexable": true,
+        "hash": "f61e74672b7f",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/malbork-en.html",
+        "title": "Malbork — The World's Largest Brick Castle",
+        "image": "malbork.webp",
+        "words": 1148,
+        "indexable": true,
+        "hash": "ac342a1ec982",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "wawel": {
+      "pl": {
+        "path": "kierunki/wawel.html",
+        "title": "Wawel — Wzgórze koronacyjne królów",
+        "image": "wawel.webp",
+        "words": 1123,
+        "indexable": true,
+        "hash": "dd236ab91454",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/wawel-en.html",
+        "title": "Wawel — The Coronation Hill of Kings",
+        "image": "wawel.webp",
+        "words": 1282,
+        "indexable": true,
+        "hash": "d058f1fab81d",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "ksiaz": {
+      "pl": {
+        "path": "kierunki/ksiaz.html",
+        "title": "Zamek Książ — Zamek nad przepaścią",
+        "image": "ksiaz.webp",
+        "words": 876,
+        "indexable": true,
+        "hash": "f9b3b3286b48",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/ksiaz-en.html",
+        "title": "Książ Castle — Castle Above the Precipice",
+        "image": "ksiaz.webp",
+        "words": 1026,
+        "indexable": true,
+        "hash": "398cea5c283b",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "moszna": {
+      "pl": {
+        "path": "kierunki/moszna.html",
+        "title": "Moszna — Bajkowy zamek z 99 wieżami",
+        "image": "moszna.webp",
+        "words": 885,
+        "indexable": true,
+        "hash": "4c60701e18bf",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/moszna-en.html",
+        "title": "Moszna — A Fairytale Castle with 99 Towers",
+        "image": "moszna.webp",
+        "words": 1021,
+        "indexable": true,
+        "hash": "223fd5aaa049",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "niedzica": {
+      "pl": {
+        "path": "kierunki/niedzica.html",
+        "title": "Niedzica — Zamek Dunajec nad zalewem",
+        "image": "niedzica.webp",
+        "words": 958,
+        "indexable": true,
+        "hash": "c2ac0039d092",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/niedzica-en.html",
+        "title": "Niedzica — Dunajec Castle Above the Reservoir",
+        "image": "niedzica.webp",
+        "words": 1145,
+        "indexable": true,
+        "hash": "4a7a66b69d9a",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "ogrodzieniec": {
+      "pl": {
+        "path": "kierunki/ogrodzieniec.html",
+        "title": "Ogrodzieniec — Orle Gniazdo na Jurze",
+        "image": "ogrodzieniec.webp",
+        "words": 916,
+        "indexable": true,
+        "hash": "207f95b7666e",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/ogrodzieniec-en.html",
+        "title": "Ogrodzieniec — Eagle's Nest on the Jura",
+        "image": "ogrodzieniec.webp",
+        "words": 1065,
+        "indexable": true,
+        "hash": "3c2e7993bc35",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "lancut": {
+      "pl": {
+        "path": "kierunki/lancut.html",
+        "title": "Łańcut — Pałac magnacki z teatrem",
+        "image": "lancut.webp",
+        "words": 899,
+        "indexable": true,
+        "hash": "8f5c8ef02b17",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/lancut-en.html",
+        "title": "Łańcut — A Magnate's Palace with Theatre",
+        "image": "lancut.webp",
+        "words": 1067,
+        "indexable": true,
+        "hash": "a7140f742fda",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "pszczyna": {
+      "pl": {
+        "path": "kierunki/pszczyna.html",
+        "title": "Pszczyna — Perła renesansu na Górnym Śląsku",
+        "image": "pszczyna.webp",
+        "words": 978,
+        "indexable": true,
+        "hash": "db2829fced6e",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/pszczyna-en.html",
+        "title": "Pszczyna — Renaissance Pearl of Upper Silesia",
+        "image": "pszczyna.webp",
+        "words": 1140,
+        "indexable": true,
+        "hash": "c75f98f8429a",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "wieliczka": {
+      "pl": {
+        "path": "kierunki/wieliczka.html",
+        "title": "Wieliczka — Podziemne królestwo soli",
+        "image": "wieliczka.webp",
+        "words": 984,
+        "indexable": true,
+        "hash": "789de1d5eb85",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/wieliczka-en.html",
+        "title": "Wieliczka — Underground Kingdom of Salt",
+        "image": "wieliczka.webp",
+        "words": 1107,
+        "indexable": true,
+        "hash": "b79002b3f423",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "bochnia": {
+      "pl": {
+        "path": "kierunki/bochnia.html",
+        "title": "Bochnia — Najstarsza kopalnia soli w Polsce",
+        "image": "bochnia.webp",
+        "words": 913,
+        "indexable": true,
+        "hash": "c97b8616eabd",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/bochnia-en.html",
+        "title": "Bochnia — Poland's Oldest Salt Mine",
+        "image": "bochnia.webp",
+        "words": 1062,
+        "indexable": true,
+        "hash": "1f51f47fe4d7",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "auschwitz": {
+      "pl": {
+        "path": "kierunki/auschwitz.html",
+        "title": "Auschwitz-Birkenau — Miejsce Pamięci",
+        "image": "auschwitz.webp",
+        "words": 642,
+        "indexable": true,
+        "hash": "35ecee6f497a",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/auschwitz-en.html",
+        "title": "Auschwitz-Birkenau — Memorial and Museum",
+        "image": "auschwitz.webp",
+        "words": 728,
+        "indexable": true,
+        "hash": "eab94542859d",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "kalwaria-zebrzydowska": {
+      "pl": {
+        "path": "kierunki/kalwaria-zebrzydowska.html",
+        "title": "Kalwaria Zebrzydowska — Sanktuarium w krajobrazie",
+        "image": "kalwaria-zebrzydowska.webp",
+        "words": 943,
+        "indexable": true,
+        "hash": "9fc4112084dd",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/kalwaria-zebrzydowska-en.html",
+        "title": "Kalwaria Zebrzydowska — Sanctuary in the Landscape",
+        "image": "kalwaria-zebrzydowska.webp",
+        "words": 1108,
+        "indexable": true,
+        "hash": "09048220af56",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "tarnowskie-gory": {
+      "pl": {
+        "path": "kierunki/tarnowskie-gory.html",
+        "title": "Tarnowskie Góry — Podziemia srebra i ołowiu",
+        "image": "tarnowskie-gory.webp",
+        "words": 993,
+        "indexable": true,
+        "hash": "55fd7badcfbc",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/tarnowskie-gory-en.html",
+        "title": "Tarnowskie Góry — Underground of Silver and Lead",
+        "image": "tarnowskie-gory.webp",
+        "words": 1200,
+        "indexable": true,
+        "hash": "b005db630328",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "krzemionki": {
+      "pl": {
+        "path": "kierunki/krzemionki.html",
+        "title": "Krzemionki Opatowskie — Neolityczne kopalnie krzemienia",
+        "image": "krzemionki.webp",
+        "words": 894,
+        "indexable": true,
+        "hash": "c54dd030df0c",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/krzemionki-en.html",
+        "title": "Krzemionki Opatowskie — Neolithic Flint Mines",
+        "image": "krzemionki.webp",
+        "words": 1026,
+        "indexable": true,
+        "hash": "c72e4bb5527a",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "kazimierz-dolny": {
+      "pl": {
+        "path": "kierunki/kazimierz-dolny.html",
+        "title": "Kazimierz Dolny — Miasteczko artystów nad Wisłą",
+        "image": "kazimierz-dolny.webp",
+        "words": 1203,
+        "indexable": true,
+        "hash": "ae2cd1257726",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/kazimierz-dolny-en.html",
+        "title": "Kazimierz Dolny — Artists' Town on the Vistula",
+        "image": "kazimierz-dolny.webp",
+        "words": 1343,
+        "indexable": true,
+        "hash": "7d4e2c9011fb",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "chelmno": {
+      "pl": {
+        "path": "kierunki/chelmno.html",
+        "title": "Chełmno — Miasto zakochanych",
+        "image": "chelmno.webp",
+        "words": 937,
+        "indexable": true,
+        "hash": "f89a440ee046",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/chelmno-en.html",
+        "title": "Chełmno — Town of the Lovestruck",
+        "image": "chelmno.webp",
+        "words": 1123,
+        "indexable": true,
+        "hash": "a65c060d20cd",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "klodzko": {
+      "pl": {
+        "path": "kierunki/klodzko.html",
+        "title": "Kłodzko — Twierdza nad Nysą Kłodzką",
+        "image": "klodzko.webp",
+        "words": 1009,
+        "indexable": true,
+        "hash": "1647f362e2b2",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/klodzko-en.html",
+        "title": "Kłodzko — Fortress on the Nysa Kłodzka",
+        "image": "klodzko.webp",
+        "words": 1221,
+        "indexable": true,
+        "hash": "d181db21c4e2",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "paczkow": {
+      "pl": {
+        "path": "kierunki/paczkow.html",
+        "title": "Paczków — Polskie Carcassonne",
+        "image": "paczkow.webp",
+        "words": 925,
+        "indexable": true,
+        "hash": "82eae0baecb8",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/paczkow-en.html",
+        "title": "Paczków — The Polish Carcassonne",
+        "image": "paczkow.webp",
+        "words": 1087,
+        "indexable": true,
+        "hash": "f6cef825dd9d",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "cieszyn": {
+      "pl": {
+        "path": "kierunki/cieszyn.html",
+        "title": "Cieszyn — Miasto na granicy dwóch państw",
+        "image": "cieszyn.webp",
+        "words": 1056,
+        "indexable": true,
+        "hash": "cafc4cc15a3e",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/cieszyn-en.html",
+        "title": "Cieszyn — A Town on the Border",
+        "image": "cieszyn.webp",
+        "words": 1266,
+        "indexable": true,
+        "hash": "4a69f3107bb0",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "przemysl": {
+      "pl": {
+        "path": "kierunki/przemysl.html",
+        "title": "Przemyśl — Miasto na siedmiu wzgórzach",
+        "image": "przemysl.webp",
+        "words": 933,
+        "indexable": true,
+        "hash": "3729c65aa20d",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/przemysl-en.html",
+        "title": "Przemyśl — City on Seven Hills",
+        "image": "przemysl.webp",
+        "words": 1114,
+        "indexable": true,
+        "hash": "c497a84ef19c",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "sanok": {
+      "pl": {
+        "path": "kierunki/sanok.html",
+        "title": "Sanok — Brama w Bieszczady",
+        "image": "sanok.webp",
+        "words": 661,
+        "indexable": true,
+        "hash": "6d576c30934e",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/sanok-en.html",
+        "title": "Sanok — Gateway to the Bieszczady",
+        "image": "sanok.webp",
+        "words": 810,
+        "indexable": true,
+        "hash": "047284c5b345",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "krynica-zdroj": {
+      "pl": {
+        "path": "kierunki/krynica-zdroj.html",
+        "title": "Krynica-Zdrój — Perła polskich uzdrowisk",
+        "image": "krynica-zdroj.webp",
+        "words": 641,
+        "indexable": true,
+        "hash": "f9403eb27bf9",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/krynica-zdroj-en.html",
+        "title": "Krynica-Zdrój — Pearl of Polish Spas",
+        "image": "krynica-zdroj.webp",
+        "words": 733,
+        "indexable": true,
+        "hash": "b05e75617333",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "szczawnica": {
+      "pl": {
+        "path": "kierunki/szczawnica.html",
+        "title": "Szczawnica — Uzdrowisko u stóp Pienin",
+        "image": "szczawnica.webp",
+        "words": 639,
+        "indexable": true,
+        "hash": "74e832d3d76b",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/szczawnica-en.html",
+        "title": "Szczawnica — Spa at the Foot of the Pieniny",
+        "image": "szczawnica.webp",
+        "words": 748,
+        "indexable": true,
+        "hash": "7b8849a5442f",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "suprasl": {
+      "pl": {
+        "path": "kierunki/suprasl.html",
+        "title": "Supraśl — Prawosławny klasztor w puszczy",
+        "image": "suprasl.webp",
+        "words": 854,
+        "indexable": true,
+        "hash": "22f6f9a00b50",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/suprasl-en.html",
+        "title": "Supraśl — Orthodox Monastery in the Forest",
+        "image": "suprasl.webp",
+        "words": 1002,
+        "indexable": true,
+        "hash": "8bff3ee8381d",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "green-velo": {
+      "pl": {
+        "path": "kierunki/green-velo.html",
+        "title": "Green Velo — Najdłuższy szlak rowerowy w Polsce",
+        "image": "green-velo.webp",
+        "words": 1029,
+        "indexable": true,
+        "hash": "5fdfc7d415dc",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/green-velo-en.html",
+        "title": "Green Velo — Poland's Longest Cycling Route",
+        "image": "green-velo.webp",
+        "words": 1184,
+        "indexable": true,
+        "hash": "3007cc197566",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "velo-dunajec": {
+      "pl": {
+        "path": "kierunki/velo-dunajec.html",
+        "title": "Velo Dunajec — Rowerem wzdłuż Dunajca",
+        "image": "velo-dunajec.webp",
+        "words": 975,
+        "indexable": true,
+        "hash": "7dacf14a3749",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/velo-dunajec-en.html",
+        "title": "Velo Dunajec — By Bike Along the Dunajec",
+        "image": "velo-dunajec.webp",
+        "words": 1141,
+        "indexable": true,
+        "hash": "641b0290d38a",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "velo-baltica": {
+      "pl": {
+        "path": "kierunki/velo-baltica.html",
+        "title": "Velo Baltica — Nadmorski szlak rowerowy",
+        "image": "velo-baltica.webp",
+        "words": 971,
+        "indexable": true,
+        "hash": "b82d310bc980",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/velo-baltica-en.html",
+        "title": "Velo Baltica — Baltic Coastal Cycling Route",
+        "image": "velo-baltica.webp",
+        "words": 1102,
+        "indexable": true,
+        "hash": "2c1b430fdb31",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "wielka-petla-wielkopolski": {
+      "pl": {
+        "path": "kierunki/wielka-petla-wielkopolski.html",
+        "title": "Wielka Pętla Wielkopolski — Wielka Pętla Wielkopolski",
+        "image": "wielka-petla-wielkopolski.webp",
+        "words": 999,
+        "indexable": true,
+        "hash": "59753ad9a30f",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/wielka-petla-wielkopolski-en.html",
+        "title": "Greater Poland Loop — The Great Greater Poland Loop",
+        "image": "wielka-petla-wielkopolski.webp",
+        "words": 1184,
+        "indexable": true,
+        "hash": "a837b01d020b",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "dolina-bugu": {
+      "pl": {
+        "path": "kierunki/dolina-bugu.html",
+        "title": "Dolina Bugu — Rowerem przez dziką rzekę",
+        "image": "dolina-bugu.webp",
+        "words": 855,
+        "indexable": true,
+        "hash": "97918118cf1d",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/dolina-bugu-en.html",
+        "title": "Bug Valley — By Bike Through the Wild River",
+        "image": "dolina-bugu.webp",
+        "words": 1005,
+        "indexable": true,
+        "hash": "9c76a01bb3b5",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "kanal-augustowski": {
+      "pl": {
+        "path": "kierunki/kanal-augustowski.html",
+        "title": "Kanał Augustowski — Rowerem wzdłuż XIX-wiecznego kanału",
+        "image": "kanal-augustowski.webp",
+        "words": 889,
+        "indexable": true,
+        "hash": "98b57ad660b7",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/kanal-augustowski-en.html",
+        "title": "Augustów Canal — By Bike Along a 19th-Century Canal",
+        "image": "kanal-augustowski.webp",
+        "words": 1030,
+        "indexable": true,
+        "hash": "9cb39e56edca",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "kuchnia-podlasie": {
+      "pl": {
+        "path": "kierunki/kuchnia-podlasie.html",
+        "title": "Podlasie — Kibiny, kartacze i babka ziemniaczana",
+        "image": "kuchnia-podlasie.webp",
+        "words": 911,
+        "indexable": true,
+        "hash": "3e55309a8acd",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/kuchnia-podlasie-en.html",
+        "title": "Podlasie — Kibiny, Kartacze and Potato Babka",
+        "image": "kuchnia-podlasie.webp",
+        "words": 988,
+        "indexable": true,
+        "hash": "cfccc532e597",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "kuchnia-kaszuby": {
+      "pl": {
+        "path": "kierunki/kuchnia-kaszuby.html",
+        "title": "Kaszuby — Śledzie, węgorze i kaszubski rosół",
+        "image": "kuchnia-kaszuby.webp",
+        "words": 943,
+        "indexable": true,
+        "hash": "6e9d6b383a01",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/kuchnia-kaszuby-en.html",
+        "title": "Kashubia — Herring, Eel and Kashubian Broth",
+        "image": "kuchnia-kaszuby.webp",
+        "words": 1018,
+        "indexable": true,
+        "hash": "ac8e4365c723",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "kuchnia-podhale": {
+      "pl": {
+        "path": "kierunki/kuchnia-podhale.html",
+        "title": "Podhale — Oscypek, kwaśnica i bryjka",
+        "image": "kuchnia-podhale.webp",
+        "words": 1018,
+        "indexable": true,
+        "hash": "13f4577860a7",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/kuchnia-podhale-en.html",
+        "title": "Podhale — Oscypek, Kwaśnica and Bryjka",
+        "image": "kuchnia-podhale.webp",
+        "words": 1108,
+        "indexable": true,
+        "hash": "ed2098734005",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "kuchnia-slask": {
+      "pl": {
+        "path": "kierunki/kuchnia-slask.html",
+        "title": "Śląsk — Rolada, kluski i modra kapusta",
+        "image": "kuchnia-slask.webp",
+        "words": 952,
+        "indexable": true,
+        "hash": "42052f5e1747",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/kuchnia-slask-en.html",
+        "title": "Silesia — Roulade, Dumplings and Modra Kapusta",
+        "image": "kuchnia-slask.webp",
+        "words": 1003,
+        "indexable": true,
+        "hash": "3fb989baa816",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "kuchnia-roztocze": {
+      "pl": {
+        "path": "kierunki/kuchnia-roztocze.html",
+        "title": "Roztocze — Pierogi z bryndzą i cebularze",
+        "image": "kuchnia-roztocze.webp",
+        "words": 925,
+        "indexable": true,
+        "hash": "3835cffeec62",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/kuchnia-roztocze-en.html",
+        "title": "Roztocze — Pierogi with Bryndza and Cebularze",
+        "image": "kuchnia-roztocze.webp",
+        "words": 997,
+        "indexable": true,
+        "hash": "1faf4d42f12d",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "kuchnia-kurpie": {
+      "pl": {
+        "path": "kierunki/kuchnia-kurpie.html",
+        "title": "Kurpie — Rejbak, fafernuchy i pierogi",
+        "image": "kuchnia-kurpie.webp",
+        "words": 900,
+        "indexable": true,
+        "hash": "1527dd738b50",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/kuchnia-kurpie-en.html",
+        "title": "Kurpie — Rejbak, Fafernuchy and Pierogi",
+        "image": "kuchnia-kurpie.webp",
+        "words": 955,
+        "indexable": true,
+        "hash": "fd43ab4c53ec",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "kuchnia-wielkopolska": {
+      "pl": {
+        "path": "kierunki/kuchnia-wielkopolska.html",
+        "title": "Wielkopolska — Rogale świętomarcińskie i pyry z gzikiem",
+        "image": "kuchnia-wielkopolska.webp",
+        "words": 773,
+        "indexable": true,
+        "hash": "e464e52f1f27",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/kuchnia-wielkopolska-en.html",
+        "title": "Greater Poland — St. Martin's Croissants and Pyry z Gzikiem",
+        "image": "kuchnia-wielkopolska.webp",
+        "words": 869,
+        "indexable": true,
+        "hash": "8a75b114918f",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "kuchnia-warmia": {
+      "pl": {
+        "path": "kierunki/kuchnia-warmia.html",
+        "title": "Warmia i Mazury — Sielawa, marcepan i kindziuk",
+        "image": "kuchnia-warmia.webp",
+        "words": 952,
+        "indexable": true,
+        "hash": "c539c9056326",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/kuchnia-warmia-en.html",
+        "title": "Warmia-Masuria — Vendace, Marzipan and Kindziuk",
+        "image": "kuchnia-warmia.webp",
+        "words": 1070,
+        "indexable": true,
+        "hash": "eb8b63fbbec9",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "kuchnia-kociewie": {
+      "pl": {
+        "path": "kierunki/kuchnia-kociewie.html",
+        "title": "Kociewie — Zupy kociewskie i śledzie z Bałtyku",
+        "image": "kuchnia-kociewie.webp",
+        "words": 948,
+        "indexable": true,
+        "hash": "58a8eaf2a75d",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/kuchnia-kociewie-en.html",
+        "title": "Kociewie — Kociewie Soups and Baltic Herring",
+        "image": "kuchnia-kociewie.webp",
+        "words": 1017,
+        "indexable": true,
+        "hash": "c1fecc144ecb",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "kuchnia-lemkowska": {
+      "pl": {
+        "path": "kierunki/kuchnia-lemkowska.html",
+        "title": "Łemkowszczyzna — Proziaki, fuczki i kwaśnica łemkowska",
+        "image": "kuchnia-lemkowska.webp",
+        "words": 901,
+        "indexable": true,
+        "hash": "7d5acdad9e0f",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/kuchnia-lemkowska-en.html",
+        "title": "Lemko Region — Proziaki, Fuczki and Lemko Kwaśnica",
+        "image": "kuchnia-lemkowska.webp",
+        "words": 994,
+        "indexable": true,
+        "hash": "cf1df0b0d296",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "wsie-podlasie": {
+      "pl": {
+        "path": "kierunki/wsie-podlasie.html",
+        "title": "Podlasie — Wsie wielokulturowe",
+        "image": "wsie-podlasie.webp",
+        "words": 861,
+        "indexable": true,
+        "hash": "0e795e8c92fa",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/wsie-podlasie-en.html",
+        "title": "Podlasie — Multicultural Villages",
+        "image": "wsie-podlasie.webp",
+        "words": 977,
+        "indexable": true,
+        "hash": "b5bacb08636e",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "wsie-lemkowszczyzna": {
+      "pl": {
+        "path": "kierunki/wsie-lemkowszczyzna.html",
+        "title": "Łemkowszczyzna — Wsie łemkowskie",
+        "image": "wsie-lemkowszczyzna.webp",
+        "words": 895,
+        "indexable": true,
+        "hash": "d5963debfc5b",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/wsie-lemkowszczyzna-en.html",
+        "title": "Lemko Region — Lemko Villages",
+        "image": "wsie-lemkowszczyzna.webp",
+        "words": 1007,
+        "indexable": true,
+        "hash": "84faa1d183f4",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "wsie-kurpie": {
+      "pl": {
+        "path": "kierunki/wsie-kurpie.html",
+        "title": "Kurpie — Kurpiowskie wsie z drewna",
+        "image": "wsie-kurpie.webp",
+        "words": 837,
+        "indexable": true,
+        "hash": "0f816c9da05d",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/wsie-kurpie-en.html",
+        "title": "Kurpie — Kurpie Wooden Villages",
+        "image": "wsie-kurpie.webp",
+        "words": 930,
+        "indexable": true,
+        "hash": "668de83f7de7",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "wsie-kociewie": {
+      "pl": {
+        "path": "kierunki/wsie-kociewie.html",
+        "title": "Kociewie — Kociewskie wsie z haftem",
+        "image": "wsie-kociewie.webp",
+        "words": 850,
+        "indexable": true,
+        "hash": "52619ec872ff",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/wsie-kociewie-en.html",
+        "title": "Kociewie — Kociewie Villages with Embroidery",
+        "image": "wsie-kociewie.webp",
+        "words": 921,
+        "indexable": true,
+        "hash": "3c0a0caf64a9",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "wsie-warmia": {
+      "pl": {
+        "path": "kierunki/wsie-warmia.html",
+        "title": "Warmia — Warmińskie wsie z gotykiem",
+        "image": "wsie-warmia.webp",
+        "words": 749,
+        "indexable": true,
+        "hash": "1fb15a1af44b",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/wsie-warmia-en.html",
+        "title": "Warmia — Warmian Villages with Gothic",
+        "image": "wsie-warmia.webp",
+        "words": 935,
+        "indexable": true,
+        "hash": "46f653031eae",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "wsie-kaszuby": {
+      "pl": {
+        "path": "kierunki/wsie-kaszuby.html",
+        "title": "Kaszuby — Kaszubskie wsie z chëczami",
+        "image": "wsie-kaszuby.webp",
+        "words": 877,
+        "indexable": true,
+        "hash": "c2b852ec4164",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/wsie-kaszuby-en.html",
+        "title": "Kashubia — Kashubian Villages with Chëcze",
+        "image": "wsie-kaszuby.webp",
+        "words": 962,
+        "indexable": true,
+        "hash": "80e1570b52f1",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "wsie-beskid-niski": {
+      "pl": {
+        "path": "kierunki/wsie-beskid-niski.html",
+        "title": "Beskid Niski — Opuszczone wsie łemkowskie",
+        "image": "wsie-beskid-niski.webp",
+        "words": 792,
+        "indexable": true,
+        "hash": "ad68227dd60e",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/wsie-beskid-niski-en.html",
+        "title": "Low Beskids — Abandoned Lemko Villages",
+        "image": "wsie-beskid-niski.webp",
+        "words": 876,
+        "indexable": true,
+        "hash": "203411e3394b",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "wsie-roztocze": {
+      "pl": {
+        "path": "kierunki/wsie-roztocze.html",
+        "title": "Roztocze — Roztoczańskie wsie z młynami",
+        "image": "wsie-roztocze.webp",
+        "words": 691,
+        "indexable": true,
+        "hash": "a7fc45c012a6",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/wsie-roztocze-en.html",
+        "title": "Roztocze — Roztocze Villages with Mills",
+        "image": "wsie-roztocze.webp",
+        "words": 787,
+        "indexable": true,
+        "hash": "e2226a2daca3",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "wsie-mazowsze": {
+      "pl": {
+        "path": "kierunki/wsie-mazowsze.html",
+        "title": "Mazowsze łowickie — Wsie łowickie z pasiakami",
+        "image": "wsie-mazowsze.webp",
+        "words": 707,
+        "indexable": true,
+        "hash": "f4b91a462282",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/wsie-mazowsze-en.html",
+        "title": "Łowicz Masovia — Łowicz Villages with Striped Fabrics",
+        "image": "wsie-mazowsze.webp",
+        "words": 795,
+        "indexable": true,
+        "hash": "54be4f2a03c3",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "wsie-dolny-slask": {
+      "pl": {
+        "path": "kierunki/wsie-dolny-slask.html",
+        "title": "Wsie sudeckie — Wsie sudeckie z przędzalniami",
+        "image": "wsie-dolny-slask.webp",
+        "words": 714,
+        "indexable": true,
+        "hash": "be70c9531c39",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/wsie-dolny-slask-en.html",
+        "title": "Sudeten Villages — Sudeten Villages with Weaving Mills",
+        "image": "wsie-dolny-slask.webp",
+        "words": 813,
+        "indexable": true,
+        "hash": "eb9628c4a251",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "szlak-kulinarny": {
+      "pl": {
+        "path": "kierunki/szlak-kulinarny.html",
+        "title": "Szlak kulinarny Polski — Przez Polskę smakami regionów",
+        "image": "szlak-kulinarny.webp",
+        "words": 1028,
+        "indexable": true,
+        "hash": "5ec60094c6c0",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/szlak-kulinarny-en.html",
+        "title": "Polish Culinary Trail — Across Poland Through Regional Flavors",
+        "image": "szlak-kulinarny.webp",
+        "words": 1144,
+        "indexable": true,
+        "hash": "cbb50f69a836",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "szlak-rzemieslniczy": {
+      "pl": {
+        "path": "kierunki/szlak-rzemieslniczy.html",
+        "title": "Szlak rzemieślniczy — Śladami ginących zawodów",
+        "image": "szlak-rzemieslniczy.webp",
+        "words": 877,
+        "indexable": true,
+        "hash": "044b20256a72",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/szlak-rzemieslniczy-en.html",
+        "title": "Craft Trail — In the Footsteps of Vanishing Trades",
+        "image": "szlak-rzemieslniczy.webp",
+        "words": 941,
+        "indexable": true,
+        "hash": "996b557c2310",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "szlak-architektury-drewnianej": {
+      "pl": {
+        "path": "kierunki/szlak-architektury-drewnianej.html",
+        "title": "Szlak Architektury Drewnianej — Drewniane perły Karpat",
+        "image": "szlak-architektury-drewnianej.webp",
+        "words": 968,
+        "indexable": true,
+        "hash": "2f31b554180b",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/szlak-architektury-drewnianej-en.html",
+        "title": "Wooden Architecture Trail — Wooden Pearls of the Carpathians",
+        "image": "szlak-architektury-drewnianej.webp",
+        "words": 1106,
+        "indexable": true,
+        "hash": "f6a8e32030ec",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "szlak-industrialny": {
+      "pl": {
+        "path": "kierunki/szlak-industrialny.html",
+        "title": "Szlak industrialny — Dziedzictwo ery pary i stali",
+        "image": "szlak-industrialny.webp",
+        "words": 884,
+        "indexable": true,
+        "hash": "d1624d658f92",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/szlak-industrialny-en.html",
+        "title": "Industrial Trail — Heritage of the Age of Steam and Steel",
+        "image": "szlak-industrialny.webp",
+        "words": 1020,
+        "indexable": true,
+        "hash": "94b8c433baca",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "szlak-cerkwi": {
+      "pl": {
+        "path": "kierunki/szlak-cerkwi.html",
+        "title": "Szlak cerkwi — Drewniane i murowane cerkwie",
+        "image": "szlak-cerkwi.webp",
+        "words": 1018,
+        "indexable": true,
+        "hash": "7735bff1a37b",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/szlak-cerkwi-en.html",
+        "title": "Orthodox Churches Trail — Wooden and Brick Orthodox Churches",
+        "image": "szlak-cerkwi.webp",
+        "words": 1197,
+        "indexable": true,
+        "hash": "8349db06b330",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "szlak-winnic": {
+      "pl": {
+        "path": "kierunki/szlak-winnic.html",
+        "title": "Szlak winnic — Polskie wino od źródła",
+        "image": "szlak-winnic.webp",
+        "words": 987,
+        "indexable": true,
+        "hash": "80ed1ac68273",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/szlak-winnic-en.html",
+        "title": "Vineyard Trail — Polish Wine from the Source",
+        "image": "szlak-winnic.webp",
+        "words": 1137,
+        "indexable": true,
+        "hash": "b35f46d18b34",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "szlak-bursztynowy": {
+      "pl": {
+        "path": "kierunki/szlak-bursztynowy.html",
+        "title": "Szlak bursztynowy — Śladami bursztynu bałtyckiego",
+        "image": "szlak-bursztynowy.webp",
+        "words": 919,
+        "indexable": true,
+        "hash": "12266613f9f7",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/szlak-bursztynowy-en.html",
+        "title": "Amber Trail — In the Footsteps of Baltic Amber",
+        "image": "szlak-bursztynowy.webp",
+        "words": 1027,
+        "indexable": true,
+        "hash": "13df2453c114",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "szlak-piastowski": {
+      "pl": {
+        "path": "kierunki/szlak-piastowski.html",
+        "title": "Szlak Piastowski — Kolebka Polski",
+        "image": "szlak-piastowski.webp",
+        "words": 904,
+        "indexable": true,
+        "hash": "43c261559890",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/szlak-piastowski-en.html",
+        "title": "Piast Trail — The Cradle of Poland",
+        "image": "szlak-piastowski.webp",
+        "words": 1064,
+        "indexable": true,
+        "hash": "e74ec541b44e",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "szlak-uzdrowisk": {
+      "pl": {
+        "path": "kierunki/szlak-uzdrowisk.html",
+        "title": "Szlak polskich uzdrowisk — Wody, powietrze i spokój",
+        "image": "szlak-uzdrowisk.webp",
+        "words": 901,
+        "indexable": true,
+        "hash": "e27a2b799090",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/szlak-uzdrowisk-en.html",
+        "title": "Polish Spa Trail — Waters, Air, and Peace",
+        "image": "szlak-uzdrowisk.webp",
+        "words": 1027,
+        "indexable": true,
+        "hash": "d2ef597318e7",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "szlak-fortyfikacji": {
+      "pl": {
+        "path": "kierunki/szlak-fortyfikacji.html",
+        "title": "Szlak fortyfikacji — Twierdze, bunkry, schrony",
+        "image": "szlak-fortyfikacji.webp",
+        "words": 920,
+        "indexable": true,
+        "hash": "cfa6d3dbcbf3",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/szlak-fortyfikacji-en.html",
+        "title": "Fortification Trail — Fortresses, Bunkers, Shelters",
+        "image": "szlak-fortyfikacji.webp",
+        "words": 1032,
+        "indexable": true,
+        "hash": "492aa929f014",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "pn-babiogorski": {
+      "pl": {
+        "path": "kierunki/pn-babiogorski.html",
+        "title": "Babiogórski PN — Królowa Beskidów pod ochroną",
+        "image": "pn-babiogorski.webp",
+        "words": 1041,
+        "indexable": true,
+        "hash": "8b59b9551ece",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/pn-babiogorski-en.html",
+        "title": "Babia Góra National Park — Queen of the Beskids, Protected",
+        "image": "pn-babiogorski.webp",
+        "words": 1171,
+        "indexable": true,
+        "hash": "fce652a7a194",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "pn-bialowieski": {
+      "pl": {
+        "path": "kierunki/pn-bialowieski.html",
+        "title": "Białowieski PN — Ostatni pierwotny las Europy",
+        "image": "pn-bialowieski.webp",
+        "words": 905,
+        "indexable": true,
+        "hash": "691bad90b9d0",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/pn-bialowieski-en.html",
+        "title": "Białowieża National Park — Europe's Last Primeval Forest",
+        "image": "pn-bialowieski.webp",
+        "words": 1016,
+        "indexable": true,
+        "hash": "11ed68def34a",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "pn-biebrzanski": {
+      "pl": {
+        "path": "kierunki/pn-biebrzanski.html",
+        "title": "Biebrzański PN — Największe bagna w Europie",
+        "image": "pn-biebrzanski.webp",
+        "words": 982,
+        "indexable": true,
+        "hash": "9a2671410763",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/pn-biebrzanski-en.html",
+        "title": "Biebrza National Park — The Largest Wetlands in Europe",
+        "image": "pn-biebrzanski.webp",
+        "words": 1092,
+        "indexable": true,
+        "hash": "87af94718314",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "pn-bory-tucholskie": {
+      "pl": {
+        "path": "kierunki/pn-bory-tucholskie.html",
+        "title": "Park Narodowy Bory Tucholskie — Sosny, jeziora i cisza",
+        "image": "pn-bory-tucholskie.webp",
+        "words": 985,
+        "indexable": true,
+        "hash": "c17c4d815f61",
+        "lastmod": "2026-10-11"
+      },
+      "en": {
+        "path": "kierunki/pn-bory-tucholskie-en.html",
+        "title": "Tuchola Forest National Park — Pines, Lakes, and Silence",
+        "image": "pn-bory-tucholskie.webp",
+        "words": 254,
+        "indexable": true,
+        "hash": "572d42506723",
+        "lastmod": "2026-10-11"
+      }
+    },
+    "pn-drawienski": {
+      "pl": {
+        "path": "kierunki/pn-drawienski.html",
+        "title": "Drawieński PN — Dzika Drawa i bobry",
+        "image": "pn-drawienski.webp",
+        "words": 636,
+        "indexable": true,
+        "hash": "0864609627ee",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/pn-drawienski-en.html",
+        "title": "Drawa National Park — Wild Drawa and Beavers",
+        "image": "pn-drawienski.webp",
+        "words": 772,
+        "indexable": true,
+        "hash": "16c484c2a960",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "pn-kampinoski": {
+      "pl": {
+        "path": "kierunki/pn-kampinoski.html",
+        "title": "Kampinoski PN — Dzicz pod Warszawą",
+        "image": "pn-kampinoski.webp",
+        "words": 664,
+        "indexable": true,
+        "hash": "36ce3ae303ea",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/pn-kampinoski-en.html",
+        "title": "Kampinos National Park — Wilderness by Warsaw",
+        "image": "pn-kampinoski.webp",
+        "words": 777,
+        "indexable": true,
+        "hash": "46553cf53193",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "pn-magurski": {
+      "pl": {
+        "path": "kierunki/pn-magurski.html",
+        "title": "Magurski PN — Beskid Niski bez tłumów",
+        "image": "pn-magurski.webp",
+        "words": 634,
+        "indexable": true,
+        "hash": "da0956ae513b",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/pn-magurski-en.html",
+        "title": "Magura National Park — Low Beskids Without Crowds",
+        "image": "pn-magurski.webp",
+        "words": 747,
+        "indexable": true,
+        "hash": "63ef153922db",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "pn-narwianski": {
+      "pl": {
+        "path": "kierunki/pn-narwianski.html",
+        "title": "Narwiański PN — Polska Amazonia",
+        "image": "pn-narwianski.webp",
+        "words": 617,
+        "indexable": true,
+        "hash": "3257ace98adf",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/pn-narwianski-en.html",
+        "title": "Narew National Park — Polish Amazonia",
+        "image": "pn-narwianski.webp",
+        "words": 721,
+        "indexable": true,
+        "hash": "a3b24a6f36c6",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "pn-ojcowski": {
+      "pl": {
+        "path": "kierunki/pn-ojcowski.html",
+        "title": "Ojcowski PN — Wapienne skały i jaskinie",
+        "image": "pn-ojcowski.webp",
+        "words": 625,
+        "indexable": true,
+        "hash": "7c9d004dc9b1",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/pn-ojcowski-en.html",
+        "title": "Ojców National Park — Limestone Cliffs and Caves",
+        "image": "pn-ojcowski.webp",
+        "words": 705,
+        "indexable": true,
+        "hash": "9fa12ac3c473",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "pn-poleski": {
+      "pl": {
+        "path": "kierunki/pn-poleski.html",
+        "title": "Poleski PN — Kraina bagien i żurawi",
+        "image": "pn-poleski.webp",
+        "words": 630,
+        "indexable": true,
+        "hash": "56996534069e",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/pn-poleski-en.html",
+        "title": "Polesie National Park — Land of Marshes and Cranes",
+        "image": "pn-poleski.webp",
+        "words": 748,
+        "indexable": true,
+        "hash": "9c32a1305dbd",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "pn-slowinski": {
+      "pl": {
+        "path": "kierunki/pn-slowinski.html",
+        "title": "Słowiński PN — Ruchome wydmy nad Bałtykiem",
+        "image": "pn-slowinski.webp",
+        "words": 676,
+        "indexable": true,
+        "hash": "42db60f14ee1",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/pn-slowinski-en.html",
+        "title": "Słowiński National Park — Shifting Dunes on the Baltic",
+        "image": "pn-slowinski.webp",
+        "words": 760,
+        "indexable": true,
+        "hash": "dbf6741f3bf5",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "pn-tatrzanski": {
+      "pl": {
+        "path": "kierunki/pn-tatrzanski.html",
+        "title": "Tatrzański PN — Najwyższe góry Polski",
+        "image": "pn-tatrzanski.webp",
+        "words": 661,
+        "indexable": true,
+        "hash": "007d907665cf",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/pn-tatrzanski-en.html",
+        "title": "Tatra National Park — The Highest Mountains in Poland",
+        "image": "pn-tatrzanski.webp",
+        "words": 759,
+        "indexable": true,
+        "hash": "1a73f92f88c6",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "pn-ujscie-warty": {
+      "pl": {
+        "path": "kierunki/pn-ujscie-warty.html",
+        "title": "Park Narodowy Ujście Warty — Ptasie królestwo",
+        "image": "pn-ujscie-warty.webp",
+        "words": 625,
+        "indexable": true,
+        "hash": "d6abfdf106b4",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/pn-ujscie-warty-en.html",
+        "title": "Ujście Warty National Park — Bird Kingdom",
+        "image": "pn-ujscie-warty.webp",
+        "words": 743,
+        "indexable": true,
+        "hash": "4adc528b147b",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "pn-wielkopolski": {
+      "pl": {
+        "path": "kierunki/pn-wielkopolski.html",
+        "title": "Wielkopolski PN — Jeziora pod Poznaniem",
+        "image": "pn-wielkopolski.webp",
+        "words": 632,
+        "indexable": true,
+        "hash": "822cf3056e2b",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/pn-wielkopolski-en.html",
+        "title": "Wielkopolski National Park — Lakes Near Poznań",
+        "image": "pn-wielkopolski.webp",
+        "words": 736,
+        "indexable": true,
+        "hash": "858e6fb4d633",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "pn-wigierski": {
+      "pl": {
+        "path": "kierunki/pn-wigierski.html",
+        "title": "Wigierski PN — Jezioro Wigry i klasztor",
+        "image": "pn-wigierski.webp",
+        "words": 640,
+        "indexable": true,
+        "hash": "62a3c33f2cda",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/pn-wigierski-en.html",
+        "title": "Wigry National Park — Lake Wigry and the Monastery",
+        "image": "pn-wigierski.webp",
+        "words": 756,
+        "indexable": true,
+        "hash": "c6331b96fec4",
+        "lastmod": "2026-10-12"
+      }
+    },
+    "pn-wolinski": {
+      "pl": {
+        "path": "kierunki/pn-wolinski.html",
+        "title": "Woliński PN — Klify i żubry na Wolinie",
+        "image": "pn-wolinski.webp",
+        "words": 629,
+        "indexable": true,
+        "hash": "3f4abeca8931",
+        "lastmod": "2026-10-12"
+      },
+      "en": {
+        "path": "kierunki/pn-wolinski-en.html",
+        "title": "Wolin National Park — Cliffs and Bison on Wolin",
+        "image": "pn-wolinski.webp",
+        "words": 738,
+        "indexable": true,
+        "hash": "a7d3a63048eb",
+        "lastmod": "2026-10-12"
+      }
+    }
+  }
+}

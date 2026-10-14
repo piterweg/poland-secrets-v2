@@ -1,0 +1,386 @@
+[
+  {
+    "slug": "pomorskie",
+    "namePl": "Pomorskie",
+    "nameEn": "Pomerania",
+    "aliases": { "pl": ["Pomorze"], "en": ["Pomerania"] },
+    "heroPl": {
+      "label": "POMORZE",
+      "h1": "Bałtyk, bursztyn i <em>hanzeatyckie miasta.</em>",
+      "lead": "Wydmy, mola, gotyckie kościoły i wiatr od morza. Pomorze to region, w którym slow travel smakuje jak świeża ryba z kutra."
+    },
+    "heroEn": {
+      "label": "POMERANIA",
+      "h1": "Baltic, amber, and <em>Hanseatic cities.</em>",
+      "lead": "Dunes, piers, Gothic churches, and wind from the sea. Pomerania is a region where slow travel tastes like fresh fish straight from the cutter."
+    },
+    "introPl": [
+      { "h2": "Region dwóch żywiołów", "paragraphs": ["Pomorze to kraina, w której morze i ląd toczą nieustanny dialog. Szerokie plaże, ruchome wydmy, sosnowe bory i portowe miasta — wszystko w promieniu stu kilometrów.", "Wiosną i jesienią wybrzeże pustoszeje i staje się idealnym miejscem na długie spacery. To czas, kiedy można usłyszeć własne kroki i szum fal bez zgiełku wakacyjnych kurortów."] },
+      { "h2": "Od Gdańska do Łeby", "paragraphs": ["Gdańsk zachwyca hanzeatycką architekturą i dziedzictwem stoczni. Sopot kusi najdłuższym drewnianym molem w Europie. Łeba i Słowiński Park Narodowy to z kolei polska pustynia nad morzem.", "Na Helu wąska mierzeja rozdziela Bałtyk od Zatoki Puckiej. To miejsce, w którym można stanąć na końcu Polski i patrzeć na otwarte morze z jednej strony, a zatokę z drugiej."] }
+    ],
+    "introEn": [
+      { "h2": "A Region of Two Elements", "paragraphs": ["Pomerania is a land where the sea and the land conduct an endless dialogue. Wide beaches, shifting dunes, pine forests, and port cities — all within a hundred kilometers.", "In spring and autumn the coast empties and becomes the perfect place for long walks. It is the time when you can hear your own footsteps and the sound of waves without the noise of holiday resorts."] },
+      { "h2": "From Gdańsk to Łeba", "paragraphs": ["Gdańsk delights with Hanseatic architecture and shipyard heritage. Sopot tempts with Europe's longest wooden pier. Łeba and Słowiński National Park offer a Polish desert by the sea.", "On Hel, a narrow spit separates the Baltic from the Bay of Puck. It is a place where you can stand at the end of Poland and look at the open sea on one side and the bay on the other."] }
+    ]
+  },
+  {
+    "slug": "dolnoslaskie",
+    "namePl": "Dolnośląskie",
+    "nameEn": "Lower Silesia",
+    "aliases": { "pl": ["Dolny Śląsk"], "en": ["Lower Silesia"] },
+    "heroPl": {
+      "label": "DOLNY ŚLĄSK",
+      "h1": "Zamki, góry i <em>uzdrowiska.</em>",
+      "lead": "Karkonosze, Góry Stołowe, Wrocław i kilkadziesiąt zamków. Region o najbardziej zróżnicowanym krajobrazie w Polsce."
+    },
+    "heroEn": {
+      "label": "LOWER SILESIA",
+      "h1": "Castles, mountains, and <em>spa towns.</em>",
+      "lead": "Karkonosze, the Table Mountains, Wrocław, and dozens of castles. The region with the most diverse landscape in Poland."
+    },
+    "introPl": [
+      { "h2": "Kraina stu zamków", "paragraphs": ["Dolny Śląsk to najbardziej zamkowy region Polski. Książ, Czocha, Bolczów, Chojnik — setki warowni rozsianych po wzgórzach Sudetów, z których wiele przetrwało w świetnej formie.", "Do tego uzdrowiska — Kudowa-Zdrój, Szczawno-Zdrój, Lądek-Zdrój — i najstarsze w kraju miasta, w których historia przeplata się z codziennością."] },
+      { "h2": "Wrocław i góry", "paragraphs": ["Wrocław, stolica regionu, to miasto stu mostów i wysp na Odrze. Idealne na weekend w rytmie slow — z kawą na Nadodrzu i porannym spacerem po Ostrowie Tumskim.", "Karkonosze oferują dramatyczne widoki i schroniska, w których czas płynie wolniej. Góry Stołowe zachwycają skalnymi labiryntami, a Barycz — największymi w Europie stawami karpiowymi."] }
+    ],
+    "introEn": [
+      { "h2": "Land of a Hundred Castles", "paragraphs": ["Lower Silesia is Poland's most castle-rich region. Książ, Czocha, Bolczów, Chojnik — hundreds of strongholds scattered across the Sudeten hills, many preserved in excellent shape.", "Add to this the spa towns — Kudowa-Zdrój, Szczawno-Zdrój, Lądek-Zdrój — and the country's oldest cities, where history interweaves with everyday life."] },
+      { "h2": "Wrocław and the Mountains", "paragraphs": ["Wrocław, the region's capital, is a city of a hundred bridges and islands on the Oder. Perfect for a slow weekend — with coffee in Nadodrze and a morning walk through Ostrów Tumski.", "The Karkonosze offer dramatic views and mountain huts where time flows slower. The Table Mountains delight with rock labyrinths, and Barycz boasts Europe's largest carp ponds."] }
+    ]
+  },
+  {
+    "slug": "malopolskie",
+    "namePl": "Małopolskie",
+    "nameEn": "Lesser Poland",
+    "aliases": { "pl": ["Małopolska"], "en": ["Lesser Poland"] },
+    "heroPl": {
+      "label": "MAŁOPOLSKA",
+      "h1": "Tatry, Kraków i <em>drewniane cerkwie.</em>",
+      "lead": "Najbardziej górzysty region Polski. Tatry, Pieniny, Gorce, Ojcowski Park Narodowy — a obok Kraków, dawne stolice i najstarsze uniwersytety."
+    },
+    "heroEn": {
+      "label": "LESSER POLAND",
+      "h1": "Tatras, Kraków, and <em>wooden churches.</em>",
+      "lead": "Poland's most mountainous region. The Tatras, Pieniny, Gorce, Ojców National Park — and beside them Kraków, ancient capitals, and the oldest universities."
+    },
+    "introPl": [
+      { "h2": "Polskie góry i korzenie", "paragraphs": ["Małopolska to region, w którym polska państwowość ma swoje korzenie. Kraków, dawna stolica, zachwyca Wawelu, Kazimierzem i muzeami w bocznych uliczkach.", "Na południu rozciągają się Tatry — jedyne góry w Polsce o alpejskim charakterze. Obok nich Pieniny z przełomem Dunajca, Gorce i Beskid Niski, który jest najspokojniejszym pasmem w kraju."] },
+      { "h2": "UNESCO i drewno", "paragraphs": ["Wieliczka i Bochnia to dwie historyczne kopalnie soli, obie wpisane na listę UNESCO. Kalwaria Zebrzydowska to z kolei najstarszy park pielgrzymkowy w Polsce, wkomponowany w krajobraz.", "Drewniane cerkwie Małopolski — w Sękowej, Binarowej, Powroźniku — to arcydzieła ciesielstwa, w których można poczuć ducha dawnych wsi beskidzkich."] }
+    ],
+    "introEn": [
+      { "h2": "Polish Mountains and Roots", "paragraphs": ["Lesser Poland is the region where Polish statehood has its roots. Kraków, the ancient capital, delights with Wawel, Kazimierz, and museums tucked into side streets.", "To the south stretch the Tatras — the only mountains in Poland with an alpine character. Beside them are the Pieniny with the Dunajec gorge, the Gorce, and the Low Beskids, the calmest range in the country."] },
+      { "h2": "UNESCO and Wood", "paragraphs": ["Wieliczka and Bochnia are two historic salt mines, both inscribed on the UNESCO list. Kalwaria Zebrzydowska is the oldest pilgrimage park in Poland, woven into the landscape.", "Lesser Poland's wooden churches — in Sękowa, Binarowa, Powroźnik — are masterpieces of carpentry where you can feel the spirit of the old Beskid villages."] }
+    ]
+  },
+  {
+    "slug": "podkarpackie",
+    "namePl": "Podkarpackie",
+    "nameEn": "Subcarpathia",
+    "aliases": { "pl": ["Podkarpacie"], "en": ["Subcarpathia"] },
+    "heroPl": {
+      "label": "PODKARPACIE",
+      "h1": "Bieszczady i <em>dzika przyroda.</em>",
+      "lead": "Najbardziej dziki region Polski. Bieszczady, połoniny, drewniane cerkwie i wsie, w których czas płynie inaczej."
+    },
+    "heroEn": {
+      "label": "SUBCARPATHIA",
+      "h1": "Bieszczady and <em>wild nature.</em>",
+      "lead": "Poland's wildest region. The Bieszczady, mountain meadows, wooden churches, and villages where time flows differently."
+    },
+    "introPl": [
+      { "h2": "Kraina bezkresnych horyzontów", "paragraphs": ["Podkarpacie to najbardziej wysunięty na południowy wschód region Polski. Bieszczady, Połonina Wetlińska i Caryńska, Jezioro Solińskie — wszystko to miejsca, w których przestrzeń ma realną wagę.", "To kraina, w której można przejechać kilkadziesiąt kilometrów i nie spotkać żywej duszy. Wsie jak Cisna, Wetlina czy Ustrzyki Górne są bazami wypadowymi w najdziksze zakątki Polski."] },
+      { "h2": "Drewno, ikony i kuchnia", "paragraphs": ["Łemkowskie cerkwie rozsiane po wzgórzach, ikony w Sanoku i Przemyślu, drewniane chaty w Chyrowej — wszystko to świadectwo wielokulturowej przeszłości regionu.", "Kuchnia podkarpacka to proste, sycące smaki: pierogi z bryndzą, fuczki, proziaki z masłem czosnkowym. Idealne po dniu spędzonym na szlaku."] }
+    ],
+    "introEn": [
+      { "h2": "Land of Endless Horizons", "paragraphs": ["Subcarpathia is Poland's southern-easternmost region. The Bieszczady, Połonina Wetlińska and Caryńska, Lake Solina — all places where space has real weight.", "It is a land where you can drive for dozens of kilometers without meeting a living soul. Villages like Cisna, Wetlina, or Ustrzyki Górne are base camps for the wildest corners of Poland."] },
+      { "h2": "Wood, Icons, and Cuisine", "paragraphs": ["Lemko churches scattered across the hills, icons in Sanok and Przemyśl, wooden cottages in Chyrowa — all testimonies to the region's multicultural past.", "Subcarpathian cuisine offers simple, hearty flavors: pierogi with bryndza cheese, fuczki pancakes, proziaki flatbreads with garlic butter. Perfect after a day on the trail."] }
+    ]
+  },
+  {
+    "slug": "podlaskie",
+    "namePl": "Podlaskie",
+    "nameEn": "Podlasie",
+    "aliases": { "pl": ["Podlasie"], "en": ["Podlasie"] },
+    "heroPl": {
+      "label": "PODLASIE",
+      "h1": "Puszcze, żubry i <em>wielokulturowość.</em>",
+      "lead": "Białowieża, Biebrza, Narew, Wigry. Cztery parki narodowe, prawosławne cerkwie i największe w Europie bagna."
+    },
+    "heroEn": {
+      "label": "PODLASIE",
+      "h1": "Primeval forests, bison, and <em>multiculturalism.</em>",
+      "lead": "Białowieża, Biebrza, Narew, Wigry. Four national parks, Orthodox churches, and the largest wetlands in Europe."
+    },
+    "introPl": [
+      { "h2": "Cztery parki narodowe w jednym regionie", "paragraphs": ["Podlasie to najbardziej zielony region Polski. Białowieża — ostatni pierwotny las nizinny Europy, dom żubrów. Biebrza — największe bagna w Europie Środkowej. Narew — rzeka, która płynie w stu korytach. Wigry — polodowcowe jeziora wśród puszcz.", "Slow travel tutaj to powolne wchodzenie w dziką przyrodę. Obserwacja ptaków, słuchanie łosi w wodzie, spacery drewnianymi kładkami nad torfowiskami."] },
+      { "h2": "Wschód wielokulturowy", "paragraphs": ["Podlasie to region, w którym przez wieki żyli obok siebie katolicy, prawosławni, Tatarzy i Żydzi. Cerkwie w Supraślu i Grabarcę, meczety w Bohonikach i Kruszynianach, synagogi w Tykocinie — wszystko to ślady tej wielokulturowości.", "Kuchnia podlaska łączy tradycje słowiańskie i tatarskie: kibiny, kartacze, babka ziemniaczana. Wszystko sycące i proste, jak przystało na region rolniczy."] }
+    ],
+    "introEn": [
+      { "h2": "Four National Parks in One Region", "paragraphs": ["Podlasie is the greenest region in Poland. Białowieża — the last primeval lowland forest in Europe and home to European bison. Biebrza — the largest wetlands in Central Europe. Narew — a river that flows in a hundred channels. Wigry — glacial lakes amid forests.", "Slow travel here means slowly stepping into wild nature. Birdwatching, listening to moose in the water, walks along wooden boardwalks over peat bogs."] },
+      { "h2": "The Multicultural East", "paragraphs": ["Podlasie is a region where Catholics, Orthodox Christians, Tatars, and Jews lived side by side for centuries. Churches in Supraśl and Grabarka, mosques in Bohoniki and Kruszyniany, synagogues in Tykocin — all traces of that multiculturalism.", "Podlasie cuisine combines Slavic and Tatar traditions: kibiny pastries, kartacze potato dumplings, potato babka. All hearty and simple, as befits an agricultural region."] }
+    ]
+  },
+  {
+    "slug": "mazowieckie",
+    "namePl": "Mazowieckie",
+    "nameEn": "Masovia",
+    "aliases": { "pl": ["Mazowsze"], "en": ["Mazovia"] },
+    "heroPl": {
+      "label": "MAZOWSZE",
+      "h1": "Warszawa i <em>dzika Kampinoska.</em>",
+      "lead": "Region, w którym wielka metropolia spotyka się z puszczą. Kampinos, Zalew Zegrzyński, Mazowsze wiejskie i Warszawa w rytmie slow."
+    },
+    "heroEn": {
+      "label": "MASOVIA",
+      "h1": "Warsaw and <em>wild Kampinos.</em>",
+      "lead": "A region where a great metropolis meets the forest. Kampinos, Zegrze Lagoon, rural Masovia, and Warsaw at a slow pace."
+    },
+    "introPl": [
+      { "h2": "Stolica i puszcza", "paragraphs": ["Mazowsze kojarzy się z Warszawą — i słusznie, bo stolica dominuje nad regionem. Ale Mazowsze to także Puszcza Kampinoska, jedno z niewielu miejsc w Europie, gdzie dzika przyroda sąsiaduje z centrum wielkiego miasta.", "Rowerem z Warszawy do Kampinosu można dojechać w godzinę. Kiedy zamiast wieżowców pojawiają się sosny i wydmy, łatwo zapomnieć, że jest się w jednej z największych metropolii Europy."] },
+      { "h2": "Mazowsze wiejskie", "paragraphs": ["Mazowsze wiejskie to zupełnie inny świat — płaskie pola, drewniane kościoły, dwory szlacheckie i wsie, w których czas płynie wolniej niż w stolicy.", "Warto zboczyć z trasy Warszawa–Kampinos i pojechać w stronę Płońska, Ciechanowa czy Pułtuska. To tam można znaleźć prawdziwe Mazowsze, z jego spokojem i tradycją."] }
+    ],
+    "introEn": [
+      { "h2": "The Capital and the Forest", "paragraphs": ["Masovia is associated with Warsaw — rightly so, as the capital dominates the region. But Masovia is also Kampinos Forest, one of the few places in Europe where wild nature borders the center of a great city.", "By bike from Warsaw to Kampinos, you can arrive in an hour. When pines and dunes replace skyscrapers, it is easy to forget that you are in one of the largest metropolises in Europe."] },
+      { "h2": "Rural Masovia", "paragraphs": ["Rural Masovia is a completely different world — flat fields, wooden churches, noble manors, and villages where time flows slower than in the capital.", "It is worth turning off the Warsaw–Kampinos route and heading toward Płońsk, Ciechanów, or Pułtusk. There you can find true Masovia, with its peace and tradition."] }
+    ]
+  },
+  {
+    "slug": "warminsko-mazurskie",
+    "namePl": "Warmińsko-mazurskie",
+    "nameEn": "Warmia-Masuria",
+    "aliases": { "pl": ["Warmia-Mazury"], "en": ["Warmia-Masuria"] },
+    "heroPl": {
+      "label": "WARMIA I MAZURY",
+      "h1": "Jeziora, kajaki i <em>zielone płuca Polski.</em>",
+      "lead": "Kraina tysiąca jezior. Mazury, Warmia, Kanał Elbląski i lasy, w których można odpocząć od cywilizacji."
+    },
+    "heroEn": {
+      "label": "WARMIA-MASURIA",
+      "h1": "Lakes, kayaks, and <em>Poland's green lungs.</em>",
+      "lead": "The land of a thousand lakes. Masuria, Warmia, the Elbląg Canal, and forests where you can rest from civilization."
+    },
+    "introPl": [
+      { "h2": "Kraina tysiąca jezior", "paragraphs": ["Mazury to najbardziej jeziorny region w Polsce — ponad 2000 jezior rozsianych wśród lasów, wsi i małych miasteczek. To raj dla kajakarzy, żeglarzy i wszystkich, którzy szukają spokoju nad wodą.", "Ale Mazury to nie tylko żagle i porty. To także poranki z mgłą nad jeziorem, drewniane pomosty, wędkarze o świcie i cisza, którą przerywa jedynie plusk wiosła."] },
+      { "h2": "Warmia, Elbląg i Frombork", "paragraphs": ["Warmia to mniej znana siostra Mazur. Frombork, gdzie Kopernik pisał „O obrotach sfer niebieskich\", Lidzbark Warmiński z gotyckim zamkiem, Olsztyn z zamkiem kapituły — wszystko to miejsca, w których historia spotyka się z przyrodą.", "Kanał Elbląski to ewenement na skalę światową — statki suną po trawie, a nie po wodzie. Jedna z niewielu atrakcji turystycznych na świecie, która naprawdę zaskakuje."] }
+    ],
+    "introEn": [
+      { "h2": "Land of a Thousand Lakes", "paragraphs": ["Masuria is Poland's most lakeland region — over 2,000 lakes scattered among forests, villages, and small towns. It is a paradise for kayakers, sailors, and everyone seeking peace by the water.", "But Masuria is not just sails and ports. It is also misty mornings on the lake, wooden piers, fishermen at dawn, and silence broken only by the paddle's splash."] },
+      { "h2": "Warmia, Elbląg, and Frombork", "paragraphs": ["Warmia is the lesser-known sister of Masuria. Frombork, where Copernicus wrote 'On the Revolutions of the Heavenly Spheres', Lidzbark Warmiński with its Gothic castle, Olsztyn with the Chapter Castle — all places where history meets nature.", "The Elbląg Canal is a global phenomenon — ships glide over grass, not water. One of the few tourist attractions in the world that truly surprises."] }
+    ]
+  },
+  {
+    "slug": "wielkopolskie",
+    "namePl": "Wielkopolskie",
+    "nameEn": "Greater Poland",
+    "aliases": { "pl": ["Wielkopolska"], "en": ["Greater Poland"] },
+    "heroPl": {
+      "label": "WIELKOPOLSKA",
+      "h1": "Kolebka Polski i <em>jeziora ukryte w borach.</em>",
+      "lead": "Poznań, Puszcza Notecka, Wielkopolski Park Narodowy. Region, w którym narodziła się Polska."
+    },
+    "heroEn": {
+      "label": "GREATER POLAND",
+      "h1": "The cradle of Poland and <em>lakes hidden in pine forests.</em>",
+      "lead": "Poznań, Notecka Forest, Wielkopolski National Park. The region where Poland was born."
+    },
+    "introPl": [
+      { "h2": "Kolebka polskości", "paragraphs": ["Wielkopolska to region, w którym narodziła się Polska. W Gnieźnie koronowano pierwszych królów, w Poznaniu bije serce regionu, a w Kórniku i Rogalinie można zobaczyć najpiękniejsze pałace Wielkopolski.", "Slow travel w Wielkopolsce to spacer po rynkach małych miasteczek, kawa na Jeżycach, wizyta w rogaliarni i powolne odkrywanie regionu, który łączy tradycję z nowoczesnością."] },
+      { "h2": "Puszcza Notecka i jeziora", "paragraphs": ["Puszcza Notecka to jeden z największych kompleksów leśnych w Polsce — ponad 1000 km² sosen, wydm i ukrytych jezior. Idealna na rowerowe wyprawy i biwaki z dala od cywilizacji.", "Wielkopolska to także setki jezior polodowcowych — Sieraków, Miedzychód, Chrzypsko. Wszystkie ciche, czyste i gotowe na slow weekend nad wodą."] }
+    ],
+    "introEn": [
+      { "h2": "The Cradle of Poland", "paragraphs": ["Greater Poland is the region where Poland was born. In Gniezno the first kings were crowned, in Poznań beats the region's heart, and in Kórnik and Rogalin you can see the most beautiful palaces of Greater Poland.", "Slow travel in Greater Poland means walking through the market squares of small towns, coffee in Jeżyce, a visit to a rogale bakery, and slowly discovering a region that combines tradition with modernity."] },
+      { "h2": "Notecka Forest and the Lakes", "paragraphs": ["Notecka Forest is one of the largest forest complexes in Poland — over 1,000 km² of pines, dunes, and hidden lakes. Perfect for cycling trips and bivouacs far from civilization.", "Greater Poland also has hundreds of glacial lakes — Sieraków, Międzychód, Chrzypsko. All quiet, clean, and ready for a slow weekend by the water."] }
+    ]
+  },
+  {
+    "slug": "slaskie",
+    "namePl": "Śląskie",
+    "nameEn": "Silesia",
+    "aliases": { "pl": ["Śląsk", "Śląskie"], "en": ["Silesia"] },
+    "heroPl": {
+      "label": "ŚLĄSK",
+      "h1": "Beskidy, industrial i <em>zamki na Jurze.</em>",
+      "lead": "Region kontrastów — od górskich szlaków po industrialne dziedzictwo i największe skupisko zamków w Polsce."
+    },
+    "heroEn": {
+      "label": "SILESIA",
+      "h1": "The Beskids, industry, and <em>Jura castles.</em>",
+      "lead": "A region of contrasts — from mountain trails to industrial heritage and the largest concentration of castles in Poland."
+    },
+    "introPl": [
+      { "h2": "Region kontrastów", "paragraphs": ["Śląsk to najbardziej industrialny region Polski — i jednocześnie jeden z najbardziej górskich. Beskid Śląski, Beskid Żywiecki, Beskid Mały — wszystko w granicach jednego województwa.", "Obok kopalń i hut rozwijają się tu najpiękniejsze szlaki górskie, drewniane kościoły i tradycje pasterskie, które przetrwały wieki."] },
+      { "h2": "Jura i zamki", "paragraphs": ["Jura Krakowsko-Częstochowska to wapienny płaskowyż z białymi skałami, jaskiniami i ruinami zamków. Ogrodzieniec, Ojców, Pieskowa Skała — wszystko w promieniu 50 kilometrów.", "Pszczyna, Cieszyn, Tarnowskie Góry, Bielsko-Biała — miasta, w których spotyka się historia Śląska i nowoczesna Polska. Warto je odkrywać powoli, po jednym dziennie."] }
+    ],
+    "introEn": [
+      { "h2": "A Region of Contrasts", "paragraphs": ["Silesia is Poland's most industrial region — and at the same time one of the most mountainous. The Silesian Beskids, Żywiec Beskids, Little Beskids — all within one voivodeship.", "Beside mines and steelworks, the most beautiful mountain trails, wooden churches, and pastoral traditions have survived for centuries."] },
+      { "h2": "Jura and Castles", "paragraphs": ["The Kraków-Częstochowa Jura is a limestone plateau with white rocks, caves, and castle ruins. Ogrodzieniec, Ojców, Pieskowa Skała — all within 50 kilometers.", "Pszczyna, Cieszyn, Tarnowskie Góry, Bielsko-Biała — cities where Silesian history meets modern Poland. Worth discovering slowly, one per day."] }
+    ]
+  },
+  {
+    "slug": "zachodniopomorskie",
+    "namePl": "Zachodniopomorskie",
+    "nameEn": "West Pomerania",
+    "aliases": { "pl": ["Zachodniopomorskie"], "en": ["West Pomerania"] },
+    "heroPl": {
+      "label": "ZACHODNIOPOMORSKIE",
+      "h1": "Zalew, puszcze i <em>dzikie wybrzeże.</em>",
+      "lead": "Szczecin, Świnoujście, Wolin, Puszcza Drawska. Region, w którym Bałtyk spotyka się z dziką przyrodą."
+    },
+    "heroEn": {
+      "label": "WEST POMERANIA",
+      "h1": "Lagoon, forests, and <em>wild coast.</em>",
+      "lead": "Szczecin, Świnoujście, Wolin, Drawa Forest. A region where the Baltic meets wild nature."
+    },
+    "introPl": [
+      { "h2": "Bałtyk i Zalew Szczeciński", "paragraphs": ["Zachodniopomorskie to najbardziej na zachód wysunięty region Polski. Zalew Szczeciński, wyspa Wolin, wybrzeże od Świnoujścia po Darłowo — wszystko to miejsca, gdzie morze spotyka się z dziką przyrodą.", "Woliński Park Narodowy chroni klify, żubry i najpiękniejsze fragmenty nadmorskiej puszczy. Latarnia w Świnoujściu to najwyższa latarnia w Polsce — warto się wspiąć."] },
+      { "h2": "Puszcze i rzeki", "paragraphs": ["Puszcza Drawska i Drawieński Park Narodowy to jedno z najdzikszych miejsc w Polsce. Sosnowe bory, rwące strumienie, bobry — idealne na wielodniowe spływy kajakowe.", "Szczecin, stolica regionu, to miasto, w którym warto zobaczyć Wały Chrobrego, Zamek Książąt Pomorskich i dzielnicę winiarską. Wszystko w rytmie slow."] }
+    ],
+    "introEn": [
+      { "h2": "The Baltic and the Szczecin Lagoon", "paragraphs": ["West Pomerania is Poland's westernmost region. The Szczecin Lagoon, Wolin Island, the coast from Świnoujście to Darłowo — all places where the sea meets wild nature.", "Wolin National Park protects cliffs, bison, and the most beautiful fragments of the coastal forest. The lighthouse in Świnoujście is the tallest in Poland — worth the climb."] },
+      { "h2": "Forests and Rivers", "paragraphs": ["Drawa Forest and Drawa National Park are among the wildest places in Poland. Pine woods, rushing streams, beavers — perfect for multi-day kayak trips.", "Szczecin, the region's capital, is a city where you should see the Chrobry Embankment, the Pomeranian Dukes' Castle, and the wine district. All at a slow pace."] }
+    ]
+  },
+  {
+    "slug": "kujawsko-pomorskie",
+    "namePl": "Kujawsko-pomorskie",
+    "nameEn": "Kuyavia-Pomerania",
+    "aliases": { "pl": ["Kujawy-Pomorze"], "en": ["Kuyavia-Pomerania"] },
+    "heroPl": {
+      "label": "KUJAWY I POMORZE",
+      "h1": "Toruń, Bory Tucholskie i <em>gotyckie wsie.</em>",
+      "lead": "Pierniki, bory i małe miasta z gotycką duszą. Region dla tych, którzy lubią odkrywać nieoczywiste miejsca."
+    },
+    "heroEn": {
+      "label": "KUYAVIA-POMERANIA",
+      "h1": "Toruń, Tuchola Forest, and <em>Gothic villages.</em>",
+      "lead": "Gingerbread, pine forests, and small towns with a Gothic soul. For those who love discovering the less obvious."
+    },
+    "introPl": [
+      { "h2": "Toruń i gotyk", "paragraphs": ["Kujawsko-pomorskie to region, w którym gotyk spotyka się z piernikiem. Toruń — miasto Kopernika i pierników — to jedno z najpiękniejszych gotyckich miast w Polsce. Chełmno zachwyca sześcioma kościołami i średniowiecznymi murami.", "Bydgoszcz, stolica regionu, to miasto nad Brdą — z Wyspą Młyńską, Wenecją Bydgoską i najpiękniejszą secesją w Polsce. Wszystko w promieniu stu kilometrów."] },
+      { "h2": "Bory Tucholskie i Wisła", "paragraphs": ["Bory Tucholskie to jeden z największych kompleksów leśnych w Polsce — sosny, jeziora, wsie Kaszubów i Borowiaków. Idealne na rowerowe wycieczki i slow weekend z dala od miasta.", "Dolina Wisły wokół Chełmna, Świecia i Grudziądza to z kolei kraina sadów, winnic i starych kościołów. Region, w którym można przejechać rowerem wzdłuż największej polskiej rzeki i nie spotkać tłumów."] }
+    ],
+    "introEn": [
+      { "h2": "Toruń and Gothic", "paragraphs": ["Kuyavia-Pomerania is a region where Gothic meets gingerbread. Toruń — the city of Copernicus and gingerbread — is one of the most beautiful Gothic cities in Poland. Chełmno delights with six churches and medieval walls.", "Bydgoszcz, the region's capital, is a city on the Brda river — with Mill Island, Bydgoszcz Venice, and the most beautiful Art Nouveau in Poland. All within a hundred kilometers."] },
+      { "h2": "Tuchola Forest and the Vistula", "paragraphs": ["Tuchola Forest is one of the largest forest complexes in Poland — pines, lakes, villages of Kashubians and Borowiacy. Perfect for cycling trips and a slow weekend away from the city.", "The Vistula Valley around Chełmno, Świecie, and Grudziądz is a land of orchards, vineyards, and old churches. A region where you can ride along Poland's greatest river without meeting crowds."] }
+    ]
+  },
+  {
+    "slug": "lubelskie",
+    "namePl": "Lubelskie",
+    "nameEn": "Lublin Region",
+    "aliases": { "pl": ["Lubelszczyzna"], "en": ["Lublin Region"] },
+    "heroPl": {
+      "label": "LUBELSZCZYZNA",
+      "h1": "Roztocze, Polesie i <em>renesansowe miasteczka.</em>",
+      "lead": "Zamość, Kazimierz Dolny, Roztocze, Polesie. Region, w którym spotykają się kultury Wschodu i Zachodu."
+    },
+    "heroEn": {
+      "label": "LUBLIN REGION",
+      "h1": "Roztocze, Polesie, and <em>Renaissance towns.</em>",
+      "lead": "Zamość, Kazimierz Dolny, Roztocze, Polesie. A region where East and West meet."
+    },
+    "introPl": [
+      { "h2": "Wschód z charakterem", "paragraphs": ["Lubelszczyzna to region, w którym Polska spotyka się ze Wschodem. Prawosławne cerkwie, synagogi, kościoły katolickie — wszystko obok siebie, świadectwo wielowiekowej wielokulturowości.", "Zamość to perła renesansu, jedno z niewielu miast na świecie zaprojektowanych w całości przez jednego architekta. Kazimierz Dolny zachwyca wąwozami lessowymi i rynkiem z kamienicami. Oba są idealne na slow weekend."] },
+      { "h2": "Roztocze i Polesie", "paragraphs": ["Roztocze to kraina łagodnych wzgórz, szumów na Tanwi, drewnianych młynów i ścieżek rowerowych. Poleski Park Narodowy chroni bagna, żurawie i niezwykłe ekosystemy wodno-torfowiskowe.", "Lubelskie to także winnice — region staje się najważniejszym obszarem winiarskim w Polsce. Warto połączyć spacer z degustacją lokalnych win."] }
+    ],
+    "introEn": [
+      { "h2": "The East with Character", "paragraphs": ["The Lublin Region is where Poland meets the East. Orthodox churches, synagogues, Catholic churches — all side by side, a testimony to centuries of multiculturalism.", "Zamość is a Renaissance pearl, one of the few cities in the world designed entirely by a single architect. Kazimierz Dolny delights with loess ravines and a market square lined with townhouses. Both are perfect for a slow weekend."] },
+      { "h2": "Roztocze and Polesie", "paragraphs": ["Roztocze is a land of gentle hills, the Szumy cascades on the Tanew, wooden mills, and cycling trails. Polesie National Park protects marshes, cranes, and extraordinary wetland-peat ecosystems.", "The Lublin Region is also vineyards — the region is becoming the most important wine area in Poland. Worth combining a walk with a tasting of local wines."] }
+    ]
+  },
+  {
+    "slug": "lodzkie",
+    "namePl": "Łódzkie",
+    "nameEn": "Łódź Region",
+    "aliases": { "pl": ["Łódzkie"], "en": ["Łódź Region"] },
+    "heroPl": {
+      "label": "ŁÓDZKIE",
+      "h1": "Industrialna Łódź i <em>rzeka, która pamięta.</em>",
+      "lead": "Region, w którym fabryczna historia spotyka się z największymi rzekami Polski — Wisłą, Wartą i Pilicą."
+    },
+    "heroEn": {
+      "label": "ŁÓDŹ REGION",
+      "h1": "Industrial Łódź and <em>rivers that remember.</em>",
+      "lead": "A region where factory history meets Poland's largest rivers — the Vistula, Warta, and Pilica."
+    },
+    "introPl": [
+      { "h2": "Miasto w transformacji", "paragraphs": ["Łódź to najbardziej industrialne miasto w Polsce — i jedno z najbardziej fascynujących. Pofabryczne lofty, murale, Muzeum Sztuki z najstarszą kolekcją sztuki nowoczesnej w Europie, ulica Piotrkowska, Księży Młyn.", "Slow travel w Łodzi to spacer po podwórkach, kawa w OFF Piotrkowska i powolne odkrywanie miasta, które zmienia się na naszych oczach. Warto poświęcić mu cały dzień, nie pół."] },
+      { "h2": "Rzeki i spa", "paragraphs": ["Region łódzki to kraina rzek — Wisły, Warty, Pilicy, Bzury. Spływy kajakowe, wędkarstwo, rowery wzdłuż dolin — wszystko to w promieniu godziny od Łodzi.", "Uniejów to jedyne w Polsce uzdrowisko termalne z wodą geotermalną. Baseny termalne, park zdrojowy i zamek arcybiskupów — idealne na weekend po zwiedzaniu Łodzi."] }
+    ],
+    "introEn": [
+      { "h2": "A City in Transformation", "paragraphs": ["Łódź is the most industrial city in Poland — and one of the most fascinating. Post-factory lofts, murals, the Museum of Art with the oldest modern art collection in Europe, Piotrkowska Street, Księży Młyn.", "Slow travel in Łódź means walking through courtyards, coffee in OFF Piotrkowska, and slowly discovering a city that is changing before our eyes. Worth devoting a full day, not half."] },
+      { "h2": "Rivers and Spa", "paragraphs": ["The Łódź region is a land of rivers — the Vistula, Warta, Pilica, Bzura. Kayaking, fishing, cycling along the valleys — all within an hour of Łódź.", "Uniejów is Poland's only thermal spa with geothermal water. Thermal pools, a spa park, and an archbishops' castle — perfect for a weekend after sightseeing in Łódź."] }
+    ]
+  },
+  {
+    "slug": "opolskie",
+    "namePl": "Opolskie",
+    "nameEn": "Opole Region",
+    "aliases": { "pl": ["Opolskie"], "en": ["Opole Region"] },
+    "heroPl": {
+      "label": "OPOLSZCZYZNA",
+      "h1": "Bajkowe zamki i <em>wioski na szlakach.</em>",
+      "lead": "Moszna, Paczków, Góra Świętej Anny. Mały region z największym skupiskiem zamków i pałaców w Polsce."
+    },
+    "heroEn": {
+      "label": "OPOLE REGION",
+      "h1": "Fairytale castles and <em>villages on the trail.</em>",
+      "lead": "Moszna, Paczków, Góra Świętej Anny. A small region with the largest concentration of castles and palaces in Poland."
+    },
+    "introPl": [
+      { "h2": "Bajkowe zamki", "paragraphs": ["Opolszczyzna to najbardziej bajkowy region Polski. Moszna — zamek z 99 wieżami i parkiem angielskim, jeden z najpiękniejszych pałaców w Europie. Paczków — miasto obronne z murami niemal nietkniętymi od XIV wieku.", "W promieniu 50 kilometrów — kilkanaście zamków i pałaców, każdy o innej historii. Idealny region na weekend z dziećmi, którzy pokochają baśniową scenerię."] },
+      { "h2": "Góra Świętej Anny i wioski", "paragraphs": ["Góra Świętej Anny to najstarsze sanktuarium na Śląsku, wkomponowane w wulkaniczny krajobraz. Amfiteatr, klasztor, ścieżki geologiczne — wszystko otoczone zielenią.", "Opolszczyzna to także region wielokulturowy — śląskie wioski, niemieckie wpływy, czeskie sąsiedztwo. Ślady wszystkich tych kultur są widoczne w architekturze i zwyczajach."] }
+    ],
+    "introEn": [
+      { "h2": "Fairytale Castles", "paragraphs": ["The Opole Region is the most fairytale-like region in Poland. Moszna — a castle with 99 towers and an English park, one of the most beautiful palaces in Europe. Paczków — a fortified town with walls almost untouched since the 14th century.", "Within 50 kilometers — a dozen castles and palaces, each with a different story. An ideal region for a weekend with children who will love the fairytale setting."] },
+      { "h2": "Góra Świętej Anny and Villages", "paragraphs": ["Góra Świętej Anny is the oldest sanctuary in Silesia, embedded in a volcanic landscape. Amphitheater, monastery, geological trails — all surrounded by greenery.", "The Opole Region is also a multicultural region — Silesian villages, German influences, Czech neighborhood. Traces of all these cultures are visible in the architecture and customs."] }
+    ]
+  },
+  {
+    "slug": "swietokrzyskie",
+    "namePl": "Świętokrzyskie",
+    "nameEn": "Holy Cross Region",
+    "aliases": { "pl": ["Świętokrzyskie"], "en": ["Holy Cross Region"] },
+    "heroPl": {
+      "label": "ŚWIĘTOKRZYSKIE",
+      "h1": "Najstarsze góry Europy i <em>gołoborza.</em>",
+      "lead": "Góry Świętokrzyskie, Sandomierz, Krzemionki. Region, w którym natura i archeologia spotykają się w jednym miejscu."
+    },
+    "heroEn": {
+      "label": "HOLY CROSS REGION",
+      "h1": "Europe's oldest mountains and <em>stone fields.</em>",
+      "lead": "Holy Cross Mountains, Sandomierz, Krzemionki. A region where nature and archaeology meet."
+    },
+    "introPl": [
+      { "h2": "Najstarsze góry", "paragraphs": ["Góry Świętokrzyskie to jedne z najstarszych gór w Europie — liczą sobie ponad 500 milionów lat. Dziś to łagodne wzgórza z gołoborzami, bukowymi lasami i najstarszymi w Polsce sanktuariami.", "Łysica, Łysa Góra, Święty Krzyż — wszystko to miejsca, w których historia splata się z legendą. Slow travel tutaj to spacery po lesie, kąpiele w rzekach i obiady w lokalnych karczmach."] },
+      { "h2": "Sandomierz i Krzemionki", "paragraphs": ["Sandomierz — królewskie miasto na siedmiu wzgórzach, z gotyckim ratuszem, średniowiecznymi murami i najpiękniejszym wąwozem w Polsce. Idealne na weekend w rytmie slow.", "Krzemionki Opatowskie to neolityczne kopalnie krzemienia — jeden z najważniejszych obiektów archeologicznych w Europie, wpisany na listę UNESCO. Warto zwiedzić trasę podziemną i wioskę neolityczną."] }
+    ],
+    "introEn": [
+      { "h2": "The Oldest Mountains", "paragraphs": ["The Holy Cross Mountains are among the oldest mountains in Europe — over 500 million years old. Today they are gentle hills with quartzite stone fields, beech forests, and Poland's oldest sanctuaries.", "Łysica, Łysa Góra, Holy Cross — all places where history interweaves with legend. Slow travel here means walks in the forest, swimming in rivers, and lunches in local taverns."] },
+      { "h2": "Sandomierz and Krzemionki", "paragraphs": ["Sandomierz — a royal town on seven hills, with a Gothic town hall, medieval walls, and the most beautiful ravine in Poland. Perfect for a slow weekend.", "Krzemionki Opatowskie is a Neolithic flint mine — one of the most important archaeological sites in Europe, inscribed on the UNESCO list. Worth visiting the underground route and the Neolithic village."] }
+    ]
+  },
+  {
+    "slug": "lubuskie",
+    "namePl": "Lubuskie",
+    "nameEn": "Lubusz",
+    "aliases": { "pl": ["Lubuskie"], "en": ["Lubusz"] },
+    "heroPl": {
+      "label": "LUBUSKIE",
+      "h1": "Winnice, lasy i <em>rzeka, która łączy.</em>",
+      "lead": "Zielona Góra, Łagów, Park Mużakowski. Region, w którym polskie winnice spotykają się z niemiecką architekturą parkową."
+    },
+    "heroEn": {
+      "label": "LUBUSZ",
+      "h1": "Vineyards, forests, and <em>a river that connects.</em>",
+      "lead": "Zielona Góra, Łagów, Muskauer Park. A region where Polish vineyards meet German park architecture."
+    },
+    "introPl": [
+      { "h2": "Winnice i Zielona Góra", "paragraphs": ["Lubuskie to najbardziej winiarski region Polski. Winobranie w Zielonej Górze to największe święto wina w Polsce, a winnice rozsiane po okolicy produkują jedne z najlepszych polskich win.", "Slow travel w Lubuskiem to spacer po winnicach, degustacja lokalnych trunków i wieczory w małych miasteczkach, gdzie czas płynie wolniej niż w reszcie kraju."] },
+      { "h2": "Mużaków i Łagów", "paragraphs": ["Park Mużakowski to jeden z najpiękniejszych parków krajobrazowych w Europie, wpisany na listę UNESCO. Rozciąga się po obu stronach Nysy Łużyckiej — polskiej i niemieckiej.", "Łagów to perła lubuskiego — miasteczko między dwoma jeziorami, z zamkiem joannitów i mostem, który łączy brzegi. Idealne na weekendowy wypad w rytmie slow."] }
+    ],
+    "introEn": [
+      { "h2": "Vineyards and Zielona Góra", "paragraphs": ["Lubusz is the most wine-rich region in Poland. The grape harvest in Zielona Góra is the largest wine festival in Poland, and the vineyards scattered around produce some of the best Polish wines.", "Slow travel in Lubusz means walking through vineyards, tasting local wines, and evenings in small towns where time flows slower than in the rest of the country."] },
+      { "h2": "Muskau and Łagów", "paragraphs": ["Muskauer Park is one of the most beautiful landscape parks in Europe, inscribed on the UNESCO list. It extends on both sides of the Lusatian Neisse — Polish and German.", "Łagów is the pearl of Lubusz — a small town between two lakes, with a Knights Hospitaller castle and a bridge connecting the shores. Perfect for a slow weekend getaway."] }
+    ]
+  }
+]

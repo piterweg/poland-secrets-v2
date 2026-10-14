@@ -1,0 +1,89 @@
+# ═══════════════════════════════════════════════════════════
+# Duplikaty — przekierowania 301
+# Wygenerowane przez resolve-duplicates.js
+# Wklej do głównego .htaccess poniżej istniejącego RewriteEngine On
+# ═══════════════════════════════════════════════════════════
+
+# sopot-plaza → sopot
+RewriteRule ^kierunki/sopot-plaza\.html$ /kierunki/sopot.html [R=301,L]
+RewriteRule ^kierunki/sopot-plaza-en\.html$ /kierunki/sopot-en.html [R=301,L]
+
+# pn-karkonoski → karkonosze
+RewriteRule ^kierunki/pn-karkonoski\.html$ /kierunki/karkonosze.html [R=301,L]
+RewriteRule ^kierunki/pn-karkonoski-en\.html$ /kierunki/karkonosze-en.html [R=301,L]
+
+# pn-bieszczadzki → bieszczady
+RewriteRule ^kierunki/pn-bieszczadzki\.html$ /kierunki/bieszczady.html [R=301,L]
+RewriteRule ^kierunki/pn-bieszczadzki-en\.html$ /kierunki/bieszczady-en.html [R=301,L]
+
+# pn-pieninski → pieniny
+RewriteRule ^kierunki/pn-pieninski\.html$ /kierunki/pieniny.html [R=301,L]
+RewriteRule ^kierunki/pn-pieninski-en\.html$ /kierunki/pieniny-en.html [R=301,L]
+
+# pn-gor-stolowych → stolowe
+RewriteRule ^kierunki/pn-gor-stolowych\.html$ /kierunki/stolowe.html [R=301,L]
+RewriteRule ^kierunki/pn-gor-stolowych-en\.html$ /kierunki/stolowe-en.html [R=301,L]
+
+# pn-roztoczanski → roztocze
+RewriteRule ^kierunki/pn-roztoczanski\.html$ /kierunki/roztocze.html [R=301,L]
+RewriteRule ^kierunki/pn-roztoczanski-en\.html$ /kierunki/roztocze-en.html [R=301,L]
+
+# pn-swietokrzyski → swietokrzyskie
+RewriteRule ^kierunki/pn-swietokrzyski\.html$ /kierunki/swietokrzyskie.html [R=301,L]
+RewriteRule ^kierunki/pn-swietokrzyski-en\.html$ /kierunki/swietokrzyskie-en.html [R=301,L]
+
+# tatrzanski-park → tatry
+RewriteRule ^kierunki/tatrzanski-park\.html$ /kierunki/tatry.html [R=301,L]
+RewriteRule ^kierunki/tatrzanski-park-en\.html$ /kierunki/tatry-en.html [R=301,L]
+
+# bialowieza → pn-bialowieski
+RewriteRule ^kierunki/bialowieza\.html$ /kierunki/pn-bialowieski.html [R=301,L]
+RewriteRule ^kierunki/bialowieza-en\.html$ /kierunki/pn-bialowieski-en.html [R=301,L]
+
+# biebrza → pn-biebrzanski
+RewriteRule ^kierunki/biebrza\.html$ /kierunki/pn-biebrzanski.html [R=301,L]
+RewriteRule ^kierunki/biebrza-en\.html$ /kierunki/pn-biebrzanski-en.html [R=301,L]
+
+# babia → pn-babiogorski
+RewriteRule ^kierunki/babia\.html$ /kierunki/pn-babiogorski.html [R=301,L]
+RewriteRule ^kierunki/babia-en\.html$ /kierunki/pn-babiogorski-en.html [R=301,L]
+
+# ojcow → pn-ojcowski
+RewriteRule ^kierunki/ojcow\.html$ /kierunki/pn-ojcowski.html [R=301,L]
+RewriteRule ^kierunki/ojcow-en\.html$ /kierunki/pn-ojcowski-en.html [R=301,L]
+
+# kampinos → pn-kampinoski
+RewriteRule ^kierunki/kampinos\.html$ /kierunki/pn-kampinoski.html [R=301,L]
+RewriteRule ^kierunki/kampinos-en\.html$ /kierunki/pn-kampinoski-en.html [R=301,L]
+
+# narew → pn-narwianski
+RewriteRule ^kierunki/narew\.html$ /kierunki/pn-narwianski.html [R=301,L]
+RewriteRule ^kierunki/narew-en\.html$ /kierunki/pn-narwianski-en.html [R=301,L]
+
+# polesie → pn-poleski
+RewriteRule ^kierunki/polesie\.html$ /kierunki/pn-poleski.html [R=301,L]
+RewriteRule ^kierunki/polesie-en\.html$ /kierunki/pn-poleski-en.html [R=301,L]
+
+# wigierski-park → pn-wigierski
+RewriteRule ^kierunki/wigierski-park\.html$ /kierunki/pn-wigierski.html [R=301,L]
+RewriteRule ^kierunki/wigierski-park-en\.html$ /kierunki/pn-wigierski-en.html [R=301,L]
+
+# drawa → pn-drawienski
+RewriteRule ^kierunki/drawa\.html$ /kierunki/pn-drawienski.html [R=301,L]
+RewriteRule ^kierunki/drawa-en\.html$ /kierunki/pn-drawienski-en.html [R=301,L]
+
+# drawsko → pn-drawienski
+RewriteRule ^kierunki/drawsko\.html$ /kierunki/pn-drawienski.html [R=301,L]
+RewriteRule ^kierunki/drawsko-en\.html$ /kierunki/pn-drawienski-en.html [R=301,L]
+
+# bory-tucholskie → pn-bory-tucholskie
+RewriteRule ^kierunki/bory-tucholskie\.html$ /kierunki/pn-bory-tucholskie.html [R=301,L]
+RewriteRule ^kierunki/bory-tucholskie-en\.html$ /kierunki/pn-bory-tucholskie-en.html [R=301,L]
+
+# slowinski-park → pn-slowinski
+RewriteRule ^kierunki/slowinski-park\.html$ /kierunki/pn-slowinski.html [R=301,L]
+RewriteRule ^kierunki/slowinski-park-en\.html$ /kierunki/pn-slowinski-en.html [R=301,L]
+
+# pn-gorczanski → gorce
+RewriteRule ^kierunki/pn-gorczanski\.html$ /kierunki/gorce.html [R=301,L]
+RewriteRule ^kierunki/pn-gorczanski-en\.html$ /kierunki/gorce-en.html [R=301,L]

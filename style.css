@@ -1,0 +1,130 @@
+:root{--ink:#18332c;--cream:#f5f0e5;--orange:#ee7652;--blue:#a8d3d4;--yellow:#f4c84c;--muted:#64736d;--glass:rgba(245,240,229,0.8);transition:all .8s ease}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);font-family:Manrope,Arial,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}.header{height:78px;padding:0 clamp(22px,6vw,90px);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(217,211,198,0.5);background:var(--glass);backdrop-filter:blur(10px);position:sticky;top:0;z-index:1000;transition:all .3s ease}.logo{display:flex;align-items:center;gap:9px;font-size:14px;font-weight:800}.logo span{width:29px;height:29px;border-radius:50%;display:grid;place-items:center;border:1.5px solid var(--ink);font:10px 'DM Mono'}.header nav{display:flex;gap:32px;font-size:12px;font-weight:700}.header nav a{transition:color .3s ease}.header nav a:hover,.read:hover{color:#bc4f32}.saved,.menu{border:0;background:none;color:var(--ink);font:700 11px Manrope;cursor:pointer;transition:opacity .2s}.saved:hover,.menu:hover{opacity:.7}.saved b{margin-left:4px;border-radius:50%;background:var(--orange);color:#fff;padding:3px 6px;font-size:10px}.lang-switch{display:inline-flex;align-items:center;justify-content:center;font:700 11px 'DM Mono',monospace;border:1px solid var(--ink);border-radius:14px;padding:3px 9px;line-height:1;opacity:.85;text-decoration:none!important;transition:all .3s ease}.lang-switch:hover{opacity:1;background:var(--ink);color:var(--cream)}.lang-group{display:inline-flex;align-items:center;gap:6px}.lang-switch.active{background:var(--ink);color:var(--cream);opacity:1;cursor:default}.menu{display:none}.label,.meta{font:500 10px 'DM Mono';letter-spacing:1.1px;text-transform:uppercase}.hero{min-height:650px;display:grid;grid-template-columns:1.05fr .95fr;overflow:hidden}.hero-copy{padding:clamp(80px,11vw,145px) clamp(25px,11vw,160px);background:var(--yellow);display:flex;flex-direction:column;justify-content:center}.hero h1,.about h2{font-size:clamp(48px,6.8vw,88px);line-height:.97;letter-spacing:-5px;margin:20px 0 26px}.hero h1 em,.feature h2 em,.ideas h2 em,.about h2 em,.newsletter h2 em{font-family:'Playfair Display',Georgia,serif;font-weight:500;letter-spacing:-4px;color:var(--ink)}.hero-copy>p:not(.label){font-size:16px;line-height:1.7;max-width:400px;margin-bottom:31px;opacity:.9}.primary,.outline{display:inline-block;border-bottom:1.5px solid var(--ink);padding:0 0 8px;font-size:12px;font-weight:800;transition:all .3s ease;cursor:pointer}.primary:hover{color:var(--orange);border-color:var(--orange)}.hero-art{position:relative;overflow:hidden;background:var(--blue);transition:transform .5s ease}.sun{position:absolute;width:150px;height:150px;border-radius:50%;right:18%;top:12%;background:var(--orange);box-shadow:0 0 40px rgba(238,118,82,0.4)}.mountains{position:absolute;bottom:26%;width:0;height:0;border-left:190px solid transparent;border-right:190px solid transparent;transition:all .5s ease}.m1{left:-9%;border-bottom:320px solid #416d62}.m2{right:-23%;border-bottom:280px solid #31574e}.lake{height:28%;position:absolute;bottom:0;left:0;right:0;background:#638e95}.hero-art p{position:absolute;bottom:13%;left:10%;font:10px/1.6 'DM Mono';color:#fff;opacity:.8}.stats{display:grid;grid-template-columns:repeat(3,1fr);background:var(--ink);color:#f5f0e5;padding:32px 10%;text-align:center}.stats p{margin:0;font:11px 'DM Mono';letter-spacing:.5px}.stats b{color:var(--yellow);font-size:18px;margin-right:5px}.feature{display:grid;grid-template-columns:1.1fr 0.9fr;min-height:600px;align-items:center;gap:0}
+.feature-image{min-height:600px;position:relative;overflow:hidden;padding:0;z-index:1;transition:transform .6s cubic-bezier(0.165, 0.84, 0.44, 1)}
+.feature-image:hover{transform:scale(1.02)}
+.feature-image span{font:64px 'Playfair Display';position:absolute;top:40px;left:40px;z-index:2;color:var(--ink);opacity:.2}
+.feature-image i{position:absolute;bottom:40px;left:40px;font:500 32px 'Playfair Display';z-index:2;color:#fff;text-shadow:0 2px 15px rgba(0,0,0,.3);display:none}
+.coastal{background:url('images/baltyk.webp') center/cover no-repeat}
+.coastal:after{content:'';position:absolute;width:145%;height:100px;left:-10%;top:40%;background:var(--cream);transform:rotate(-4deg);opacity:.4;z-index:1}
+.feature article{padding:clamp(60px,10vw,120px);display:flex;flex-direction:column;justify-content:center;background:var(--cream);position:relative;z-index:2;margin-left:-80px;border-radius:30px;box-shadow:0 30px 60px rgba(24,51,44,0.08);border:1px solid rgba(217,211,198,0.6)}.feature h2,.ideas h2,.newsletter h2{font-size:clamp(34px,4vw,56px);line-height:1.05;letter-spacing:-3px;margin:18px 0}.feature article>p:not(.label){font-size:14px;line-height:1.7;color:var(--muted);max-width:420px}.details{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 25px}.details span{border:1px solid #d9d9d0;border-radius:18px;padding:6px 9px;font:10px 'DM Mono'}.outline{background:none;align-self:flex-start;cursor:pointer}.destinations{padding:105px clamp(24px,8vw,120px);background:#fdfcf8}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:40px}.section-head h2{font-size:clamp(37px,4vw,55px);letter-spacing:-3px;margin:13px 0 0}.filters{display:flex;gap:7px;flex-wrap:wrap}.filters button{border:1px solid #d6d6cc;background:#fff;border-radius:22px;padding:8px 12px;font:600 10px Manrope;cursor:pointer;transition:all .3s ease}.filters button.active,.filters button:hover{background:var(--ink);color:#fff;border-color:var(--ink);transform:translateY(-2px);box-shadow:0 4px 12px rgba(24,51,44,0.1)}.trip-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:45px 22px}.trip{min-height:375px;position:relative;transition:all .4s cubic-bezier(0.165, 0.84, 0.44, 1)}.trip:hover{transform:translateY(-8px)}.trip-art{height:220px;margin-bottom:20px;position:relative;overflow:hidden;padding:18px;color:#fff;background-color:#dfe7df;background-position:center;background-repeat:no-repeat;background-size:cover;filter:saturate(1.12) contrast(1.08);border-radius:12px;box-shadow:0 10px 20px rgba(0,0,0,0.05);transition:all .4s ease}.trip:hover .trip-art{filter:saturate(1.3) contrast(1.1);box-shadow:0 15px 30px rgba(0,0,0,0.1)}.trip-art span{position:absolute;bottom:16px;left:18px;z-index:1;font:500 24px 'Playfair Display';text-shadow:0 2px 12px rgba(0,0,0,.55)}.trip-art button{position:absolute;right:13px;top:11px;z-index:2;border:0;background:rgba(255,255,255,.92);border-radius:50%;width:33px;height:33px;font-size:20px;color:var(--ink);cursor:pointer;box-shadow:0 6px 18px rgba(24,51,44,.14);transition:all .2s ease}.trip-art button:hover{background:#fff;transform:scale(1.1);color:var(--orange)}.trip-art button{position:absolute;right:13px;top:11px;z-index:2;border:0;background:rgba(255,255,255,.92);border-radius:50%;width:33px;height:33px;font-size:20px;color:var(--ink);cursor:pointer;box-shadow:0 6px 18px rgba(24,51,44,.14);transition:all .2s ease}.trip-art button:hover{background:#fff;transform:scale(1.1);color:var(--orange)}.meta{color:var(--muted);margin:0}.meta b{color:var(--orange)}.trip h3{font-size:21px;letter-spacing:-.8px;margin:12px 25px 8px 0}.trip>p:not(.meta){font-size:12px;line-height:1.6;color:var(--muted);margin:0 20px 15px 0}.read{font-size:12px;font-weight:800;position:absolute;bottom:0;left:0;border-bottom:1px solid currentColor;padding-bottom:3px;background:none;border-top:0;border-left:0;border-right:0;cursor:pointer;transition:all .3s ease}.read:hover{color:var(--orange);border-color:var(--orange)}.ideas{padding:110px clamp(24px,12vw,180px);background:var(--orange);color:#fff}.idea-list{margin-top:55px;border-top:1px solid #ffffff77}.idea-list a{display:grid;grid-template-columns:70px 1fr 30px;gap:10px;align-items:center;border-bottom:1px solid #ffffff77;padding:20px 0;font:500 clamp(20px,3vw,38px) 'Playfair Display';transition:all .3s ease}.idea-list a:hover{background:rgba(255,255,255,0.1);padding-left:10px}.idea-list span{font:10px 'DM Mono'}.idea-list b{text-align:right;font-family:Manrope}.about{display:grid;grid-template-columns:1fr 1fr;gap:90px;padding:100px clamp(24px,15vw,220px)}.about h2{font-size:clamp(40px,5vw,65px)}.about>p{font-size:16px;line-height:1.8;max-width:440px;margin:auto 0}.newsletter{text-align:center;background:var(--blue);padding:105px 24px}.newsletter h2{margin:17px 0}.newsletter>p:not(.label){font-size:14px;color:#d6e2e0}.newsletter form{display:flex;max-width:420px;margin:29px auto 0;border-bottom:1.5px solid var(--ink);transition:border-color .3s ease}.newsletter input{flex:1;background:none;border:0;padding:14px 0;font:13px Manrope;outline:0}.newsletter button{background:none;border:0;font:700 12px Manrope;cursor:pointer;transition:color .3s ease}.newsletter button:hover{color:var(--orange)}.newsletter #newsletter-message{min-height:20px;font-size:12px}footer{min-height:100px;background:var(--ink);color:#f5f0e5;display:flex;align-items:center;justify-content:space-between;padding:25px clamp(24px,6vw,90px);font-size:11px}footer div{display:flex;gap:20px;text-decoration:underline}dialog{border:0;width:min(650px,calc(100% - 30px));padding:clamp(32px,6vw,65px);background:var(--cream);color:var(--ink);box-shadow:0 20px 90px #0007;border-radius:20px;transition:all .3s ease} .dialog-header{display:flex;gap:24px;align-items:center;margin-bottom:32px}.dialog-img{width:120px;height:120px;border-radius:16px;background-size:cover;background-position:center;box-shadow:0 8px 20px rgba(0,0,0,0.12);flex-shrink:0}.dialog-title-group{display:flex;flex-direction:column;justify-content:center}.dialog-title-group .label{margin-bottom:8px;color:var(--orange);font-weight:700}dialog h2{font:clamp(32px,5vw,48px)/1.1 'Playfair Display';letter-spacing:-1px;margin:0;color:var(--ink)} .article-body{font-size:16px;line-height:1.7;color:var(--muted);margin-bottom:24px}.article-body h2{font-size:22px;font-family:'Playfair Display';margin:24px 0 12px}.article-body p{margin-bottom:16px}.article-tip{background:rgba(238,118,82,0.1);border-left:3px solid var(--orange);padding:16px;font-size:14px;font-style:italic;margin-bottom:24px;border-radius:0 8px 8px 0}.dialog-lead{font:500 23px/1.35 'Playfair Display';margin:18px 0 31px}.dialog-save{border:0;background:var(--ink);color:white;padding:12px 17px;font:700 11px Manrope;cursor:pointer;border-radius:8px;transition:all .3s ease}.dialog-save:hover{background:var(--orange);transform:scale(1.05)}.saved-panel{position:fixed;right:0;top:0;bottom:0;width:min(390px,100%);padding:35px;background:#fff;z-index:10;transform:translateX(105%);transition:transform .4s cubic-bezier(0.165, 0.84, 0.44, 1);box-shadow:-8px 0 35px #0002}.saved-panel.open{transform:translateX(0)}.saved-panel>div:first-child{display:flex;justify-content:space-between}.saved-panel>div:first-child button{border:0;background:none;font-size:25px}.saved-panel h2{font:39px/1 'Playfair Display';letter-spacing:-2px}.saved-item{display:block;width:100%;text-align:left;border:0;border-top:1px solid #deded8;background:none;padding:17px 0;font:600 15px Manrope;cursor:pointer;transition:all .2s ease}.saved-item:hover{color:var(--orange);padding-left:10px}.saved-item span{display:block;font:10px 'DM Mono';color:var(--muted);margin-bottom:5px}.saved-item b{float:right}.empty{font-size:13px;line-height:1.7;color:var(--muted)}.sr-only{position:absolute;clip:rect(0,0,0,0)}
+.reveal{opacity:0;transform:translateY(30px);transition:all .8s cubic-bezier(0.165, 0.84, 0.44, 1)}
+.revealed{opacity:1;transform:translateY(0)}
+
+.packing-list{padding:105px clamp(24px,8vw,120px);background:var(--cream);border-top:1px solid rgba(217,211,198,0.5)}
+.packing-controls{display:flex;gap:12px;margin:30px 0;flex-wrap:wrap}
+.packing-controls button{border:1px solid var(--ink);background:none;border-radius:22px;padding:10px 20px;font:600 12px Manrope;cursor:pointer;transition:all .3s ease;color:var(--ink)}
+.packing-controls button.active{background:var(--ink);color:var(--cream)}
+.packing-container{max-width:600px;background:#fff;padding:30px;border-radius:24px;box-shadow:0 20px 40px rgba(24,51,44,0.05);border:1px solid rgba(217,211,198,0.6)}
+.packing-progress{font:500 12px 'DM Mono';margin-bottom:20px;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+.packing-progress b{color:var(--orange)}
+#packing-items{list-style:none;padding:0;margin:0}
+.packing-item{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid #f0f0eb;cursor:pointer;transition:opacity .2s ease}
+.packing-item:last-child{border-bottom:0}
+.packing-item input[type="checkbox"]{width:18px;height:18px;accent-color:var(--orange);cursor:pointer}
+.packing-item span{font-size:15px;color:var(--ink);transition:all .3s ease}
+.packing-item input:checked + span{text-decoration:line-through;opacity:.5;color:var(--muted)}
+
+
+
+
+a.read{color:inherit;text-decoration:none;font-family:inherit}
+.read {
+  background: var(--orange, #d97742);
+  border-color: var(--orange, #d97742);
+  color: #fff;
+}
+.read:hover {
+  background: var(--ink, #18332c);
+  border-color: var(--ink, #18332c);
+  color: var(--cream, #f5efe6);
+}
+
+/* Tło dla sekcji newslettera */
+.newsletter {
+  /* Nakładka (linear-gradient) sprawia, że zdjęcie jest przyciemnione, 
+     dzięki czemu biały tekst będzie czytelny. 
+     Zmień 0.6 na 0.3 jeśli chcesz jaśniejsze zdjęcie. */
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('/images/newsletter-bg.jpg');
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  /* Zmieniamy kolor tekstu na biały */
+  color: #ffffff;
+  
+  /* Zaokrąglone rogi (jak w oryginale) */
+  border-radius: 1px;
+  
+  /* Dodajemy trochę wewnętrznego odstępu, żeby tekst nie dotykał krawędzi zdjęcia */
+  padding: 60px 40px;
+  
+  /* Upewniamy się, że sekcja jest wyśrodkowana */
+  text-align: center;
+}
+
+/* Poprawiamy kolor nagłówków i akapitów w newsletterze */
+.newsletter h2,
+.newsletter p {
+  color: #ffffff;
+}
+
+/* Poprawiamy wygląd pola e-mail, żeby było widoczne na ciemnym tle */
+.newsletter input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7); /* Biała linia pod spodem */
+  color: #ffffff;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Zmieniamy kolor tekstu podpowiedzi (placeholder) */
+.newsletter input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Opcjonalnie: zmieniamy kolor przycisku, jeśli był ciemny */
+.newsletter button {
+  color: #ffffff;
+  /* Jeśli przycisk miał tło, możesz je zostawić lub zmienić na przezroczyste */
+}
+/* --- POPRAWKI DLA NEWSLETTERA (CZYTELNOŚĆ) --- */
+
+/* 1. Zmieniamy kolor kursywy (em) na biały, żeby była widoczna */
+.newsletter h2 em {
+  color: #ffffff; /* Zamiast ciemnego var(--ink) */
+  /* Opcjonalnie: jeśli chcesz żółty akcent, zmień na var(--yellow) */
+}
+
+/* 2. Dodajemy cień do całego tekstu, żeby odcinał się od zdjęcia */
+.newsletter .label,
+.newsletter h2,
+.newsletter p,
+.newsletter form {
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8), 0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+/* 3. Poprawiamy widoczność pola e-mail i przycisku */
+.newsletter input {
+  background: transparent;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.9);
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.newsletter input::placeholder {
+  color: rgba(255, 255, 255, 0.8); /* Jaśniejszy placeholder */
+}
+
+.newsletter button {
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.newsletter button:hover {
+  color: var(--yellow); /* Ładny akcent po najechaniu */
+}
+
+@media(max-width:760px){.header nav{display:none}.menu{display:block}.saved{font-size:0}.saved b{font-size:10px}.hero,.feature,.about{grid-template-columns:1fr}.hero-copy{min-height:440px}.hero-art{min-height:330px}.feature article{min-height:410px}.stats{padding:20px 5px}.stats p{font-size:9px}.trip-grid{grid-template-columns:1fr;gap:39px}.trip{min-height:385px}.trip-art{height:250px}.section-head{align-items:flex-start;flex-direction:column;gap:18px}.ideas{padding:80px 25px}.about{padding:75px 25px;gap:25px}.about>p{margin:0}.header{padding:0 20px}footer{align-items:flex-start;gap:18px;flex-direction:column}.hero h1{letter-spacing:-3px}.article-aside{position:static}}

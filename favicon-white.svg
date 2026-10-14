@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Poland Secrets">
+  <!-- Transparent - white elements -->
+  <rect x="6" y="6" width="52" height="52" rx="12" 
+        fill="none" stroke="#ffffff" stroke-width="3"/>
+  
+  <circle cx="32" cy="26" r="10" fill="#f0c14b"/>
+  
+  <path d="M12 42 Q22 36 32 40 Q42 44 52 38" 
+        fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <circle cx="32" cy="40" r="2.8" fill="#d96b2b"/>
+</svg>

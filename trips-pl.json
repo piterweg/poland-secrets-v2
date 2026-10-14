@@ -1,0 +1,1862 @@
+[
+  {
+    "id": "baltyk",
+    "category": "woda",
+    "place": "Mierzeja Wiślana",
+    "region": "Pomorze",
+    "days": "2–3 dni",
+    "title": "Bałtyk poza sezonem",
+    "text": "Wydmy, puste plaże i świeża ryba prosto z kutra. Idealny kierunek na spokojny weekend.",
+    "art": "coastal",
+    "plan": [
+      "Spacer z Krynicy Morskiej do latarni",
+      "Rejs po Zalewie Wiślanym",
+      "Zachód słońca na plaży w Stegnie"
+    ]
+  },
+  {
+    "id": "tatry",
+    "category": "gory",
+    "place": "Tatry Zachodnie",
+    "region": "Małopolska",
+    "days": "3 dni",
+    "title": "Tatry bez pośpiechu",
+    "text": "Dolina Kościeliska, termy i widoki, które nie wymagają doświadczenia alpinistycznego.",
+    "art": "tatry",
+    "plan": [
+      "Dolina Kościeliska rankiem",
+      "Hala Ornak i schronisko",
+      "Wieczorny relaks w termach"
+    ]
+  },
+  {
+    "id": "bieszczady",
+    "category": "gory",
+    "place": "Bieszczady",
+    "region": "Podkarpacie",
+    "days": "3–4 dni",
+    "title": "Połoniny i cisza",
+    "text": "Wyprawa dla tych, którzy chcą głębiej odetchnąć i spojrzeć dalej na bezkresne horyzonty.",
+    "art": "bieszczady",
+    "plan": [
+      "Szlak na Połoninę Wetlińską",
+      "Jezioro Solińskie",
+      "Lokalna kuchnia w Cisnej"
+    ]
+  },
+  {
+    "id": "mazury",
+    "category": "woda",
+    "place": "Pojezierze Mazurskie",
+    "region": "Warmia-Mazury",
+    "days": "2–4 dni",
+    "title": "Zwolnij nad jeziorem",
+    "text": "Kajaki, drewniane pomosty i poranki, które nie zaczynają się od budzika.",
+    "art": "mazury",
+    "plan": [
+      "Spływ Czarną Hańczą",
+      "Nocleg nad jeziorem",
+      "Rowerem przez Puszczę"
+    ]
+  },
+  {
+    "id": "wroclaw",
+    "category": "miasta",
+    "place": "Wrocław",
+    "region": "Dolny Śląsk",
+    "days": "1–2 dni",
+    "title": "Miasto stu mostów",
+    "text": "Świetna kawa, wyspy na Odrze i włóczęga bez sztywnego planu.",
+    "art": "wroclaw",
+    "plan": [
+      "Ostrów Tumski o świcie",
+      "Wyspy odrzańskie",
+      "Wieczór na Nadodrzu"
+    ]
+  },
+  {
+    "id": "karkonosze",
+    "category": "gory",
+    "place": "Karkonosze",
+    "region": "Dolny Śląsk",
+    "days": "2–3 dni",
+    "title": "W stronę Śnieżki",
+    "text": "Wodospady, schroniska i granitowe ścieżki z widokiem na granicę z Czechami.",
+    "art": "karkonosze",
+    "plan": [
+      "Wodospad Kamieńczyk",
+      "Wejście na Śnieżkę",
+      "Wieczór w Szklarskiej Porębie"
+    ]
+  },
+  {
+    "id": "pieniny",
+    "category": "gory",
+    "place": "Pieniny",
+    "region": "Małopolska",
+    "days": "2 dni",
+    "title": "Perspektywa Dunajca",
+    "text": "Łagodne szlaki i wapienny przełom rzeki, najlepiej podziwiany z tradycyjnego drewnianego tratwa.",
+    "art": "pieniny",
+    "plan": [
+      "Trzy Korony o wschodzie słońca",
+      "Spływ Dunajcem",
+      "Spacer po Szczawnicy"
+    ]
+  },
+  {
+    "id": "gorce",
+    "category": "gory",
+    "place": "Gorce",
+    "region": "Małopolska",
+    "days": "2 dni",
+    "title": "Hale bez tłumów",
+    "text": "Drewniane szałasy, panoramy górskie i łagodne szlaki idealne na spokojny początek.",
+    "art": "gorce",
+    "plan": [
+      "Wieża widokowa na Gorcu",
+      "Hala Turbacz",
+      "Schronisko Stare Wierchy"
+    ]
+  },
+  {
+    "id": "beskid-niski",
+    "category": "gory",
+    "place": "Beskid Niski",
+    "region": "Małopolska",
+    "days": "3 dni",
+    "title": "Najspokojniejsze góry Polski",
+    "text": "Łemkowskie cerkwie, opustoszałe drogi i falujące wzgórza bez wyścigu na szczyt.",
+    "art": "beskid-niski",
+    "plan": [
+      "Magurski Park Narodowy",
+      "Drewniane cerkwie w Kwiatoniu",
+      "Wieczór w Hańczowej"
+    ]
+  },
+  {
+    "id": "stolowe",
+    "category": "gory",
+    "place": "Góry Stołowe",
+    "region": "Dolny Śląsk",
+    "days": "2 dni",
+    "title": "Skalne labirynty",
+    "text": "Fantazyjne formacje piaskowcowe i malownicze trasy, które zachwycają turystów w każdym wieku.",
+    "art": "stolowe",
+    "plan": [
+      "Labirynt Błędne Skały",
+      "Szczyt Szczeliniec Wielki",
+      "Kudowa-Zdrój"
+    ]
+  },
+  {
+    "id": "kaszuby",
+    "category": "woda",
+    "place": "Kaszuby",
+    "region": "Pomorze",
+    "days": "2–3 dni",
+    "title": "Jeziora i odrębna kultura",
+    "text": "Soczyste zielone wzgórza, czyste kąpieliska i regionalne tradycje na północy Polski.",
+    "art": "kaszuby",
+    "plan": [
+      "Kajaki po Wdzie",
+      "Wieża widokowa Wieżyca",
+      "Kolacja w Kościerzynie"
+    ]
+  },
+  {
+    "id": "hel",
+    "category": "woda",
+    "place": "Półwysep Helski",
+    "region": "Pomorze",
+    "days": "2 dni",
+    "title": "Między dwoma brzegami",
+    "text": "Zatokowe bryzy, ścieżki rowerowe wzdłuż wybrzeża i plaże po obu stronach wąskiej mierzei.",
+    "art": "hel",
+    "plan": [
+      "Rowerem z Władysławowa do Helu",
+      "Historyczna latarnia w Helu",
+      "Zachód nad Zatoką Pucką"
+    ]
+  },
+  {
+    "id": "suwalszczyzna",
+    "category": "woda",
+    "place": "Suwalszczyzna",
+    "region": "Podlasie",
+    "days": "3 dni",
+    "title": "Najchłodniejsze lato",
+    "text": "Polodowcowe rynny, falujące wzgórza i otwarte północne krajobrazy pełne świeżego powietrza.",
+    "art": "suwalszczyzna",
+    "plan": [
+      "Jezioro Hańcza – najgłębsze w Polsce",
+      "Historyczne mosty kolejowe w Stańczykach",
+      "Suwałki i regionalne smaki"
+    ]
+  },
+  {
+    "id": "szczecin-zalew",
+    "category": "woda",
+    "place": "Zalew Szczeciński",
+    "region": "Zachodniopomorskie",
+    "days": "2 dni",
+    "title": "Wody na granicy",
+    "text": "Wyspy, rybackie porty i szerokie horyzonty na zachodzie Polski.",
+    "art": "szczecin-zalew",
+    "plan": [
+      "Prom na wyspę Wolin",
+      "Latarnia w Świnoujściu",
+      "Spacer po promenadzie w Międzyzdrojach"
+    ]
+  },
+  {
+    "id": "roztocze",
+    "category": "woda",
+    "place": "Roztocze",
+    "region": "Lubelszczyzna",
+    "days": "3 dni",
+    "title": "Szumy, stawy i rowery",
+    "text": "Ciepłe rzeki, zabytkowe młyny wodne i malownicze trasy przez pachnące bory sosnowe.",
+    "art": "roztocze",
+    "plan": [
+      "Szumy na Tanwi",
+      "Rowerowy Szlak Centralnego Roztocza",
+      "Zwierzyniec i Stawy Echo"
+    ]
+  },
+  {
+    "id": "krakow",
+    "category": "miasta",
+    "place": "Kraków",
+    "region": "Małopolska",
+    "days": "2 dni",
+    "title": "Kraków poza pocztówką",
+    "text": "Kazimierz o poranku, muzea po godzinach i spacery wzdłuż Wisły.",
+    "art": "krakow",
+    "plan": [
+      "Śniadanie na Kazimierzu",
+      "MOCAK lub Muzeum Narodowe",
+      "Bulwary wiślane"
+    ]
+  },
+  {
+    "id": "gdansk",
+    "category": "miasta",
+    "place": "Gdańsk",
+    "region": "Pomorze",
+    "days": "2 dni",
+    "title": "Miasto z morzem w tle",
+    "text": "Ceglane hanzeatyckie uliczki, dziedzictwo stoczni i kawa nad Motławą.",
+    "art": "gdansk",
+    "plan": [
+      "Europejskie Centrum Solidarności",
+      "Bursztynowe kramy na Mariackiej",
+      "Zachód na Ołowiance"
+    ]
+  },
+  {
+    "id": "torun",
+    "category": "miasta",
+    "place": "Toruń",
+    "region": "Kujawy-Pomorze",
+    "days": "1–2 dni",
+    "title": "Pierniki i gotycki urok",
+    "text": "Kompaktowe stare miasto UNESCO, nadrzeczna atmosfera i idealny klimat na spokojny weekend.",
+    "art": "torun",
+    "plan": [
+      "Bulwar Filadelfijski nad Wisłą",
+      "Dom Mikołaja Kopernika",
+      "Wieczorny spacer po Starym Mieście"
+    ]
+  },
+  {
+    "id": "lublin",
+    "category": "miasta",
+    "place": "Lublin",
+    "region": "Lubelszczyzna",
+    "days": "2 dni",
+    "title": "Wschód z charakterem",
+    "text": "Brama Krakowska, ukryte podwórka i wyśmienita lokalna kuchnia w klimatycznych bistrach.",
+    "art": "lublin",
+    "plan": [
+      "Stare Miasto i Zamek",
+      "Centrum Spotkania Kultur",
+      "Wieczór na Placu Po Farze"
+    ]
+  },
+  {
+    "id": "poznan",
+    "category": "miasta",
+    "place": "Poznań",
+    "region": "Wielkopolska",
+    "days": "2 dni",
+    "title": "Wielki rytm Poznania",
+    "text": "Rogale świętomarcińskie, sklepy z designem i niespieszny spacer po Jeżycach.",
+    "art": "poznan",
+    "plan": [
+      "Stary Rynek o poranku",
+      "Śródka i Ostrów Tumski",
+      "Kolacja na artystycznych Jeżycach"
+    ]
+  },
+  {
+    "id": "lodz",
+    "category": "miasta",
+    "place": "Łódź",
+    "region": "Łódzkie",
+    "days": "2 dni",
+    "title": "Miasto w transformacji",
+    "text": "Pofabryczne ceglane lofty, historia filmu i żywy puls ulicy Piotrkowskiej.",
+    "art": "lodz",
+    "plan": [
+      "OFF Piotrkowska",
+      "Kompleks EC1 i planetarium",
+      "Zabytkowy Księży Młyn"
+    ]
+  },
+  {
+    "id": "zamosc",
+    "category": "miasta",
+    "place": "Zamość",
+    "region": "Lubelszczyzna",
+    "days": "1–2 dni",
+    "title": "Idealne miasto renesansu",
+    "text": "Kolorowe kamienice z podcieniami i symetryczny wielki rynek prosto z włoskiego snu.",
+    "art": "zamosc",
+    "plan": [
+      "Rynek Wielki",
+      "Brama do Roztoczańskiego Parku Narodowego",
+      "Kawa pod renesansowymi arkadami"
+    ]
+  },
+  {
+    "id": "barycz",
+    "category": "natura",
+    "place": "Dolina Baryczy",
+    "region": "Dolny Śląsk",
+    "days": "2 dni",
+    "title": "Weekend z ptakami",
+    "text": "Stawy Milickie, trasy rowerowe i żywe poranki wśród wodnego ptactwa na największych w Europie stawach karpiowych.",
+    "art": "barycz",
+    "plan": [
+      "Rezerwat Stawy Milickie",
+      "Pętla rowerowa Doliny Baryczy",
+      "Wieża obserwacyjna"
+    ]
+  },
+  {
+    "id": "notecka",
+    "category": "natura",
+    "place": "Puszcza Notecka",
+    "region": "Wielkopolska",
+    "days": "2 dni",
+    "title": "Przestrzenie sosen",
+    "text": "Długie leśne trasy i ukryte jeziora, które najlepiej odkrywać z siodełka roweru.",
+    "art": "notecka",
+    "plan": [
+      "Trasa rowerowa wokół Sierakowa",
+      "Jezioro Jaroszewskie",
+      "Piknik w głębi boru"
+    ]
+  },
+  {
+    "id": "podhale",
+    "category": "gory",
+    "place": "Podhale",
+    "region": "Małopolska",
+    "days": "2–3 dni",
+    "title": "Góralska swoboda i oscypek",
+    "text": "Zakopane, szlaki wśród kosodrzewiny i spokojne poranne panoramy alpejskie bez stresu.",
+    "art": "tatry",
+    "plan": [
+      "Spacer po Krupówkach",
+      "Dolina Strążyska",
+      "Ognisko z tradycyjnym oscypkiem"
+    ]
+  },
+  {
+    "id": "sandomierz",
+    "category": "miasta",
+    "place": "Sandomierz",
+    "region": "Świętokrzyskie",
+    "days": "1–2 dni",
+    "title": "Historyczne miasto nad Wisłą",
+    "text": "Średniowieczne mury, warsztaty rzemieślnicze i spokojne tempo, które nie wymaga szaleńczego zwiedzania.",
+    "art": "wroclaw",
+    "plan": [
+      "Rynek i zabytkowe kamienice",
+      "Bulwary wiślane",
+      "Muzeum regionalne i lokalne smaki"
+    ]
+  },
+  {
+    "id": "sopot",
+    "category": "woda",
+    "place": "Sopot",
+    "region": "Pomorze",
+    "days": "1–2 dni",
+    "title": "Molo i relaksujący weekend",
+    "text": "Piaszczyste plaże, szerokie promenady i morski klimat, który zawsze działa cuda na szybki reset.",
+    "art": "baltyk",
+    "plan": [
+      "Spacer po najdłuższym drewnianym molo w Europie",
+      "Kawiarnie nadmorskie i spacer brzegiem",
+      "Wieczorna bryza w parku nadmorskim"
+    ]
+  },
+  {
+    "id": "kudowa",
+    "category": "gory",
+    "place": "Kudowa-Zdrój",
+    "region": "Dolny Śląsk",
+    "days": "2 dni",
+    "title": "Odetchnij w górach",
+    "text": "Historyczne uzdrowisko, zielone aleje parkowe i panoramy Sudetów.",
+    "art": "stolowe",
+    "plan": [
+      "Spacer po Parku Zdrojowym",
+      "Punkty widokowe na grzbietach",
+      "Kolacja w przytulnym pensjonacie"
+    ]
+  },
+  {
+    "id": "olsztyn",
+    "category": "miasta",
+    "place": "Olsztyn",
+    "region": "Warmia-Mazury",
+    "days": "1 dzień",
+    "title": "Miasto z zielonym sercem",
+    "text": "Urokliwy rynek, przytulne bistra i spokojne tempo, które zachęca do powrotu.",
+    "art": "wroclaw",
+    "plan": [
+      "Rynek i fontanna",
+      "Zamek Kapituły Warmińskiej",
+      "Spacer wzdłuż Łyny"
+    ]
+  },
+  {
+    "id": "zakopane",
+    "category": "gory",
+    "place": "Zakopane",
+    "region": "Małopolska",
+    "days": "2–3 dni",
+    "title": "Tatry w góralskim rytmie",
+    "text": "Kosodrzewina, tradycyjna drewniana architektura i widoki, które uspokajają każdy zabiegany tryb życia.",
+    "art": "tatry",
+    "plan": [
+      "Krupówki i lokalny targ",
+      "Szlak Doliną Kościeliską",
+      "Wieczór z wędzonym oscypkiem i widokiem na góry"
+    ]
+  },
+  {
+    "id": "morskie-oko",
+    "category": "gory",
+    "place": "Morskie Oko",
+    "region": "Małopolska",
+    "days": "1 dzień",
+    "title": "Słynne jezioro alpejskie",
+    "text": "Lustrzane wody polodowcowe i klasyczny szlak górski dający maksimum wrażeń przy umiarkowanym wysiłku.",
+    "art": "tatry",
+    "plan": [
+      "Wczesny start z Palenicy Białczańskiej",
+      "Spacer do szmaragdowego jeziora",
+      "Spektakularne zdjęcia o świcie i zmierzchu"
+    ]
+  },
+  {
+    "id": "giewont",
+    "category": "gory",
+    "place": "Giewont",
+    "region": "Małopolska",
+    "days": "1–2 dni",
+    "title": "Giewont i panoramy wysokich szczytów",
+    "text": "Ikoniczna sylwetka śpiącego rycerza, górska cisza i satysfakcjonujące wędrówki.",
+    "art": "tatry",
+    "plan": [
+      "Szlak z Kuźnic",
+      "Panorama z Hali Gąsienicowej",
+      "Spokojny powrót do Zakopanego"
+    ]
+  },
+  {
+    "id": "kasprowy-wierch",
+    "category": "gory",
+    "place": "Kasprowy Wierch",
+    "region": "Małopolska",
+    "days": "1 dzień",
+    "title": "Na najwyższej grani",
+    "text": "Najszybszy i najłatwiej dostępny sposób na 360-stopniowe panoramy Tatr Wysokich.",
+    "art": "tatry",
+    "plan": [
+      "Wyjazd z Kuźnic",
+      "Kolejka lub graniówka",
+      "Widoki na północne i południowe granie"
+    ]
+  },
+  {
+    "id": "dolina-koscieliska",
+    "category": "gory",
+    "place": "Dolina Kościeliska",
+    "region": "Małopolska",
+    "days": "1–2 dni",
+    "title": "Najprzyjaźniejsza dolina tatrzańska",
+    "text": "Szerokie malownicze ścieżki, polany i wyjątkowo spokojna atmosfera idealna na weekend.",
+    "art": "tatry",
+    "plan": [
+      "Najlepszy wczesny start",
+      "Spacer w kierunku jaskiń",
+      "Przytulny wieczór w góralskim pensjonacie"
+    ]
+  },
+  {
+    "id": "sniezka",
+    "category": "gory",
+    "place": "Śnieżka",
+    "region": "Dolny Śląsk",
+    "days": "1–2 dni",
+    "title": "Najwyższy szczyt Karkonoszy",
+    "text": "Rozległe alpejskie widoki, rześki wiatr i dramatyczna górska pogoda o każdej porze roku.",
+    "art": "sniezka",
+    "plan": [
+      "Platforma widokowa na szczycie",
+      "Schronisko i gorąca kawa",
+      "Malownicza wędrówka grzbietami Karkonoszy"
+    ]
+  },
+  {
+    "id": "samotnia",
+    "category": "gory",
+    "place": "Schronisko Samotnia",
+    "region": "Dolny Śląsk",
+    "days": "1 dzień",
+    "title": "Przystań ciszy i widoków",
+    "text": "Legendarne schronisko nad jeziorem u stóp kotła, otoczone świerkami.",
+    "art": "karkonosze",
+    "plan": [
+      "Szlak od drewnianego kościółka Wang",
+      "Spacer na okoliczne punkty widokowe",
+      "Wieczorny relaks nad Małym Stawem"
+    ]
+  },
+  {
+    "id": "polonina-wetlinska",
+    "category": "gory",
+    "place": "Połonina Wetlińska",
+    "region": "Podkarpacie",
+    "days": "2 dni",
+    "title": "Bieszczadzkie otwarte horyzonty",
+    "text": "Rozległe połoniny, bezkresne niebo i panoramy, które uspokajają duszę.",
+    "art": "bieszczady",
+    "plan": [
+      "Widok z głównej grani",
+      "Wędrówka grzbietem",
+      "Wieczorny spokój w schronisku"
+    ]
+  },
+  {
+    "id": "polonina-carynska",
+    "category": "gory",
+    "place": "Połonina Caryńska",
+    "region": "Podkarpacie",
+    "days": "2 dni",
+    "title": "Szlak na odpoczynek i szerokie widoki",
+    "text": "Najlepsza trasa na niespieszne, regenerujące wejście z panoramą 360° na Karpaty.",
+    "art": "bieszczady1",
+    "plan": [
+      "Start z Przełęczy Wyżniańskiej",
+      "Wędrówka grzbietem przez łąki",
+      "Nocleg z widokiem na Bieszczady"
+    ]
+  },
+  {
+    "id": "jezioro-solinskie",
+    "category": "woda",
+    "place": "Jezioro Solińskie",
+    "region": "Podkarpacie",
+    "days": "1–2 dni",
+    "title": "Relaks nad wodą w Bieszczadach",
+    "text": "Głęboki błękit wody, zielone wzgórza i ciche zatoczki – idealne na nieustrukturyzowany wypoczynek.",
+    "art": "solina",
+    "plan": [
+      "Spacer brzegiem i widok na zaporę",
+      "Piknik i kąpiel w spokojnych zatokach",
+      "Zachód słońca z łodzi"
+    ]
+  },
+  {
+    "id": "kolorowe-jeziorka",
+    "category": "natura",
+    "place": "Kolorowe Jeziorka",
+    "region": "Dolny Śląsk",
+    "days": "1 dzień",
+    "title": "Barwne jeziora mineralne w Rudawach",
+    "text": "Niesamowite naturalne kolory w dawnych wyrobiskach pirytu tworzą krajobraz jak z baśni.",
+    "art": "mazury",
+    "plan": [
+      "Szlak łączący Purpurowe, Błękitne i Zielone jeziorko",
+      "Fotografowanie w zmiennym świetle",
+      "Krótki spacer w Rudawy Janowickie"
+    ]
+  },
+  {
+    "id": "szczeliniec",
+    "category": "gory",
+    "place": "Szczeliniec Wielki",
+    "region": "Dolny Śląsk",
+    "days": "1 dzień",
+    "title": "Skalny labirynt w Górach Stołowych",
+    "text": "Fascynujące naturalne rzeźby skalne, wąskie szczeliny i zachwycające zachody słońca nad doliną.",
+    "art": "stolowe",
+    "plan": [
+      "Spacer przez piaskowcowy labirynt",
+      "Pobliskie Błędne Skały",
+      "Odpoczynek w górskim schronisku"
+    ]
+  },
+  {
+    "id": "swietokrzyskie",
+    "category": "gory",
+    "place": "Góry Świętokrzyskie",
+    "region": "Świętokrzyskie",
+    "days": "1–2 dni",
+    "title": "Łagodne wzgórza, głęboki spokój",
+    "text": "Starożytne gołoborza kwarcytowe, bukowe lasy i łatwe szlaki szyte na weekendowe ucieczki.",
+    "art": "ojcow",
+    "plan": [
+      "Punkt widokowy na Łysicy",
+      "Spacer grzbietami pradawnego lasu",
+      "Kawa i regionalne smakołyki po wędrówce"
+    ]
+  },
+  {
+    "id": "lasy-janowskie",
+    "category": "natura",
+    "place": "Lasy Janowskie",
+    "region": "Lubelszczyzna",
+    "days": "1–2 dni",
+    "title": "Spokój na wschodzie Polski",
+    "text": "Płaskie trasy, niezatłoczone ścieżki i sielska atmosfera na cichy leśny wypoczynek.",
+    "art": "polesie",
+    "plan": [
+      "Poranne leśne szlaki",
+      "Piknik wśród starych drzew i stawów",
+      "Niespieszny powrót po południu"
+    ]
+  },
+  {
+    "id": "puszcza-notecka",
+    "category": "natura",
+    "place": "Puszcza Notecka",
+    "region": "Wielkopolska",
+    "days": "1–2 dni",
+    "title": "Las bez pośpiechu",
+    "text": "Piaszczyste ścieżki wśród wydm, ciche drogi i spokojna ucieczka od miejskiego zgiełku.",
+    "art": "notecka",
+    "plan": [
+      "Spacer sosnowymi duktami",
+      "Wyznaczone miejsce na odpoczynek",
+      "Wieczorne widoki nad koronami drzew"
+    ]
+  },
+  {
+    "id": "leba",
+    "category": "woda",
+    "place": "Łeba",
+    "region": "Pomorze",
+    "days": "2 dni",
+    "title": "Wydmy i nieskończone spacery plażą",
+    "text": "Świetne miejsce na odpoczynek, kiedy chcesz tylko słuchać fal bez skomplikowanego planu.",
+    "art": "baltyk",
+    "plan": [
+      "Wędrówka przez wielkie nadmorskie wydmy",
+      "Plaża i kawa na promenadzie",
+      "Wieczór nad Jeziorem Łebsko"
+    ]
+  },
+  {
+    "id": "ustka",
+    "category": "woda",
+    "place": "Ustka",
+    "region": "Pomorze",
+    "days": "1–2 dni",
+    "title": "Morski urok i cichy weekend",
+    "text": "Nadmorski wypoczynek z historyczną latarnią, piaszczystymi promenadami i spokojną atmosferą.",
+    "art": "baltyk",
+    "plan": [
+      "Historyczna latarnia i promenada portowa",
+      "Spacer zachodnią plażą",
+      "Kolacja ze świeżymi owocami morza"
+    ]
+  },
+  {
+    "id": "beskid-zywiecki",
+    "category": "gory",
+    "place": "Beskid Żywiecki",
+    "region": "Śląsk",
+    "days": "2–3 dni",
+    "title": "Góry z przestrzenią na odpoczynek",
+    "text": "Soczysta zieleń, malownicze szczyty i niespieszne ścieżki na bezstresowy wypoczynek w górach.",
+    "art": "bieszczady",
+    "plan": [
+      "Poranny spacer stokami",
+      "Widoki z wysokich grani",
+      "Wieczór przy regionalnej kuchni góralskiej"
+    ]
+  },
+  {
+    "id": "augustowska",
+    "category": "natura",
+    "place": "Puszcza Augustowska",
+    "region": "Podlasie",
+    "days": "2 dni",
+    "title": "Leśna cisza i niezatłoczone jeziora",
+    "text": "Świetny wybór na krótki wyjazd, kiedy chcesz wrócić do natury i naładować baterie w spokoju.",
+    "art": "mazury",
+    "plan": [
+      "Spokojne leśne szlaki",
+      "Kąpiel i odpoczynek nad jeziorem",
+      "Wieczorny spacer wzdłuż Kanału Augustowskiego"
+    ]
+  },
+  {
+    "id": "malbork",
+    "category": "zamki",
+    "place": "Malbork",
+    "region": "Pomorze",
+    "days": "1 dzień",
+    "title": "Największy ceglany zamek świata",
+    "text": "Gotycka twierdza nad Nogatem, którą budowano ponad 200 lat. Powolne zwiedzanie krużganków, dziedzińców i refektarzy.",
+    "art": "zamki",
+    "plan": [
+      "Zamek Wysoki i Wielki Refektarz",
+      "Spacer wzdłuż murów nad Nogatem",
+      "Wieczorna iluminacja zamku"
+    ]
+  },
+  {
+    "id": "wawel",
+    "category": "zamki",
+    "place": "Wawel",
+    "region": "Małopolska",
+    "days": "1 dzień",
+    "title": "Wzgórze koronacyjne królów",
+    "text": "Katedra, zamek renesansowy i smocza legenda. Wawel w rytmie slow to poranek bez tłumów i kawa z widokiem na Wisłę.",
+    "art": "zamki",
+    "plan": [
+      "Katedra Wawelska o świcie",
+      "Dziedziniec arkadowy i komnaty królewskie",
+      "Spacer bulwarami wiślanymi u stóp wzgórza"
+    ]
+  },
+  {
+    "id": "ksiaz",
+    "category": "zamki",
+    "place": "Zamek Książ",
+    "region": "Dolny Śląsk",
+    "days": "1 dzień",
+    "title": "Zamek nad przepaścią",
+    "text": "Trzeci co do wielkości zamek w Polsce, ukryty w lasach Wałbrzycha. Podziemne tunele, tarasy ogrodowe i panoramy Sudetów.",
+    "art": "zamki",
+    "plan": [
+      "Zwiedzanie komnat i sali balowej",
+      "Spacer po tarasach ogrodowych",
+      "Podziemna trasa turystyczna"
+    ]
+  },
+  {
+    "id": "moszna",
+    "category": "zamki",
+    "place": "Moszna",
+    "region": "Opolskie",
+    "days": "1 dzień",
+    "title": "Bajkowy zamek z 99 wieżami",
+    "text": "Neobarokowa rezydencja otoczona parkiem angielskim. Idealna na leniwe popołudnie pośród starych dębów.",
+    "art": "zamki",
+    "plan": [
+      "Zwiedzanie komnat i kaplicy",
+      "Spacer po parku angielskim",
+      "Popołudnie w kawiarni zamkowej"
+    ]
+  },
+  {
+    "id": "niedzica",
+    "category": "zamki",
+    "place": "Niedzica",
+    "region": "Małopolska",
+    "days": "1 dzień",
+    "title": "Zamek Dunajec nad zalewem",
+    "text": "Warownia na skale nad Czorsztynem, z widokiem na Pieniny i Tatry. Idealna na weekendowy przystanek w drodze.",
+    "art": "zamki",
+    "plan": [
+      "Zwiedzanie zamku i kaplicy",
+      "Rejs po Zalewie Czorsztyńskim",
+      "Widok na Pieniny z dziedzińca"
+    ]
+  },
+  {
+    "id": "ogrodzieniec",
+    "category": "zamki",
+    "place": "Ogrodzieniec",
+    "region": "Śląskie",
+    "days": "1 dzień",
+    "title": "Orle Gniazdo na Jurze",
+    "text": "Największe ruiny zamkowe Jury Krakowsko-Częstochowskiej. Wapienne skały, legendy i zachód słońca nad doliną.",
+    "art": "zamki",
+    "plan": [
+      "Zwiedzanie ruin zamku",
+      "Wspinaczka na Górę Birów",
+      "Zachód słońca z punktu widokowego"
+    ]
+  },
+  {
+    "id": "lancut",
+    "category": "zamki",
+    "place": "Łańcut",
+    "region": "Podkarpacie",
+    "days": "1 dzień",
+    "title": "Pałac magnacki z teatrem",
+    "text": "Rezydencja Lubomirskich i Potockich z parkiem angielskim. Powolne zwiedzanie wnętrz, storczykarni i powozowni.",
+    "art": "zamki",
+    "plan": [
+      "Apartamenty pałacowe",
+      "Storczykarnia i powozownia",
+      "Spacer po parku i oranżerii"
+    ]
+  },
+  {
+    "id": "pszczyna",
+    "category": "zamki",
+    "place": "Pszczyna",
+    "region": "Śląskie",
+    "days": "1 dzień",
+    "title": "Perła renesansu na Górnym Śląsku",
+    "text": "Pałac z zachowanym XIX-wiecznym wnętrzem i park w stylu angielskim. Miasto z rynkiem jak z pocztówki.",
+    "art": "zamki",
+    "plan": [
+      "Zwiedzanie pałacu z przewodnikiem",
+      "Park Pszczyński i Pokazowa Zagroda Żubrów",
+      "Spacer po rynku"
+    ]
+  },
+  {
+    "id": "wieliczka",
+    "category": "unesco",
+    "place": "Wieliczka",
+    "region": "Małopolska",
+    "days": "1 dzień",
+    "title": "Podziemne królestwo soli",
+    "text": "Solny labirynt 300 metrów pod ziemią. Kaplica św. Kingi, jeziora i chodniki drążone od XIII wieku.",
+    "art": "unesco",
+    "plan": [
+      "Trasa turystyczna z kaplicą św. Kingi",
+      "Muzeum Żup Krakowskich",
+      "Odpoczynek w tężni solankowej"
+    ]
+  },
+  {
+    "id": "bochnia",
+    "category": "unesco",
+    "place": "Bochnia",
+    "region": "Małopolska",
+    "days": "1 dzień",
+    "title": "Najstarsza kopalnia soli w Polsce",
+    "text": "Spokojniejsza siostra Wieliczki. Podziemna kolejka, przeprawa łodzią i unikalna trasa geologiczna.",
+    "art": "unesco",
+    "plan": [
+      "Zjazd szybem Campi",
+      "Podziemna przeprawa łodzią",
+      "Trasa geologiczna z ekspozycją soli"
+    ]
+  },
+  {
+    "id": "auschwitz",
+    "category": "unesco",
+    "place": "Auschwitz-Birkenau",
+    "region": "Małopolska",
+    "days": "1 dzień",
+    "title": "Miejsce Pamięci",
+    "text": "Były nazistowski obóz koncentracyjny. Wizyta w milczeniu, z przewodnikiem, jako świadome doświadczenie.",
+    "art": "unesco",
+    "plan": [
+      "Zwiedzanie z przewodnikiem (obowiązkowe)",
+      "Miejsce Pamięci i Muzeum Auschwitz-Birkenau",
+      "Czas na osobistą refleksję"
+    ]
+  },
+  {
+    "id": "kalwaria-zebrzydowska",
+    "category": "unesco",
+    "place": "Kalwaria Zebrzydowska",
+    "region": "Małopolska",
+    "days": "1 dzień",
+    "title": "Sanktuarium w krajobrazie",
+    "text": "XVII-wieczny zespół klasztorny i dróżki kalwaryjskie wpisane na listę UNESCO. Idealne na spacer w ciszy.",
+    "art": "unesco",
+    "plan": [
+      "Zwiedzanie bazyliki i klasztoru",
+      "Dróżki Pana Jezusa",
+      "Widok na Beskid Mały z okolicznych wzgórz"
+    ]
+  },
+  {
+    "id": "tarnowskie-gory",
+    "category": "unesco",
+    "place": "Tarnowskie Góry",
+    "region": "Śląskie",
+    "days": "1 dzień",
+    "title": "Podziemia srebra i ołowiu",
+    "text": "Zabytkowa kopalnia z podziemną trasą łodziową. Jedyny taki szlak w Europie.",
+    "art": "unesco",
+    "plan": [
+      "Trasa podziemna z przeprawą łodzią",
+      "Skansen Maszyn Parowych",
+      "Spacer po rynku i parku miejskim"
+    ]
+  },
+  {
+    "id": "krzemionki",
+    "category": "unesco",
+    "place": "Krzemionki Opatowskie",
+    "region": "Świętokrzyskie",
+    "days": "1 dzień",
+    "title": "Neolityczne kopalnie krzemienia",
+    "text": "Pradziejowe wyrobiska sprzed 5 tysięcy lat. Podziemna trasa i rezerwat archeologiczny wśród lasów.",
+    "art": "unesco",
+    "plan": [
+      "Trasa podziemna w neolitycznej kopalni",
+      "Wioska neolityczna",
+      "Spacer po rezerwacie archeologicznym"
+    ]
+  },
+  {
+    "id": "kazimierz-dolny",
+    "category": "miasteczka",
+    "place": "Kazimierz Dolny",
+    "region": "Lubelszczyzna",
+    "days": "1–2 dni",
+    "title": "Miasteczko artystów nad Wisłą",
+    "text": "Rynek z kamienicami, wąwozy lessowe i warsztaty artystyczne. Idealne na weekend w rytmie slow.",
+    "art": "miasteczka",
+    "plan": [
+      "Spacer po Rynku i ulicy Senatorskiej",
+      "Wąwóz Korzeniowy Dół",
+      "Zachód słońca nad Wisłą"
+    ]
+  },
+  {
+    "id": "chelmno",
+    "category": "miasteczka",
+    "place": "Chełmno",
+    "region": "Kujawy-Pomorze",
+    "days": "1 dzień",
+    "title": "Miasto zakochanych",
+    "text": "Średniowieczne mury i aż sześć gotyckich kościołów. Ciche miasteczko z widokiem na Wisłę.",
+    "art": "miasteczka",
+    "plan": [
+      "Spacer po murach obronnych",
+      "Kościół farny i klasztor",
+      "Widok na dolinę Wisły z wieży"
+    ]
+  },
+  {
+    "id": "klodzko",
+    "category": "miasteczka",
+    "place": "Kłodzko",
+    "region": "Dolny Śląsk",
+    "days": "1–2 dni",
+    "title": "Twierdza nad Nysą Kłodzką",
+    "text": "Miasto na granicy z Czechami, z imponującą twierdzą i mostem gotyckim. Brama do Sudetów.",
+    "art": "miasteczka",
+    "plan": [
+      "Zwiedzanie Twierdzy Kłodzko",
+      "Spacer po moście gotyckim",
+      "Podziemna trasa turystyczna"
+    ]
+  },
+  {
+    "id": "paczkow",
+    "category": "miasteczka",
+    "place": "Paczków",
+    "region": "Opolskie",
+    "days": "1 dzień",
+    "title": "Polskie Carcassonne",
+    "text": "Jedno z najlepiej zachowanych miast obronnych w Polsce. Mury, baszty i brama, która pamięta średniowiecze.",
+    "art": "miasteczka",
+    "plan": [
+      "Spacer po murach obronnych",
+      "Wieża ratuszowa i rynek",
+      "Kościół św. Jana Ewangelisty"
+    ]
+  },
+  {
+    "id": "cieszyn",
+    "category": "miasteczka",
+    "place": "Cieszyn",
+    "region": "Śląskie",
+    "days": "1 dzień",
+    "title": "Miasto na granicy dwóch państw",
+    "text": "Cieszyńska Wenecja, studnia Trzech Braci i most Przyjaźni. Kawa po jednej stronie Olzy, deser po drugiej.",
+    "art": "miasteczka",
+    "plan": [
+      "Rynek i studnia Trzech Braci",
+      "Wzgórze Zamkowe i Rotunda",
+      "Spacer po moście Przyjaźni"
+    ]
+  },
+  {
+    "id": "przemysl",
+    "category": "miasteczka",
+    "place": "Przemyśl",
+    "region": "Podkarpacie",
+    "days": "1–2 dni",
+    "title": "Miasto na siedmiu wzgórzach",
+    "text": "Twierdza, katedry trzech obrządków i panorama Karpat. Wschodnia brama Polski w rytmie slow.",
+    "art": "miasteczka",
+    "plan": [
+      "Zwiedzanie Twierdzy Przemyśl",
+      "Katedry trzech obrządków",
+      "Panorama z Kopca Tatarskiego"
+    ]
+  },
+  {
+    "id": "sanok",
+    "category": "miasteczka",
+    "place": "Sanok",
+    "region": "Podkarpacie",
+    "days": "1 dzień",
+    "title": "Brama w Bieszczady",
+    "text": "Skansen architektury drewnianej i Muzeum Ikon. Idealna baza do wypraw w Bieszczady.",
+    "art": "miasteczka",
+    "plan": [
+      "Skansen w Sanoku",
+      "Zbiory ikon w Muzeum Historycznym",
+      "Spacer po rynku i nad Sanem"
+    ]
+  },
+  {
+    "id": "krynica-zdroj",
+    "category": "miasteczka",
+    "place": "Krynica-Zdrój",
+    "region": "Małopolska",
+    "days": "2 dni",
+    "title": "Perła polskich uzdrowisk",
+    "text": "Pijalnia wód, Deptak i góra Parkowa z kolejką. Wypoczynek w rytmie dawnego kurortu.",
+    "art": "miasteczka",
+    "plan": [
+      "Spacer po Deptaku i pijalni wód",
+      "Kolejka na Górę Parkową",
+      "Wieczór w Teatrze im. Modrzejewskiej"
+    ]
+  },
+  {
+    "id": "szczawnica",
+    "category": "miasteczka",
+    "place": "Szczawnica",
+    "region": "Małopolska",
+    "days": "2 dni",
+    "title": "Uzdrowisko u stóp Pienin",
+    "text": "Drewniana architektura, woda mineralna i widok na Trzy Korony. Idealna baza do spływu Dunajcem.",
+    "art": "miasteczka",
+    "plan": [
+      "Spacer po Parku Dolnym i Górnym",
+      "Pijalnia wód mineralnych",
+      "Widok na Pieniny z Palenicy"
+    ]
+  },
+  {
+    "id": "suprasl",
+    "category": "miasteczka",
+    "place": "Supraśl",
+    "region": "Podlasie",
+    "days": "1 dzień",
+    "title": "Prawosławny klasztor w puszczy",
+    "text": "Monaster w otoczeniu Puszczy Knyszyńskiej. Ikonostas, śpiewy i cisza, która koi.",
+    "art": "miasteczka",
+    "plan": [
+      "Zwiedzanie monasteru i muzeum ikon",
+      "Spacer po Puszczy Knyszyńskiej",
+      "Spokojny wieczór w Supraślu"
+    ]
+  },
+  {
+    "id": "green-velo",
+    "category": "szlaki",
+    "place": "Green Velo",
+    "region": "Polska Wschodnia",
+    "days": "10–14 dni",
+    "title": "Najdłuższy szlak rowerowy w Polsce",
+    "text": "Ponad 2000 km przez pięć województw. Warmia, Mazury, Podlasie, Lubelszczyzna i Podkarpacie.",
+    "art": "szlaki",
+    "plan": [
+      "Etap warmińsko-mazurski wokół jezior",
+      "Podlasie — Białowieża i Biebrza",
+      "Finał w Bieszczadach i nad Sanem"
+    ]
+  },
+  {
+    "id": "velo-dunajec",
+    "category": "szlaki",
+    "place": "Velo Dunajec",
+    "region": "Małopolska",
+    "days": "3–4 dni",
+    "title": "Rowerem wzdłuż Dunajca",
+    "text": "240 km przez Pieniny, Beskid Sądecki i Podhale. Trasa dla tych, którzy lubią wodę i góry.",
+    "art": "szlaki",
+    "plan": [
+      "Nowy Targ — Czorsztyn",
+      "Pieniny i Szczawnica",
+      "Finał w Nowym Sączu"
+    ]
+  },
+  {
+    "id": "velo-baltica",
+    "category": "szlaki",
+    "place": "Velo Baltica",
+    "region": "Pomorze",
+    "days": "5–7 dni",
+    "title": "Nadmorski szlak rowerowy",
+    "text": "Wzdłuż wybrzeża Bałtyku, przez nadmorskie miejscowości i Słowiński Park Narodowy.",
+    "art": "szlaki",
+    "plan": [
+      "Świnoujście — Kołobrzeg",
+      "Darłowo — Łeba",
+      "Finał w Helu"
+    ]
+  },
+  {
+    "id": "wielka-petla-wielkopolski",
+    "category": "szlaki",
+    "place": "Wielka Pętla Wielkopolski",
+    "region": "Wielkopolska",
+    "days": "4–5 dni",
+    "title": "Wielka Pętla Wielkopolski",
+    "text": "600 km przez Wielkopolski Park Narodowy, Dolinę Warty i okolice Poznania. Szlak dla cierpliwych rowerzystów.",
+    "art": "szlaki",
+    "plan": [
+      "Poznań — Puszczykowo",
+      "Wielkopolski Park Narodowy",
+      "Rogalin, Kórnik i okolice"
+    ]
+  },
+  {
+    "id": "dolina-bugu",
+    "category": "szlaki",
+    "place": "Dolina Bugu",
+    "region": "Podlasie",
+    "days": "3–4 dni",
+    "title": "Rowerem przez dziką rzekę",
+    "text": "Szlak przez najdzikszą rzekę Polski. Wsie, cerkwie i nadbużańskie krajobrazy.",
+    "art": "szlaki",
+    "plan": [
+      "Drohiczyn — Mielnik",
+      "Mielnik — Janów Podlaski",
+      "Finał w okolicach Włodawy"
+    ]
+  },
+  {
+    "id": "kanal-augustowski",
+    "category": "szlaki",
+    "place": "Kanał Augustowski",
+    "region": "Podlasie",
+    "days": "2–3 dni",
+    "title": "Rowerem wzdłuż XIX-wiecznego kanału",
+    "text": "Śluzy, Puszcza Augustowska i jeziora. Trasa rowerowa z duszą dawnej inżynierii.",
+    "art": "szlaki",
+    "plan": [
+      "Augustów — Śluza Przewięź",
+      "Śluza Gorczyca i Studziany Las",
+      "Finał w Augustowie nad Nettą"
+    ]
+  },
+  {
+    "id": "kuchnia-podlasie",
+    "category": "kuchnia",
+    "place": "Podlasie",
+    "region": "Podlasie",
+    "days": "3–4 dni",
+    "title": "Kibiny, kartacze i babka ziemniaczana",
+    "text": "Kuchnia pogranicza — tatarska, prawosławna i polska w jednym. Sycąca, prosta i głęboko zakorzeniona w ziemi.",
+    "art": "kuchnia",
+    "plan": [
+      "Kibiny w barze mlecznym w Białymstoku",
+      "Kartacze w wiejskiej gospodzie",
+      "Babka ziemniaczana w Supraślu"
+    ]
+  },
+  {
+    "id": "kuchnia-kaszuby",
+    "category": "kuchnia",
+    "place": "Kaszuby",
+    "region": "Pomorze",
+    "days": "2–3 dni",
+    "title": "Śledzie, węgorze i kaszubski rosół",
+    "text": "Ryby z Bałtyku i jezior, ziemniaki, kapusta i grzyby. Kuchnia kaszubska to smak morza spotkany z lasem.",
+    "art": "kuchnia",
+    "plan": [
+      "Śledź w oleju w Kościerzynie",
+      "Węgorz wędzony z jeziora",
+      "Kaszubski rosół w lokalnej gospodzie"
+    ]
+  },
+  {
+    "id": "kuchnia-podhale",
+    "category": "kuchnia",
+    "place": "Podhale",
+    "region": "Małopolska",
+    "days": "2–3 dni",
+    "title": "Oscypek, kwaśnica i bryjka",
+    "text": "Owczarskie sery, kapusta kiszona i góralskie zupy. Kuchnia prosto z bacówki — gęsta i rozgrzewająca.",
+    "art": "kuchnia",
+    "plan": [
+      "Oscypek z grilla na Krupówkach",
+      "Kwaśnica w schronisku",
+      "Bryjka z żurawiną w bacówce"
+    ]
+  },
+  {
+    "id": "kuchnia-slask",
+    "category": "kuchnia",
+    "place": "Śląsk",
+    "region": "Śląskie",
+    "days": "2 dni",
+    "title": "Rolada, kluski i modra kapusta",
+    "text": "Śląska kuchnia to konkret, sytość i szacunek do tradycji. Rolada z kluskami to klasyk, który smakuje jak dom.",
+    "art": "kuchnia",
+    "plan": [
+      "Rolada śląska z kluskami w Katowicach",
+      "Modra kapusta i żeberka",
+      "Kołocz śląski na deser"
+    ]
+  },
+  {
+    "id": "kuchnia-roztocze",
+    "category": "kuchnia",
+    "place": "Roztocze",
+    "region": "Lubelszczyzna",
+    "days": "2–3 dni",
+    "title": "Pierogi z bryndzą i cebularze",
+    "text": "Kuchnia Roztocza to mieszanka polskich, ukraińskich i żydowskich tradycji. Prosta, ziemista i głęboko sycąca.",
+    "art": "kuchnia",
+    "plan": [
+      "Cebularz lubelski na śniadanie",
+      "Pierogi z bryndzą w Zamościu",
+      "Pstrąg z Roztocza w lokalnej smażalni"
+    ]
+  },
+  {
+    "id": "kuchnia-kurpie",
+    "category": "kuchnia",
+    "place": "Kurpie",
+    "region": "Mazowsze",
+    "days": "2 dni",
+    "title": "Rejbak, fafernuchy i pierogi",
+    "text": "Kuchnia kurpiowska to potrawy z ziemniaków, mąki i grzybów. Prosta, wiejska i wciąż żywa w domach Kurpiów.",
+    "art": "kuchnia",
+    "plan": [
+      "Rejbak w zagrodzie kurpiowskiej",
+      "Fafernuchy w Kadzidle",
+      "Pierogi z kapustą i grzybami"
+    ]
+  },
+  {
+    "id": "kuchnia-wielkopolska",
+    "category": "kuchnia",
+    "place": "Wielkopolska",
+    "region": "Wielkopolska",
+    "days": "2 dni",
+    "title": "Rogale świętomarcińskie i pyry z gzikiem",
+    "text": "Kuchnia Wielkopolski to pyry w każdej formie, rogale z białym makiem i gęsina na świętego Marcina.",
+    "art": "kuchnia",
+    "plan": [
+      "Rogal świętomarciński w Poznaniu",
+      "Pyry z gzikiem w wiejskiej gospodzie",
+      "Gęsina z modrą kapustą jesienią"
+    ]
+  },
+  {
+    "id": "kuchnia-warmia",
+    "category": "kuchnia",
+    "place": "Warmia i Mazury",
+    "region": "Warmia-Mazury",
+    "days": "2–3 dni",
+    "title": "Sielawa, marcepan i kindziuk",
+    "text": "Kuchnia Warmii i Mazur to ryby z jezior, dziczyzna, grzyby i marcepan z Olsztyna. Wiejskie smaki regionu tysiąca jezior.",
+    "art": "kuchnia",
+    "plan": [
+      "Sielawa wędzona nad jeziorem",
+      "Marcepan olsztyński na deser",
+      "Kindziuk z dziczyzny w warmińskiej karczmie"
+    ]
+  },
+  {
+    "id": "kuchnia-kociewie",
+    "category": "kuchnia",
+    "place": "Kociewie",
+    "region": "Pomorze",
+    "days": "1–2 dni",
+    "title": "Zupy kociewskie i śledzie z Bałtyku",
+    "text": "Kuchnia Kociewia to proste, pożywne zupy, ryby z Bałtyku i potrawy z kaszy. Region, w którym smakuje domowe jedzenie.",
+    "art": "kuchnia",
+    "plan": [
+      "Zupa kociewska w Tczewie",
+      "Śledź bałtycki w Starogardzie",
+      "Kaszanka z cebulą na obiad"
+    ]
+  },
+  {
+    "id": "kuchnia-lemkowska",
+    "category": "kuchnia",
+    "place": "Łemkowszczyzna",
+    "region": "Małopolska",
+    "days": "2 dni",
+    "title": "Proziaki, fuczki i kwaśnica łemkowska",
+    "text": "Kuchnia łemkowska to proste potrawy z mąki, ziemniaków i kapusty. Smaki dawnej wsi, które wracają do łask.",
+    "art": "kuchnia",
+    "plan": [
+      "Proziaki z masłem czosnkowym",
+      "Fuczki z kapustą w beskidzkiej gospodzie",
+      "Kwaśnica łemkowska w chłodny dzień"
+    ]
+  },
+  {
+    "id": "wsie-podlasie",
+    "category": "wsie",
+    "place": "Podlasie",
+    "region": "Podlasie",
+    "days": "3–4 dni",
+    "title": "Wsie wielokulturowe",
+    "text": "Prawosławne cerkwie, tatarskie meczety i drewniane chaty w jednym krajobrazie. Wsie, w których krzyżują się religie i kultury.",
+    "art": "wsie",
+    "plan": [
+      "Wsie z cerkwiami wokół Supraśla",
+      "Meczet w Bohonikach i Kruszynianach",
+      "Drewniana zabudowa wsi podlaskich"
+    ]
+  },
+  {
+    "id": "wsie-lemkowszczyzna",
+    "category": "wsie",
+    "place": "Łemkowszczyzna",
+    "region": "Małopolska",
+    "days": "3 dni",
+    "title": "Wsie łemkowskie",
+    "text": "Drewniane cerkwie, chyże kryte gontem i ślady kultury, która przetrwała mimo wywózek. Beskidzkie wsie o niezwykłej historii.",
+    "art": "wsie",
+    "plan": [
+      "Cerkwie w Kwiatoniu, Owczarach i Bartnem",
+      "Chyże łemkowskie w Hańczowej",
+      "Ślady po wysiedleniach w Beskidzie Niskim"
+    ]
+  },
+  {
+    "id": "wsie-kurpie",
+    "category": "wsie",
+    "place": "Kurpie",
+    "region": "Mazowsze",
+    "days": "2–3 dni",
+    "title": "Kurpiowskie wsie z drewna",
+    "text": "Białe chaty z ozdobnymi okiennicami, wycinanki z papieru i rzeźby w drewnie. Wsie, w których folklor wciąż żyje.",
+    "art": "wsie",
+    "plan": [
+      "Skansen w Kadzidle",
+      "Warsztaty wycinanki kurpiowskiej",
+      "Zagrody kurpiowskie w Myszynieckim"
+    ]
+  },
+  {
+    "id": "wsie-kociewie",
+    "category": "wsie",
+    "place": "Kociewie",
+    "region": "Pomorze",
+    "days": "2 dni",
+    "title": "Kociewskie wsie z haftem",
+    "text": "Kolorowe hafty, drewniane kościoły i wsie, w których wciąż obchodzi się tradycyjne święta. Region obok Kaszub.",
+    "art": "wsie",
+    "plan": [
+      "Wsie z haftem kociewskim w okolicach Tczewa",
+      "Drewniane kościoły Kociewia",
+      "Zagrody i skanseny w regionie"
+    ]
+  },
+  {
+    "id": "wsie-warmia",
+    "category": "wsie",
+    "place": "Warmia",
+    "region": "Warmia-Mazury",
+    "days": "3 dni",
+    "title": "Warmińskie wsie z gotykiem",
+    "text": "Wiejskie kościoły gotyckie, warmińskie chaty z czerwonej cegły i kapliczki przydrożne. Region, w którym wieś spotyka się z historią.",
+    "art": "wsie",
+    "plan": [
+      "Gotyckie kościoły warmińskie (Frombork i okolice)",
+      "Warmińskie zagrody z czerwonej cegły",
+      "Kapliczki przydrożne Warmii"
+    ]
+  },
+  {
+    "id": "wsie-kaszuby",
+    "category": "wsie",
+    "place": "Kaszuby",
+    "region": "Pomorze",
+    "days": "3 dni",
+    "title": "Kaszubskie wsie z chëczami",
+    "text": "Drewniane chaty kryte strzechą, hafty kaszubskie i tablice z kaszubskimi nazwami wsi. Wsie, w których mówi się po kaszubsku.",
+    "art": "wsie",
+    "plan": [
+      "Skansen we Wdzydzach Kiszewskich",
+      "Wsie z tablicami dwujęzycznymi",
+      "Haft kaszubski w Żukowie"
+    ]
+  },
+  {
+    "id": "wsie-beskid-niski",
+    "category": "wsie",
+    "place": "Beskid Niski",
+    "region": "Małopolska",
+    "days": "3 dni",
+    "title": "Opuszczone wsie łemkowskie",
+    "text": "Wsie, które zniknęły z mapy po 1947 roku. Dziś można znaleźć tylko fundamenty chat, stare sady i samotne cerkwie.",
+    "art": "wsie",
+    "plan": [
+      "Wsie z cerkwiami w Radocynie i Grab",
+      "Cmentarze i fundamenty chat",
+      "Szlaki przez opuszczone wsie"
+    ]
+  },
+  {
+    "id": "wsie-roztocze",
+    "category": "wsie",
+    "place": "Roztocze",
+    "region": "Lubelszczyzna",
+    "days": "2–3 dni",
+    "title": "Roztoczańskie wsie z młynami",
+    "text": "Drewniane młyny wodne, zagrody kryte strzechą i wsie, w których czas płynie wolniej niż gdziekolwiek indziej.",
+    "art": "wsie",
+    "plan": [
+      "Młyn wodny w Zwierzyńcu",
+      "Wsie z drewnianą zabudową w okolicach Krasnobrodu",
+      "Zagrody roztoczańskie"
+    ]
+  },
+  {
+    "id": "wsie-mazowsze",
+    "category": "wsie",
+    "place": "Mazowsze łowickie",
+    "region": "Mazowsze",
+    "days": "2 dni",
+    "title": "Wsie łowickie z pasiakami",
+    "text": "Kolorowe pasiaki, wycinanki i kwiatowe motywy. Księżackie wsie, w których folklor jest wciąż żywą częścią codzienności.",
+    "art": "wsie",
+    "plan": [
+      "Skansen w Sierpcu i Łowiczu",
+      "Wsie z pasiakami łowickimi",
+      "Wycinanki i hafty łowickie"
+    ]
+  },
+  {
+    "id": "wsie-dolny-slask",
+    "category": "wsie",
+    "place": "Wsie sudeckie",
+    "region": "Dolny Śląsk",
+    "days": "3 dni",
+    "title": "Wsie sudeckie z przędzalniami",
+    "text": "Wsie, w których domy tkaczy stoją obok siebie od XVIII wieku. Sudety, w których historia przemysłu spotyka się z górami.",
+    "art": "wsie",
+    "plan": [
+      "Wsie tkaczy w Sudetach (ok. Bystrzycy Kłodzkiej)",
+      "Domy przysłupowe w Górach Izerskich",
+      "Kościoły łaski i wsie ewangelickie"
+    ]
+  },
+  {
+    "id": "szlak-kulinarny",
+    "category": "podroze-tematyczne",
+    "place": "Szlak kulinarny Polski",
+    "region": "Cała Polska",
+    "days": "7–14 dni",
+    "title": "Przez Polskę smakami regionów",
+    "text": "Trasa przez najciekawsze regiony kulinarne Polski — od podlaskich kibinów po kaszubskie śledzie, od podhalańskich oscypków po śląskie rolady.",
+    "art": "tematyczne",
+    "plan": [
+      "Podlasie — kibiny, kartacze, babka ziemniaczana",
+      "Małopolska — oscypek, kwaśnica, bryjka",
+      "Kaszuby — śledzie, węgorz, kaszubski rosół"
+    ]
+  },
+  {
+    "id": "szlak-rzemieslniczy",
+    "category": "podroze-tematyczne",
+    "place": "Szlak rzemieślniczy",
+    "region": "Cała Polska",
+    "days": "7–10 dni",
+    "title": "Śladami ginących zawodów",
+    "text": "Trasa przez pracownie rzemieślnicze, warsztaty i manufaktury — od kaszubskiego haftu po podhalańskie dłubanie w drewnie.",
+    "art": "tematyczne",
+    "plan": [
+      "Pracownie haftu kaszubskiego w Żukowie",
+      "Warsztaty wycinanki kurpiowskiej w Kadzidle",
+      "Dłubanie w drewnie w Zakopanem"
+    ]
+  },
+  {
+    "id": "szlak-architektury-drewnianej",
+    "category": "podroze-tematyczne",
+    "place": "Szlak Architektury Drewnianej",
+    "region": "Małopolska i Podkarpacie",
+    "days": "5–7 dni",
+    "title": "Drewniane perły Karpat",
+    "text": "Trasa przez najpiękniejsze drewniane cerkwie, kościoły i chaty południowej Polski. Obiekty UNESCO, skanseny i wsie z żywą tradycją ciesielską.",
+    "art": "tematyczne",
+    "plan": [
+      "Cerkiew w Kwiatoniu i Owczarach",
+      "Kościół w Sękowej i Binarowej",
+      "Skansen w Sanoku i Nowym Sączu"
+    ]
+  },
+  {
+    "id": "szlak-industrialny",
+    "category": "podroze-tematyczne",
+    "place": "Szlak industrialny",
+    "region": "Śląsk i Małopolska",
+    "days": "4–6 dni",
+    "title": "Dziedzictwo ery pary i stali",
+    "text": "Trasa przez postindustrialne perły — kopalnie, huty, fabryki i osiedla robotnicze. Od zabytkowej kopalni srebra po łódzkie fabryki.",
+    "art": "tematyczne",
+    "plan": [
+      "Kopalnia srebra w Tarnowskich Górach",
+      "Księży Młyn w Łodzi i EC1",
+      "Huta i osiedla robotnicze na Śląsku"
+    ]
+  },
+  {
+    "id": "szlak-cerkwi",
+    "category": "podroze-tematyczne",
+    "place": "Szlak cerkwi",
+    "region": "Podlasie i Karpaty",
+    "days": "5–7 dni",
+    "title": "Drewniane i murowane cerkwie",
+    "text": "Trasa przez najpiękniejsze cerkwie prawosławne i greckokatolickie — od Podlasia po Bieszczady. Ikonostasy, freski i wielokulturowe dziedzictwo.",
+    "art": "tematyczne",
+    "plan": [
+      "Cerkwie podlaskie w Supraślu i Puchłach",
+      "Cerkwie łemkowskie w Kwiatoniu i Bartnem",
+      "Monaster w Supraślu i sanktuarium w Grabarcę"
+    ]
+  },
+  {
+    "id": "szlak-winnic",
+    "category": "podroze-tematyczne",
+    "place": "Szlak winnic",
+    "region": "Lubuskie i Małopolska",
+    "days": "4–6 dni",
+    "title": "Polskie wino od źródła",
+    "text": "Trasa przez polskie winnice — od Zielonej Góry po Małopolski Przełom Wisły. Degustacje, warsztaty, wieczory wśród winorośli.",
+    "art": "tematyczne",
+    "plan": [
+      "Winnice wokół Zielonej Góry",
+      "Małopolski Przełom Wisły — Sandomierz i Kazimierz",
+      "Winnice w Sudetach i na Dolnym Śląsku"
+    ]
+  },
+  {
+    "id": "szlak-bursztynowy",
+    "category": "podroze-tematyczne",
+    "place": "Szlak bursztynowy",
+    "region": "Pomorze",
+    "days": "4–6 dni",
+    "title": "Śladami bursztynu bałtyckiego",
+    "text": "Trasa przez pracownie bursztyniarskie i miejsca związane z bursztynem — od Gdańska po Kaszuby. Historia, rzemiosło i warsztaty.",
+    "art": "tematyczne",
+    "plan": [
+      "Pracownie bursztynu w Gdańsku",
+      "Muzeum Bursztynu i targi w Gdyni",
+      "Warsztaty bursztyniarskie na Kaszubach"
+    ]
+  },
+  {
+    "id": "szlak-piastowski",
+    "category": "podroze-tematyczne",
+    "place": "Szlak Piastowski",
+    "region": "Wielkopolska i Kujawy",
+    "days": "3–5 dni",
+    "title": "Kolebka Polski",
+    "text": "Trasa przez miejsca związane z początkami państwa polskiego — Gniezno, Poznań, Kruszwica, Ostrów Lednicki. Historia Polski od źródeł.",
+    "art": "tematyczne",
+    "plan": [
+      "Katedra w Gnieźnie i Drzwi Gnieźnieńskie",
+      "Ostrów Lednicki i Muzeum Pierwszych Piastów",
+      "Kruszwica i Mysia Wieża"
+    ]
+  },
+  {
+    "id": "szlak-uzdrowisk",
+    "category": "podroze-tematyczne",
+    "place": "Szlak polskich uzdrowisk",
+    "region": "Cała Polska",
+    "days": "7–14 dni",
+    "title": "Wody, powietrze i spokój",
+    "text": "Trasa przez najstarsze polskie uzdrowiska — od Krynicy po Kudowę, od Szczawnicy po Nałęczów. Pijalnie wód, parki zdrojowe, spacery w rytmie slow.",
+    "art": "tematyczne",
+    "plan": [
+      "Krynica-Zdrój i Szczawnica",
+      "Kudowa-Zdrój i Lądek-Zdrój",
+      "Nałęczów i Busko-Zdrój"
+    ]
+  },
+  {
+    "id": "szlak-fortyfikacji",
+    "category": "podroze-tematyczne",
+    "place": "Szlak fortyfikacji",
+    "region": "Cała Polska",
+    "days": "5–8 dni",
+    "title": "Twierdze, bunkry, schrony",
+    "text": "Trasa przez największe dzieła militarne Polski — od Twierdzy Przemyśl po bunkry Wału Pomorskiego. Historia wojskowości w rytmie slow.",
+    "art": "tematyczne",
+    "plan": [
+      "Twierdza Przemyśl i fort Salis Soglio",
+      "Twierdza Kłodzko i bunkry Gór Sowich",
+      "Bunkry Wału Pomorskiego i Międzyrzecki Rejon Umocniony"
+    ]
+  },
+  {
+    "id": "pn-babiogorski",
+    "category": "parki-narodowe",
+    "place": "Babiogórski PN",
+    "region": "Małopolska",
+    "days": "1–2 dni",
+    "title": "Królowa Beskidów pod ochroną",
+    "text": "Najwyższy szczyt Beskidów i najstarszy rezerwat w Polsce. Diablak, Markowe Szczawiny i las, który pamięta epokę lodowcową.",
+    "art": "parki",
+    "plan": [
+      "Wejście na Diablak o świcie",
+      "Schronisko na Markowych Szczawinach",
+      "Ścieżki edukacyjne w Zawoi"
+    ]
+  },
+  {
+    "id": "pn-bialowieski",
+    "category": "parki-narodowe",
+    "place": "Białowieski PN",
+    "region": "Podlasie",
+    "days": "2 dni",
+    "title": "Ostatni pierwotny las Europy",
+    "text": "Najstarszy park narodowy w Polsce. Żubry, dęby liczące 400 lat i rezerwat ścisły, w którym natura rządzi się własnymi prawami.",
+    "art": "parki",
+    "plan": [
+      "Rezerwat ścisły z przewodnikiem",
+      "Ośrodek Hodowli Żubrów",
+      "Szlak Żubra w Białowieży"
+    ]
+  },
+  {
+    "id": "pn-biebrzanski",
+    "category": "parki-narodowe",
+    "place": "Biebrzański PN",
+    "region": "Podlasie",
+    "days": "2–3 dni",
+    "title": "Największe bagna w Europie",
+    "text": "Kraina torfowisk, łosi i ptaków. Największy park narodowy w Polsce — bez dróg, bez tłumów, z drewnianymi kładkami nad bagnami.",
+    "art": "parki",
+    "plan": [
+      "Kładka Długa Luka",
+      "Wieże obserwacyjne w Goniądzu",
+      "Spływ kajakowy po Biebrzy"
+    ]
+  },
+  {
+    "id": "pn-bory-tucholskie",
+    "category": "parki-narodowe",
+    "place": "Park Narodowy Bory Tucholskie",
+    "region": "Kujawy-Pomorze",
+    "days": "1–2 dni",
+    "title": "Sosny, jeziora i cisza",
+    "text": "Park w środku największego kompleksu borów sosnowych w Polsce. Jeziora lobeliowe, torfowiska i szlaki idealne na rower.",
+    "art": "parki",
+    "plan": [
+      "Ścieżka przyrodnicza nad jeziorem Charzykowskim",
+      "Rezerwat Dolina Rzeki Kulawy",
+      "Rowerowy szlak wokół parku"
+    ]
+  },
+  {
+    "id": "pn-drawienski",
+    "category": "parki-narodowe",
+    "place": "Drawieński PN",
+    "region": "Zachodniopomorskie",
+    "days": "2 dni",
+    "title": "Dzika Drawa i bobry",
+    "text": "Jeden z najdzikszych parków w Polsce. Rzeka Drawa, bobry, wydry i szlaki, po których idzie się kilka godzin bez spotkania człowieka.",
+    "art": "parki",
+    "plan": [
+      "Spływ Drawą",
+      "Ścieżka przyrodnicza Drawa",
+      "Nocleg na polu biwakowym"
+    ]
+  },
+  {
+    "id": "pn-kampinoski",
+    "category": "parki-narodowe",
+    "place": "Kampinoski PN",
+    "region": "Mazowsze",
+    "days": "1 dzień",
+    "title": "Dzicz pod Warszawą",
+    "text": "Park narodowy 30 km od centrum Warszawy. Śródlądowe wydmy, bory sosnowe i łosie, które można spotkać na szlaku.",
+    "art": "parki",
+    "plan": [
+      "Szlak do Granicy",
+      "Muzeum Puszczy Kampinoskiej",
+      "Widok na wydmy o zachodzie"
+    ]
+  },
+  {
+    "id": "pn-magurski",
+    "category": "parki-narodowe",
+    "place": "Magurski PN",
+    "region": "Małopolska",
+    "days": "1–2 dni",
+    "title": "Beskid Niski bez tłumów",
+    "text": "Park w najspokojniejszym zakątku Beskidu Niskiego. Łemkowskie wsie, cerkwie i lasy, w których można iść godzinami bez spotkania turysty.",
+    "art": "parki",
+    "plan": [
+      "Ścieżka przyrodnicza w Krempnej",
+      "Cerkiew w Bartnem",
+      "Widoki z Magury Wątkowskiej"
+    ]
+  },
+  {
+    "id": "pn-narwianski",
+    "category": "parki-narodowe",
+    "place": "Narwiański PN",
+    "region": "Podlasie",
+    "days": "1 dzień",
+    "title": "Polska Amazonia",
+    "text": "Park w dolinie rzeki Narwi. Rzeka płynie w dziesiątkach koryt, tworząc unikalny labirynt wodny — polską Amazonię.",
+    "art": "parki",
+    "plan": [
+      "Kładka Śliwno-Waniewo",
+      "Wieża widokowa w Waniawie",
+      "Kajak po Narwi"
+    ]
+  },
+  {
+    "id": "pn-ojcowski",
+    "category": "parki-narodowe",
+    "place": "Ojcowski PN",
+    "region": "Małopolska",
+    "days": "1 dzień",
+    "title": "Wapienne skały i jaskinie",
+    "text": "Najmniejszy park narodowy w Polsce. Dolina Prądnika, Brama Krakowska, jaskinie i ruiny zamku — wszystko w jednym dniu.",
+    "art": "parki",
+    "plan": [
+      "Brama Krakowska",
+      "Jaskinia Łokietka",
+      "Zamek w Ojcowie"
+    ]
+  },
+  {
+    "id": "pn-poleski",
+    "category": "parki-narodowe",
+    "place": "Poleski PN",
+    "region": "Lubelszczyzna",
+    "days": "1–2 dni",
+    "title": "Kraina bagien i żurawi",
+    "text": "Park na Polesiu Lubelskim. Torfowiska, żurawie, żółwie błotne i ścieżki, na których spotyka się tylko ptaki.",
+    "art": "parki",
+    "plan": [
+      "Ścieżka Dąb Dominik",
+      "Wieża widokowa nad jeziorem",
+      "Rezerwat torfowiskowy"
+    ]
+  },
+  {
+    "id": "pn-slowinski",
+    "category": "parki-narodowe",
+    "place": "Słowiński PN",
+    "region": "Pomorze",
+    "days": "1–2 dni",
+    "title": "Ruchome wydmy nad Bałtykiem",
+    "text": "Park z ruchomymi wydmami — polska Sahara nad morzem. Łeba, Rowokół i jeziora przybrzeżne oddzielone od Bałtyku pasem wydm.",
+    "art": "parki",
+    "plan": [
+      "Wydma Łącka — ruchome wydmy",
+      "Jezioro Łebsko i Gardno",
+      "Rowerowy szlak wokół parku"
+    ]
+  },
+  {
+    "id": "pn-tatrzanski",
+    "category": "parki-narodowe",
+    "place": "Tatrzański PN",
+    "region": "Małopolska",
+    "days": "2–3 dni",
+    "title": "Najwyższe góry Polski",
+    "text": "Jedyny park w Polsce o charakterze alpejskim. Tatry Wysokie, Morskie Oko, Dolina Pięciu Stawów i szlaki dla każdego poziomu.",
+    "art": "parki",
+    "plan": [
+      "Morskie Oko",
+      "Dolina Pięciu Stawów",
+      "Kasprowy Wierch i Świnica"
+    ]
+  },
+  {
+    "id": "pn-ujscie-warty",
+    "category": "parki-narodowe",
+    "place": "Park Narodowy Ujście Warty",
+    "region": "Lubuskie",
+    "days": "1 dzień",
+    "title": "Ptasie królestwo",
+    "text": "Najmłodszy park narodowy w Polsce. Rozlewiska Warty i Odry, 250 gatunków ptaków i wieże obserwacyjne.",
+    "art": "parki",
+    "plan": [
+      "Wieża obserwacyjna w Chyrzynie",
+      "Ścieżka Ptasiego Raju",
+      "Rejs po Warcie"
+    ]
+  },
+  {
+    "id": "pn-wielkopolski",
+    "category": "parki-narodowe",
+    "place": "Wielkopolski PN",
+    "region": "Wielkopolska",
+    "days": "1 dzień",
+    "title": "Jeziora pod Poznaniem",
+    "text": "Park 15 km od Poznania. Jeziora polodowcowe, wzgórza morenowe i sosnowe bory — idealny na jednodniową ucieczkę.",
+    "art": "parki",
+    "plan": [
+      "Jezioro Góreckie",
+      "Wzgórze Osowa Góra",
+      "Ścieżka w Puszczykowie"
+    ]
+  },
+  {
+    "id": "pn-wigierski",
+    "category": "parki-narodowe",
+    "place": "Wigierski PN",
+    "region": "Podlasie",
+    "days": "1–2 dni",
+    "title": "Jezioro Wigry i klasztor",
+    "text": "Park wokół jeziora Wigry. Klasztor kamedułów na półwyspie, polodowcowe jeziora i szlaki wśród puszcz.",
+    "art": "parki",
+    "plan": [
+      "Klasztor kamedułów w Wigrach",
+      "Rejs po jeziorze Wigry",
+      "Ścieżka wokół jeziora"
+    ]
+  },
+  {
+    "id": "pn-wolinski",
+    "category": "parki-narodowe",
+    "place": "Woliński PN",
+    "region": "Zachodniopomorskie",
+    "days": "1–2 dni",
+    "title": "Klify i żubry na Wolinie",
+    "text": "Park na wyspie Wolin. Klifowe wybrzeże, zagroda żubrów i najpiękniejsze fragmenty nadmorskiej puszczy.",
+    "art": "parki",
+    "plan": [
+      "Klif w Gosań",
+      "Zagroda żubrów w Karsiborzu",
+      "Widok z Kawczej Góry"
+    ]
+  }
+]
