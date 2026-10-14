@@ -30,6 +30,10 @@ Cel	Komenda
 7. Zobacz zdalne repo	git remote -v
 8. Zmień URL zdalnego repo	git remote set-url origin <nowy-url>
 
+## Skrót — do wklejenia w jednej linii
+
+- git add -A ; git commit -m "Opis zmian" ; git push origin main
+
 
 ## Typowy cykl pracy — przykład
 # 1. Otwórz blog-posts.json w VS Code, popraw literówkę, zapisz.
