@@ -19,7 +19,6 @@ Statyczna strona z przewodnikiem po Polsce.
 - GitHub Pages: [instrukcja](https://docs.github.com/en/pages)
 - Lub własny hosting (FTP)
 
-
 ## Ściągawka — najczęstsze komendy
 Cel	Komenda
 1. Sprawdź stan	git status
@@ -30,3 +29,21 @@ Cel	Komenda
 6. Pull z GitHuba	git pull origin main
 7. Zobacz zdalne repo	git remote -v
 8. Zmień URL zdalnego repo	git remote set-url origin <nowy-url>
+
+
+## Typowy cykl pracy — przykład
+# 1. Otwórz blog-posts.json w VS Code, popraw literówkę, zapisz.
+
+# 2. Przegeneruj HTML-e (jeśli edytowałeś JSON)
+node generate-blog.js
+
+# 3. Sprawdź, co się zmieniło
+git status
+
+# 4. Dodaj, commituj, wypchnij
+git add -A
+git commit -m "Fix typo in Kashubian cuisine article"
+git push origin main
+
+# 5. Odśwież GitHub, zobacz nowy commit.
+
