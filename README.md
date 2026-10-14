@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Polska bliżej – Slow travel guide
 
 Statyczna strona z przewodnikiem po Polsce.
@@ -51,3 +52,29 @@ Cel	Komenda
 
 # 5. Odśwież GitHub, zobacz nowy commit.
 
+=======
+# Polska bliżej — slow travel guide
+
+Statyczna strona z przewodnikiem po Polsce w duchu slow travel.
+
+## Struktura projektu
+
+- `articles/` — treści artykułów o kierunkach (JSON, PL + EN)
+- `blog-posts.json` — treści artykułów bloga (m.in. 16 kuchni regionalnych)
+- `blog/` — wygenerowane strony bloga (HTML)
+- `kierunki/` — wygenerowane strony kierunków (HTML)
+- `images/` — zdjęcia i logo
+- `generate-blog.js` — generator HTML-i bloga
+- `generate-destinations.js` — generator stron kierunków
+- `generate-sitemap.js`, `generate-rss.js` — generatory sitemapy i RSS
+
+## Uruchomienie lokalne
+
+Wymagany Node.js (v18+).
+
+```bash
+node generate-blog.js
+node generate-destinations.js
+node generate-sitemap.js
+node generate-rss.js
+>>>>>>> 36c9b42 (Krótki opis co zmieniłeś)
