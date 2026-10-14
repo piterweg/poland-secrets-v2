@@ -22,11 +22,11 @@ Statyczna strona z przewodnikiem po Polsce.
 
 ## Ściągawka — najczęstsze komendy
 Cel	Komenda
-Sprawdź stan	git status
-Zobacz historię	git log --oneline -10
-Dodaj wszystkie zmiany	git add -A
-Commit	git commit -m "opis"
-Push na GitHub	git push origin main
-Pull z GitHuba	git pull origin main
-Zobacz zdalne repo	git remote -v
-Zmień URL zdalnego repo	git remote set-url origin <nowy-url>
+1. Sprawdź stan	git status
+2. Zobacz historię	git log --oneline -10
+3. Dodaj wszystkie zmiany	git add -A
+4. Commit	git commit -m "opis"
+5. Push na GitHub	git push origin main
+6. Pull z GitHuba	git pull origin main
+7. Zobacz zdalne repo	git remote -v
+8. Zmień URL zdalnego repo	git remote set-url origin <nowy-url>
