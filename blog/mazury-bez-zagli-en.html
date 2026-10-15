@@ -61,15 +61,17 @@
 <link rel="stylesheet" href="../style.css">
 <link rel="stylesheet" href="../hub.css">
 <link rel="stylesheet" href="../blog.css">
+<link rel="stylesheet" href="../search.css">
 </head>
 <body>
 
 <header class="header">
-  <a class="logo" href="../index.html" aria-label="Polska bliżej"><img src="../images/logo.svg" alt="Polska bliżej" height="48"></a>
+  <a class="logo" href="../index-en.html" aria-label="Poland Closer"><img src="../images/logo.svg" alt="Poland Closer" height="48"></a>
   <nav id="nav">
     <a href="../index-en.html">Home</a>
     <a href="../blog-en.html">Blog</a>
     <a href="../index-en.html#kierunki">Destinations</a>
+    <div class="lang-group"><a href="mazury-bez-zagli.html" class="lang-switch" hreflang="pl" title="Wersja polska">PL</a><span class="lang-switch active" aria-current="true" title="English version">EN</span></div>
   </nav>
 </header>
 
@@ -99,7 +101,9 @@
       </div>
     </header>
 
-    <figure class="post-image" style="background-image:url('../images/blog-mazury-bez-zagli.webp')"></figure>
+    <figure class="post-image">
+      <img src="../images/blog-mazury-bez-zagli.webp" alt="Masuria Without Sails — 5 Ideas for Non-Sailors" width="1200" height="800" fetchpriority="high" decoding="async">
+    </figure>
 
     
   <nav class="post-toc" aria-label="Table of contents">
@@ -159,7 +163,7 @@
 </main>
 
 <footer>
-  <a class="logo" href="../index.html" aria-label="Polska bliżej"><img src="../images/logo-white.svg" alt="Polska bliżej" height="42"></a>
+  <a class="logo" href="../index-en.html" aria-label="Poland Closer"><img src="../images/logo-white.svg" alt="Poland Closer" height="42"></a>
   <p>© 2026 Poland Closer</p>
   <div>
     <a href="../index-en.html#o-nas">About</a>
@@ -168,5 +172,6 @@
 </footer>
 
 <script src="../cookie-consent.js" defer></script>
+<script src="../search.js" defer></script>
 </body>
 </html>

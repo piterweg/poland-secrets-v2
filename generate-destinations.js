@@ -353,26 +353,17 @@ ${jsonLd(ldCrumbs)}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
-<<<<<<< HEAD
 <link rel="preload" href="https://fonts.gstatic.com/s/manrope/v15/xn7gYHE41ni1AdIRggexSg.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDXbtXK-F2qC0s.woff2" as="font" type="font/woff2" crossorigin>
-=======
->>>>>>> ccc4658c4a7d66f235c701a64926ebc8bd10c776
 <link rel="stylesheet" href="../style.css">
 <link rel="stylesheet" href="../article.css">
 <link rel="stylesheet" href="../destination.css">
 <link rel="stylesheet" href="../search.css">
-<<<<<<< HEAD
 <link rel="stylesheet" href="../style.css" media="print" onload="this.media='all'">
 </head>
 <body>
 <header class="header">
-=======
-</head>
-<body>
-<header class="header">
   <a class="logo" href="../${L.indexFile}" aria-label="${SITE}"><img src="../images/logo.svg" alt="${SITE}" height="48"></a>
->>>>>>> ccc4658c4a7d66f235c701a64926ebc8bd10c776
   <nav id="nav">
     <a href="../${L.indexFile}#kierunki">${esc(L.nav[0])}</a>
     <a href="../${L.blogFile}">${esc(L.nav[1])}</a>
@@ -383,11 +374,7 @@ ${jsonLd(ldCrumbs)}
 
 <main>
   <section class="article-hero">
-<<<<<<< HEAD
     <img src="../images/${esc(m.hero)}" alt="${esc(m.place)}" class="article-image" width="1200" height="800" fetchpriority="high" decoding="async">
-=======
-    <div class="article-image" role="img" aria-label="${esc(m.place)}" style="background-image:url('../images/${esc(m.hero)}')"></div>
->>>>>>> ccc4658c4a7d66f235c701a64926ebc8bd10c776
     <div class="article-header">
       <p class="label">${esc((m.trip.region || '').toUpperCase())}</p>
       <h1>${esc(m.h1)}</h1>

@@ -24,3 +24,23 @@
 .packing-item input:checked + span{text-decoration:line-through;opacity:.5;color:var(--muted)}
 
 @media(max-width:760px){.header nav{display:none}.menu{display:block}.saved{font-size:0}.saved b{font-size:10px}.hero,.feature,.about{grid-template-columns:1fr}.hero-copy{min-height:440px}.hero-art{min-height:330px}.feature article{min-height:410px}.stats{padding:20px 5px}.stats p{font-size:9px}.trip-grid{grid-template-columns:1fr;gap:39px}.trip{min-height:385px}.trip-art{height:250px}.section-head{align-items:flex-start;flex-direction:column;gap:18px}.ideas{padding:80px 25px}.about{padding:75px 25px;gap:25px}.about>p{margin:0}.header{padding:0 20px}footer{align-items:flex-start;gap:18px;flex-direction:column}.hero h1{letter-spacing:-3px}.article-aside{position:static}}
+
+
+.post-image {
+  height: 380px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #e8e3d5;
+  background-size: cover;
+  background-position: center;
+  margin: 0 0 60px;
+  box-shadow: 0 20px 40px rgba(24,51,44,0.1);
+}
+
+.post-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}

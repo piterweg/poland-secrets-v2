@@ -39,13 +39,11 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="hub.css">
-<link rel="stylesheet" href="search.css">
-<script src="search.js" defer></script>
 </head>
 <body data-region="wielkopolskie" data-lang="pl">
 
 <header class="header">
-  <a class="logo" href="index.html" aria-label="Polska bliżej"><img src="images/logo.svg" alt="Polska bliżej" height="48"></a>
+  <a class="logo" href="index.html"><span>PB</span> Polska bliżej</a>
   <nav id="nav">
     <a href="index.html">Start</a>
     <a href="index.html#kierunki">Kierunki</a>
@@ -78,16 +76,7 @@
         <h2>Dokąd pojechać?</h2>
       </div>
     </div>
-    <div class="hub-grid" id="hub-grid">
-<!-- PRERENDER:START -->
-<article class="trip"><a href="article.html?id=poznan" class="trip-link"><div class="trip-art" style="background-image:url('images/poznan.webp');background-size:cover;background-position:center"><span>Poznań</span></div><p class="meta">WIELKOPOLSKA <b>•</b> 2 dni</p><h3>Wielki rytm Poznania</h3><p>Rogale świętomarcińskie, sklepy z designem i niespieszny spacer po Jeżycach.</p></a></article>
-<article class="trip"><a href="article.html?id=notecka" class="trip-link"><div class="trip-art" style="background-image:url('images/notecka.webp');background-size:cover;background-position:center"><span>Puszcza Notecka</span></div><p class="meta">WIELKOPOLSKA <b>•</b> 2 dni</p><h3>Przestrzenie sosen</h3><p>Długie leśne trasy i ukryte jeziora, które najlepiej odkrywać z siodełka roweru.</p></a></article>
-<article class="trip"><a href="article.html?id=puszcza-notecka" class="trip-link"><div class="trip-art" style="background-image:url('images/notecka.webp');background-size:cover;background-position:center"><span>Puszcza Notecka</span></div><p class="meta">WIELKOPOLSKA <b>•</b> 1–2 dni</p><h3>Las bez pośpiechu</h3><p>Piaszczyste ścieżki wśród wydm, ciche drogi i spokojna ucieczka od miejskiego zgiełku.</p></a></article>
-<article class="trip"><a href="article.html?id=wielka-petla-wielkopolski" class="trip-link"><div class="trip-art" style="background-image:url('images/wielka-petla-wielkopolski.webp');background-size:cover;background-position:center"><span>Wielka Pętla Wielkopolski</span></div><p class="meta">WIELKOPOLSKA <b>•</b> 4–5 dni</p><h3>Wielka Pętla Wielkopolski</h3><p>600 km przez Wielkopolski Park Narodowy, Dolinę Warty i okolice Poznania. Szlak dla cierpliwych rowerzystów.</p></a></article>
-<article class="trip"><a href="article.html?id=kuchnia-wielkopolska" class="trip-link"><div class="trip-art" style="background-image:url('images/kuchnia-wielkopolska.webp');background-size:cover;background-position:center"><span>Wielkopolska</span></div><p class="meta">WIELKOPOLSKA <b>•</b> 2 dni</p><h3>Rogale świętomarcińskie i pyry z gzikiem</h3><p>Kuchnia Wielkopolski to pyry w każdej formie, rogale z białym makiem i gęsina na świętego Marcina.</p></a></article>
-<article class="trip"><a href="article.html?id=pn-wielkopolski" class="trip-link"><div class="trip-art" style="background-image:url('images/pn-wielkopolski.webp');background-size:cover;background-position:center"><span>Wielkopolski PN</span></div><p class="meta">WIELKOPOLSKA <b>•</b> 1 dzień</p><h3>Jeziora pod Poznaniem</h3><p>Park 15 km od Poznania. Jeziora polodowcowe, wzgórza morenowe i sosnowe bory — idealny na jednodniową ucieczkę.</p></a></article>
-<!-- PRERENDER:END -->
-</div>
+    <div class="hub-grid" id="hub-grid"></div>
   </section>
 
   <section class="hub-others">
@@ -173,7 +162,7 @@
 </main>
 
 <footer>
-  <a class="logo" href="index.html" aria-label="Polska bliżej"><img src="images/logo-white.svg" alt="Polska bliżej" height="42"></a>
+  <a class="logo" href="index.html"><span>PB</span> Polska bliżej</a>
   <p>© 2026 Polska bliżej</p>
   <div>
     <a href="index.html#o-nas">O projekcie</a>
@@ -183,6 +172,5 @@
 
 <script src="app.js"></script>
 <script src="region.js"></script>
-<script src="cookie-consent.js" defer></script>
 </body>
 </html>

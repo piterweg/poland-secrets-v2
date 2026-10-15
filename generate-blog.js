@@ -240,15 +240,19 @@ ${JSON.stringify(breadcrumbSchema)}
 <link rel="stylesheet" href="../style.css">
 <link rel="stylesheet" href="../hub.css">
 <link rel="stylesheet" href="../blog.css">
+<link rel="stylesheet" href="../search.css">
 </head>
 <body>
 
 <header class="header">
-  <a class="logo" href="${homeLink}"><span>PB</span> ${siteName}</a>
+  <a class="logo" href="${homeLink}" aria-label="${siteName}"><img src="../images/logo.svg" alt="${siteName}" height="48"></a>
   <nav id="nav">
     <a href="${homeLink}">${isEn ? 'Home' : 'Start'}</a>
     <a href="${blogLink}">Blog</a>
     <a href="${homeLink}#kierunki">${isEn ? 'Destinations' : 'Kierunki'}</a>
+    <div class="lang-group">${isEn
+      ? `<a href="${filePl}" class="lang-switch" hreflang="pl" title="Wersja polska">PL</a><span class="lang-switch active" aria-current="true" title="English version">EN</span>`
+      : `<span class="lang-switch active" aria-current="true" title="Wersja polska">PL</span><a href="${fileEn}" class="lang-switch" hreflang="en" title="English version">EN</a>`}</div>
   </nav>
 </header>
 
@@ -269,7 +273,9 @@ ${JSON.stringify(breadcrumbSchema)}
       </div>
     </header>
 
-    <figure class="post-image" style="background-image:url('../images/${post.image}')"></figure>
+    <figure class="post-image">
+      <img src="../images/${post.image}" alt="${escAttr(data.title)}" width="1200" height="800" fetchpriority="high" decoding="async">
+    </figure>
 
     ${toc}
 
@@ -288,7 +294,7 @@ ${buildRelated(post.slug, post.category, lang)}
 </main>
 
 <footer>
-  <a class="logo" href="${homeLink}"><span>PB</span> ${siteName}</a>
+  <a class="logo" href="${homeLink}" aria-label="${siteName}"><img src="../images/logo-white.svg" alt="${siteName}" height="42"></a>
   <p>© 2026 ${siteName}</p>
   <div>
     <a href="${homeLink}#o-nas">${isEn ? 'About' : 'O projekcie'}</a>
@@ -297,6 +303,7 @@ ${buildRelated(post.slug, post.category, lang)}
 </footer>
 
 <script src="../cookie-consent.js" defer></script>
+<script src="../search.js" defer></script>
 </body>
 </html>
 `;
@@ -394,11 +401,12 @@ function buildBlogIndex(lang) {
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="hub.css">
 <link rel="stylesheet" href="blog.css">
+<link rel="stylesheet" href="../search.css">
 </head>
 <body>
 
 <header class="header">
-  <a class="logo" href="${homeLink}"><span>PB</span> ${siteName}</a>
+  <a class="logo" href="${homeLink}" aria-label="${siteName}"><img src="images/logo.svg" alt="${siteName}" height="48"></a>
   <nav id="nav">
     <a href="${homeLink}">${isEn ? 'Home' : 'Start'}</a>
     <a href="${homeLink}#kierunki">${isEn ? 'Destinations' : 'Kierunki'}</a>
@@ -459,7 +467,7 @@ ${cards}
 </main>
 
 <footer>
-  <a class="logo" href="${homeLink}"><span>PB</span> ${siteName}</a>
+  <a class="logo" href="${homeLink}" aria-label="${siteName}"><img src="images/logo-white.svg" alt="${siteName}" height="42"></a>
   <p>© 2026 ${siteName}</p>
   <div>
     <a href="${homeLink}#o-nas">${isEn ? 'About' : 'O projekcie'}</a>
@@ -468,6 +476,7 @@ ${cards}
 </footer>
 
 <script src="cookie-consent.js" defer></script>
+<script src="search.js" defer></script>
 </body>
 </html>
 `;
