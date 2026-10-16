@@ -1,0 +1,13 @@
+{
+  "name": "poland-secrets",
+  "version": "1.0.0",
+  "description": "Polska bliżej — slow travel guide",
+  "private": true,
+  "scripts": {
+    "start": "node generate-blog.js",
+    "build": "node generate-blog.js && node generate-destinations.js && node generate-sitemap.js && node generate-rss.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
