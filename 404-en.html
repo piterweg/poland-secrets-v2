@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Page not found — get back on the trail with Polska bliżej. Slow travel in Poland.">
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#18332c">
+<title>404 — We've left the trail · Polska bliżej</title>
+<link rel="canonical" href="https://polandsecrets.com/404-en.html">
+<link rel="alternate" hreflang="pl" href="https://polandsecrets.com/404.html">
+<link rel="alternate" hreflang="en" href="https://polandsecrets.com/404-en.html">
+<link rel="alternate" hreflang="x-default" href="https://polandsecrets.com/404.html">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  .error-page {
+    min-height: calc(100vh - 78px - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: clamp(60px, 10vw, 120px) clamp(24px, 6vw, 60px);
+    background: var(--cream);
+    position: relative;
+    overflow: hidden;
+  }
+  .error-page::before {
+    content: '';
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    background: var(--yellow);
+    opacity: 0.35;
+    top: -80px;
+    right: -100px;
+    z-index: 0;
+  }
+  .error-page::after {
+    content: '';
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background: var(--blue);
+    opacity: 0.4;
+    bottom: -60px;
+    left: -80px;
+    z-index: 0;
+  }
+  .error-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 560px;
+  }
+  .error-code {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(96px, 18vw, 160px);
+    font-weight: 500;
+    line-height: 0.9;
+    letter-spacing: -6px;
+    color: var(--ink);
+    margin: 0 0 8px;
+    opacity: 0.12;
+  }
+  .error-label {
+    font: 500 11px 'DM Mono', monospace;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin: 0 0 18px;
+  }
+  .error-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: -1.5px;
+    color: var(--ink);
+    margin: 0 0 20px;
+  }
+  .error-title em {
+    font-style: italic;
+  }
+  .error-text {
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--muted);
+    margin: 0 0 36px;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .error-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+    margin-bottom: 48px;
+  }
+  .error-actions .primary-btn {
+    display: inline-block;
+    background: var(--ink);
+    color: var(--cream);
+    font: 700 12px Manrope, sans-serif;
+    padding: 14px 28px;
+    border-radius: 8px;
+    transition: all .3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  .error-actions .primary-btn:hover {
+    background: var(--orange);
+    transform: translateY(-2px);
+  }
+  .error-actions .outline-btn {
+    display: inline-block;
+    font: 700 12px Manrope, sans-serif;
+    padding: 14px 28px;
+    border: 1.5px solid var(--ink);
+    border-radius: 8px;
+    color: var(--ink);
+    transition: all .3s ease;
+  }
+  .error-actions .outline-btn:hover {
+    background: var(--ink);
+    color: var(--cream);
+  }
+  .error-suggestions {
+    border-top: 1px solid rgba(24, 51, 44, 0.1);
+    padding-top: 36px;
+    width: 100%;
+    max-width: 480px;
+  }
+  .error-suggestions .label {
+    margin-bottom: 16px;
+    color: var(--muted);
+  }
+  .error-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .error-links a {
+    font: 600 12px Manrope, sans-serif;
+    padding: 8px 16px;
+    border: 1px solid rgba(24, 51, 44, 0.15);
+    border-radius: 20px;
+    background: #fff;
+    color: var(--ink);
+    transition: all .25s ease;
+  }
+  .error-links a:hover {
+    border-color: var(--ink);
+    background: var(--ink);
+    color: var(--cream);
+    transform: translateY(-2px);
+  }
+  @media (max-width: 600px) {
+    .error-actions {
+      flex-direction: column;
+      align-items: center;
+    }
+    .error-actions .primary-btn,
+    .error-actions .outline-btn {
+      width: 100%;
+      max-width: 260px;
+      text-align: center;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <a class="logo" href="index-en.html" aria-label="Polska bliżej">
+    <img src="images/logo.svg" alt="Polska bliżej" height="48">
+  </a>
+  <nav id="nav">
+    <a href="index-en.html">Home</a>
+    <a href="index-en.html#kierunki">Destinations</a>
+    <a href="blog-en.html">Blog</a>
+    <div class="lang-group">
+      <a href="404.html" class="lang-switch" title="Wersja polska">PL</a>
+      <a href="404-en.html" class="lang-switch active" title="English version">EN</a>
+    </div>
+  </nav>
+</header>
+
+<main class="error-page">
+  <div class="error-inner">
+    <p class="error-code" aria-hidden="true">404</p>
+    <p class="error-label">We've left the trail</p>
+    <h1 class="error-title">This path<br><em>ends here.</em></h1>
+    <p class="error-text">
+      The page you're looking for doesn't exist or has been moved.
+      Getting lost is sometimes part of the journey — but we'll get you back on track.
+    </p>
+    <div class="error-actions">
+      <a href="index-en.html" class="primary-btn">Back to homepage</a>
+      <a href="index-en.html#kierunki" class="outline-btn">Browse destinations →</a>
+    </div>
+    <div class="error-suggestions">
+      <p class="label">You might like</p>
+      <div class="error-links">
+        <a href="blog-en.html">Blog</a>
+        <a href="index-en.html#kierunki">Destinations</a>
+        <a href="pomorskie-en.html">Pomerania</a>
+        <a href="malopolskie-en.html">Lesser Poland</a>
+        <a href="podkarpackie-en.html">Bieszczady</a>
+        <a href="parki-narodowe-en.html">National parks</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <a class="logo" href="index-en.html" aria-label="Polska bliżej">
+    <img src="images/logo-white.svg" alt="Polska bliżej" height="42">
+  </a>
+  <p>© 2026 Polska bliżej</p>
+  <div>
+    <a href="cookies-en.html">Cookies</a>
+    <a href="polityka-prywatnosci-en.html">Privacy</a>
+    <a href="mailto:hello@polandsecrets.com">Contact</a>
+  </div>
+</footer>
+
+</body>
+</html>

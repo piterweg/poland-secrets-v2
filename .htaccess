@@ -1,0 +1,97 @@
+# ═══════════════════════════════════════════════════════════
+# Polska bliżej — konfiguracja Apache
+# ═══════════════════════════════════════════════════════════
+
+# ───── 1. Przekierowanie na HTTPS ─────
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+</IfModule>
+
+# ───── 2. Przekierowanie www → bez www (lub odwrotnie) ─────
+# Wybierz JEDNĄ wersję — odkomentuj tę, którą chcesz:
+
+# Wersja bez www:
+<IfModule mod_rewrite.c>
+  RewriteCond %{HTTP_HOST} ^www\.polandsecrets\.com$ [NC]
+  RewriteRule ^(.*)$ https://polandsecrets.com/$1 [R=301,L]
+</IfModule>
+
+# Wersja z www (jeśli wolisz):
+# RewriteCond %{HTTP_HOST} ^polandsecrets\.com$ [NC]
+# RewriteRule ^(.*)$ https://www.polandsecrets.com/$1 [R=301,L]
+
+# ───── 3. Usuń końcowy ukośnik (opcjonalnie) ─────
+# /blog/ → /blog  (żeby uniknąć duplikatów)
+# Uwaga: może psuć linki do folderów, jeśli nie masz index.html
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+# ───── 4. Cache dla statycznych plików ─────
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Obrazki — 1 rok
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+
+  # CSS/JS — 1 miesiąc
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+
+  # HTML — 1 dzień (bo często się zmienia)
+  ExpiresByType text/html "access plus 1 day"
+
+  # Fonty — 1 rok
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+</IfModule>
+
+# Favicon — nie cache'uj agresywnie (żeby zmiany były widoczne)
+<FilesMatch "favicon\.(svg|ico|png)$">
+  <IfModule mod_headers.c>
+    Header set Cache-Control "no-cache, must-revalidate"
+  </IfModule>
+</FilesMatch>
+
+# ───── 5. Kompresja Gzip ─────
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/json
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE text/plain
+</IfModule>
+
+# ───── 6. Nagłówki bezpieczeństwa ─────
+<IfModule mod_headers.c>
+  # Zapobiega osadzaniu strony w iframe (clickjacking)
+  Header set X-Frame-Options "SAMEORIGIN"
+
+  # Zapobiega sniffowaniu typu MIME
+  Header set X-Content-Type-Options "nosniff"
+
+  # Referrer policy
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+
+  # Permissions policy
+  Header set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+</IfModule>
+
+# ───── 7. Blokada dostępu do plików źródłowych ─────
+<FilesMatch "\.(json|js|md|txt|log|bak|sh|env)$">
+  # Zablokuj dostęp do wybranych plików (opcjonalnie)
+  # Uwaga: jeśli blokujesz .js, search.js przestanie działać!
+  # Zostaw to zakomentowane, chyba że wiesz, co robisz:
+  # Require all denied
+</FilesMatch>
+
+# ───── 8. Własna strona 404 (opcjonalnie) ─────
+ErrorDocument 404 /404.html
