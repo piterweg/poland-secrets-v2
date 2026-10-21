@@ -52,43 +52,91 @@
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://polandsecrets.com/#website-en",
-      "url": "https://polandsecrets.com/index-en.html",
+      "@id": "https://polandsecrets.com/#website",
+      "url": "https://polandsecrets.com/",
       "name": "Poland Closer",
-      "description": "Travel inspirations and authentic journeys across Poland in the spirit of slow travel.",
-      "inLanguage": "en-US",
-      "publisher": {
-        "@id": "https://polandsecrets.com/#organization"
-      }
+      "alternateName": "Polska bliżej",
+      "description": "Slow travel inspiration and weekend routes across Poland.",
+      "inLanguage": ["en-US", "pl-PL", "es-ES"],
+      "publisher": { "@id": "https://polandsecrets.com/#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://polandsecrets.com/#organization",
+      "name": "Poland Closer",
+      "url": "https://polandsecrets.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://polandsecrets.com/favicon.svg"
+      },
+      "email": "hello@polandsecrets.com"
     },
     {
       "@type": "ItemList",
-      "name": "Featured Travel Destinations in Poland",
-      "description": "Carefully selected routes and weekend getaways across Poland.",
+      "name": "Featured destinations in Poland",
+      "description": "Curated slow-travel routes and weekend escapes in Poland.",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "The Baltic off-season - Vistula Spit",
+          "name": "The Baltic Off-Season - Vistula Spit",
           "url": "https://polandsecrets.com/article.html?id=baltyk"
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Tatra Mountains without the rush - Koscieliska Valley",
+          "name": "Tatras Without the Rush",
           "url": "https://polandsecrets.com/article.html?id=tatry"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Bieszczady - Highlands and serenity",
+          "name": "Bieszczady - Mountain pastures and silence",
           "url": "https://polandsecrets.com/article.html?id=bieszczady"
         },
         {
           "@type": "ListItem",
           "position": 4,
-          "name": "Masuria - Slowing down by the lake",
+          "name": "Masuria - Slow down by the lake",
           "url": "https://polandsecrets.com/article.html?id=mazury"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://polandsecrets.com/index-en.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much time do I need for a weekend trip in Poland?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most ideas on Poland Closer fit 1 day, 2–3 days, or 4–7 days. The weekend generator matches destinations to the time you have."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where should I go for a slow travel weekend in Poland?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depending on your mood: mountains and trails, lakes and the Baltic, castles and history, regional food, or quiet villages. Use the generator on the homepage to get personal matches."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are the routes suitable with kids or a dog?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — the generator lets you choose who you travel with (solo, couple, kids, dog) and gently prioritises family-friendly and dog-friendly nature spots."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Poland Closer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Poland Closer is a slow travel guide to Poland: curated destinations, unhurried routes, and practical inspiration for weekend getaways."
+          }
         }
       ]
     }

@@ -7,11 +7,21 @@ Allow: /article.html
 Allow: /images/
 Allow: /style.css
 Allow: /article.css
+Allow: /search.css
 Allow: /app.js
+Allow: /app-en.js
 Allow: /app-es.js
+Allow: /generator.js
+Allow: /badges.js
+Allow: /search.js
+Allow: /cookie-consent.js
 Allow: /trips-pl.json
 Allow: /trips-en.json
+Allow: /destinations-manifest.json
+Allow: /blog-posts.json
 Allow: /articles/
+Allow: /blog/
+Allow: /kierunki/
 
 Disallow: /local.settings.json
 Disallow: /.venv/
@@ -20,7 +30,9 @@ Disallow: /*.py
 Disallow: /function_app.py
 Disallow: /host.json
 Disallow: /requirements.txt
-Disallow: /generate-sitemap.js
-Disallow: /check-images.js
+Disallow: /generate-*.js
+Disallow: /check-*.js
+Disallow: /package.json
+Disallow: /node_modules/
 
 Sitemap: https://polandsecrets.com/sitemap.xml
