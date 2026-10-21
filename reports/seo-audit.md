@@ -1,0 +1,440 @@
+# Poland Secrets v2 — SEO audit report
+
+> Read-only audit. Review findings before changing production files.
+
+- HTML files scanned: **392**
+- JSON files scanned: **306**
+- Errors: **3**
+- Warnings: **238**
+- Informational findings: **174**
+
+## Error (3)
+
+- **fix-conflicts.js**: Possible unresolved Git conflict marker — <<<<<<<
+- **README.md**: Possible unresolved Git conflict marker — <<<<<<<
+- **seo_audit.py**: Possible unresolved Git conflict marker — <<<<<<<
+
+## Warn (238)
+
+- **images/augustowska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x8a in position 4: invalid start byte
+- **images/auschwitz.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb5 in position 5: invalid start byte
+- **images/babia.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa9 in position 27: invalid start byte
+- **images/baltyk.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe4 in position 4: invalid continuation byte
+- **images/baltyk1.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa0 in position 4: invalid start byte
+- **images/barycz.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/barycz1.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xac in position 4: invalid start byte
+- **images/beskid-niski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/beskid-zywiecki.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/bialowieza.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xf0 in position 5: invalid continuation byte
+- **images/bialowieza1.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x9d in position 5: invalid start byte
+- **images/biebrza-losie.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa9 in position 5: invalid start byte
+- **images/biebrza-rzeka.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xcc in position 4: invalid continuation byte
+- **images/biebrza.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xec in position 4: invalid continuation byte
+- **images/bieszczady.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xeb in position 5: invalid continuation byte
+- **images/bieszczady1.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/blog-baltyk-bez-tlumow.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x8d in position 5: invalid start byte
+- **images/blog-jak-planowac-weekend.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xf2 in position 5: invalid continuation byte
+- **images/blog-karkonosze-weekend.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb4 in position 5: invalid start byte
+- **images/blog-krakow-weekend.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/blog-kuchnia-dolnoslaska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/blog-kuchnia-kaszubska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/blog-kuchnia-kujawska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb1 in position 5: invalid start byte
+- **images/blog-kuchnia-lubelska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xfc in position 4: invalid start byte
+- **images/blog-kuchnia-malopolska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x98 in position 4: invalid start byte
+- **images/blog-kuchnia-mazowiecka.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x83 in position 5: invalid start byte
+- **images/blog-kuchnia-podhala.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x88 in position 4: invalid start byte
+- **images/blog-kuchnia-podkarpacka.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe1 in position 5: invalid continuation byte
+- **images/blog-kuchnia-podlaska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xda in position 4: invalid continuation byte
+- **images/blog-kuchnia-pomorska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x8d in position 5: invalid start byte
+- **images/blog-kuchnia-regionalna.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc6 in position 4: invalid continuation byte
+- **images/blog-kuchnia-slaska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xaa in position 4: invalid start byte
+- **images/blog-kuchnia-warminska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/blog-kuchnia-wielkopolska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/blog-kuchnia-zachodniopomorska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 4: invalid continuation byte
+- **images/blog-mazury-bez-zagli.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x86 in position 4: invalid start byte
+- **images/blog-mazury-weekend.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x81 in position 27: invalid start byte
+- **images/blog-podlasie-weekend.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/blog-polska-bez-samochodu.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xbe in position 4: invalid start byte
+- **images/blog-polska-jesienia.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb8 in position 5: invalid start byte
+- **images/blog-polska-wiosna.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe6 in position 4: invalid continuation byte
+- **images/blog-rowerem-po-polsce.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb2 in position 27: invalid start byte
+- **images/blog-roztocze-weekend.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x82 in position 27: invalid start byte
+- **images/blog-slaskim-szlakiem-zamkow.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/blog-slow-travel-znaczenie.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 4: invalid continuation byte
+- **images/blog-slow-travel.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xf8 in position 4: invalid start byte
+- **images/blog-trojmasto-weekend.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa1 in position 5: invalid start byte
+- **images/blog-weekend-bieszczady.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x86 in position 4: invalid start byte
+- **images/blog-zakopane-weekend.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe4 in position 4: invalid continuation byte
+- **images/blog-zima-w-tatrach.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xd0 in position 4: invalid continuation byte
+- **images/bochnia.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x80 in position 4: invalid start byte
+- **images/bory-tucholskie.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe0 in position 4: invalid continuation byte
+- **images/chelmno.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/cieszyn.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xea in position 4: invalid continuation byte
+- **images/dolina-bugu.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x98 in position 5: invalid start byte
+- **images/dolina-koscieliska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x96 in position 4: invalid start byte
+- **images/drawa.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/drawsko.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xfe in position 4: invalid start byte
+- **images/favicon.svg.png**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+- **images/gdansk.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x94 in position 4: invalid start byte
+- **images/giewont.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/gorce.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe7 in position 27: invalid continuation byte
+- **images/gorce2.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xeb in position 5: invalid continuation byte
+- **images/green-velo.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x83 in position 27: invalid start byte
+- **images/hel.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xd7 in position 5: invalid continuation byte
+- **images/hel1.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x88 in position 4: invalid start byte
+- **images/hero-polska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xda in position 27: invalid continuation byte
+- **images/kalwaria-zebrzydowska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xf4 in position 4: invalid continuation byte
+- **images/kampinos.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe2 in position 4: invalid continuation byte
+- **images/kampinos1.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode bytes in position 4-5: invalid continuation byte
+- **images/kanal-augustowski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/karkonosze-swierki.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x83 in position 27: invalid start byte
+- **images/karkonosze-zima-2.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x83 in position 27: invalid start byte
+- **images/karkonosze-zima.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb1 in position 5: invalid start byte
+- **images/karkonosze.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x9b in position 5: invalid start byte
+- **images/kasprowy-wierch.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xfe in position 4: invalid start byte
+- **images/kaszuby.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb5 in position 5: invalid start byte
+- **images/kaszuby1.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/kaszuby2.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb2 in position 4: invalid start byte
+- **images/kategoria-kuchnia.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xd8 in position 4: invalid continuation byte
+- **images/kategoria-zamki.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa2 in position 4: invalid start byte
+- **images/kazimierz-dolny 1.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe8 in position 4: invalid continuation byte
+- **images/kazimierz-dolny.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x90 in position 4: invalid start byte
+- **images/klodzko.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/kolorowe-jeziorka.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa6 in position 4: invalid start byte
+- **images/krakow.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa2 in position 4: invalid start byte
+- **images/krynica-zdroj.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xdf in position 27: invalid continuation byte
+- **images/krzemionki.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/ksiaz.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xac in position 4: invalid start byte
+- **images/kuchnia-kaszuby.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x84 in position 4: invalid start byte
+- **images/kuchnia-kociewie.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xce in position 5: invalid continuation byte
+- **images/kuchnia-kurpie.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xf2 in position 5: invalid continuation byte
+- **images/kuchnia-lemkowska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xce in position 4: invalid continuation byte
+- **images/kuchnia-podhale.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xce in position 4: invalid continuation byte
+- **images/kuchnia-podlasie(1).webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x98 in position 4: invalid start byte
+- **images/kuchnia-podlasie.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x9d in position 5: invalid start byte
+- **images/kuchnia-roztocze.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb1 in position 5: invalid start byte
+- **images/kuchnia-slask.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xf8 in position 5: invalid start byte
+- **images/kuchnia-warmia.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x88 in position 4: invalid start byte
+- **images/kuchnia-wielkopolska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/kudowa.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb4 in position 4: invalid start byte
+- **images/lancut.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa0 in position 4: invalid start byte
+- **images/lasy-janowskie.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/leba.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x94 in position 4: invalid start byte
+- **images/lodz.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc5 in position 5: invalid continuation byte
+- **images/lublin.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xdf in position 5: invalid continuation byte
+- **images/malbork.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa8 in position 4: invalid start byte
+- **images/mazury.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x86 in position 4: invalid start byte
+- **images/mazury1.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/miasteczka.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xcc in position 5: invalid continuation byte
+- **images/mierzeja.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa6 in position 4: invalid start byte
+- **images/mierzeja1.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb4 in position 4: invalid start byte
+- **images/morskie-oko.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/moszna.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/narew.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/newsletter-bg.jpg**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+- **images/niedzica.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xdb in position 5: invalid continuation byte
+- **images/notecka.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa2 in position 5: invalid start byte
+- **images/ogrodzieniec.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe6 in position 4: invalid continuation byte
+- **images/ojcow.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa5 in position 27: invalid start byte
+- **images/olsztyn.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa9 in position 5: invalid start byte
+- **images/paczkow.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/pieniny.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xfc in position 4: invalid start byte
+- **images/pn-babiogorski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/pn-bialowieski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xfc in position 5: invalid start byte
+- **images/pn-biebrzanski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/pn-bieszczadzki.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x81 in position 5: invalid start byte
+- **images/pn-bory-tucholskie.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb4 in position 5: invalid start byte
+- **images/pn-drawienski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa4 in position 5: invalid start byte
+- **images/pn-gor-stolowych.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xd6 in position 4: invalid continuation byte
+- **images/pn-gorczanski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb5 in position 5: invalid start byte
+- **images/pn-kampinoski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xd8 in position 5: invalid continuation byte
+- **images/pn-karkonoski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa0 in position 4: invalid start byte
+- **images/pn-magurski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe4 in position 4: invalid continuation byte
+- **images/pn-narwianski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/pn-ojcowski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe8 in position 4: invalid continuation byte
+- **images/pn-pieninski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc6 in position 5: invalid continuation byte
+- **images/pn-poleski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc3 in position 5: invalid continuation byte
+- **images/pn-roztoczanski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe4 in position 4: invalid continuation byte
+- **images/pn-slowinski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa0 in position 5: invalid start byte
+- **images/pn-swietokrzyski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb6 in position 4: invalid start byte
+- **images/pn-tatrzanski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/pn-ujscie-warty.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xd2 in position 4: invalid continuation byte
+- **images/pn-wielkopolski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe0 in position 4: invalid continuation byte
+- **images/pn-wigierski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x94 in position 4: invalid start byte
+- **images/pn-wolinski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x9a in position 5: invalid start byte
+- **images/podhale.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa6 in position 4: invalid start byte
+- **images/polesie.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/polonina-carynska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb6 in position 4: invalid start byte
+- **images/polonina-wetlinska.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/Polska bliżej (2).png**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+- **images/Polska bliżej (3).png**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+- **images/Polska bliżej.png**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+- **images/Polska bliżej2.png**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+- **images/poznan.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xf0 in position 4: invalid continuation byte
+- **images/przemysl.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x8e in position 4: invalid start byte
+- **images/pszczyna.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xbe in position 4: invalid start byte
+- **images/roztocze.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/samotnia.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/sandomierz.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x83 in position 27: invalid start byte
+- **images/sanok.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xd2 in position 4: invalid continuation byte
+- **images/slowinski-park.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x9d in position 5: invalid start byte
+- **images/sniezka.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xbe in position 5: invalid start byte
+- **images/solina.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x87 in position 27: invalid start byte
+- **images/sopot.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x9f in position 5: invalid start byte
+- **images/splyw-dunajcem.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe8 in position 5: invalid continuation byte
+- **images/stolowe.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb7 in position 5: invalid start byte
+- **images/suprasl.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x80 in position 4: invalid start byte
+- **images/suwalszczyzna.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x98 in position 4: invalid start byte
+- **images/suwalszczyzna1.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x8a in position 5: invalid start byte
+- **images/swietokrzyskie.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xea in position 4: invalid continuation byte
+- **images/szczawnica.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xcc in position 27: invalid continuation byte
+- **images/szczecin-zalew.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xce in position 4: invalid continuation byte
+- **images/szczeliniec.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x94 in position 4: invalid start byte
+- **images/szlak-architektury-drewnianej.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x9e in position 4: invalid start byte
+- **images/szlak-bursztynowy.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/szlak-cerkwi.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xf4 in position 4: invalid continuation byte
+- **images/szlak-fortyfikacji.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x84 in position 4: invalid start byte
+- **images/szlak-industrialny.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xf2 in position 4: invalid continuation byte
+- **images/szlak-kulinarny.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x87 in position 5: invalid start byte
+- **images/szlak-piastowski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xea in position 4: invalid continuation byte
+- **images/szlak-rzemieslniczy.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xbe in position 4: invalid start byte
+- **images/szlak-uzdrowisk.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb0 in position 5: invalid start byte
+- **images/szlak-winnic.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe5 in position 5: invalid continuation byte
+- **images/szlaki.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe2 in position 5: invalid continuation byte
+- **images/tarnowskie-gory.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x8c in position 4: invalid start byte
+- **images/tatry-zachodnie.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/tatry.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe6 in position 4: invalid continuation byte
+- **images/tatry1.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x9c in position 4: invalid start byte
+- **images/tatrzanski-park.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb8 in position 4: invalid start byte
+- **images/torun.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x81 in position 27: invalid start byte
+- **images/unesco.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb8 in position 4: invalid start byte
+- **images/ustka.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x82 in position 4: invalid start byte
+- **images/velo-baltica.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xad in position 5: invalid start byte
+- **images/velo-dunajec.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x83 in position 27: invalid start byte
+- **images/warmia1.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xce in position 4: invalid continuation byte
+- **images/warmia2.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe8 in position 4: invalid continuation byte
+- **images/wawel.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe7 in position 27: invalid continuation byte
+- **images/wieliczka.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe8 in position 4: invalid continuation byte
+- **images/wielka-petla-wielkopolski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/wielkopolski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc4 in position 4: invalid continuation byte
+- **images/wigierski-park.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x9e in position 4: invalid start byte
+- **images/wolin.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xfc in position 4: invalid start byte
+- **images/wroclaw.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/wsie-beskid-niski.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xee in position 4: invalid continuation byte
+- **images/wsie-dolny-slask.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xaf in position 27: invalid start byte
+- **images/wsie-kaszuby.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xf4 in position 4: invalid continuation byte
+- **images/wsie-kociewie.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa2 in position 4: invalid start byte
+- **images/wsie-kurpie.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xb7 in position 5: invalid start byte
+- **images/wsie-lemkowszczyzna.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xf8 in position 4: invalid start byte
+- **images/wsie-mazowsze.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x96 in position 4: invalid start byte
+- **images/wsie-podlasie.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/wsie-roztocze.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xa8 in position 5: invalid start byte
+- **images/wsie-warmia.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xc8 in position 34: invalid continuation byte
+- **images/zakopane.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xe2 in position 4: invalid continuation byte
+- **images/zamki.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x83 in position 27: invalid start byte
+- **images/zamosc.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0xaf in position 27: invalid start byte
+- **images/zielonagora.webp**: Could not read file as UTF-8 — 'utf-8' codec can't decode byte 0x9a in position 4: invalid start byte
+- **blog/kategoria/inspiracje-en.html**: Local link target not found — ../blog-en.html
+- **blog/kategoria/inspiracje-en.html**: Local link target not found — ../blog-en.html
+- **blog/kategoria/inspiracje.html**: Local link target not found — ../blog.html
+- **blog/kategoria/inspiracje.html**: Local link target not found — ../blog.html
+- **blog/kategoria/kuchnia-en.html**: Local link target not found — ../blog-en.html
+- **blog/kategoria/kuchnia-en.html**: Local link target not found — ../blog-en.html
+- **blog/kategoria/kuchnia.html**: Local link target not found — ../blog.html
+- **blog/kategoria/kuchnia.html**: Local link target not found — ../blog.html
+- **blog/kategoria/manifest-en.html**: Local link target not found — ../blog-en.html
+- **blog/kategoria/manifest-en.html**: Local link target not found — ../blog-en.html
+- **blog/kategoria/manifest.html**: Local link target not found — ../blog.html
+- **blog/kategoria/manifest.html**: Local link target not found — ../blog.html
+- **blog/kategoria/plany-en.html**: Local link target not found — ../blog-en.html
+- **blog/kategoria/plany-en.html**: Local link target not found — ../blog-en.html
+- **blog/kategoria/plany.html**: Local link target not found — ../blog.html
+- **blog/kategoria/plany.html**: Local link target not found — ../blog.html
+- **blog/kategoria/poradniki-en.html**: Local link target not found — ../blog-en.html
+- **blog/kategoria/poradniki-en.html**: Local link target not found — ../blog-en.html
+- **blog/kategoria/poradniki.html**: Local link target not found — ../blog.html
+- **blog/kategoria/poradniki.html**: Local link target not found — ../blog.html
+
+## Info (174)
+
+- **article.html**: No hreflang alternate links found — Check whether this page has a translated counterpart.
+- **dolnoslaskie-en.html**: Meta description may be long — 198 characters
+- **dolnoslaskie.html**: Meta description may be long — 194 characters
+- **index-en.html**: Title may be long — 67 characters: Poland Closer — Authentic Travel Ideas & Weekend Getaways in Poland
+- **index-en.html**: Meta description may be long — 166 characters
+- **index-es.html**: Title may be long — 75 characters: Poland Closer — Viajar por Polonia: Escapadas de Fin de Semana y Rutas Slow
+- **index.html**: Title may be long — 64 characters: Polska bliżej — Podróże po Polsce, inspiracje i trasy na weekend
+- **kuchnia-en.html**: Meta description may be long — 181 characters
+- **kuchnia.html**: Title may be long — 66 characters: Kuchnia regionalna Polski — przewodnik slow travel | Polska bliżej
+- **kuchnia.html**: Meta description may be long — 188 characters
+- **kujawsko-pomorskie-en.html**: Meta description may be long — 195 characters
+- **kujawsko-pomorskie.html**: Meta description may be long — 192 characters
+- **lodzkie-en.html**: Meta description may be long — 172 characters
+- **lodzkie.html**: Meta description may be long — 177 characters
+- **lubelskie.html**: Meta description may be long — 178 characters
+- **lubuskie-en.html**: Meta description may be long — 171 characters
+- **lubuskie.html**: Meta description may be long — 194 characters
+- **malopolskie-en.html**: Meta description may be long — 234 characters
+- **malopolskie.html**: Meta description may be long — 218 characters
+- **mazowieckie-en.html**: Meta description may be long — 192 characters
+- **mazowieckie.html**: Meta description may be long — 208 characters
+- **miasteczka.html**: Title may be long — 74 characters: Małe miasta i miasteczka w Polsce — przewodnik slow travel | Polska bliżej
+- **opolskie-en.html**: Meta description may be long — 194 characters
+- **opolskie.html**: Meta description may be long — 175 characters
+- **parki-narodowe-en.html**: Title may be long — 63 characters: 23 National Parks of Poland — Slow Travel Guide | Poland Closer
+- **parki-narodowe.html**: Title may be long — 65 characters: 23 parki narodowe Polski — przewodnik slow travel | Polska bliżej
+- **podkarpackie-en.html**: Meta description may be long — 197 characters
+- **podkarpackie.html**: Meta description may be long — 191 characters
+- **podlaskie-en.html**: Meta description may be long — 185 characters
+- **podlaskie.html**: Meta description may be long — 184 characters
+- **podroze-tematyczne-en.html**: Title may be long — 82 characters: Themed Journeys Across Poland — Culinary, Craft, Industrial Trails | Poland Closer
+- **podroze-tematyczne-en.html**: Meta description may be long — 193 characters
+- **podroze-tematyczne.html**: Title may be long — 92 characters: Podróże tematyczne po Polsce — szlaki kulinarne, rzemieślnicze, industrialne | Polska bliżej
+- **podroze-tematyczne.html**: Meta description may be long — 192 characters
+- **pomorskie-en.html**: Meta description may be long — 218 characters
+- **pomorskie.html**: Meta description may be long — 198 characters
+- **regiony-en.html**: Meta description may be long — 191 characters
+- **regiony.html**: Title may be long — 62 characters: 16 województw Polski — przewodnik po regionach | Polska bliżej
+- **regiony.html**: Meta description may be long — 173 characters
+- **slaskie-en.html**: Meta description may be long — 193 characters
+- **slaskie.html**: Meta description may be long — 181 characters
+- **swietokrzyskie-en.html**: Meta description may be long — 173 characters
+- **swietokrzyskie.html**: Meta description may be long — 196 characters
+- **szlaki-en.html**: Title may be long — 81 characters: Cycling Routes in Poland — Green Velo, Velo Dunajec, Velo Baltica | Poland Closer
+- **szlaki.html**: Title may be long — 81 characters: Szlaki rowerowe w Polsce — Green Velo, Velo Dunajec, Velo Baltica | Polska bliżej
+- **unesco-en.html**: Meta description may be long — 172 characters
+- **unesco.html**: Title may be long — 64 characters: Obiekty UNESCO w Polsce — przewodnik slow travel | Polska bliżej
+- **unesco.html**: Meta description may be long — 168 characters
+- **warminsko-mazurskie-en.html**: Meta description may be long — 195 characters
+- **warminsko-mazurskie.html**: Meta description may be long — 189 characters
+- **wielkopolskie-en.html**: Meta description may be long — 166 characters
+- **wielkopolskie.html**: Meta description may be long — 172 characters
+- **wsie-en.html**: Title may be long — 70 characters: Villages & Rural Regions in Poland — Slow Travel Guide | Poland Closer
+- **wsie-en.html**: Meta description may be long — 173 characters
+- **wsie.html**: Title may be long — 73 characters: Wsie i regiony wiejskie w Polsce — przewodnik slow travel | Polska bliżej
+- **wsie.html**: Meta description may be long — 171 characters
+- **zachodniopomorskie-en.html**: Meta description may be long — 169 characters
+- **zachodniopomorskie.html**: Meta description may be long — 186 characters
+- **zamki-en.html**: Title may be long — 65 characters: Castles and Palaces in Poland — Slow Travel Guide | Poland Closer
+- **zamki-en.html**: Meta description may be long — 165 characters
+- **zamki.html**: Title may be long — 64 characters: Zamki i pałace w Polsce — przewodnik slow travel | Polska bliżej
+- **zamki.html**: Meta description may be long — 165 characters
+- **blog/baltyk-bez-tlumow-en.html**: Title may be long — 66 characters: When to Visit the Baltic Coast to Avoid the Crowds — Poland Closer
+- **blog/baltyk-bez-tlumow-en.html**: Meta description may be long — 169 characters
+- **blog/co-zjesc-w-krakowie-en.html**: Title may be long — 62 characters: What to Eat in Kraków — 10 Dishes You Must Try — Poland Closer
+- **blog/co-zjesc-w-krakowie-en.html**: Meta description may be long — 199 characters
+- **blog/co-zjesc-w-krakowie.html**: Title may be long — 68 characters: Co zjeść w Krakowie — 10 dań, które trzeba spróbować — Polska bliżej
+- **blog/co-zjesc-w-krakowie.html**: Meta description may be long — 183 characters
+- **blog/jak-planowac-weekend-en.html**: Meta description may be long — 205 characters
+- **blog/jak-planowac-weekend.html**: Meta description may be long — 204 characters
+- **blog/kuchnia-dolnoslaska-en.html**: Title may be long — 77 characters: Lower Silesian Cuisine — Silesian Heaven, Duck, and Dumplings — Poland Closer
+- **blog/kuchnia-dolnoslaska-en.html**: Meta description may be long — 201 characters
+- **blog/kuchnia-dolnoslaska.html**: Title may be long — 68 characters: Kuchnia dolnośląska — śląskie niebo, kaczka i kluski — Polska bliżej
+- **blog/kuchnia-dolnoslaska.html**: Meta description may be long — 203 characters
+- **blog/kuchnia-kaszubska-en.html**: Title may be long — 69 characters: Kashubian Cuisine — Herring, Eel, and Kashubian Broth — Poland Closer
+- **blog/kuchnia-kaszubska-en.html**: Meta description may be long — 166 characters
+- **blog/kuchnia-kaszubska.html**: Title may be long — 70 characters: Kuchnia kaszubska — śledzie, węgorze i kaszubski rosół — Polska bliżej
+- **blog/kuchnia-kujawska-en.html**: Title may be long — 69 characters: Kuyavian Cuisine — Toruń Gingerbread, Żur, and Kołocz — Poland Closer
+- **blog/kuchnia-kujawska-en.html**: Meta description may be long — 188 characters
+- **blog/kuchnia-kujawska.html**: Title may be long — 67 characters: Kuchnia kujawska — pierniki toruńskie, żur i kołocz — Polska bliżej
+- **blog/kuchnia-kujawska.html**: Meta description may be long — 182 characters
+- **blog/kuchnia-lubelska-en.html**: Title may be long — 84 characters: Lublin Cuisine — Cebularze, Pierogi with Bryndza, and Roztocze Trout — Poland Closer
+- **blog/kuchnia-lubelska-en.html**: Meta description may be long — 188 characters
+- **blog/kuchnia-lubelska.html**: Title may be long — 83 characters: Kuchnia lubelska — cebularze, pierogi z bryndzą i pstrąg z Roztocza — Polska bliżej
+- **blog/kuchnia-lubelska.html**: Meta description may be long — 197 characters
+- **blog/kuchnia-malopolska-en.html**: Title may be long — 71 characters: Lesser Poland Cuisine — Obwarzanek, Żurek, and Makowiec — Poland Closer
+- **blog/kuchnia-malopolska-en.html**: Meta description may be long — 174 characters
+- **blog/kuchnia-malopolska.html**: Title may be long — 65 characters: Kuchnia małopolska — obwarzanek, żurek i makowiec — Polska bliżej
+- **blog/kuchnia-malopolska.html**: Meta description may be long — 197 characters
+- **blog/kuchnia-mazowiecka-en.html**: Meta description may be long — 177 characters
+- **blog/kuchnia-mazowiecka.html**: Title may be long — 62 characters: Kuchnia mazowiecka — flaki, krupnik i wątróbka — Polska bliżej
+- **blog/kuchnia-mazowiecka.html**: Meta description may be long — 183 characters
+- **blog/kuchnia-podhala-en.html**: Title may be long — 63 characters: Podhale Cuisine — Oscypek, Kwaśnica, and Bryjka — Poland Closer
+- **blog/kuchnia-podhala-en.html**: Meta description may be long — 205 characters
+- **blog/kuchnia-podhala.html**: Title may be long — 64 characters: Kuchnia podhalańska — oscypek, kwaśnica i bryjka — Polska bliżej
+- **blog/kuchnia-podhala.html**: Meta description may be long — 184 characters
+- **blog/kuchnia-podkarpacka-en.html**: Title may be long — 72 characters: Subcarpathian Cuisine — Proziaki, Fuczki, and Hreczanyki — Poland Closer
+- **blog/kuchnia-podkarpacka-en.html**: Meta description may be long — 202 characters
+- **blog/kuchnia-podkarpacka.html**: Title may be long — 67 characters: Kuchnia podkarpacka — proziaki, fuczki i hreczanyki — Polska bliżej
+- **blog/kuchnia-podkarpacka.html**: Meta description may be long — 202 characters
+- **blog/kuchnia-podlaska-en.html**: Title may be long — 69 characters: Podlasie Cuisine — Kibiny, Kartacze, and Potato Babka — Poland Closer
+- **blog/kuchnia-podlaska-en.html**: Meta description may be long — 174 characters
+- **blog/kuchnia-podlaska.html**: Title may be long — 72 characters: Kuchnia podlaska — kibiny, kartacze i babka ziemniaczana — Polska bliżej
+- **blog/kuchnia-podlaska.html**: Meta description may be long — 187 characters
+- **blog/kuchnia-pomorska-en.html**: Title may be long — 61 characters: Pomeranian Cuisine — Fish, Herring, and Golce — Poland Closer
+- **blog/kuchnia-pomorska-en.html**: Meta description may be long — 175 characters
+- **blog/kuchnia-slaska-en.html**: Title may be long — 72 characters: Silesian Cuisine — Roulade, Dumplings, and Modra Kapusta — Poland Closer
+- **blog/kuchnia-slaska-en.html**: Meta description may be long — 169 characters
+- **blog/kuchnia-slaska.html**: Title may be long — 63 characters: Kuchnia śląska — rolada, kluski i modra kapusta — Polska bliżej
+- **blog/kuchnia-warminska-en.html**: Title may be long — 72 characters: Warmia-Masuria Cuisine — Vendace, Marzipan, and Kindziuk — Poland Closer
+- **blog/kuchnia-warminska-en.html**: Meta description may be long — 193 characters
+- **blog/kuchnia-warminska.html**: Title may be long — 73 characters: Kuchnia warmińsko-mazurska — sielawa, marcepan i kindziuk — Polska bliżej
+- **blog/kuchnia-warminska.html**: Meta description may be long — 167 characters
+- **blog/kuchnia-wielkopolska-en.html**: Title may be long — 68 characters: Greater Poland Cuisine — Croissants, Pyry, and Goose — Poland Closer
+- **blog/kuchnia-wielkopolska-en.html**: Meta description may be long — 194 characters
+- **blog/kuchnia-wielkopolska.html**: Meta description may be long — 169 characters
+- **blog/kuchnia-zachodniopomorska-en.html**: Title may be long — 70 characters: West Pomeranian Cuisine — Fish, Paprykarz, and Herring — Poland Closer
+- **blog/kuchnia-zachodniopomorska-en.html**: Meta description may be long — 216 characters
+- **blog/kuchnia-zachodniopomorska.html**: Title may be long — 69 characters: Kuchnia zachodniopomorska — ryby, paprykarz i śledzie — Polska bliżej
+- **blog/kuchnia-zachodniopomorska.html**: Meta description may be long — 202 characters
+- **blog/mazury-bez-zagli-en.html**: Title may be long — 63 characters: Masuria Without Sails — 5 Ideas for Non-Sailors — Poland Closer
+- **blog/mazury-bez-zagli.html**: Title may be long — 62 characters: Mazury bez żagli — 5 pomysłów dla nie-żeglarzy — Polska bliżej
+- **blog/podlasie-weekend-en.html**: Title may be long — 69 characters: Podlasie — A Weekend with Bison and Orthodox Churches — Poland Closer
+- **blog/polska-jesienia-en.html**: Title may be long — 70 characters: Poland in Autumn — 7 Places That Look Like a Fairytale — Poland Closer
+- **blog/polska-jesienia.html**: Title may be long — 71 characters: Polska jesienią — 7 miejsc, które wyglądają jak z bajki — Polska bliżej
+- **blog/polska-kuchnia-regionalna-en.html**: Title may be long — 64 characters: Polish Regional Cuisine — 10 Dishes You Must Try — Poland Closer
+- **blog/polska-kuchnia-regionalna-en.html**: Meta description may be long — 214 characters
+- **blog/polska-kuchnia-regionalna.html**: Title may be long — 74 characters: Polska kuchnia regionalna — 10 dań, które musisz spróbować — Polska bliżej
+- **blog/polska-kuchnia-regionalna.html**: Meta description may be long — 198 characters
+- **blog/polska-wiosna-en.html**: Title may be long — 64 characters: Poland in Spring — 7 Places That Wake Up to Life — Poland Closer
+- **blog/polska-wiosna-en.html**: Meta description may be long — 166 characters
+- **blog/polska-wiosna.html**: Title may be long — 66 characters: Polska wiosną — 7 miejsc, które budzą się do życia — Polska bliżej
+- **blog/polska-wiosna.html**: Meta description may be long — 161 characters
+- **blog/rowerem-po-polsce-en.html**: Title may be long — 77 characters: By Bike Around Poland — How to Plan Your First Multi-Day Trip — Poland Closer
+- **blog/rowerem-po-polsce.html**: Title may be long — 79 characters: Rowerem po Polsce — jak zaplanować pierwszą wielodniową wyprawę — Polska bliżej
+- **blog/slaskim-szlakiem-zamkow-en.html**: Title may be long — 68 characters: Silesian Castle Trail — 5 Strongholds in One Weekend — Poland Closer
+- **blog/slaskim-szlakiem-zamkow.html**: Title may be long — 62 characters: Śląskim szlakiem zamków — 5 warowni na weekend — Polska bliżej
+- **blog/slow-travel-co-to-znaczy-en.html**: Meta description may be long — 165 characters
+- **blog/weekend-w-karkonoszach-en.html**: Meta description may be long — 163 characters
+- **blog/weekend-w-karkonoszach.html**: Meta description may be long — 164 characters
+- **blog/weekend-w-krakowie-en.html**: Meta description may be long — 184 characters
+- **blog/weekend-w-krakowie.html**: Meta description may be long — 173 characters
+- **blog/weekend-w-trojmiescie-en.html**: Meta description may be long — 168 characters
+- **blog/weekend-w-trojmiescie.html**: Meta description may be long — 167 characters
+- **blog/weekend-w-zakopanem-en.html**: Meta description may be long — 161 characters
+- **blog/zima-w-tatrach-en.html**: Title may be long — 63 characters: Winter in the Tatras — Why It's the Best Season — Poland Closer
+- **kierunki/giewont.html**: Title may be long — 62 characters: Giewont — Giewont i panoramy wysokich szczytów | Polska bliżej
+- **kierunki/kazimierz-dolny-en.html**: Title may be long — 62 characters: Kazimierz Dolny — Artists' Town on the Vistula | Polska bliżej
+- **kierunki/krzemionki-en.html**: Title may be long — 61 characters: Krzemionki Opatowskie — Neolithic Flint Mines | Polska bliżej
+- **kierunki/kuchnia-kociewie.html**: Title may be long — 62 characters: Kociewie — Zupy kociewskie i śledzie z Bałtyku | Polska bliżej
+- **kierunki/kuchnia-roztocze-en.html**: Title may be long — 61 characters: Roztocze — Pierogi with Bryndza and Cebularze | Polska bliżej
+- **kierunki/kuchnia-slask-en.html**: Title may be long — 62 characters: Silesia — Roulade, Dumplings and Modra Kapusta | Polska bliżej
+- **kierunki/kuchnia-warmia.html**: Title may be long — 62 characters: Warmia i Mazury — Sielawa, marcepan i kindziuk | Polska bliżej
+- **kierunki/niedzica-en.html**: Title may be long — 61 characters: Niedzica — Dunajec Castle Above the Reservoir | Polska bliżej
+- **kierunki/pn-babiogorski.html**: Title may be long — 61 characters: Babiogórski PN — Królowa Beskidów pod ochroną | Polska bliżej
+- **kierunki/pn-bialowieski.html**: Title may be long — 61 characters: Białowieski PN — Ostatni pierwotny las Europy | Polska bliżej
+- **kierunki/pn-kampinoski-en.html**: Title may be long — 61 characters: Kampinos National Park — Wilderness by Warsaw | Polska bliżej
+- **kierunki/pn-ujscie-warty.html**: Title may be long — 61 characters: Park Narodowy Ujście Warty — Ptasie królestwo | Polska bliżej
+- **kierunki/pn-wielkopolski-en.html**: Title may be long — 62 characters: Wielkopolski National Park — Lakes Near Poznań | Polska bliżej
+- **kierunki/pszczyna-en.html**: Title may be long — 61 characters: Pszczyna — Renaissance Pearl of Upper Silesia | Polska bliżej
+- **kierunki/puszcza-notecka-en.html**: Title may be long — 62 characters: Notecka Primeval Forest — A Forest in No Hurry | Polska bliżej
+- **kierunki/samotnia.html**: Title may be long — 62 characters: Schronisko Samotnia — Przystań ciszy i widoków | Polska bliżej
+- **kierunki/szlak-bursztynowy-en.html**: Title may be long — 62 characters: Amber Trail — In the Footsteps of Baltic Amber | Polska bliżej
+- **kierunki/szlak-fortyfikacji.html**: Title may be long — 62 characters: Szlak fortyfikacji — Twierdze, bunkry, schrony | Polska bliżej
+- **kierunki/szlak-kulinarny-en.html**: Title may be long — 62 characters: Polish Culinary Trail — Across Poland Through Regional Flavors
+- **kierunki/szlak-rzemieslniczy.html**: Title may be long — 62 characters: Szlak rzemieślniczy — Śladami ginących zawodów | Polska bliżej
+- **kierunki/wsie-dolny-slask.html**: Title may be long — 61 characters: Wsie sudeckie — Wsie sudeckie z przędzalniami | Polska bliżej
+- **kierunki/wsie-mazowsze.html**: Title may be long — 61 characters: Mazowsze łowickie — Wsie łowickie z pasiakami | Polska bliżej
+- **blog/kategoria/inspiracje.html**: Title may be long — 62 characters: Inspiracje podróżnicze — slow travel po Polsce | Polska bliżej
+- **blog/kategoria/kuchnia.html**: Title may be long — 66 characters: Kuchnia regionalna Polski — przewodnik slow travel | Polska bliżej
+- **blog/kategoria/manifest.html**: Title may be long — 61 characters: Slow travel — manifest podróżowania po Polsce | Polska bliżej
+- **blog/kategoria/poradniki.html**: Title may be long — 64 characters: Poradniki slow travel — jak podróżować po Polsce | Polska bliżej
+- **kuchnia-en.html | blog/kategoria/kuchnia-en.html**: Duplicate HTML title — polish regional cuisine — slow travel guide | poland closer
+- **kuchnia.html | blog/kategoria/kuchnia.html**: Duplicate HTML title — kuchnia regionalna polski — przewodnik slow travel | polska bliżej
+
+## Limitations
+
+- This script does not crawl the live website or verify external URLs.
+- JavaScript-rendered content may not be detected.
+- Canonical, hreflang and metadata findings require human review; some pages may intentionally differ.
+- Local links are checked against files in this repository, so routing rules and generated pages may need exceptions.
