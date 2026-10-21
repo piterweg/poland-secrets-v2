@@ -26,7 +26,6 @@
 <link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://polandsecrets.com/">
@@ -110,10 +109,15 @@
 }
 </script>
 
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css?v=2.0"><link rel="stylesheet" href="search.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap"></noscript>
+<link rel="stylesheet" href="style.css?v=2.2"><link rel="stylesheet" href="search.css" media="print" onload="this.media='all'">
 <script src="search.js" defer></script>
 </head>
-<body><header class="header"><a class="logo" href="index.html" aria-label="Polska bliżej"><img src="images/logo.svg" alt="Polska bliżej" height="48"></a><nav id="nav"><a href="#kierunki">Kierunki</a><a href="mapa.html">Mapa</a><a href="blog.html">Blog</a><a href="#pomysly">Pomysły na wyjazd</a><a href="#o-nas">O projekcie</a><div class="lang-group"><a href="index.html" class="lang-switch active" title="Wersja polska">PL</a><a href="index-en.html" class="lang-switch" title="English version">EN</a><a href="index-es.html" class="lang-switch" title="Versión en español">ES</a></div></nav><button class="menu" aria-controls="nav" aria-expanded="false">Menu</button><button class="saved" id="saved-button">Zapisane <b id="saved-count">0</b></button></header>
+<body><header class="header"><a class="logo" href="index.html" aria-label="Polska bliżej"><img src="images/logo.svg" alt="Polska bliżej" height="48"></a><nav id="nav"><a href="#kierunki">Kierunki</a><a href="mapa.html">Mapa</a><a href="blog.html">Blog</a><a href="#generator">Generator</a><a href="#pomysly">Pomysły na wyjazd</a><a href="#o-nas">O projekcie</a><div class="lang-group"><a href="index.html" class="lang-switch active" title="Wersja polska">PL</a><a href="index-en.html" class="lang-switch" title="English version">EN</a><a href="index-es.html" class="lang-switch" title="Versión en español">ES</a></div></nav><button class="menu" aria-controls="nav" aria-expanded="false">Menu</button><button class="saved" id="saved-button">Zapisane <b id="saved-count">0</b></button></header>
 <main id="start"><section class="hero"><div class="hero-copy"><p class="label">PODRÓŻE PO POLSCE</p><h1>Najpiękniej jest<br><em>blisko.</em></h1><p>Pomysły na weekend, trasy bez pośpiechu i miejsca, do których chce się wracać.</p><a href="#kierunki" class="primary">Znajdź swój kierunek <span>↓</span></a></div><div class="hero-art" aria-hidden="true"><img src="images/hero-polska.webp" alt="Krajobraz Polski — jezioro, lasy i góry" width="800" height="600" fetchpriority="high" style="width:100%; height:100%; object-fit:cover;"></div></section>
 <section class="stats"><p><b>16</b> województw</p><p><b>52</b> weekendowe kierunki</p><p><b>100%</b> lokalnych inspiracji</p></section>
 <section class="feature"><div class="feature-image coastal"><span>01</span><i>Bałtyk poza sezonem</i></div><article><p class="label">KIERUNEK MIESIĄCA</p><h2>Na północ, tam gdzie<br><em>wiatr układa wydmy.</em></h2><p>Slow travel po Mierzei Wiślanej: długie spacery, latarnie i najlepsza ryba prosto z kutra.</p><div class="details"><span>2–3 dni</span><span>łatwa trasa</span><span>pomorskie</span></div><button class="outline open-trip" data-id="baltyk">Zobacz plan wyjazdu →</button></article></section>
@@ -425,7 +429,17 @@
 }
 </style>
 
-<!-- ===== SEKCJA MAPY — wklej np. przed <section class="ideas" id="pomysly"> ===== -->
+<!-- ===== SEKCJA MAPY — wklej np. przed 
+<section class="generator-section" id="generator">
+  <p class="label">GENERATOR WEEKENDOWY</p>
+  <h2>Nie wiesz dokąd?<br><em>Pytamy Ciebie.</em></h2>
+  <p class="generator-intro">Odpowiedz na dwa pytania, a my dopasujemy kierunki w stylu slow — bez pośpiechu i bez tłumów.</p>
+  <div id="weekend-generator">
+    <p class="label">Ładowanie…</p>
+  </div>
+</section>
+
+<section class="ideas" id="pomysly"> ===== -->
 <section class="home-map" id="mapa">
   <div class="home-map-inner">
     <div class="home-map-copy">
@@ -635,6 +649,7 @@
   <p>Białowieża, Biebrza, Tatry, Bieszczady, Słowiński, Karkonosze i inne.</p>
 </a>
 </div>
+
 <section class="ideas" id="pomysly"><p class="label">GOTOWE POMYSŁY</p><h2>Nie musisz jechać daleko,<br><em>żeby wyjechać naprawdę.</em></h2><div class="idea-list"><article><span>01</span><h3>Weekend nad wodą</h3><p><strong>Mierzeja Wiślana, Bałtyk</strong></p><a href="#kierunki" data-filter-link="woda">Odkryj więcej <b>→</b></a></article><article><span>02</span><h3>Szlaki dla początkujących</h3><p><strong>Dunajec, Pieniny</strong></p><a href="#kierunki" data-filter-link="gory">Odkryj więcej <b>→</b></a></article><article><span>03</span><h3>Miasta na jeden dzień</h3><p><strong>Kraków, Małopolska</strong></p><a href="#kierunki" data-filter-link="miasta">Odkryj więcej <b>→</b></a></article></div></section>
 <section class="about" id="o-nas"><div><p class="label">O PROJEKCIE</p><h2>Podróżujmy<br><em>z ciekawością.</em></h2></div><p>Polska bliżej to starannie wybrane pomysły na wyjazdy, bez odhaczania atrakcji. Pomagamy znaleźć własne tempo — i docenić to, co jest tuż za rogiem.</p></section>  
 <section class="newsletter"><p class="label">JEDNA WIADOMOŚĆ W MIESIĄCU</p><h2>Dobry pretekst,<br><em>żeby ruszyć w drogę.</em></h2><p>Nowe trasy i sezonowe inspiracje, bez spamu.</p><form id="newsletter"><label class="sr-only" for="email">Adres e-mail</label><input id="email" type="email" placeholder="Twój adres e-mail" required><button>Zapisuję się →</button></form><p id="newsletter-message" aria-live="polite"></p></section>
@@ -658,4 +673,5 @@
 </section>
 
 </main>
-<footer><a class="logo" href="index.html" aria-label="Polska bliżej"><img src="images/logo-white.svg" alt="Polska bliżej" height="42"></a><p>© 2026 Polska bliżej</p><div><a href="#o-nas">O projekcie</a><a href="mailto:hello@polandsecrets.com">Kontakt</a></div></footer><dialog id="trip-dialog"><button class="close" aria-label="Zamknij">×</button><div id="trip-content"></div></dialog><aside class="saved-panel" id="saved-panel"><div><p class="label">TWOJE INSPIRACJE</p><button id="close-saved">×</button></div><h2>Zapisane kierunki</h2><div id="saved-list"></div></aside><script src="app.js"></script><script src="cookie-consent.js" defer></script></body></html>
+<footer><a class="logo" href="index.html" aria-label="Polska bliżej"><img src="images/logo-white.svg" alt="Polska bliżej" height="42"></a><p>© 2026 Polska bliżej</p><div><a href="#o-nas">O projekcie</a><a href="mailto:hello@polandsecrets.com">Kontakt</a></div></footer><dialog id="trip-dialog"><button class="close" aria-label="Zamknij">×</button><div id="trip-content"></div></dialog><aside class="saved-panel" id="saved-panel"><div><p class="label">TWOJE INSPIRACJE</p><button id="close-saved">×</button></div><h2>Zapisane kierunki</h2><div id="saved-list"></div></aside><script src="app.js"></script>
+<script src="generator.js" defer></script><script src="cookie-consent.js" defer></script></body></html>

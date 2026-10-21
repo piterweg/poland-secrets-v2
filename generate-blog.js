@@ -77,7 +77,6 @@ function buildNewsletter(lang) {
   </section>`;
 }
 
-
 // ───── Table of Contents ─────
 function buildToc(bodyHtml, lang) {
   const isEn = lang === 'en';
@@ -117,7 +116,6 @@ ${headings.map(h => `      <li><a href="#${h.id}">${h.text}</a></li>`).join('\n'
   return { toc, bodyWithIds };
 }
 
-
 // ───── Breadcrumbs ─────
 function buildBreadcrumbs(post, lang) {
   const isEn = lang === 'en';
@@ -155,7 +153,6 @@ function buildBreadcrumbs(post, lang) {
 
   return { html, schema };
 }
-
 
 // ───── Pojedynczy wpis ─────
 function buildPost(post, lang) {
@@ -236,11 +233,13 @@ ${JSON.stringify(breadcrumbSchema)}
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../style.css">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap"></noscript>
+<link rel="stylesheet" href="../style.css?v=2.1">
 <link rel="stylesheet" href="../hub.css">
 <link rel="stylesheet" href="../blog.css">
-<link rel="stylesheet" href="../search.css">
+<link rel="stylesheet" href="../search.css" media="print" onload="this.media='all'">
 </head>
 <body>
 
@@ -398,11 +397,13 @@ function buildBlogIndex(lang) {
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap"></noscript>
+<link rel="stylesheet" href="style.css?v=2.1">
 <link rel="stylesheet" href="hub.css">
 <link rel="stylesheet" href="blog.css">
-<link rel="stylesheet" href="../search.css">
+<link rel="stylesheet" href="../search.css" media="print" onload="this.media='all'">
 </head>
 <body>
 
