@@ -12,7 +12,13 @@
       "Walk from Krynica Morska to the lighthouse",
       "Cruise on the Vistula Lagoon",
       "Sunset on the beach in Stegna"
-    ]
+    ],
+    "bestSeason": "Sep–May",
+    "drive": {
+      "waw": "4 h",
+      "krk": "6.5 h",
+      "gdn": "1.5 h"
+    }
   },
   {
     "id": "tatry",
@@ -27,7 +33,13 @@
       "Kościeliska Valley in the morning",
       "Hala Ornak and mountain shelter",
       "Evening relaxing in thermal baths"
-    ]
+    ],
+    "bestSeason": "May–Jun, Sep",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "bieszczady",
@@ -42,7 +54,13 @@
       "Połonina Wetlińska trail",
       "Lake Solina",
       "Local cuisine in Cisna"
-    ]
+    ],
+    "bestSeason": "Jun–Sep",
+    "drive": {
+      "waw": "5.5 h",
+      "krk": "3.5 h",
+      "gdn": "8 h"
+    }
   },
   {
     "id": "mazury",
@@ -57,7 +75,13 @@
       "Kayaking down Czarna Hańcza",
       "Overnight stay by the lake",
       "Biking through the Primeval Forest"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3 h",
+      "krk": "5.5 h",
+      "gdn": "2.5 h"
+    }
   },
   {
     "id": "wroclaw",
@@ -72,7 +96,13 @@
       "Ostrów Tumski at dawn",
       "Oder River islands",
       "Evening in Nadodrze district"
-    ]
+    ],
+    "bestSeason": "Apr–Oct",
+    "drive": {
+      "waw": "3.5 h",
+      "krk": "3 h",
+      "gdn": "5 h"
+    }
   },
   {
     "id": "karkonosze",
@@ -87,7 +117,13 @@
       "Kamieńczyk Waterfall",
       "Ascent to Śnieżka peak",
       "Evening in Szklarska Poręba"
-    ]
+    ],
+    "bestSeason": "May–Jun, Sep",
+    "drive": {
+      "waw": "5 h",
+      "krk": "4 h",
+      "gdn": "5.5 h"
+    }
   },
   {
     "id": "pieniny",
@@ -102,7 +138,13 @@
       "Trzy Korony peak at sunrise",
       "Dunajec River rafting",
       "Walk through Szczawnica spa town"
-    ]
+    ],
+    "bestSeason": "May–Jun, Sep",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "gorce",
@@ -117,7 +159,13 @@
       "Observation tower on Gorc",
       "Hala Turbacz meadow",
       "Stare Wierchy mountain shelter"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "4 h",
+      "krk": "1.5 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "beskid-niski",
@@ -132,7 +180,13 @@
       "Magura National Park",
       "Wooden Orthodox churches in Kwiatoń",
       "Evening in Hańczowa"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "4.5 h",
+      "krk": "2.5 h",
+      "gdn": "7.5 h"
+    }
   },
   {
     "id": "stolowe",
@@ -147,7 +201,13 @@
       "Błędne Skały rock maze",
       "Szczeliniec Wielki summit",
       "Kudowa-Zdrój spa town"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "5 h",
+      "krk": "4 h",
+      "gdn": "6 h"
+    }
   },
   {
     "id": "kaszuby",
@@ -162,7 +222,13 @@
       "Kayaking along Wda River",
       "Wieżyca observation tower",
       "Dinner in Kościerzyna"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "4 h",
+      "krk": "6.5 h",
+      "gdn": "1 h"
+    }
   },
   {
     "id": "hel",
@@ -177,7 +243,13 @@
       "Cycling from Władysławowo to Hel",
       "Historic Hel Lighthouse",
       "Puck Bay at sunset"
-    ]
+    ],
+    "bestSeason": "Sep–May",
+    "drive": {
+      "waw": "4.5 h",
+      "krk": "7 h",
+      "gdn": "2 h"
+    }
   },
   {
     "id": "suwalszczyzna",
@@ -192,7 +264,13 @@
       "Lake Hańcza — Poland's deepest lake",
       "Historic railway bridges in Stańczyki",
       "Suwałki and regional culinary treats"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3.5 h",
+      "krk": "6 h",
+      "gdn": "4 h"
+    }
   },
   {
     "id": "szczecin-zalew",
@@ -207,7 +285,13 @@
       "Ferry to Wolin Island",
       "Świnoujście Lighthouse",
       "Stroll along Międzyzdroje promenade"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "roztocze",
@@ -222,7 +306,13 @@
       "Szumy waterfalls on the Tanew River",
       "Central Roztocze cycling trail",
       "Zwierzyniec and Echo Ponds"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "krakow",
@@ -237,7 +327,13 @@
       "Breakfast in historic Kazimierz",
       "MOCAK Contemporary Art or National Museum",
       "Vistula riverbank boulevards"
-    ]
+    ],
+    "bestSeason": "Apr–Oct",
+    "drive": {
+      "waw": "3 h",
+      "krk": "0.5 h",
+      "gdn": "6 h"
+    }
   },
   {
     "id": "gdansk",
@@ -252,7 +348,13 @@
       "European Solidarity Centre",
       "Mariacka Street amber stalls",
       "Sunset on Ołowianka Island"
-    ]
+    ],
+    "bestSeason": "Sep–May",
+    "drive": {
+      "waw": "3.5 h",
+      "krk": "6 h",
+      "gdn": "0.5 h"
+    }
   },
   {
     "id": "torun",
@@ -267,7 +369,13 @@
       "Philadelphia Boulevard by the river",
       "House of Nicolaus Copernicus",
       "Evening stroll through the Old Town"
-    ]
+    ],
+    "bestSeason": "Apr–Oct",
+    "drive": {
+      "waw": "2.5 h",
+      "krk": "4.5 h",
+      "gdn": "2 h"
+    }
   },
   {
     "id": "lublin",
@@ -282,7 +390,13 @@
       "Historic Old Town & Castle",
       "Centre for the Meeting of Cultures",
       "Evening at Plac Po Farze square"
-    ]
+    ],
+    "bestSeason": "Apr–Oct",
+    "drive": {
+      "waw": "2 h",
+      "krk": "3.5 h",
+      "gdn": "5 h"
+    }
   },
   {
     "id": "poznan",
@@ -297,7 +411,13 @@
       "Old Market Square in the morning",
       "Śródka and Cathedral Island (Ostrów Tumski)",
       "Dinner in artistic Jeżyce"
-    ]
+    ],
+    "bestSeason": "Apr–Oct",
+    "drive": {
+      "waw": "3 h",
+      "krk": "4.5 h",
+      "gdn": "3.5 h"
+    }
   },
   {
     "id": "lodz",
@@ -312,7 +432,13 @@
       "OFF Piotrkowska creative hub",
       "EC1 complex and planetarium",
       "Historic Księży Młyn textile mill estate"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "zamosc",
@@ -327,7 +453,13 @@
       "Great Market Square (Rynek Wielki)",
       "Roztocze National Park gateway",
       "Coffee under the Renaissance arcades"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3 h",
+      "krk": "3.5 h",
+      "gdn": "6 h"
+    }
   },
   {
     "id": "barycz",
@@ -342,7 +474,13 @@
       "Milicz Ponds Nature Reserve",
       "Barycz Valley cycle loop",
       "Wildlife observation tower"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "notecka",
@@ -357,7 +495,13 @@
       "Cycling route around Sieraków",
       "Lake Jaroszewskie",
       "Picnic in the deep pine woods"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "podhale",
@@ -372,7 +516,13 @@
       "Walk along historic Krupówki",
       "Trail to Strążyska Valley",
       "Campfire evening with traditional oscypek cheese"
-    ]
+    ],
+    "bestSeason": "May–Jun, Sep",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "sandomierz",
@@ -387,7 +537,13 @@
       "Market square and historic townhouses",
       "Vistula River boulevards",
       "Regional museum and local culinary tastings"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "2.5 h",
+      "krk": "2.5 h",
+      "gdn": "5.5 h"
+    }
   },
   {
     "id": "sopot",
@@ -402,7 +558,13 @@
       "Walk on Europe's longest wooden pier",
       "Beachfront cafes and seaside stroll",
       "Evening sea breeze in the coastal park"
-    ]
+    ],
+    "bestSeason": "Sep–May",
+    "drive": {
+      "waw": "3.5 h",
+      "krk": "6 h",
+      "gdn": "0.5 h"
+    }
   },
   {
     "id": "kudowa",
@@ -417,7 +579,13 @@
       "Walk through the central Spa Park",
       "Mountain ridge viewpoints",
       "Dinner in a cozy local guesthouse"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "olsztyn",
@@ -432,7 +600,13 @@
       "Market square and central fountain",
       "Warmian Chapter Castle",
       "Walk along the Łyna River"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "zakopane",
@@ -447,7 +621,13 @@
       "Krupówki street and local market",
       "Kościeliska Valley trail",
       "Evening with smoked highland cheese and mountain views"
-    ]
+    ],
+    "bestSeason": "May–Jun, Sep–Oct",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "morskie-oko",
@@ -462,7 +642,13 @@
       "Early morning start from Palenica Białczańska",
       "Walk to the emerald mountain lake",
       "Spectacular photography at dawn and dusk"
-    ]
+    ],
+    "bestSeason": "Jun–Sep",
+    "drive": {
+      "waw": "4.5 h",
+      "krk": "2.5 h",
+      "gdn": "7.5 h"
+    }
   },
   {
     "id": "giewont",
@@ -477,7 +663,13 @@
       "Trail starting from Kuźnice",
       "Panorama from Hala Gąsienicowa",
       "Relaxing return to Zakopane"
-    ]
+    ],
+    "bestSeason": "Jun–Sep",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "kasprowy-wierch",
@@ -492,7 +684,13 @@
       "Depart from Zakopane Kuźnice",
       "Scenic cable car ride or ridge hike",
       "Views across northern and southern ridges"
-    ]
+    ],
+    "bestSeason": "Jun–Sep",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "dolina-koscieliska",
@@ -507,7 +705,13 @@
       "Best early morning start",
       "Walk to trails near the caves",
       "Cozy evening in a highland guesthouse"
-    ]
+    ],
+    "bestSeason": "May–Jun, Sep",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "sniezka",
@@ -522,7 +726,13 @@
       "Summit viewing platform",
       "Mountain refuge and hot coffee",
       "Scenic hike across Karkonosze ridges"
-    ]
+    ],
+    "bestSeason": "Jun–Sep",
+    "drive": {
+      "waw": "5 h",
+      "krk": "4 h",
+      "gdn": "5.5 h"
+    }
   },
   {
     "id": "samotnia",
@@ -537,7 +747,13 @@
       "Trail from the historic wooden Wang church",
       "Walk to surrounding ridge viewpoints",
       "Evening relaxation by Mały Staw pond"
-    ]
+    ],
+    "bestSeason": "Jun–Sep",
+    "drive": {
+      "waw": "5 h",
+      "krk": "4 h",
+      "gdn": "5.5 h"
+    }
   },
   {
     "id": "polonina-wetlinska",
@@ -552,7 +768,13 @@
       "View from the main mountain crest",
       "Trek along the grassy ridge",
       "Evening tranquility at the mountain hut"
-    ]
+    ],
+    "bestSeason": "Jun–Sep",
+    "drive": {
+      "waw": "5.5 h",
+      "krk": "3.5 h",
+      "gdn": "8 h"
+    }
   },
   {
     "id": "polonina-carynska",
@@ -567,7 +789,13 @@
       "Start from Wyżniańska Pass",
       "Ridge walk across the meadow summits",
       "Overnight stay overlooking the Bieszczady mountains"
-    ]
+    ],
+    "bestSeason": "Jun–Sep",
+    "drive": {
+      "waw": "5.5 h",
+      "krk": "3.5 h",
+      "gdn": "8 h"
+    }
   },
   {
     "id": "jezioro-solinskie",
@@ -582,7 +810,13 @@
       "Lakeside walk and dam viewpoint",
       "Picnic and sunbathing in quiet bays",
       "Sunset boat cruise over the water"
-    ]
+    ],
+    "bestSeason": "Jun–Sep",
+    "drive": {
+      "waw": "5 h",
+      "krk": "3 h",
+      "gdn": "8 h"
+    }
   },
   {
     "id": "kolorowe-jeziorka",
@@ -597,7 +831,13 @@
       "Trail linking the Purple, Blue, and Green lakes",
       "Photography in shifting natural light",
       "Short hike into Rudawy Janowickie hills"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "5 h",
+      "krk": "4 h",
+      "gdn": "5.5 h"
+    }
   },
   {
     "id": "szczeliniec",
@@ -612,7 +852,13 @@
       "Walk through the sandstone labyrinth",
       "Nearby Błędne Skały rock maze",
       "Relaxing break in the mountain haven"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "5 h",
+      "krk": "4 h",
+      "gdn": "6 h"
+    }
   },
   {
     "id": "swietokrzyskie",
@@ -627,7 +873,13 @@
       "Viewpoint atop Mount Łysica",
       "Walk along the ancient forested ridges",
       "Coffee and regional treats after the hike"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "lasy-janowskie",
@@ -642,7 +894,13 @@
       "Early morning forest trails",
       "Picnic among old trees and ponds",
       "Unhurried return in the late afternoon"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "puszcza-notecka",
@@ -657,7 +915,13 @@
       "Walk along pine forest paths",
       "Designated nature rest area",
       "Evening views over the canopy"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "leba",
@@ -672,7 +936,13 @@
       "Hike across the giant coastal dunes",
       "Beach and coffee by the promenade",
       "Evening relaxation by Lake Łebsko"
-    ]
+    ],
+    "bestSeason": "Sep–May",
+    "drive": {
+      "waw": "4.5 h",
+      "krk": "7 h",
+      "gdn": "1.5 h"
+    }
   },
   {
     "id": "ustka",
@@ -687,7 +957,13 @@
       "Historic lighthouse and harbour promenade",
       "Walk along the western beach",
       "Fresh seafood dinner with sea views"
-    ]
+    ],
+    "bestSeason": "Sep–May",
+    "drive": {
+      "waw": "5 h",
+      "krk": "7 h",
+      "gdn": "2 h"
+    }
   },
   {
     "id": "beskid-zywiecki",
@@ -702,7 +978,13 @@
       "Morning walk along the slopes",
       "Vistas from high mountain ridges",
       "Evening savoring regional highland cuisine"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "augustowska",
@@ -717,7 +999,13 @@
       "Quiet forest trail explorations",
       "Lakeside swimming and resting on the shore",
       "Evening stroll along Augustów Canal"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3 h",
+      "krk": "5.5 h",
+      "gdn": "4 h"
+    }
   },
   {
     "id": "malbork",
@@ -732,7 +1020,13 @@
       "High Castle and Great Refectory",
       "Walk along the walls above the Nogat",
       "Evening illumination of the castle"
-    ]
+    ],
+    "bestSeason": "Apr–Oct",
+    "drive": {
+      "waw": "3.5 h",
+      "krk": "6 h",
+      "gdn": "1 h"
+    }
   },
   {
     "id": "wawel",
@@ -747,7 +1041,13 @@
       "Wawel Cathedral at dawn",
       "Arcaded courtyard and royal chambers",
       "Walk along the Vistula boulevards below the hill"
-    ]
+    ],
+    "bestSeason": "Apr–Oct",
+    "drive": {
+      "waw": "3 h",
+      "krk": "0.5 h",
+      "gdn": "6 h"
+    }
   },
   {
     "id": "ksiaz",
@@ -762,7 +1062,13 @@
       "Chambers and ballroom tour",
       "Walk through the garden terraces",
       "Underground tourist route"
-    ]
+    ],
+    "bestSeason": "Apr–Oct",
+    "drive": {
+      "waw": "4.5 h",
+      "krk": "3.5 h",
+      "gdn": "5.5 h"
+    }
   },
   {
     "id": "moszna",
@@ -777,7 +1083,13 @@
       "Chambers and chapel tour",
       "Walk through the English park",
       "Afternoon at the castle café"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2.5 h",
+      "gdn": "5.5 h"
+    }
   },
   {
     "id": "niedzica",
@@ -792,7 +1104,13 @@
       "Castle and chapel tour",
       "Cruise on Lake Czorsztyn",
       "View of the Pieniny from the courtyard"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "ogrodzieniec",
@@ -807,7 +1125,13 @@
       "Tour of the castle ruins",
       "Climb to Góra Birów",
       "Sunset from the viewpoint"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3 h",
+      "krk": "1.5 h",
+      "gdn": "5.5 h"
+    }
   },
   {
     "id": "lancut",
@@ -822,7 +1146,13 @@
       "Palace apartments",
       "Orchid house and carriage house",
       "Walk through the park and orangery"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "pszczyna",
@@ -837,7 +1167,13 @@
       "Guided palace tour",
       "Pszczyna Park and European Bison Show Farm",
       "Walk around the market square"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "wieliczka",
@@ -852,7 +1188,13 @@
       "Tourist route with St. Kinga's Chapel",
       "Kraków Saltworks Museum",
       "Relaxation in the brine graduation tower"
-    ]
+    ],
+    "bestSeason": "year-round",
+    "drive": {
+      "waw": "3 h",
+      "krk": "0.5 h",
+      "gdn": "6 h"
+    }
   },
   {
     "id": "bochnia",
@@ -867,7 +1209,13 @@
       "Descent by the Campi shaft",
       "Underground boat crossing",
       "Geological route with salt exhibition"
-    ]
+    ],
+    "bestSeason": "year-round",
+    "drive": {
+      "waw": "3 h",
+      "krk": "1 h",
+      "gdn": "6 h"
+    }
   },
   {
     "id": "auschwitz",
@@ -882,7 +1230,13 @@
       "Guided tour (mandatory)",
       "Auschwitz-Birkenau Memorial and Museum",
       "Time for personal reflection"
-    ]
+    ],
+    "bestSeason": "year-round",
+    "drive": {
+      "waw": "3.5 h",
+      "krk": "1 h",
+      "gdn": "6 h"
+    }
   },
   {
     "id": "kalwaria-zebrzydowska",
@@ -897,7 +1251,13 @@
       "Basilica and monastery tour",
       "The Paths of the Lord Jesus",
       "View of the Beskid Mały from surrounding hills"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "tarnowskie-gory",
@@ -912,7 +1272,13 @@
       "Underground route with boat crossing",
       "Steam Engine Open-Air Museum",
       "Walk around the market square and town park"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "krzemionki",
@@ -927,7 +1293,13 @@
       "Underground route in the Neolithic mine",
       "Neolithic village",
       "Walk through the archaeological reserve"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "kazimierz-dolny",
@@ -942,7 +1314,13 @@
       "Market square and Senatorska Street",
       "Korzeniowy Dół ravine",
       "Sunset over the Vistula"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "2 h",
+      "krk": "3.5 h",
+      "gdn": "5 h"
+    }
   },
   {
     "id": "chelmno",
@@ -957,7 +1335,13 @@
       "Walk along the defensive walls",
       "Collegiate church and monastery",
       "View of the Vistula valley from the tower"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "klodzko",
@@ -972,7 +1356,13 @@
       "Kłodzko Fortress tour",
       "Walk along the Gothic bridge",
       "Underground tourist route"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "paczkow",
@@ -987,7 +1377,13 @@
       "Walk along the defensive walls",
       "Town hall tower and market square",
       "St. John the Evangelist Church"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "cieszyn",
@@ -1002,7 +1398,13 @@
       "Market square and the Three Brothers Well",
       "Castle Hill and the Rotunda",
       "Walk along the Friendship Bridge"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "przemysl",
@@ -1017,7 +1419,13 @@
       "Przemyśl Fortress tour",
       "Three-rite cathedrals",
       "Panorama from the Tatar Mound"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "sanok",
@@ -1032,7 +1440,13 @@
       "Sanok Skansen (Folk Architecture Museum)",
       "Icon collection at the Historical Museum",
       "Walk around the market square and along the San"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "krynica-zdroj",
@@ -1047,7 +1461,13 @@
       "Promenade and pump room walk",
       "Funicular to Parkowa Hill",
       "Evening at the Modrzejewska Theatre"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "4.5 h",
+      "krk": "2.5 h",
+      "gdn": "7.5 h"
+    }
   },
   {
     "id": "szczawnica",
@@ -1062,7 +1482,13 @@
       "Walk through the Lower and Upper Park",
       "Mineral water pump room",
       "View of the Pieniny from Palenica"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "suprasl",
@@ -1077,7 +1503,13 @@
       "Monastery and icon museum tour",
       "Walk through the Knyszyn Forest",
       "Quiet evening in Supraśl"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "5–6 h",
+      "gdn": "4–5 h"
+    }
   },
   {
     "id": "green-velo",
@@ -1092,7 +1524,13 @@
       "Warmian-Masurian stage around the lakes",
       "Podlasie — Białowieża and Biebrza",
       "Finale in the Bieszczady and above the San"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "velo-dunajec",
@@ -1107,7 +1545,13 @@
       "Nowy Targ — Czorsztyn",
       "Pieniny and Szczawnica",
       "Finale in Nowy Sącz"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "velo-baltica",
@@ -1122,7 +1566,13 @@
       "Świnoujście — Kołobrzeg",
       "Darłowo — Łeba",
       "Finale in Hel"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "wielka-petla-wielkopolski",
@@ -1137,7 +1587,13 @@
       "Poznań — Puszczykowo",
       "Wielkopolski National Park",
       "Rogalin, Kórnik and surroundings"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "dolina-bugu",
@@ -1152,7 +1608,13 @@
       "Drohiczyn — Mielnik",
       "Mielnik — Janów Podlaski",
       "Finale near Włodawa"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "5–6 h",
+      "gdn": "4–5 h"
+    }
   },
   {
     "id": "kanal-augustowski",
@@ -1167,7 +1629,13 @@
       "Augustów — Przewięź Lock",
       "Gorczyca Lock and Studziany Las",
       "Finale in Augustów on the Netta"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "5–6 h",
+      "gdn": "4–5 h"
+    }
   },
   {
     "id": "kuchnia-podlasie",
@@ -1182,7 +1650,13 @@
       "Kibiny at a milk bar in Białystok",
       "Kartacze in a village inn",
       "Potato babka in Supraśl"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "5–6 h",
+      "gdn": "4–5 h"
+    }
   },
   {
     "id": "kuchnia-kaszuby",
@@ -1197,7 +1671,13 @@
       "Herring in oil in Kościerzyna",
       "Smoked eel from the lake",
       "Kashubian broth in a local inn"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "kuchnia-podhale",
@@ -1212,7 +1692,13 @@
       "Grilled oscypek on Krupówki",
       "Kwaśnica in a mountain hut",
       "Bryjka with cranberry in a shepherd's hut"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "kuchnia-slask",
@@ -1227,7 +1713,13 @@
       "Silesian roulade with dumplings in Katowice",
       "Modra kapusta and ribs",
       "Silesian kołocz for dessert"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "kuchnia-roztocze",
@@ -1242,7 +1734,13 @@
       "Lublin cebularz for breakfast",
       "Pierogi with bryndza in Zamość",
       "Roztocze trout in a local smokehouse"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "kuchnia-kurpie",
@@ -1257,7 +1755,13 @@
       "Rejbak in a Kurpie homestead",
       "Fafernuchy in Kadzidło",
       "Pierogi with cabbage and mushrooms"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "kuchnia-wielkopolska",
@@ -1272,7 +1776,13 @@
       "St. Martin's croissant in Poznań",
       "Pyry z gzikiem in a village inn",
       "Goose with modra kapusta in autumn"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "kuchnia-warmia",
@@ -1287,7 +1797,13 @@
       "Smoked vendace by the lake",
       "Olsztyn marzipan for dessert",
       "Kindziuk sausage from game in a Warmian tavern"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "kuchnia-kociewie",
@@ -1302,7 +1818,13 @@
       "Kociewie soup in Tczew",
       "Baltic herring in Starogard",
       "Kaszanka with onions for lunch"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "kuchnia-lemkowska",
@@ -1317,7 +1839,13 @@
       "Proziaki with garlic butter",
       "Fuczki with cabbage in a Beskid inn",
       "Lemko kwaśnica on a cold day"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "wsie-podlasie",
@@ -1332,7 +1860,13 @@
       "Villages with Orthodox churches around Supraśl",
       "Mosques in Bohoniki and Kruszyniany",
       "Wooden architecture of Podlasie villages"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "5–6 h",
+      "gdn": "4–5 h"
+    }
   },
   {
     "id": "wsie-lemkowszczyzna",
@@ -1347,7 +1881,13 @@
       "Churches in Kwiatoń, Owczary, and Bartne",
       "Lemko cottages in Hańczowa",
       "Traces of displacement in the Low Beskids"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "wsie-kurpie",
@@ -1362,7 +1902,13 @@
       "Open-air museum in Kadzidło",
       "Kurpie paper-cut workshops",
       "Kurpie farmsteads in Myszyniec area"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "wsie-kociewie",
@@ -1377,7 +1923,13 @@
       "Villages with Kociewie embroidery around Tczew",
       "Wooden churches of Kociewie",
       "Farmsteads and open-air museums in the region"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "wsie-warmia",
@@ -1392,7 +1944,13 @@
       "Warmian Gothic churches (Frombork and surroundings)",
       "Warmian red-brick farmsteads",
       "Roadside shrines of Warmia"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "wsie-kaszuby",
@@ -1407,7 +1965,13 @@
       "Open-air museum in Wdzydze Kiszewskie",
       "Villages with bilingual signs",
       "Kashubian embroidery in Żukowo"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "wsie-beskid-niski",
@@ -1422,7 +1986,13 @@
       "Villages with churches in Radocyna and Grab",
       "Cemeteries and cottage foundations",
       "Trails through abandoned villages"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "wsie-roztocze",
@@ -1437,7 +2007,13 @@
       "Water mill in Zwierzyniec",
       "Villages with wooden architecture near Krasnobród",
       "Roztocze farmsteads"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "wsie-mazowsze",
@@ -1452,7 +2028,13 @@
       "Open-air museums in Sierpc and Łowicz",
       "Villages with Łowicz striped fabrics",
       "Łowicz cutouts and embroidery"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "wsie-dolny-slask",
@@ -1467,7 +2049,13 @@
       "Weavers' villages in the Sudetes (near Bystrzyca Kłodzka)",
       "Half-timbered houses in the Izera Mountains",
       "Churches of Grace and Evangelical villages"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "szlak-kulinarny",
@@ -1482,7 +2070,13 @@
       "Podlasie — kibiny, kartacze, potato babka",
       "Lesser Poland — oscypek, kwaśnica, bryjka",
       "Kashubia — herring, eel, Kashubian broth"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "szlak-rzemieslniczy",
@@ -1497,7 +2091,13 @@
       "Kashubian embroidery workshops in Żukowo",
       "Kurpie paper-cut workshops in Kadzidło",
       "Wood carving in Zakopane"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "szlak-architektury-drewnianej",
@@ -1512,7 +2112,13 @@
       "Churches in Kwiatoń and Owczary",
       "Churches in Sękowa and Binarowa",
       "Open-air museums in Sanok and Nowy Sącz"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "szlak-industrialny",
@@ -1527,7 +2133,13 @@
       "Silver mine in Tarnowskie Góry",
       "Księży Młyn in Łódź and EC1",
       "Steelworks and workers' estates in Silesia"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "szlak-cerkwi",
@@ -1542,7 +2154,13 @@
       "Podlasie churches in Supraśl and Puchły",
       "Lemko churches in Kwiatoń and Bartne",
       "Supraśl Monastery and Grabarka Sanctuary"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "5–6 h",
+      "gdn": "4–5 h"
+    }
   },
   {
     "id": "szlak-winnic",
@@ -1557,7 +2175,13 @@
       "Vineyards around Zielona Góra",
       "Lesser Poland Vistula Gorge — Sandomierz and Kazimierz",
       "Vineyards in the Sudetes and Lower Silesia"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "szlak-bursztynowy",
@@ -1572,7 +2196,13 @@
       "Amber workshops in Gdańsk",
       "Amber Museum and fairs in Gdynia",
       "Amber workshops in Kashubia"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "szlak-piastowski",
@@ -1587,7 +2217,13 @@
       "Gniezno Cathedral and Gniezno Doors",
       "Ostrów Lednicki and Museum of the First Piasts",
       "Kruszwica and the Mouse Tower"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "szlak-uzdrowisk",
@@ -1602,7 +2238,13 @@
       "Krynica-Zdrój and Szczawnica",
       "Kudowa-Zdrój and Lądek-Zdrój",
       "Nałęczów and Busko-Zdrój"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "szlak-fortyfikacji",
@@ -1617,7 +2259,13 @@
       "Przemyśl Fortress and Fort Salis Soglio",
       "Kłodzko Fortress and Owl Mountains bunkers",
       "Pomeranian Wall and Międzyrzecz Fortified Region"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "pn-babiogorski",
@@ -1632,7 +2280,13 @@
       "Summit Diablak at dawn",
       "Markowe Szczawiny mountain hut",
       "Educational trails in Zawoja"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "pn-bialowieski",
@@ -1647,7 +2301,13 @@
       "Strict Reserve with a guide",
       "European Bison Breeding Centre",
       "Bison Trail in Białowieża"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3 h",
+      "krk": "5.5 h",
+      "gdn": "5 h"
+    }
   },
   {
     "id": "pn-biebrzanski",
@@ -1662,7 +2322,13 @@
       "Długa Luka boardwalk",
       "Observation towers in Goniądz",
       "Kayaking on the Biebrza"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3 h",
+      "krk": "5.5 h",
+      "gdn": "4.5 h"
+    }
   },
   {
     "id": "pn-bory-tucholskie",
@@ -1677,7 +2343,13 @@
       "Nature trail by Lake Charzykowskie",
       "Kulawa River Valley Reserve",
       "Cycling route around the park"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "pn-drawienski",
@@ -1692,7 +2364,13 @@
       "Kayaking down the Drawa",
       "Drawa nature trail",
       "Overnight at a campsite"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "pn-kampinoski",
@@ -1707,7 +2385,13 @@
       "Trail to Granica",
       "Kampinos Forest Museum",
       "Sunset over the dunes"
-    ]
+    ],
+    "bestSeason": "Apr–Oct",
+    "drive": {
+      "waw": "0.5 h",
+      "krk": "3.5 h",
+      "gdn": "3.5 h"
+    }
   },
   {
     "id": "pn-magurski",
@@ -1722,7 +2406,13 @@
       "Nature trail in Krempna",
       "Orthodox church in Bartne",
       "Views from Magura Wątkowska"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "pn-narwianski",
@@ -1737,7 +2427,13 @@
       "Śliwno-Waniewo boardwalk",
       "Observation tower in Waniewo",
       "Kayaking on the Narew"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "5–6 h",
+      "gdn": "4–5 h"
+    }
   },
   {
     "id": "pn-ojcowski",
@@ -1752,7 +2448,13 @@
       "Kraków Gate",
       "Łokietek Cave",
       "Ojców Castle"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3 h",
+      "krk": "0.5 h",
+      "gdn": "6 h"
+    }
   },
   {
     "id": "pn-poleski",
@@ -1767,7 +2469,13 @@
       "Dąb Dominik educational trail",
       "Observation tower over the lake",
       "Peat bog reserve"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "pn-slowinski",
@@ -1782,7 +2490,13 @@
       "Łącka Dune — shifting dunes",
       "Łebsko and Gardno lakes",
       "Cycling route around the park"
-    ]
+    ],
+    "bestSeason": "Sep–May",
+    "drive": {
+      "waw": "4.5 h",
+      "krk": "7 h",
+      "gdn": "1.5 h"
+    }
   },
   {
     "id": "pn-tatrzanski",
@@ -1797,7 +2511,13 @@
       "Morskie Oko",
       "Five Lakes Valley",
       "Kasprowy Wierch and Świnica"
-    ]
+    ],
+    "bestSeason": "Jun–Sep",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "pn-ujscie-warty",
@@ -1812,7 +2532,13 @@
       "Observation tower in Chyrzyno",
       "Bird Paradise Trail",
       "Cruise on the Warta"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "pn-wielkopolski",
@@ -1827,7 +2553,13 @@
       "Lake Góreckie",
       "Osowa Góra hill",
       "Trail in Puszczykowo"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "pn-wigierski",
@@ -1842,7 +2574,13 @@
       "Camaldolese monastery in Wigry",
       "Cruise on Lake Wigry",
       "Trail around the lake"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3.5 h",
+      "krk": "6 h",
+      "gdn": "4 h"
+    }
   },
   {
     "id": "pn-wolinski",
@@ -1857,6 +2595,12 @@
       "Gosań cliff",
       "Bison enclosure in Karsibór",
       "View from Kawcza Góra"
-    ]
+    ],
+    "bestSeason": "May–Sep",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   }
 ]

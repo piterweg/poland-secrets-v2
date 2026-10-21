@@ -1,9 +1,95 @@
 /**
  * Generator weekendu — Polska bliżej
- * Prosty quiz dopasowujący kierunki na podstawie czasu i preferencji.
+ * Quiz dopasowujący kierunki: czas + preferencje + towarzystwo.
+ * Wspiera PL i EN.
  */
 (function () {
   'use strict';
+
+  const I18N = {
+    pl: {
+      stepOf: (n, total) => 'KROK ' + n + ' z ' + total,
+      step1Title: 'Ile masz czasu?',
+      step2Title: 'Co Cię ciągnie?',
+      step2Hint: 'Możesz wybrać kilka',
+      step3Title: 'Z kim jedziesz?',
+      step3Hint: 'Opcjonalne — wpływa na dopasowanie',
+      next: 'Dalej →',
+      showResults: 'Pokaż propozycje →',
+      back: '← Wstecz',
+      changeAnswers: '← Zmień odpowiedzi',
+      again: 'Losuj inne',
+      allDestinations: 'Zobacz wszystkie kierunki →',
+      resultsLabel: 'TWOJE PROPOZYCJE',
+      resultsTitle: 'Oto co dla Ciebie pasuje',
+      resultsEmptyTitle: 'Hmm, spróbujmy inaczej',
+      resultsEmpty: 'Nie znaleźliśmy idealnego dopasowania. Spróbuj zmienić czas lub preferencje.',
+      prefsLabel: 'wybrane preferencje',
+      loading: 'Ładowanie…',
+      explore: 'Odkryj trasę →',
+      save: 'Zapisz',
+      days: [
+        { id: '1', label: '1 dzień', min: 1, max: 1 },
+        { id: '2-3', label: '2–3 dni', min: 2, max: 3 },
+        { id: '4-7', label: '4–7 dni', min: 4, max: 7 }
+      ],
+      prefs: [
+        { id: 'gory', label: 'Góry i szlaki', icon: '⛰' },
+        { id: 'woda', label: 'Woda i jeziora', icon: '🌊' },
+        { id: 'miasta', label: 'Miasta i miasteczka', icon: '🏘' },
+        { id: 'historia', label: 'Zamki i historia', icon: '🏰' },
+        { id: 'kuchnia', label: 'Kuchnia regionalna', icon: '🍽' },
+        { id: 'wsie', label: 'Wsie i spokój', icon: '🌾' }
+      ],
+      companions: [
+        { id: 'solo', label: 'Sam / sama', icon: '🧍' },
+        { id: 'couple', label: 'We dwoje', icon: '💑' },
+        { id: 'family', label: 'Z dziećmi', icon: '👨‍👩‍👧' },
+        { id: 'dog', label: 'Z psem', icon: '🐕' }
+      ]
+    },
+    en: {
+      stepOf: (n, total) => 'STEP ' + n + ' of ' + total,
+      step1Title: 'How much time do you have?',
+      step2Title: 'What draws you in?',
+      step2Hint: 'You can pick more than one',
+      step3Title: 'Who are you travelling with?',
+      step3Hint: 'Optional — shapes the match',
+      next: 'Next →',
+      showResults: 'Show suggestions →',
+      back: '← Back',
+      changeAnswers: '← Change answers',
+      again: 'Shuffle again',
+      allDestinations: 'See all destinations →',
+      resultsLabel: 'YOUR MATCHES',
+      resultsTitle: 'Here\'s what fits you',
+      resultsEmptyTitle: 'Hmm, let\'s try differently',
+      resultsEmpty: 'No perfect match found. Try changing the time or preferences.',
+      prefsLabel: 'selected preferences',
+      loading: 'Loading…',
+      explore: 'Explore route →',
+      save: 'Save',
+      days: [
+        { id: '1', label: '1 day', min: 1, max: 1 },
+        { id: '2-3', label: '2–3 days', min: 2, max: 3 },
+        { id: '4-7', label: '4–7 days', min: 4, max: 7 }
+      ],
+      prefs: [
+        { id: 'gory', label: 'Mountains & trails', icon: '⛰' },
+        { id: 'woda', label: 'Water & lakes', icon: '🌊' },
+        { id: 'miasta', label: 'Cities & towns', icon: '🏘' },
+        { id: 'historia', label: 'Castles & history', icon: '🏰' },
+        { id: 'kuchnia', label: 'Regional cuisine', icon: '🍽' },
+        { id: 'wsie', label: 'Villages & calm', icon: '🌾' }
+      ],
+      companions: [
+        { id: 'solo', label: 'Solo', icon: '🧍' },
+        { id: 'couple', label: 'As a couple', icon: '💑' },
+        { id: 'family', label: 'With kids', icon: '👨‍👩‍👧' },
+        { id: 'dog', label: 'With a dog', icon: '🐕' }
+      ]
+    }
+  };
 
   const CATEGORY_MAP = {
     gory: ['gory', 'parki-narodowe', 'natura', 'szlaki'],
@@ -14,242 +100,276 @@
     wsie: ['wsie', 'podroze-tematyczne']
   };
 
-  const DAYS_OPTIONS = [
-    { id: '1', label: '1 dzień', min: 1, max: 1 },
-    { id: '2-3', label: '2–3 dni', min: 2, max: 3 },
-    { id: '4-7', label: '4–7 dni', min: 4, max: 7 }
-  ];
-
-  const PREF_OPTIONS = [
-    { id: 'gory', label: 'Góry i szlaki', icon: '⛰' },
-    { id: 'woda', label: 'Woda i jeziora', icon: '🌊' },
-    { id: 'miasta', label: 'Miasta i miasteczka', icon: '🏘' },
-    { id: 'historia', label: 'Zamki i historia', icon: '🏰' },
-    { id: 'kuchnia', label: 'Kuchnia regionalna', icon: '🍽' },
-    { id: 'wsie', label: 'Wsie i spokój', icon: '🌾' }
-  ];
+  const COMPANION_BIAS = {
+    solo: { gory: 2, natura: 2, szlaki: 2, miasteczka: 1 },
+    couple: { miasta: 1, miasteczka: 2, zamki: 1, kuchnia: 2, woda: 1 },
+    family: { woda: 2, 'parki-narodowe': 2, natura: 1, miasteczka: 1, unesco: 1 },
+    dog: { natura: 3, gory: 2, wsie: 2, szlaki: 2, woda: 1 }
+  };
 
   let trips = [];
+  let lang = 'pl';
+  let t = I18N.pl;
+  let reshuffleKey = 0;
+
   let state = {
     step: 1,
     days: null,
-    prefs: new Set()
+    prefs: new Set(),
+    companion: null
   };
+
+  function detectLang() {
+    const htmlLang = (document.documentElement.lang || 'pl').toLowerCase();
+    if (htmlLang.startsWith('en')) return 'en';
+    return 'pl';
+  }
 
   function parseDays(str) {
     if (!str) return { min: 1, max: 7 };
-    const s = str.toLowerCase();
-    if (s.includes('1 dzień') || s.startsWith('1 ')) return { min: 1, max: 1 };
-    if (s.includes('1–2') || s.includes('1-2')) return { min: 1, max: 2 };
-    if (s.includes('2 dni') && !s.includes('–') && !s.includes('-')) return { min: 2, max: 2 };
-    if (s.includes('2–3') || s.includes('2-3')) return { min: 2, max: 3 };
-    if (s.includes('2–4') || s.includes('2-4')) return { min: 2, max: 4 };
-    if (s.includes('3 dni') && !s.includes('–')) return { min: 3, max: 3 };
-    if (s.includes('3–4') || s.includes('3-4')) return { min: 3, max: 4 };
-    if (s.includes('3–5') || s.includes('3-5')) return { min: 3, max: 5 };
-    if (s.includes('4–5') || s.includes('4-6') || s.includes('4–6')) return { min: 4, max: 6 };
-    if (s.includes('5–7') || s.includes('5–8')) return { min: 5, max: 8 };
-    if (s.includes('7')) return { min: 7, max: 14 };
+    const s = String(str).toLowerCase();
+    if (/^1\s*(dzień|day)\b/.test(s) || s === '1') return { min: 1, max: 1 };
+    if (/1[–-]2/.test(s)) return { min: 1, max: 2 };
+    if (/^2\s*(dni|days)\b/.test(s) && !/[–-]/.test(s)) return { min: 2, max: 2 };
+    if (/2[–-]3/.test(s)) return { min: 2, max: 3 };
+    if (/2[–-]4/.test(s)) return { min: 2, max: 4 };
+    if (/^3\s*(dni|days)\b/.test(s) && !/[–-]/.test(s)) return { min: 3, max: 3 };
+    if (/3[–-]4/.test(s)) return { min: 3, max: 4 };
+    if (/3[–-]5/.test(s)) return { min: 3, max: 5 };
+    if (/4[–-][56]/.test(s)) return { min: 4, max: 6 };
+    if (/4[–-]7|5[–-][78]|6[–-]7/.test(s)) return { min: 4, max: 7 };
+    if (/7|10|14/.test(s)) return { min: 7, max: 14 };
     return { min: 1, max: 7 };
   }
 
   function daysOverlap(tripDays, selected) {
-    const t = parseDays(tripDays);
-    return t.min <= selected.max && t.max >= selected.min;
+    const range = parseDays(tripDays);
+    return range.min <= selected.max && range.max >= selected.min;
   }
 
   function scoreTrip(trip) {
     let score = 0;
-    const selectedDays = DAYS_OPTIONS.find(d => d.id === state.days);
+    const selectedDays = t.days.find(function (d) { return d.id === state.days; });
     if (selectedDays && daysOverlap(trip.days, selectedDays)) {
       score += 10;
-      // prefer tighter match
-      const t = parseDays(trip.days);
-      if (t.min >= selectedDays.min && t.max <= selectedDays.max) score += 5;
+      const range = parseDays(trip.days);
+      if (range.min >= selectedDays.min && range.max <= selectedDays.max) score += 5;
     }
 
-    if (state.prefs.size === 0) return score;
-
-    for (const pref of state.prefs) {
-      const cats = CATEGORY_MAP[pref] || [];
-      if (cats.includes(trip.category)) {
-        score += 8;
-      }
+    if (state.prefs.size > 0) {
+      state.prefs.forEach(function (pref) {
+        const cats = CATEGORY_MAP[pref] || [];
+        if (cats.indexOf(trip.category) !== -1) score += 8;
+      });
     }
+
+    if (state.companion && COMPANION_BIAS[state.companion]) {
+      const bias = COMPANION_BIAS[state.companion];
+      if (bias[trip.category]) score += bias[trip.category];
+    }
+
     return score;
   }
 
-  function getResults(limit = 6) {
+  function getResults(limit) {
+    limit = limit || 6;
     const scored = trips
-      .map(t => ({ trip: t, score: scoreTrip(t) }))
-      .filter(x => x.score > 0)
-      .sort((a, b) => b.score - a.score || Math.random() - 0.5);
+      .map(function (trip) { return { trip: trip, score: scoreTrip(trip) }; })
+      .filter(function (x) { return x.score > 0; })
+      .sort(function (a, b) {
+        if (b.score !== a.score) return b.score - a.score;
+        const ha = (a.trip.id.charCodeAt(0) * 31 + reshuffleKey) % 97;
+        const hb = (b.trip.id.charCodeAt(0) * 31 + reshuffleKey) % 97;
+        return ha - hb;
+      });
 
-    return scored.slice(0, limit).map(x => x.trip);
+    const poolSize = Math.min(scored.length, limit * 2);
+    const pool = scored.slice(0, poolSize);
+    const rot = reshuffleKey % Math.max(1, pool.length - limit + 1);
+    const rotated = pool.slice(rot).concat(pool.slice(0, rot));
+    return rotated.slice(0, limit).map(function (x) { return x.trip; });
+  }
+
+  function photoFor(id) {
+    if (window.photos && window.photos[id]) return window.photos[id];
+    return id + '.webp';
   }
 
   function renderStep1(container) {
-    container.innerHTML = `
-      <div class="gen-step" data-step="1">
-        <p class="label">KROK 1 z 3</p>
-        <h3>Ile masz czasu?</h3>
-        <div class="gen-options">
-          ${DAYS_OPTIONS.map(d => `
-            <button type="button" class="gen-option ${state.days === d.id ? 'active' : ''}" data-days="${d.id}">
-              ${d.label}
-            </button>
-          `).join('')}
-        </div>
-        <div class="gen-nav">
-          <button type="button" class="gen-next" ${!state.days ? 'disabled' : ''}>Dalej →</button>
-        </div>
-      </div>
-    `;
+    container.innerHTML =
+      '<div class="gen-step" data-step="1">' +
+      '<p class="label">' + t.stepOf(1, 3) + '</p>' +
+      '<h3>' + t.step1Title + '</h3>' +
+      '<div class="gen-options">' +
+      t.days.map(function (d) {
+        return '<button type="button" class="gen-option' +
+          (state.days === d.id ? ' active' : '') +
+          '" data-days="' + d.id + '">' + d.label + '</button>';
+      }).join('') +
+      '</div>' +
+      '<div class="gen-nav">' +
+      '<button type="button" class="gen-next"' + (!state.days ? ' disabled' : '') + '>' + t.next + '</button>' +
+      '</div></div>';
 
-    container.querySelectorAll('[data-days]').forEach(btn => {
-      btn.addEventListener('click', () => {
+    container.querySelectorAll('[data-days]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
         state.days = btn.dataset.days;
         render();
       });
     });
-
-    container.querySelector('.gen-next')?.addEventListener('click', () => {
-      if (state.days) {
-        state.step = 2;
-        render();
-      }
+    var nextBtn = container.querySelector('.gen-next');
+    if (nextBtn) nextBtn.addEventListener('click', function () {
+      if (state.days) { state.step = 2; render(); }
     });
   }
 
   function renderStep2(container) {
-    container.innerHTML = `
-      <div class="gen-step" data-step="2">
-        <p class="label">KROK 2 z 3</p>
-        <h3>Co Cię ciągnie?</h3>
-        <p class="gen-hint">Możesz wybrać kilka</p>
-        <div class="gen-options gen-options--grid">
-          ${PREF_OPTIONS.map(p => `
-            <button type="button" class="gen-option ${state.prefs.has(p.id) ? 'active' : ''}" data-pref="${p.id}">
-              <span class="gen-icon">${p.icon}</span>
-              ${p.label}
-            </button>
-          `).join('')}
-        </div>
-        <div class="gen-nav">
-          <button type="button" class="gen-back">← Wstecz</button>
-          <button type="button" class="gen-next">Pokaż propozycje →</button>
-        </div>
-      </div>
-    `;
+    container.innerHTML =
+      '<div class="gen-step" data-step="2">' +
+      '<p class="label">' + t.stepOf(2, 3) + '</p>' +
+      '<h3>' + t.step2Title + '</h3>' +
+      '<p class="gen-hint">' + t.step2Hint + '</p>' +
+      '<div class="gen-options gen-options--grid">' +
+      t.prefs.map(function (p) {
+        return '<button type="button" class="gen-option' +
+          (state.prefs.has(p.id) ? ' active' : '') +
+          '" data-pref="' + p.id + '"><span class="gen-icon">' + p.icon + '</span> ' + p.label + '</button>';
+      }).join('') +
+      '</div>' +
+      '<div class="gen-nav">' +
+      '<button type="button" class="gen-back">' + t.back + '</button>' +
+      '<button type="button" class="gen-next">' + t.next + '</button>' +
+      '</div></div>';
 
-    container.querySelectorAll('[data-pref]').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const id = btn.dataset.pref;
+    container.querySelectorAll('[data-pref]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var id = btn.dataset.pref;
         if (state.prefs.has(id)) state.prefs.delete(id);
         else state.prefs.add(id);
         render();
       });
     });
+    var backBtn = container.querySelector('.gen-back');
+    if (backBtn) backBtn.addEventListener('click', function () { state.step = 1; render(); });
+    var nextBtn = container.querySelector('.gen-next');
+    if (nextBtn) nextBtn.addEventListener('click', function () { state.step = 3; render(); });
+  }
 
-    container.querySelector('.gen-back')?.addEventListener('click', () => {
-      state.step = 1;
-      render();
-    });
+  function renderStep3(container) {
+    container.innerHTML =
+      '<div class="gen-step" data-step="3">' +
+      '<p class="label">' + t.stepOf(3, 3) + '</p>' +
+      '<h3>' + t.step3Title + '</h3>' +
+      '<p class="gen-hint">' + t.step3Hint + '</p>' +
+      '<div class="gen-options gen-options--grid">' +
+      t.companions.map(function (c) {
+        return '<button type="button" class="gen-option' +
+          (state.companion === c.id ? ' active' : '') +
+          '" data-companion="' + c.id + '"><span class="gen-icon">' + c.icon + '</span> ' + c.label + '</button>';
+      }).join('') +
+      '</div>' +
+      '<div class="gen-nav">' +
+      '<button type="button" class="gen-back">' + t.back + '</button>' +
+      '<button type="button" class="gen-next">' + t.showResults + '</button>' +
+      '</div></div>';
 
-    container.querySelector('.gen-next')?.addEventListener('click', () => {
-      state.step = 3;
-      render();
+    container.querySelectorAll('[data-companion]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var id = btn.dataset.companion;
+        state.companion = state.companion === id ? null : id;
+        render();
+      });
     });
+    var backBtn = container.querySelector('.gen-back');
+    if (backBtn) backBtn.addEventListener('click', function () { state.step = 2; render(); });
+    var nextBtn = container.querySelector('.gen-next');
+    if (nextBtn) nextBtn.addEventListener('click', function () { state.step = 4; render(); });
   }
 
   function renderResults(container) {
-    const results = getResults(6);
-    const daysLabel = DAYS_OPTIONS.find(d => d.id === state.days)?.label || '';
-
-    container.innerHTML = `
-      <div class="gen-step gen-results" data-step="3">
-        <p class="label">TWOJE PROPOZYCJE</p>
-        <h3>${results.length ? 'Oto co dla Ciebie pasuje' : 'Hmm, spróbujmy inaczej'}</h3>
-        <p class="gen-meta">${daysLabel}${state.prefs.size ? ' · wybrane preferencje' : ''}</p>
-
-        ${results.length === 0 ? `
-          <p class="gen-empty">Nie znaleźliśmy idealnego dopasowania. Spróbuj zmienić czas lub preferencje.</p>
-        ` : `
-          <div class="gen-results-grid" id="gen-results-grid"></div>
-        `}
-
-        <div class="gen-nav">
-          <button type="button" class="gen-back">← Zmień odpowiedzi</button>
-          <button type="button" class="gen-again">Losuj inne</button>
-          <a href="#kierunki" class="gen-all">Zobacz wszystkie kierunki →</a>
-        </div>
-      </div>
-    `;
-
-    const grid = container.querySelector('#gen-results-grid');
-    if (grid && results.length) {
-      results.forEach(trip => {
-        const card = document.createElement('article');
-        card.className = 'trip';
-        card.innerHTML = `
-          <div class="trip-art ${trip.art || ''}" data-id="${trip.id}" role="img" aria-label="${trip.title}"
-               style="background-image:url('images/${trip.id}.webp');background-size:cover;background-position:center">
-            <span>${trip.place || ''}</span>
-            <button class="save-trip" data-id="${trip.id}" aria-label="Zapisz ${trip.title}">♡</button>
-          </div>
-          <p class="meta">${(trip.region || '').toUpperCase()} <b>•</b> ${trip.days}</p>
-          <h3>${trip.title}</h3>
-          <p>${trip.text || ''}</p>
-          <button class="read open-trip" data-id="${trip.id}">Odkryj trasę →</button>
-        `;
-        grid.appendChild(card);
-      });
-
-      // Re-bind existing app handlers if available
-      if (typeof window.bindTripButtons === 'function') {
-        window.bindTripButtons(grid);
-      } else {
-        // Fallback: trigger existing open-trip / save-trip via click simulation on document level
-        grid.querySelectorAll('.open-trip, .save-trip').forEach(btn => {
-          btn.addEventListener('click', (e) => {
-            // Let the main app.js handle it if it uses event delegation
-          });
-        });
-      }
+    var results = getResults(6);
+    var daysOpt = t.days.find(function (d) { return d.id === state.days; });
+    var daysLabel = daysOpt ? daysOpt.label : '';
+    var metaParts = [daysLabel];
+    if (state.prefs.size) metaParts.push(t.prefsLabel);
+    if (state.companion) {
+      var c = t.companions.find(function (x) { return x.id === state.companion; });
+      if (c) metaParts.push(c.label);
     }
 
-    container.querySelector('.gen-back')?.addEventListener('click', () => {
-      state.step = 2;
-      render();
-    });
+    var body =
+      '<div class="gen-step gen-results" data-step="4">' +
+      '<p class="label">' + t.resultsLabel + '</p>' +
+      '<h3>' + (results.length ? t.resultsTitle : t.resultsEmptyTitle) + '</h3>' +
+      '<p class="gen-meta">' + metaParts.filter(Boolean).join(' · ') + '</p>';
 
-    container.querySelector('.gen-again')?.addEventListener('click', () => {
-      // re-render with different random order among top matches
-      render();
-    });
+    if (!results.length) {
+      body += '<p class="gen-empty">' + t.resultsEmpty + '</p>';
+    } else {
+      body += '<div class="gen-results-grid" id="gen-results-grid"></div>';
+    }
+
+    body +=
+      '<div class="gen-nav">' +
+      '<button type="button" class="gen-back">' + t.changeAnswers + '</button>' +
+      '<button type="button" class="gen-again">' + t.again + '</button>' +
+      '<a href="#kierunki" class="gen-all">' + t.allDestinations + '</a>' +
+      '</div></div>';
+
+    container.innerHTML = body;
+
+    var grid = container.querySelector('#gen-results-grid');
+    if (grid && results.length) {
+      results.forEach(function (trip) {
+        var card = document.createElement('article');
+        card.className = 'trip';
+        var img = photoFor(trip.id);
+        card.innerHTML =
+          '<div class="trip-art ' + (trip.art || '') + '" data-id="' + trip.id +
+          '" role="img" aria-label="' + trip.title +
+          '" style="background-image:url(\'images/' + img +
+          '\');background-size:cover;background-position:center">' +
+          '<span>' + (trip.place || '') + '</span>' +
+          '<button class="save-trip" data-id="' + trip.id +
+          '" aria-label="' + t.save + ' ' + trip.title + '">♡</button></div>' +
+          '<p class="meta">' + (trip.region || '').toUpperCase() + ' <b>•</b> ' + trip.days + '</p>' +
+          (window.PBBadges ? window.PBBadges.buildHtml(trip) : '') +
+          '<h3>' + trip.title + '</h3>' +
+          '<p>' + (trip.text || '') + '</p>' +
+          '<button class="read open-trip" data-id="' + trip.id + '">' + t.explore + '</button>';
+        grid.appendChild(card);
+      });
+    }
+
+    var backBtn = container.querySelector('.gen-back');
+    if (backBtn) backBtn.addEventListener('click', function () { state.step = 3; render(); });
+    var againBtn = container.querySelector('.gen-again');
+    if (againBtn) againBtn.addEventListener('click', function () { reshuffleKey += 1; render(); });
   }
 
   function render() {
-    const root = document.getElementById('weekend-generator');
+    var root = document.getElementById('weekend-generator');
     if (!root) return;
-
     if (state.step === 1) renderStep1(root);
     else if (state.step === 2) renderStep2(root);
+    else if (state.step === 3) renderStep3(root);
     else renderResults(root);
   }
 
   async function init() {
-    const root = document.getElementById('weekend-generator');
+    var root = document.getElementById('weekend-generator');
     if (!root) return;
 
+    lang = detectLang();
+    t = I18N[lang] || I18N.pl;
+
     try {
-      const lang = document.documentElement.lang === 'en' ? 'en' : 'pl';
-      const file = lang === 'en' ? 'trips-en.json' : 'trips-pl.json';
-      const res = await fetch(file);
+      var file = lang === 'en' ? 'trips-en.json' : 'trips-pl.json';
+      var res = await fetch(file);
       trips = await res.json();
       if (!Array.isArray(trips)) trips = [];
     } catch (e) {
-      console.warn('Generator: nie udało się załadować trips', e);
+      console.warn('Generator: failed to load trips', e);
       trips = [];
     }
 

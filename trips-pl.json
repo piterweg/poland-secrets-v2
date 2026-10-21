@@ -12,7 +12,13 @@
       "Spacer z Krynicy Morskiej do latarni",
       "Rejs po Zalewie Wiślanym",
       "Zachód słońca na plaży w Stegnie"
-    ]
+    ],
+    "bestSeason": "wrzesień–maj",
+    "drive": {
+      "waw": "4 h",
+      "krk": "6.5 h",
+      "gdn": "1.5 h"
+    }
   },
   {
     "id": "tatry",
@@ -27,7 +33,13 @@
       "Dolina Kościeliska rankiem",
       "Hala Ornak i schronisko",
       "Wieczorny relaks w termach"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "bieszczady",
@@ -42,7 +54,13 @@
       "Szlak na Połoninę Wetlińską",
       "Jezioro Solińskie",
       "Lokalna kuchnia w Cisnej"
-    ]
+    ],
+    "bestSeason": "czerwiec–wrzesień",
+    "drive": {
+      "waw": "5.5 h",
+      "krk": "3.5 h",
+      "gdn": "8 h"
+    }
   },
   {
     "id": "mazury",
@@ -57,7 +75,13 @@
       "Spływ Czarną Hańczą",
       "Nocleg nad jeziorem",
       "Rowerem przez Puszczę"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3 h",
+      "krk": "5.5 h",
+      "gdn": "2.5 h"
+    }
   },
   {
     "id": "wroclaw",
@@ -72,7 +96,13 @@
       "Ostrów Tumski o świcie",
       "Wyspy odrzańskie",
       "Wieczór na Nadodrzu"
-    ]
+    ],
+    "bestSeason": "kwiecień–październik",
+    "drive": {
+      "waw": "3.5 h",
+      "krk": "3 h",
+      "gdn": "5 h"
+    }
   },
   {
     "id": "karkonosze",
@@ -87,7 +117,13 @@
       "Wodospad Kamieńczyk",
       "Wejście na Śnieżkę",
       "Wieczór w Szklarskiej Porębie"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "5 h",
+      "krk": "4 h",
+      "gdn": "5.5 h"
+    }
   },
   {
     "id": "pieniny",
@@ -102,7 +138,13 @@
       "Trzy Korony o wschodzie słońca",
       "Spływ Dunajcem",
       "Spacer po Szczawnicy"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "gorce",
@@ -117,7 +159,13 @@
       "Wieża widokowa na Gorcu",
       "Hala Turbacz",
       "Schronisko Stare Wierchy"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "4 h",
+      "krk": "1.5 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "beskid-niski",
@@ -132,7 +180,13 @@
       "Magurski Park Narodowy",
       "Drewniane cerkwie w Kwiatoniu",
       "Wieczór w Hańczowej"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "4.5 h",
+      "krk": "2.5 h",
+      "gdn": "7.5 h"
+    }
   },
   {
     "id": "stolowe",
@@ -147,7 +201,13 @@
       "Labirynt Błędne Skały",
       "Szczyt Szczeliniec Wielki",
       "Kudowa-Zdrój"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "5 h",
+      "krk": "4 h",
+      "gdn": "6 h"
+    }
   },
   {
     "id": "kaszuby",
@@ -162,7 +222,13 @@
       "Kajaki po Wdzie",
       "Wieża widokowa Wieżyca",
       "Kolacja w Kościerzynie"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "4 h",
+      "krk": "6.5 h",
+      "gdn": "1 h"
+    }
   },
   {
     "id": "hel",
@@ -177,7 +243,13 @@
       "Rowerem z Władysławowa do Helu",
       "Historyczna latarnia w Helu",
       "Zachód nad Zatoką Pucką"
-    ]
+    ],
+    "bestSeason": "wrzesień–maj",
+    "drive": {
+      "waw": "4.5 h",
+      "krk": "7 h",
+      "gdn": "2 h"
+    }
   },
   {
     "id": "suwalszczyzna",
@@ -192,7 +264,13 @@
       "Jezioro Hańcza – najgłębsze w Polsce",
       "Historyczne mosty kolejowe w Stańczykach",
       "Suwałki i regionalne smaki"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3.5 h",
+      "krk": "6 h",
+      "gdn": "4 h"
+    }
   },
   {
     "id": "szczecin-zalew",
@@ -207,7 +285,13 @@
       "Prom na wyspę Wolin",
       "Latarnia w Świnoujściu",
       "Spacer po promenadzie w Międzyzdrojach"
-    ]
+    ],
+    "bestSeason": "wrzesień–maj",
+    "drive": {
+      "waw": "5–6 h",
+      "krk": "6–7 h",
+      "gdn": "2–3 h"
+    }
   },
   {
     "id": "roztocze",
@@ -222,7 +306,13 @@
       "Szumy na Tanwi",
       "Rowerowy Szlak Centralnego Roztocza",
       "Zwierzyniec i Stawy Echo"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "3–4 h",
+      "gdn": "5–6 h"
+    }
   },
   {
     "id": "krakow",
@@ -237,7 +327,13 @@
       "Śniadanie na Kazimierzu",
       "MOCAK lub Muzeum Narodowe",
       "Bulwary wiślane"
-    ]
+    ],
+    "bestSeason": "kwiecień–październik",
+    "drive": {
+      "waw": "3 h",
+      "krk": "0.5 h",
+      "gdn": "6 h"
+    }
   },
   {
     "id": "gdansk",
@@ -252,7 +348,13 @@
       "Europejskie Centrum Solidarności",
       "Bursztynowe kramy na Mariackiej",
       "Zachód na Ołowiance"
-    ]
+    ],
+    "bestSeason": "wrzesień–maj",
+    "drive": {
+      "waw": "3.5 h",
+      "krk": "6 h",
+      "gdn": "0.5 h"
+    }
   },
   {
     "id": "torun",
@@ -267,7 +369,13 @@
       "Bulwar Filadelfijski nad Wisłą",
       "Dom Mikołaja Kopernika",
       "Wieczorny spacer po Starym Mieście"
-    ]
+    ],
+    "bestSeason": "kwiecień–październik",
+    "drive": {
+      "waw": "2.5 h",
+      "krk": "4.5 h",
+      "gdn": "2 h"
+    }
   },
   {
     "id": "lublin",
@@ -282,7 +390,13 @@
       "Stare Miasto i Zamek",
       "Centrum Spotkania Kultur",
       "Wieczór na Placu Po Farze"
-    ]
+    ],
+    "bestSeason": "kwiecień–październik",
+    "drive": {
+      "waw": "2 h",
+      "krk": "3.5 h",
+      "gdn": "5 h"
+    }
   },
   {
     "id": "poznan",
@@ -297,7 +411,13 @@
       "Stary Rynek o poranku",
       "Śródka i Ostrów Tumski",
       "Kolacja na artystycznych Jeżycach"
-    ]
+    ],
+    "bestSeason": "kwiecień–październik",
+    "drive": {
+      "waw": "3 h",
+      "krk": "4.5 h",
+      "gdn": "3.5 h"
+    }
   },
   {
     "id": "lodz",
@@ -312,7 +432,13 @@
       "OFF Piotrkowska",
       "Kompleks EC1 i planetarium",
       "Zabytkowy Księży Młyn"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "1.5 h",
+      "krk": "2.5 h",
+      "gdn": "3–4 h"
+    }
   },
   {
     "id": "zamosc",
@@ -327,7 +453,13 @@
       "Rynek Wielki",
       "Brama do Roztoczańskiego Parku Narodowego",
       "Kawa pod renesansowymi arkadami"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3 h",
+      "krk": "3.5 h",
+      "gdn": "6 h"
+    }
   },
   {
     "id": "barycz",
@@ -342,7 +474,13 @@
       "Rezerwat Stawy Milickie",
       "Pętla rowerowa Doliny Baryczy",
       "Wieża obserwacyjna"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "4–5 h",
+      "krk": "3–4 h",
+      "gdn": "5–6 h"
+    }
   },
   {
     "id": "notecka",
@@ -357,7 +495,13 @@
       "Trasa rowerowa wokół Sierakowa",
       "Jezioro Jaroszewskie",
       "Piknik w głębi boru"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3 h",
+      "krk": "4–5 h",
+      "gdn": "3–4 h"
+    }
   },
   {
     "id": "podhale",
@@ -372,7 +516,13 @@
       "Spacer po Krupówkach",
       "Dolina Strążyska",
       "Ognisko z tradycyjnym oscypkiem"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "sandomierz",
@@ -387,7 +537,13 @@
       "Rynek i zabytkowe kamienice",
       "Bulwary wiślane",
       "Muzeum regionalne i lokalne smaki"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "2.5 h",
+      "krk": "2.5 h",
+      "gdn": "5.5 h"
+    }
   },
   {
     "id": "sopot",
@@ -402,7 +558,13 @@
       "Spacer po najdłuższym drewnianym molo w Europie",
       "Kawiarnie nadmorskie i spacer brzegiem",
       "Wieczorna bryza w parku nadmorskim"
-    ]
+    ],
+    "bestSeason": "wrzesień–maj",
+    "drive": {
+      "waw": "3.5 h",
+      "krk": "6 h",
+      "gdn": "0.5 h"
+    }
   },
   {
     "id": "kudowa",
@@ -417,7 +579,13 @@
       "Spacer po Parku Zdrojowym",
       "Punkty widokowe na grzbietach",
       "Kolacja w przytulnym pensjonacie"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "4–5 h",
+      "krk": "3–4 h",
+      "gdn": "5–6 h"
+    }
   },
   {
     "id": "olsztyn",
@@ -432,7 +600,13 @@
       "Rynek i fontanna",
       "Zamek Kapituły Warmińskiej",
       "Spacer wzdłuż Łyny"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3–4 h",
+      "krk": "5–6 h",
+      "gdn": "2–3 h"
+    }
   },
   {
     "id": "zakopane",
@@ -447,7 +621,13 @@
       "Krupówki i lokalny targ",
       "Szlak Doliną Kościeliską",
       "Wieczór z wędzonym oscypkiem i widokiem na góry"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień–październik",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "morskie-oko",
@@ -462,7 +642,13 @@
       "Wczesny start z Palenicy Białczańskiej",
       "Spacer do szmaragdowego jeziora",
       "Spektakularne zdjęcia o świcie i zmierzchu"
-    ]
+    ],
+    "bestSeason": "czerwiec–wrzesień",
+    "drive": {
+      "waw": "4.5 h",
+      "krk": "2.5 h",
+      "gdn": "7.5 h"
+    }
   },
   {
     "id": "giewont",
@@ -477,7 +663,13 @@
       "Szlak z Kuźnic",
       "Panorama z Hali Gąsienicowej",
       "Spokojny powrót do Zakopanego"
-    ]
+    ],
+    "bestSeason": "czerwiec–wrzesień",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "kasprowy-wierch",
@@ -492,7 +684,13 @@
       "Wyjazd z Kuźnic",
       "Kolejka lub graniówka",
       "Widoki na północne i południowe granie"
-    ]
+    ],
+    "bestSeason": "czerwiec–wrzesień",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "dolina-koscieliska",
@@ -507,7 +705,13 @@
       "Najlepszy wczesny start",
       "Spacer w kierunku jaskiń",
       "Przytulny wieczór w góralskim pensjonacie"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "sniezka",
@@ -522,7 +726,13 @@
       "Platforma widokowa na szczycie",
       "Schronisko i gorąca kawa",
       "Malownicza wędrówka grzbietami Karkonoszy"
-    ]
+    ],
+    "bestSeason": "czerwiec–wrzesień",
+    "drive": {
+      "waw": "5 h",
+      "krk": "4 h",
+      "gdn": "5.5 h"
+    }
   },
   {
     "id": "samotnia",
@@ -537,7 +747,13 @@
       "Szlak od drewnianego kościółka Wang",
       "Spacer na okoliczne punkty widokowe",
       "Wieczorny relaks nad Małym Stawem"
-    ]
+    ],
+    "bestSeason": "czerwiec–wrzesień",
+    "drive": {
+      "waw": "5 h",
+      "krk": "4 h",
+      "gdn": "5.5 h"
+    }
   },
   {
     "id": "polonina-wetlinska",
@@ -552,7 +768,13 @@
       "Widok z głównej grani",
       "Wędrówka grzbietem",
       "Wieczorny spokój w schronisku"
-    ]
+    ],
+    "bestSeason": "czerwiec–wrzesień",
+    "drive": {
+      "waw": "5.5 h",
+      "krk": "3.5 h",
+      "gdn": "8 h"
+    }
   },
   {
     "id": "polonina-carynska",
@@ -567,7 +789,13 @@
       "Start z Przełęczy Wyżniańskiej",
       "Wędrówka grzbietem przez łąki",
       "Nocleg z widokiem na Bieszczady"
-    ]
+    ],
+    "bestSeason": "czerwiec–wrzesień",
+    "drive": {
+      "waw": "5.5 h",
+      "krk": "3.5 h",
+      "gdn": "8 h"
+    }
   },
   {
     "id": "jezioro-solinskie",
@@ -582,7 +810,13 @@
       "Spacer brzegiem i widok na zaporę",
       "Piknik i kąpiel w spokojnych zatokach",
       "Zachód słońca z łodzi"
-    ]
+    ],
+    "bestSeason": "czerwiec–wrzesień",
+    "drive": {
+      "waw": "5 h",
+      "krk": "3 h",
+      "gdn": "8 h"
+    }
   },
   {
     "id": "kolorowe-jeziorka",
@@ -597,7 +831,13 @@
       "Szlak łączący Purpurowe, Błękitne i Zielone jeziorko",
       "Fotografowanie w zmiennym świetle",
       "Krótki spacer w Rudawy Janowickie"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "5 h",
+      "krk": "4 h",
+      "gdn": "5.5 h"
+    }
   },
   {
     "id": "szczeliniec",
@@ -612,7 +852,13 @@
       "Spacer przez piaskowcowy labirynt",
       "Pobliskie Błędne Skały",
       "Odpoczynek w górskim schronisku"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "5 h",
+      "krk": "4 h",
+      "gdn": "6 h"
+    }
   },
   {
     "id": "swietokrzyskie",
@@ -627,7 +873,13 @@
       "Punkt widokowy na Łysicy",
       "Spacer grzbietami pradawnego lasu",
       "Kawa i regionalne smakołyki po wędrówce"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "2–3 h",
+      "gdn": "5–6 h"
+    }
   },
   {
     "id": "lasy-janowskie",
@@ -642,7 +894,13 @@
       "Poranne leśne szlaki",
       "Piknik wśród starych drzew i stawów",
       "Niespieszny powrót po południu"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "3–4 h",
+      "gdn": "5–6 h"
+    }
   },
   {
     "id": "puszcza-notecka",
@@ -657,7 +915,13 @@
       "Spacer sosnowymi duktami",
       "Wyznaczone miejsce na odpoczynek",
       "Wieczorne widoki nad koronami drzew"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3 h",
+      "krk": "4–5 h",
+      "gdn": "3–4 h"
+    }
   },
   {
     "id": "leba",
@@ -672,7 +936,13 @@
       "Wędrówka przez wielkie nadmorskie wydmy",
       "Plaża i kawa na promenadzie",
       "Wieczór nad Jeziorem Łebsko"
-    ]
+    ],
+    "bestSeason": "wrzesień–maj",
+    "drive": {
+      "waw": "4.5 h",
+      "krk": "7 h",
+      "gdn": "1.5 h"
+    }
   },
   {
     "id": "ustka",
@@ -687,7 +957,13 @@
       "Historyczna latarnia i promenada portowa",
       "Spacer zachodnią plażą",
       "Kolacja ze świeżymi owocami morza"
-    ]
+    ],
+    "bestSeason": "wrzesień–maj",
+    "drive": {
+      "waw": "5 h",
+      "krk": "7 h",
+      "gdn": "2 h"
+    }
   },
   {
     "id": "beskid-zywiecki",
@@ -702,7 +978,13 @@
       "Poranny spacer stokami",
       "Widoki z wysokich grani",
       "Wieczór przy regionalnej kuchni góralskiej"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "4–5 h",
+      "krk": "3–4 h",
+      "gdn": "5–6 h"
+    }
   },
   {
     "id": "augustowska",
@@ -717,7 +999,13 @@
       "Spokojne leśne szlaki",
       "Kąpiel i odpoczynek nad jeziorem",
       "Wieczorny spacer wzdłuż Kanału Augustowskiego"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3 h",
+      "krk": "5.5 h",
+      "gdn": "4 h"
+    }
   },
   {
     "id": "malbork",
@@ -732,7 +1020,13 @@
       "Zamek Wysoki i Wielki Refektarz",
       "Spacer wzdłuż murów nad Nogatem",
       "Wieczorna iluminacja zamku"
-    ]
+    ],
+    "bestSeason": "kwiecień–październik",
+    "drive": {
+      "waw": "3.5 h",
+      "krk": "6 h",
+      "gdn": "1 h"
+    }
   },
   {
     "id": "wawel",
@@ -747,7 +1041,13 @@
       "Katedra Wawelska o świcie",
       "Dziedziniec arkadowy i komnaty królewskie",
       "Spacer bulwarami wiślanymi u stóp wzgórza"
-    ]
+    ],
+    "bestSeason": "kwiecień–październik",
+    "drive": {
+      "waw": "3 h",
+      "krk": "0.5 h",
+      "gdn": "6 h"
+    }
   },
   {
     "id": "ksiaz",
@@ -762,7 +1062,13 @@
       "Zwiedzanie komnat i sali balowej",
       "Spacer po tarasach ogrodowych",
       "Podziemna trasa turystyczna"
-    ]
+    ],
+    "bestSeason": "kwiecień–październik",
+    "drive": {
+      "waw": "4.5 h",
+      "krk": "3.5 h",
+      "gdn": "5.5 h"
+    }
   },
   {
     "id": "moszna",
@@ -777,7 +1083,13 @@
       "Zwiedzanie komnat i kaplicy",
       "Spacer po parku angielskim",
       "Popołudnie w kawiarni zamkowej"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2.5 h",
+      "gdn": "5.5 h"
+    }
   },
   {
     "id": "niedzica",
@@ -792,7 +1104,13 @@
       "Zwiedzanie zamku i kaplicy",
       "Rejs po Zalewie Czorsztyńskim",
       "Widok na Pieniny z dziedzińca"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "ogrodzieniec",
@@ -807,7 +1125,13 @@
       "Zwiedzanie ruin zamku",
       "Wspinaczka na Górę Birów",
       "Zachód słońca z punktu widokowego"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3 h",
+      "krk": "1.5 h",
+      "gdn": "5.5 h"
+    }
   },
   {
     "id": "lancut",
@@ -822,7 +1146,13 @@
       "Apartamenty pałacowe",
       "Storczykarnia i powozownia",
       "Spacer po parku i oranżerii"
-    ]
+    ],
+    "bestSeason": "czerwiec–wrzesień",
+    "drive": {
+      "waw": "4–5 h",
+      "krk": "2–3 h",
+      "gdn": "7–8 h"
+    }
   },
   {
     "id": "pszczyna",
@@ -837,7 +1167,13 @@
       "Zwiedzanie pałacu z przewodnikiem",
       "Park Pszczyński i Pokazowa Zagroda Żubrów",
       "Spacer po rynku"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3–4 h",
+      "krk": "1–2 h",
+      "gdn": "5–6 h"
+    }
   },
   {
     "id": "wieliczka",
@@ -852,7 +1188,13 @@
       "Trasa turystyczna z kaplicą św. Kingi",
       "Muzeum Żup Krakowskich",
       "Odpoczynek w tężni solankowej"
-    ]
+    ],
+    "bestSeason": "cały rok",
+    "drive": {
+      "waw": "3 h",
+      "krk": "0.5 h",
+      "gdn": "6 h"
+    }
   },
   {
     "id": "bochnia",
@@ -867,7 +1209,13 @@
       "Zjazd szybem Campi",
       "Podziemna przeprawa łodzią",
       "Trasa geologiczna z ekspozycją soli"
-    ]
+    ],
+    "bestSeason": "cały rok",
+    "drive": {
+      "waw": "3 h",
+      "krk": "1 h",
+      "gdn": "6 h"
+    }
   },
   {
     "id": "auschwitz",
@@ -882,7 +1230,13 @@
       "Zwiedzanie z przewodnikiem (obowiązkowe)",
       "Miejsce Pamięci i Muzeum Auschwitz-Birkenau",
       "Czas na osobistą refleksję"
-    ]
+    ],
+    "bestSeason": "cały rok",
+    "drive": {
+      "waw": "3.5 h",
+      "krk": "1 h",
+      "gdn": "6 h"
+    }
   },
   {
     "id": "kalwaria-zebrzydowska",
@@ -897,7 +1251,13 @@
       "Zwiedzanie bazyliki i klasztoru",
       "Dróżki Pana Jezusa",
       "Widok na Beskid Mały z okolicznych wzgórz"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "3–4 h",
+      "krk": "1–2 h",
+      "gdn": "6–7 h"
+    }
   },
   {
     "id": "tarnowskie-gory",
@@ -912,7 +1272,13 @@
       "Trasa podziemna z przeprawą łodzią",
       "Skansen Maszyn Parowych",
       "Spacer po rynku i parku miejskim"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3–4 h",
+      "krk": "1–2 h",
+      "gdn": "5–6 h"
+    }
   },
   {
     "id": "krzemionki",
@@ -927,7 +1293,13 @@
       "Trasa podziemna w neolitycznej kopalni",
       "Wioska neolityczna",
       "Spacer po rezerwacie archeologicznym"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "2–3 h",
+      "gdn": "5–6 h"
+    }
   },
   {
     "id": "kazimierz-dolny",
@@ -942,7 +1314,13 @@
       "Spacer po Rynku i ulicy Senatorskiej",
       "Wąwóz Korzeniowy Dół",
       "Zachód słońca nad Wisłą"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "2 h",
+      "krk": "3.5 h",
+      "gdn": "5 h"
+    }
   },
   {
     "id": "chelmno",
@@ -957,7 +1335,13 @@
       "Spacer po murach obronnych",
       "Kościół farny i klasztor",
       "Widok na dolinę Wisły z wieży"
-    ]
+    ],
+    "bestSeason": "wrzesień–maj",
+    "drive": {
+      "waw": "4–5 h",
+      "krk": "6–7 h",
+      "gdn": "1–2 h"
+    }
   },
   {
     "id": "klodzko",
@@ -972,7 +1356,13 @@
       "Zwiedzanie Twierdzy Kłodzko",
       "Spacer po moście gotyckim",
       "Podziemna trasa turystyczna"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "4–5 h",
+      "krk": "3–4 h",
+      "gdn": "5–6 h"
+    }
   },
   {
     "id": "paczkow",
@@ -987,7 +1377,13 @@
       "Spacer po murach obronnych",
       "Wieża ratuszowa i rynek",
       "Kościół św. Jana Ewangelisty"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2–3 h",
+      "gdn": "5–6 h"
+    }
   },
   {
     "id": "cieszyn",
@@ -1002,7 +1398,13 @@
       "Rynek i studnia Trzech Braci",
       "Wzgórze Zamkowe i Rotunda",
       "Spacer po moście Przyjaźni"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3–4 h",
+      "krk": "1–2 h",
+      "gdn": "5–6 h"
+    }
   },
   {
     "id": "przemysl",
@@ -1017,7 +1419,13 @@
       "Zwiedzanie Twierdzy Przemyśl",
       "Katedry trzech obrządków",
       "Panorama z Kopca Tatarskiego"
-    ]
+    ],
+    "bestSeason": "czerwiec–wrzesień",
+    "drive": {
+      "waw": "4–5 h",
+      "krk": "2–3 h",
+      "gdn": "7–8 h"
+    }
   },
   {
     "id": "sanok",
@@ -1032,7 +1440,13 @@
       "Skansen w Sanoku",
       "Zbiory ikon w Muzeum Historycznym",
       "Spacer po rynku i nad Sanem"
-    ]
+    ],
+    "bestSeason": "czerwiec–wrzesień",
+    "drive": {
+      "waw": "4–5 h",
+      "krk": "2–3 h",
+      "gdn": "7–8 h"
+    }
   },
   {
     "id": "krynica-zdroj",
@@ -1047,7 +1461,13 @@
       "Spacer po Deptaku i pijalni wód",
       "Kolejka na Górę Parkową",
       "Wieczór w Teatrze im. Modrzejewskiej"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "4.5 h",
+      "krk": "2.5 h",
+      "gdn": "7.5 h"
+    }
   },
   {
     "id": "szczawnica",
@@ -1062,7 +1482,13 @@
       "Spacer po Parku Dolnym i Górnym",
       "Pijalnia wód mineralnych",
       "Widok na Pieniny z Palenicy"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "suprasl",
@@ -1077,7 +1503,13 @@
       "Zwiedzanie monasteru i muzeum ikon",
       "Spacer po Puszczy Knyszyńskiej",
       "Spokojny wieczór w Supraślu"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "5–6 h",
+      "gdn": "4–5 h"
+    }
   },
   {
     "id": "green-velo",
@@ -1092,7 +1524,13 @@
       "Etap warmińsko-mazurski wokół jezior",
       "Podlasie — Białowieża i Biebrza",
       "Finał w Bieszczadach i nad Sanem"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "velo-dunajec",
@@ -1107,7 +1545,13 @@
       "Nowy Targ — Czorsztyn",
       "Pieniny i Szczawnica",
       "Finał w Nowym Sączu"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "3–4 h",
+      "krk": "1–2 h",
+      "gdn": "6–7 h"
+    }
   },
   {
     "id": "velo-baltica",
@@ -1122,7 +1566,13 @@
       "Świnoujście — Kołobrzeg",
       "Darłowo — Łeba",
       "Finał w Helu"
-    ]
+    ],
+    "bestSeason": "wrzesień–maj",
+    "drive": {
+      "waw": "4–5 h",
+      "krk": "6–7 h",
+      "gdn": "1–2 h"
+    }
   },
   {
     "id": "wielka-petla-wielkopolski",
@@ -1137,7 +1587,13 @@
       "Poznań — Puszczykowo",
       "Wielkopolski Park Narodowy",
       "Rogalin, Kórnik i okolice"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3 h",
+      "krk": "4–5 h",
+      "gdn": "3–4 h"
+    }
   },
   {
     "id": "dolina-bugu",
@@ -1152,7 +1608,13 @@
       "Drohiczyn — Mielnik",
       "Mielnik — Janów Podlaski",
       "Finał w okolicach Włodawy"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "5–6 h",
+      "gdn": "4–5 h"
+    }
   },
   {
     "id": "kanal-augustowski",
@@ -1167,7 +1629,13 @@
       "Augustów — Śluza Przewięź",
       "Śluza Gorczyca i Studziany Las",
       "Finał w Augustowie nad Nettą"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "5–6 h",
+      "gdn": "4–5 h"
+    }
   },
   {
     "id": "kuchnia-podlasie",
@@ -1182,7 +1650,13 @@
       "Kibiny w barze mlecznym w Białymstoku",
       "Kartacze w wiejskiej gospodzie",
       "Babka ziemniaczana w Supraślu"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "5–6 h",
+      "gdn": "4–5 h"
+    }
   },
   {
     "id": "kuchnia-kaszuby",
@@ -1197,7 +1671,13 @@
       "Śledź w oleju w Kościerzynie",
       "Węgorz wędzony z jeziora",
       "Kaszubski rosół w lokalnej gospodzie"
-    ]
+    ],
+    "bestSeason": "wrzesień–maj",
+    "drive": {
+      "waw": "4–5 h",
+      "krk": "6–7 h",
+      "gdn": "1–2 h"
+    }
   },
   {
     "id": "kuchnia-podhale",
@@ -1212,7 +1692,13 @@
       "Oscypek z grilla na Krupówkach",
       "Kwaśnica w schronisku",
       "Bryjka z żurawiną w bacówce"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "3–4 h",
+      "krk": "1–2 h",
+      "gdn": "6–7 h"
+    }
   },
   {
     "id": "kuchnia-slask",
@@ -1227,7 +1713,13 @@
       "Rolada śląska z kluskami w Katowicach",
       "Modra kapusta i żeberka",
       "Kołocz śląski na deser"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3–4 h",
+      "krk": "1–2 h",
+      "gdn": "5–6 h"
+    }
   },
   {
     "id": "kuchnia-roztocze",
@@ -1242,7 +1734,13 @@
       "Cebularz lubelski na śniadanie",
       "Pierogi z bryndzą w Zamościu",
       "Pstrąg z Roztocza w lokalnej smażalni"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "3–4 h",
+      "gdn": "5–6 h"
+    }
   },
   {
     "id": "kuchnia-kurpie",
@@ -1257,7 +1755,13 @@
       "Rejbak w zagrodzie kurpiowskiej",
       "Fafernuchy w Kadzidle",
       "Pierogi z kapustą i grzybami"
-    ]
+    ],
+    "bestSeason": "kwiecień–październik",
+    "drive": {
+      "waw": "1–2 h",
+      "krk": "3–4 h",
+      "gdn": "3–4 h"
+    }
   },
   {
     "id": "kuchnia-wielkopolska",
@@ -1272,7 +1776,13 @@
       "Rogal świętomarciński w Poznaniu",
       "Pyry z gzikiem w wiejskiej gospodzie",
       "Gęsina z modrą kapustą jesienią"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3 h",
+      "krk": "4–5 h",
+      "gdn": "3–4 h"
+    }
   },
   {
     "id": "kuchnia-warmia",
@@ -1287,7 +1797,13 @@
       "Sielawa wędzona nad jeziorem",
       "Marcepan olsztyński na deser",
       "Kindziuk z dziczyzny w warmińskiej karczmie"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3–4 h",
+      "krk": "5–6 h",
+      "gdn": "2–3 h"
+    }
   },
   {
     "id": "kuchnia-kociewie",
@@ -1302,7 +1818,13 @@
       "Zupa kociewska w Tczewie",
       "Śledź bałtycki w Starogardzie",
       "Kaszanka z cebulą na obiad"
-    ]
+    ],
+    "bestSeason": "wrzesień–maj",
+    "drive": {
+      "waw": "4–5 h",
+      "krk": "6–7 h",
+      "gdn": "1–2 h"
+    }
   },
   {
     "id": "kuchnia-lemkowska",
@@ -1317,7 +1839,13 @@
       "Proziaki z masłem czosnkowym",
       "Fuczki z kapustą w beskidzkiej gospodzie",
       "Kwaśnica łemkowska w chłodny dzień"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "3–4 h",
+      "krk": "1–2 h",
+      "gdn": "6–7 h"
+    }
   },
   {
     "id": "wsie-podlasie",
@@ -1332,7 +1860,13 @@
       "Wsie z cerkwiami wokół Supraśla",
       "Meczet w Bohonikach i Kruszynianach",
       "Drewniana zabudowa wsi podlaskich"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "5–6 h",
+      "gdn": "4–5 h"
+    }
   },
   {
     "id": "wsie-lemkowszczyzna",
@@ -1347,7 +1881,13 @@
       "Cerkwie w Kwiatoniu, Owczarach i Bartnem",
       "Chyże łemkowskie w Hańczowej",
       "Ślady po wysiedleniach w Beskidzie Niskim"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "3–4 h",
+      "krk": "1–2 h",
+      "gdn": "6–7 h"
+    }
   },
   {
     "id": "wsie-kurpie",
@@ -1362,7 +1902,13 @@
       "Skansen w Kadzidle",
       "Warsztaty wycinanki kurpiowskiej",
       "Zagrody kurpiowskie w Myszynieckim"
-    ]
+    ],
+    "bestSeason": "kwiecień–październik",
+    "drive": {
+      "waw": "1–2 h",
+      "krk": "3–4 h",
+      "gdn": "3–4 h"
+    }
   },
   {
     "id": "wsie-kociewie",
@@ -1377,7 +1923,13 @@
       "Wsie z haftem kociewskim w okolicach Tczewa",
       "Drewniane kościoły Kociewia",
       "Zagrody i skanseny w regionie"
-    ]
+    ],
+    "bestSeason": "wrzesień–maj",
+    "drive": {
+      "waw": "4–5 h",
+      "krk": "6–7 h",
+      "gdn": "1–2 h"
+    }
   },
   {
     "id": "wsie-warmia",
@@ -1392,7 +1944,13 @@
       "Gotyckie kościoły warmińskie (Frombork i okolice)",
       "Warmińskie zagrody z czerwonej cegły",
       "Kapliczki przydrożne Warmii"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3–4 h",
+      "krk": "5–6 h",
+      "gdn": "2–3 h"
+    }
   },
   {
     "id": "wsie-kaszuby",
@@ -1407,7 +1965,13 @@
       "Skansen we Wdzydzach Kiszewskich",
       "Wsie z tablicami dwujęzycznymi",
       "Haft kaszubski w Żukowie"
-    ]
+    ],
+    "bestSeason": "wrzesień–maj",
+    "drive": {
+      "waw": "4–5 h",
+      "krk": "6–7 h",
+      "gdn": "1–2 h"
+    }
   },
   {
     "id": "wsie-beskid-niski",
@@ -1422,7 +1986,13 @@
       "Wsie z cerkwiami w Radocynie i Grab",
       "Cmentarze i fundamenty chat",
       "Szlaki przez opuszczone wsie"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "3–4 h",
+      "krk": "1–2 h",
+      "gdn": "6–7 h"
+    }
   },
   {
     "id": "wsie-roztocze",
@@ -1437,7 +2007,13 @@
       "Młyn wodny w Zwierzyńcu",
       "Wsie z drewnianą zabudową w okolicach Krasnobrodu",
       "Zagrody roztoczańskie"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "3–4 h",
+      "gdn": "5–6 h"
+    }
   },
   {
     "id": "wsie-mazowsze",
@@ -1452,7 +2028,13 @@
       "Skansen w Sierpcu i Łowiczu",
       "Wsie z pasiakami łowickimi",
       "Wycinanki i hafty łowickie"
-    ]
+    ],
+    "bestSeason": "kwiecień–październik",
+    "drive": {
+      "waw": "1–2 h",
+      "krk": "3–4 h",
+      "gdn": "3–4 h"
+    }
   },
   {
     "id": "wsie-dolny-slask",
@@ -1467,7 +2049,13 @@
       "Wsie tkaczy w Sudetach (ok. Bystrzycy Kłodzkiej)",
       "Domy przysłupowe w Górach Izerskich",
       "Kościoły łaski i wsie ewangelickie"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "4–5 h",
+      "krk": "3–4 h",
+      "gdn": "5–6 h"
+    }
   },
   {
     "id": "szlak-kulinarny",
@@ -1482,7 +2070,13 @@
       "Podlasie — kibiny, kartacze, babka ziemniaczana",
       "Małopolska — oscypek, kwaśnica, bryjka",
       "Kaszuby — śledzie, węgorz, kaszubski rosół"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "szlak-rzemieslniczy",
@@ -1497,7 +2091,13 @@
       "Pracownie haftu kaszubskiego w Żukowie",
       "Warsztaty wycinanki kurpiowskiej w Kadzidle",
       "Dłubanie w drewnie w Zakopanem"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "szlak-architektury-drewnianej",
@@ -1512,7 +2112,13 @@
       "Cerkiew w Kwiatoniu i Owczarach",
       "Kościół w Sękowej i Binarowej",
       "Skansen w Sanoku i Nowym Sączu"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "3–4 h",
+      "krk": "1–2 h",
+      "gdn": "6–7 h"
+    }
   },
   {
     "id": "szlak-industrialny",
@@ -1527,7 +2133,13 @@
       "Kopalnia srebra w Tarnowskich Górach",
       "Księży Młyn w Łodzi i EC1",
       "Huta i osiedla robotnicze na Śląsku"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "3–4 h",
+      "krk": "1–2 h",
+      "gdn": "6–7 h"
+    }
   },
   {
     "id": "szlak-cerkwi",
@@ -1542,7 +2154,13 @@
       "Cerkwie podlaskie w Supraślu i Puchłach",
       "Cerkwie łemkowskie w Kwiatoniu i Bartnem",
       "Monaster w Supraślu i sanktuarium w Grabarcę"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "5–6 h",
+      "gdn": "4–5 h"
+    }
   },
   {
     "id": "szlak-winnic",
@@ -1557,7 +2175,13 @@
       "Winnice wokół Zielonej Góry",
       "Małopolski Przełom Wisły — Sandomierz i Kazimierz",
       "Winnice w Sudetach i na Dolnym Śląsku"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "3–4 h",
+      "krk": "1–2 h",
+      "gdn": "6–7 h"
+    }
   },
   {
     "id": "szlak-bursztynowy",
@@ -1572,7 +2196,13 @@
       "Pracownie bursztynu w Gdańsku",
       "Muzeum Bursztynu i targi w Gdyni",
       "Warsztaty bursztyniarskie na Kaszubach"
-    ]
+    ],
+    "bestSeason": "wrzesień–maj",
+    "drive": {
+      "waw": "4–5 h",
+      "krk": "6–7 h",
+      "gdn": "1–2 h"
+    }
   },
   {
     "id": "szlak-piastowski",
@@ -1587,7 +2217,13 @@
       "Katedra w Gnieźnie i Drzwi Gnieźnieńskie",
       "Ostrów Lednicki i Muzeum Pierwszych Piastów",
       "Kruszwica i Mysia Wieża"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3 h",
+      "krk": "4–5 h",
+      "gdn": "3–4 h"
+    }
   },
   {
     "id": "szlak-uzdrowisk",
@@ -1602,7 +2238,13 @@
       "Krynica-Zdrój i Szczawnica",
       "Kudowa-Zdrój i Lądek-Zdrój",
       "Nałęczów i Busko-Zdrój"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "szlak-fortyfikacji",
@@ -1617,7 +2259,13 @@
       "Twierdza Przemyśl i fort Salis Soglio",
       "Twierdza Kłodzko i bunkry Gór Sowich",
       "Bunkry Wału Pomorskiego i Międzyrzecki Rejon Umocniony"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3–5 h",
+      "krk": "3–5 h",
+      "gdn": "3–5 h"
+    }
   },
   {
     "id": "pn-babiogorski",
@@ -1632,7 +2280,13 @@
       "Wejście na Diablak o świcie",
       "Schronisko na Markowych Szczawinach",
       "Ścieżki edukacyjne w Zawoi"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "3–4 h",
+      "krk": "1–2 h",
+      "gdn": "6–7 h"
+    }
   },
   {
     "id": "pn-bialowieski",
@@ -1647,7 +2301,13 @@
       "Rezerwat ścisły z przewodnikiem",
       "Ośrodek Hodowli Żubrów",
       "Szlak Żubra w Białowieży"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3 h",
+      "krk": "5.5 h",
+      "gdn": "5 h"
+    }
   },
   {
     "id": "pn-biebrzanski",
@@ -1662,7 +2322,13 @@
       "Kładka Długa Luka",
       "Wieże obserwacyjne w Goniądzu",
       "Spływ kajakowy po Biebrzy"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3 h",
+      "krk": "5.5 h",
+      "gdn": "4.5 h"
+    }
   },
   {
     "id": "pn-bory-tucholskie",
@@ -1677,7 +2343,13 @@
       "Ścieżka przyrodnicza nad jeziorem Charzykowskim",
       "Rezerwat Dolina Rzeki Kulawy",
       "Rowerowy szlak wokół parku"
-    ]
+    ],
+    "bestSeason": "wrzesień–maj",
+    "drive": {
+      "waw": "4–5 h",
+      "krk": "6–7 h",
+      "gdn": "1–2 h"
+    }
   },
   {
     "id": "pn-drawienski",
@@ -1692,7 +2364,13 @@
       "Spływ Drawą",
       "Ścieżka przyrodnicza Drawa",
       "Nocleg na polu biwakowym"
-    ]
+    ],
+    "bestSeason": "wrzesień–maj",
+    "drive": {
+      "waw": "5–6 h",
+      "krk": "6–7 h",
+      "gdn": "2–3 h"
+    }
   },
   {
     "id": "pn-kampinoski",
@@ -1707,7 +2385,13 @@
       "Szlak do Granicy",
       "Muzeum Puszczy Kampinoskiej",
       "Widok na wydmy o zachodzie"
-    ]
+    ],
+    "bestSeason": "kwiecień–październik",
+    "drive": {
+      "waw": "0.5 h",
+      "krk": "3.5 h",
+      "gdn": "3.5 h"
+    }
   },
   {
     "id": "pn-magurski",
@@ -1722,7 +2406,13 @@
       "Ścieżka przyrodnicza w Krempnej",
       "Cerkiew w Bartnem",
       "Widoki z Magury Wątkowskiej"
-    ]
+    ],
+    "bestSeason": "maj–czerwiec, wrzesień",
+    "drive": {
+      "waw": "3–4 h",
+      "krk": "1–2 h",
+      "gdn": "6–7 h"
+    }
   },
   {
     "id": "pn-narwianski",
@@ -1737,7 +2427,13 @@
       "Kładka Śliwno-Waniewo",
       "Wieża widokowa w Waniawie",
       "Kajak po Narwi"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "5–6 h",
+      "gdn": "4–5 h"
+    }
   },
   {
     "id": "pn-ojcowski",
@@ -1752,7 +2448,13 @@
       "Brama Krakowska",
       "Jaskinia Łokietka",
       "Zamek w Ojcowie"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3 h",
+      "krk": "0.5 h",
+      "gdn": "6 h"
+    }
   },
   {
     "id": "pn-poleski",
@@ -1767,7 +2469,13 @@
       "Ścieżka Dąb Dominik",
       "Wieża widokowa nad jeziorem",
       "Rezerwat torfowiskowy"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "2–3 h",
+      "krk": "3–4 h",
+      "gdn": "5–6 h"
+    }
   },
   {
     "id": "pn-slowinski",
@@ -1782,7 +2490,13 @@
       "Wydma Łącka — ruchome wydmy",
       "Jezioro Łebsko i Gardno",
       "Rowerowy szlak wokół parku"
-    ]
+    ],
+    "bestSeason": "wrzesień–maj",
+    "drive": {
+      "waw": "4.5 h",
+      "krk": "7 h",
+      "gdn": "1.5 h"
+    }
   },
   {
     "id": "pn-tatrzanski",
@@ -1797,7 +2511,13 @@
       "Morskie Oko",
       "Dolina Pięciu Stawów",
       "Kasprowy Wierch i Świnica"
-    ]
+    ],
+    "bestSeason": "czerwiec–wrzesień",
+    "drive": {
+      "waw": "4 h",
+      "krk": "2 h",
+      "gdn": "7 h"
+    }
   },
   {
     "id": "pn-ujscie-warty",
@@ -1812,7 +2532,13 @@
       "Wieża obserwacyjna w Chyrzynie",
       "Ścieżka Ptasiego Raju",
       "Rejs po Warcie"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "4–5 h",
+      "krk": "5–6 h",
+      "gdn": "4–5 h"
+    }
   },
   {
     "id": "pn-wielkopolski",
@@ -1827,7 +2553,13 @@
       "Jezioro Góreckie",
       "Wzgórze Osowa Góra",
       "Ścieżka w Puszczykowie"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3 h",
+      "krk": "4–5 h",
+      "gdn": "3–4 h"
+    }
   },
   {
     "id": "pn-wigierski",
@@ -1842,7 +2574,13 @@
       "Klasztor kamedułów w Wigrach",
       "Rejs po jeziorze Wigry",
       "Ścieżka wokół jeziora"
-    ]
+    ],
+    "bestSeason": "maj–wrzesień",
+    "drive": {
+      "waw": "3.5 h",
+      "krk": "6 h",
+      "gdn": "4 h"
+    }
   },
   {
     "id": "pn-wolinski",
@@ -1857,6 +2595,12 @@
       "Klif w Gosań",
       "Zagroda żubrów w Karsiborzu",
       "Widok z Kawczej Góry"
-    ]
+    ],
+    "bestSeason": "wrzesień–maj",
+    "drive": {
+      "waw": "5–6 h",
+      "krk": "6–7 h",
+      "gdn": "2–3 h"
+    }
   }
 ]

@@ -104,7 +104,7 @@
 <link rel="stylesheet" href="style.css?v=2.1"><link rel="stylesheet" href="search.css" media="print" onload="this.media='all'">
 <script src="search.js" defer></script>
 </head>
-<body><header class="header"><a class="logo" href="index.html" aria-label="Polska bliżej"><img src="images/logo.svg" alt="Polska bliżej" height="48"></a><nav id="nav"><a href="#kierunki">Destinations</a><a href="mapa.html">Mapa</a> <a href="blog-en.html">Blog</a><a href="#pomysly">Trip Ideas</a><a href="#o-nas">About</a><div class="lang-group"><a href="index.html" class="lang-switch" title="Wersja polska">PL</a><a href="index-en.html" class="lang-switch active" title="English version">EN</a><a href="index-es.html" class="lang-switch" title="Versión en español">ES</a></div></nav><button class="menu" aria-controls="nav" aria-expanded="false">Menu</button><button class="saved" id="saved-button">Saved <b id="saved-count">0</b></button></header>
+<body><header class="header"><a class="logo" href="index.html" aria-label="Polska bliżej"><img src="images/logo.svg" alt="Polska bliżej" height="48"></a><nav id="nav"><a href="#kierunki">Destinations</a><a href="mapa.html">Mapa</a> <a href="blog-en.html">Blog</a><a href="#generator">Generator</a><a href="#pomysly">Trip Ideas</a><a href="#o-nas">About</a><div class="lang-group"><a href="index.html" class="lang-switch" title="Wersja polska">PL</a><a href="index-en.html" class="lang-switch active" title="English version">EN</a><a href="index-es.html" class="lang-switch" title="Versión en español">ES</a></div></nav><button class="menu" aria-controls="nav" aria-expanded="false">Menu</button><button class="saved" id="saved-button">Saved <b id="saved-count">0</b></button></header>
 <main id="start"><section class="hero"><div class="hero-copy"><p class="label">TRAVEL ACROSS POLAND</p><h1>Beauty is best found<br><em>close to home.</em></h1><p>Weekend ideas, unhurried routes, and places you will want to return to.</p><a href="#kierunki" class="primary">Find your destination <span>↓</span></a></div><div class="hero-art" aria-hidden="true"><img src="images/hero-polska.webp" alt="Poland landscape — lakes, forests and mountains" width="800" height="600" fetchpriority="high" style="width:100%; height:100%; object-fit:cover;"></div></section>
 <section class="stats"><p><b>16</b> voivodeships</p><p><b>52</b> weekend destinations</p><p><b>100%</b> local inspirations</p></section>
 <section class="feature"><div class="feature-image coastal"><span>01</span><i>The Baltic off-season</i></div><article><p class="label">DESTINATION OF THE MONTH</p><h2>To the north, where<br><em>the wind shapes the dunes.</em></h2><p>Slow travel across the Vistula Spit: long walks, lighthouses, and the freshest fish straight from the cutter.</p><div class="details"><span>2–3 days</span><span>easy route</span><span>Pomerania</span></div><button class="outline open-trip" data-id="baltyk">View trip plan →</button></article></section>
@@ -414,7 +414,7 @@
 }
 </style>
 
-<!-- ===== SEKCJA MAPY — wklej np. przed <section class="ideas" id="pomysly"> ===== -->
+
 <section class="home-map" id="mapa">
   <div class="home-map-inner">
     <div class="home-map-copy">
@@ -664,6 +664,16 @@
   <p>Białowieża, Biebrza, Tatras, Bieszczady, Słowiński, Karkonosze and more.</p>
 </a>
 </div>
+
+<section class="generator-section" id="generator">
+  <p class="label">WEEKEND GENERATOR</p>
+  <h2>Not sure where to go?<br><em>We ask you.</em></h2>
+  <p class="generator-intro">Answer a few questions and we’ll match slow-travel destinations — no rush, no crowds.</p>
+  <div id="weekend-generator">
+    <p class="label">Loading…</p>
+  </div>
+</section>
+
 <section class="ideas" id="pomysly"><p class="label">READY-MADE IDEAS</p><h2>You don't have to travel far<br><em>to truly get away.</em></h2><div class="idea-list"><article><span>01</span><h3>Weekend by the water</h3><p><strong>Vistula Spit, Baltic Sea</strong></p><a href="#kierunki" data-filter-link="woda">Discover more <b>→</b></a></article><article><span>02</span><h3>Trails for beginners</h3><p><strong>Dunajec River, Pieniny</strong></p><a href="#kierunki" data-filter-link="gory">Discover more <b>→</b></a></article><article><span>03</span><h3>Cities for a day trip</h3><p><strong>Kraków, Lesser Poland</strong></p><a href="#kierunki" data-filter-link="miasta">Discover more <b>→</b></a></article></div></section>
 <section class="about" id="o-nas"><div><p class="label">ABOUT THE PROJECT</p><h2>Let's travel<br><em>with curiosity.</em></h2></div><p>Poland Closer is a curated selection of travel ideas, free from rushing through checklist attractions. We help you find your own rhythm — and appreciate what is right around the corner.</p></section>  
 <section class="newsletter"><p class="label">ONE EMAIL A MONTH</p><h2>A good reason<br><em>to hit the road.</em></h2><p>New routes and seasonal inspirations, zero spam.</p><form id="newsletter"><label class="sr-only" for="email">Email address</label><input id="email" type="email" placeholder="Your email address" required><button>Subscribe →</button></form><p id="newsletter-message" aria-live="polite"></p></section>
@@ -687,4 +697,4 @@
 </section>
 
 </main>
-<footer><a class="logo" href="index.html" aria-label="Polska bliżej"><img src="images/logo-white.svg" alt="Polska bliżej" height="42"></a><p>© 2026 Poland Closer</p><div><a href="#o-nas">About</a><a href="mailto:hello@polandsecrets.com">Contact</a></div></footer><dialog id="trip-dialog"><button class="close" aria-label="Close">×</button><div id="trip-content"></div></dialog><aside class="saved-panel" id="saved-panel"><div><p class="label">YOUR INSPIRATIONS</p><button id="close-saved">×</button></div><h2>Saved destinations</h2><div id="saved-list"></div></aside><script src="app.js"></script><script src="cookie-consent.js" defer></script></body></html>
+<footer><a class="logo" href="index.html" aria-label="Polska bliżej"><img src="images/logo-white.svg" alt="Polska bliżej" height="42"></a><p>© 2026 Poland Closer</p><div><a href="#o-nas">About</a><a href="mailto:hello@polandsecrets.com">Contact</a></div></footer><dialog id="trip-dialog"><button class="close" aria-label="Close">×</button><div id="trip-content"></div></dialog><aside class="saved-panel" id="saved-panel"><div><p class="label">YOUR INSPIRATIONS</p><button id="close-saved">×</button></div><h2>Saved destinations</h2><div id="saved-list"></div></aside><script src="app.js"></script><script src="badges.js" defer></script><script src="generator.js" defer></script><script src="cookie-consent.js" defer></script></body></html>
