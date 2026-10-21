@@ -194,32 +194,19 @@ async function init() {
     };
 
     const menu = document.querySelector('.menu'), nav = document.querySelector('#nav');
-    menu.onclick = () => {
-      const open = menu.getAttribute('aria-expanded') === 'true';
-      menu.setAttribute('aria-expanded', String(!open));
-      nav.style.display = open ? '' : 'flex';
-      nav.style.position = open ? '' : 'absolute';
-      nav.style.top = open ? '' : '78px';
-      nav.style.left = open ? '' : '0';
-      nav.style.right = open ? '' : '0';
-      nav.style.padding = open ? '' : '20px';
-      nav.style.background = open ? '' : 'var(--cream)';
-      nav.style.flexDirection = open ? '' : 'column';
-    };
-
-    nav.querySelectorAll('a').forEach(link => {
-      link.onclick = () => {
-        menu.setAttribute('aria-expanded', 'false');
-        nav.style.display = '';
-        nav.style.position = '';
-        nav.style.top = '';
-        nav.style.left = '';
-        nav.style.right = '';
-        nav.style.padding = '';
-        nav.style.background = '';
-        nav.style.flexDirection = '';
+    if (menu && nav) {
+      menu.onclick = () => {
+        const open = menu.getAttribute('aria-expanded') === 'true';
+        menu.setAttribute('aria-expanded', String(!open));
+        nav.classList.toggle('nav-open', !open);
       };
-    });
+      nav.querySelectorAll('a').forEach(link => {
+        link.onclick = () => {
+          menu.setAttribute('aria-expanded', 'false');
+          nav.classList.remove('nav-open');
+        };
+      });
+    }
 
     const updateFeaturedTrip = () => {
       const month = new Date().getMonth();
@@ -281,22 +268,34 @@ async function init() {
       const itemsUl = document.getElementById('packing-items');
       const packedCountEl = document.getElementById('packed-count');
       const totalCountEl = document.getElementById('total-count');
-      if(!itemsUl) return;
+      if (!itemsUl) return;
       let currentType = 'gory';
+      const storageKey = (type) => 'pb-pack-' + type;
+      const loadChecked = (type) => {
+        try { return JSON.parse(localStorage.getItem(storageKey(type)) || '[]'); }
+        catch (e) { return []; }
+      };
+      const saveChecked = (type) => {
+        const ids = Array.from(itemsUl.querySelectorAll('input:checked')).map(i => i.dataset.item);
+        localStorage.setItem(storageKey(type), JSON.stringify(ids));
+      };
       const renderList = (type) => {
         const items = lists[type];
-        totalCountEl.textContent = items.length;
-        itemsUl.innerHTML = items.map(item => `
-          <li class="packing-item">
-            <input type="checkbox" id="${item}">
-            <span>${item}</span>
-          </li>
-        `).join('');
+        if (!items) return;
+        if (totalCountEl) totalCountEl.textContent = items.length;
+        const checked = loadChecked(type);
+        itemsUl.innerHTML = items.map((item, i) => {
+          const id = 'pack-' + type + '-' + i;
+          const isOn = checked.indexOf(item) !== -1;
+          return '<li class="packing-item"><label for="' + id + '">' +
+            '<input type="checkbox" id="' + id + '" data-item="' + item.replace(/"/g, '&quot;') + '"' +
+            (isOn ? ' checked' : '') + '><span>' + item + '</span></label></li>';
+        }).join('');
         updateProgress();
       };
       const updateProgress = () => {
         const checked = itemsUl.querySelectorAll('input:checked').length;
-        packedCountEl.textContent = checked;
+        if (packedCountEl) packedCountEl.textContent = checked;
       };
       controls.forEach(btn => {
         btn.onclick = () => {
@@ -306,11 +305,12 @@ async function init() {
           renderList(currentType);
         };
       });
-      itemsUl.onclick = (e) => {
+      itemsUl.addEventListener('change', (e) => {
         if (e.target.type === 'checkbox') {
           updateProgress();
+          saveChecked(currentType);
         }
-      };
+      });
       renderList(currentType);
     };
 

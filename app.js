@@ -173,6 +173,41 @@ const photos = {
 
 window.photos = photos;
 
+// ─── Lazy load background images ───────────────────────────────────────────
+const bgObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    const el = entry.target;
+    const src = el.dataset.bg;
+    if (src) {
+      el.style.backgroundImage = "url('" + src + "')";
+      el.style.backgroundSize = 'cover';
+      el.style.backgroundPosition = 'center';
+      delete el.dataset.bg;
+    }
+    bgObserver.unobserve(el);
+  });
+}, { rootMargin: '300px 0px' });
+
+function observeTripArts(root) {
+  const scope = root || document;
+  scope.querySelectorAll('.trip-art[data-bg]').forEach(el => bgObserver.observe(el));
+}
+
+/** Zamienia inline background-image z prerenderu na data-bg + lazy */
+function convertPrerenderedBgs() {
+  document.querySelectorAll('.trip-art[style*="background-image"]').forEach(el => {
+    const match = el.style.backgroundImage.match(/url\(['"]?(.*?)['"]?\)/);
+    if (match && match[1]) {
+      el.dataset.bg = match[1];
+      el.style.backgroundImage = '';
+      el.style.backgroundSize = '';
+      el.style.backgroundPosition = '';
+    }
+  });
+  observeTripArts();
+}
+
 async function init() {
   try {
     const grid = document.querySelector('#trip-grid');
@@ -188,12 +223,33 @@ async function init() {
     const response = await fetch(config[currentLang].tripsFile);
     const trips = await response.json();
 
-    const render = (filter = 'all') => {
+    const render = (filter) => {
       if (!grid) return;
-      grid.innerHTML = trips.filter(t => filter === 'all' || t.category === filter).map(t => {
-        const img = photos[t.id] || 'hero-polska.webp';
-        return '<article class="trip"><div class="trip-art ' + t.art + '" data-id="' + t.id + '" role="img" aria-label="' + t.title + '" style="background-image:url(\'images/' + img + '\') !important;background-size:cover;background-position:center"><span>' + t.place + '</span><button class="save-trip" data-id="' + t.id + '" aria-label="' + t.title + '">' + (saved.includes(t.id) ? '♥' : '♡') + '</button></div><p class="meta">' + t.region.toUpperCase() + ' <b>•</b> ' + t.days + '</p><h3>' + t.title + '</h3><p>' + t.text + '</p><button class="read open-trip" data-id="' + t.id + '">' + (t.exploreRoute || config[currentLang].texts.exploreRoute) + '</button></article>';
-      }).join('');
+      const f = filter || 'all';
+      grid.innerHTML = trips
+        .filter(t => f === 'all' || t.category === f)
+        .map(t => {
+          const img = photos[t.id] || 'hero-polska.webp';
+          const bgPath = 'images/' + img;
+          return (
+            '<article class="trip">' +
+              '<div class="trip-art ' + t.art + '" data-id="' + t.id + '" data-bg="' + bgPath + '" role="img" aria-label="' + t.title + '">' +
+                '<span>' + t.place + '</span>' +
+                '<button class="save-trip" data-id="' + t.id + '" aria-label="' + t.title + '">' +
+                  (saved.includes(t.id) ? '♥' : '♡') +
+                '</button>' +
+              '</div>' +
+              '<p class="meta">' + t.region.toUpperCase() + ' <b>•</b> ' + t.days + '</p>' +
+              '<h3>' + t.title + '</h3>' +
+              '<p>' + t.text + '</p>' +
+              '<button class="read open-trip" data-id="' + t.id + '">' +
+                (t.exploreRoute || config[currentLang].texts.exploreRoute) +
+              '</button>' +
+            '</article>'
+          );
+        })
+        .join('');
+      observeTripArts(grid);
     };
 
     const updateSaved = () => {
@@ -205,21 +261,27 @@ async function init() {
         listEl.innerHTML = saved.length
           ? saved.map(id => {
               const trip = trips.find(x => x.id === id);
-              return trip ? '<button class="saved-item open-trip" data-id="' + id + '"><span>' + trip.place + '</span>' + trip.title + ' <b>→</b></button>' : '';
+              return trip
+                ? '<button class="saved-item open-trip" data-id="' + id + '"><span>' + trip.place + '</span>' + trip.title + ' <b>→</b></button>'
+                : '';
             }).join('')
           : '<p class="empty">' + config[currentLang].texts.emptySaved + '</p>';
       }
     };
 
-    document.querySelectorAll('.filters button').forEach(b => b.onclick = () => {
-      document.querySelectorAll('.filters button').forEach(x => x.classList.remove('active'));
-      b.classList.add('active');
-      render(b.dataset.filter);
+    document.querySelectorAll('.filters button').forEach(b => {
+      b.onclick = () => {
+        document.querySelectorAll('.filters button').forEach(x => x.classList.remove('active'));
+        b.classList.add('active');
+        render(b.dataset.filter);
+      };
     });
 
-    document.querySelectorAll('[data-filter-link]').forEach(a => a.onclick = () => {
-      const btn = document.querySelector('.filters [data-filter="' + a.dataset.filterLink + '"]');
-      if (btn) btn.click();
+    document.querySelectorAll('[data-filter-link]').forEach(a => {
+      a.onclick = () => {
+        const btn = document.querySelector('.filters [data-filter="' + a.dataset.filterLink + '"]');
+        if (btn) btn.click();
+      };
     });
 
     document.addEventListener('click', async e => {
@@ -236,10 +298,38 @@ async function init() {
           if (!res.ok) throw new Error();
           const art = await res.json();
           const img = photos[trip.id] || 'hero-polska.webp';
-          content.innerHTML = '<div class="dialog-header"><div class="dialog-img" style="background-image:url(\'images/' + img + '\');background-size:cover;background-position:center"></div><div class="dialog-title-group"><p class="label">' + trip.place.toUpperCase() + ' • ' + trip.days + '</p><h2>' + art.title + '</h2></div></div><p class="dialog-lead">' + art.lead + '</p><div class="article-body">' + art.body + '</div><div class="article-tip"><strong>💡 ' + config[currentLang].texts.tipLabel + '</strong> ' + art.tip + '</div><h3 style="margin-top:24px">' + config[currentLang].texts.itinerary + '</h3><ol>' + trip.plan.map(x => '<li>' + x + '</li>').join('') + '</ol><button class="dialog-save save-trip" data-id="' + trip.id + '">' + (saved.includes(trip.id) ? '✓ ' + config[currentLang].texts.saved : '♡ ' + config[currentLang].texts.saveTrip) + '</button>';
+          content.innerHTML =
+            '<div class="dialog-header">' +
+              '<div class="dialog-img" style="background-image:url(\'images/' + img + '\');background-size:cover;background-position:center"></div>' +
+              '<div class="dialog-title-group">' +
+                '<p class="label">' + trip.place.toUpperCase() + ' • ' + trip.days + '</p>' +
+                '<h2>' + art.title + '</h2>' +
+              '</div>' +
+            '</div>' +
+            '<p class="dialog-lead">' + art.lead + '</p>' +
+            '<div class="article-body">' + art.body + '</div>' +
+            '<div class="article-tip"><strong>💡 ' + config[currentLang].texts.tipLabel + '</strong> ' + art.tip + '</div>' +
+            '<h3 style="margin-top:24px">' + config[currentLang].texts.itinerary + '</h3>' +
+            '<ol>' + trip.plan.map(x => '<li>' + x + '</li>').join('') + '</ol>' +
+            '<button class="dialog-save save-trip" data-id="' + trip.id + '">' +
+              (saved.includes(trip.id) ? '✓ ' + config[currentLang].texts.saved : '♡ ' + config[currentLang].texts.saveTrip) +
+            '</button>';
         } catch (err) {
           const img = photos[trip.id] || 'hero-polska.webp';
-          content.innerHTML = '<div class="dialog-header"><div class="dialog-img" style="background-image:url(\'images/' + img + '\');background-size:cover;background-position:center"></div><div class="dialog-title-group"><p class="label">' + trip.place.toUpperCase() + ' • ' + trip.days + '</p><h2>' + trip.title + '</h2></div></div><p class="dialog-lead">' + trip.text + '</p><h3>' + config[currentLang].texts.itinerary + '</h3><ol>' + trip.plan.map(x => '<li>' + x + '</li>').join('') + '</ol><button class="dialog-save save-trip" data-id="' + trip.id + '">' + (saved.includes(trip.id) ? '✓ ' + config[currentLang].texts.saved : '♡ ' + config[currentLang].texts.saveTrip) + '</button>';
+          content.innerHTML =
+            '<div class="dialog-header">' +
+              '<div class="dialog-img" style="background-image:url(\'images/' + img + '\');background-size:cover;background-position:center"></div>' +
+              '<div class="dialog-title-group">' +
+                '<p class="label">' + trip.place.toUpperCase() + ' • ' + trip.days + '</p>' +
+                '<h2>' + trip.title + '</h2>' +
+              '</div>' +
+            '</div>' +
+            '<p class="dialog-lead">' + trip.text + '</p>' +
+            '<h3>' + config[currentLang].texts.itinerary + '</h3>' +
+            '<ol>' + trip.plan.map(x => '<li>' + x + '</li>').join('') + '</ol>' +
+            '<button class="dialog-save save-trip" data-id="' + trip.id + '">' +
+              (saved.includes(trip.id) ? '✓ ' + config[currentLang].texts.saved : '♡ ' + config[currentLang].texts.saveTrip) +
+            '</button>';
         }
       }
 
@@ -251,7 +341,9 @@ async function init() {
         if (grid) render(activeFilter);
         const dialogSaveBtn = document.querySelector('.dialog-save');
         if (dialogSaveBtn && dialogSaveBtn.dataset.id === id) {
-          dialogSaveBtn.textContent = saved.includes(id) ? '✓ ' + config[currentLang].texts.saved : '♡ ' + config[currentLang].texts.saveTrip;
+          dialogSaveBtn.textContent = saved.includes(id)
+            ? '✓ ' + config[currentLang].texts.saved
+            : '♡ ' + config[currentLang].texts.saveTrip;
         }
       }
     });
@@ -277,21 +369,12 @@ async function init() {
       menu.onclick = () => {
         const open = menu.getAttribute('aria-expanded') === 'true';
         menu.setAttribute('aria-expanded', String(!open));
-        nav.style.display = open ? '' : 'flex';
-        nav.style.position = open ? '' : 'absolute';
-        nav.style.top = open ? '' : '78px';
-        nav.style.left = open ? '' : '0';
-        nav.style.right = open ? '' : '0';
-        nav.style.padding = open ? '' : '20px';
-        nav.style.background = open ? '' : 'var(--cream)';
-        nav.style.flexDirection = open ? '' : 'column';
+        nav.classList.toggle('nav-open', !open);
       };
       nav.querySelectorAll('a').forEach(link => {
         link.onclick = () => {
           menu.setAttribute('aria-expanded', 'false');
-          nav.style.display = ''; nav.style.position = ''; nav.style.top = '';
-          nav.style.left = ''; nav.style.right = ''; nav.style.padding = '';
-          nav.style.background = ''; nav.style.flexDirection = '';
+          nav.classList.remove('nav-open');
         };
       });
     }
@@ -330,7 +413,7 @@ async function init() {
       else if (month >= 5 && month <= 7) theme = seasonalThemes.summer;
       else theme = seasonalThemes.autumn;
       const root = document.documentElement;
-      Object.entries(theme).forEach(([prop, value]) => root.style.setProperty("--" + prop, value));
+      Object.entries(theme).forEach(([prop, value]) => root.style.setProperty('--' + prop, value));
     };
 
     const initPackingList = () => {
@@ -342,11 +425,29 @@ async function init() {
         const totalCountEl = document.getElementById('total-count');
         if (!itemsUl) return;
         let currentType = 'gory';
+        const storageKey = (type) => 'pb-pack-' + type;
+
+        const loadChecked = (type) => {
+          try { return JSON.parse(localStorage.getItem(storageKey(type)) || '[]'); }
+          catch (e) { return []; }
+        };
+        const saveChecked = (type) => {
+          const ids = Array.from(itemsUl.querySelectorAll('input:checked')).map(i => i.dataset.item);
+          localStorage.setItem(storageKey(type), JSON.stringify(ids));
+        };
+
         const renderList = (type) => {
           const items = lists[type];
           if (!items) return;
           if (totalCountEl) totalCountEl.textContent = items.length;
-          itemsUl.innerHTML = items.map(item => '<li class="packing-item"><input type="checkbox" id="' + item + '"><span>' + item + '</span></li>').join('');
+          const checked = loadChecked(type);
+          itemsUl.innerHTML = items.map((item, i) => {
+            const id = 'pack-' + type + '-' + i;
+            const isOn = checked.indexOf(item) !== -1;
+            return '<li class="packing-item"><label for="' + id + '">' +
+              '<input type="checkbox" id="' + id + '" data-item="' + item.replace(/"/g, '&quot;') + '"' +
+              (isOn ? ' checked' : '') + '><span>' + item + '</span></label></li>';
+          }).join('');
           updateProgress();
         };
         const updateProgress = () => {
@@ -361,37 +462,40 @@ async function init() {
             renderList(currentType);
           };
         });
-        itemsUl.onclick = (e) => {
-          if (e.target.type === 'checkbox') updateProgress();
-        };
+        itemsUl.addEventListener('change', (e) => {
+          if (e.target.type === 'checkbox') {
+            updateProgress();
+            saveChecked(currentType);
+          }
+        });
         renderList(currentType);
       } catch (err) {
-        console.error("Packing list error:", err);
+        console.error('Packing list error:', err);
       }
-      
     };
-    
-          const updateHeartStates = () => {
+
+    const updateHeartStates = () => {
       document.querySelectorAll('.save-trip').forEach(btn => {
         const id = btn.dataset.id;
         btn.textContent = saved.includes(id) ? '♥' : '♡';
       });
     };
-        // NIE renderuj ponownie — karty są już w HTML (prerender)
+
+    // NIE renderuj ponownie — karty są już w HTML (prerender)
     // if (grid) render();
     updateSaved();
-    updateHeartStates();     // ← nowa funkcja
+    updateHeartStates();
     updateFeaturedTrip();
     applySeasonalTheme();
     initPackingList();
     document.querySelectorAll('.reveal').forEach(el => el.classList.add('revealed'));
 
+    // Lazy-load obrazków z prerenderowanego HTML
+    convertPrerenderedBgs();
+
   } catch (e) {
-    console.error("Initialization error:", e);
+    console.error('Initialization error:', e);
   }
 }
 
 init();
-
-
-

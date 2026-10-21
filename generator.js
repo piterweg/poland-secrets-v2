@@ -11,7 +11,7 @@
       stepOf: (n, total) => 'KROK ' + n + ' z ' + total,
       step1Title: 'Ile masz czasu?',
       step2Title: 'Co Cię ciągnie?',
-      step2Hint: 'Możesz wybrać kilka',
+      step2Hint: 'Możesz wybrać kilka — lub pominąć',
       step3Title: 'Z kim jedziesz?',
       step3Hint: 'Opcjonalne — wpływa na dopasowanie',
       next: 'Dalej →',
@@ -52,7 +52,7 @@
       stepOf: (n, total) => 'STEP ' + n + ' of ' + total,
       step1Title: 'How much time do you have?',
       step2Title: 'What draws you in?',
-      step2Hint: 'You can pick more than one',
+      step2Hint: 'You can pick more than one — or skip',
       step3Title: 'Who are you travelling with?',
       step3Hint: 'Optional — shapes the match',
       next: 'Next →',
@@ -125,21 +125,15 @@
     return 'pl';
   }
 
+  /** Extract min/max day range from free-form strings like "2–3 dni", "5–7 days", "1 dzień". */
   function parseDays(str) {
     if (!str) return { min: 1, max: 7 };
-    const s = String(str).toLowerCase();
-    if (/^1\s*(dzień|day)\b/.test(s) || s === '1') return { min: 1, max: 1 };
-    if (/1[–-]2/.test(s)) return { min: 1, max: 2 };
-    if (/^2\s*(dni|days)\b/.test(s) && !/[–-]/.test(s)) return { min: 2, max: 2 };
-    if (/2[–-]3/.test(s)) return { min: 2, max: 3 };
-    if (/2[–-]4/.test(s)) return { min: 2, max: 4 };
-    if (/^3\s*(dni|days)\b/.test(s) && !/[–-]/.test(s)) return { min: 3, max: 3 };
-    if (/3[–-]4/.test(s)) return { min: 3, max: 4 };
-    if (/3[–-]5/.test(s)) return { min: 3, max: 5 };
-    if (/4[–-][56]/.test(s)) return { min: 4, max: 6 };
-    if (/4[–-]7|5[–-][78]|6[–-]7/.test(s)) return { min: 4, max: 7 };
-    if (/7|10|14/.test(s)) return { min: 7, max: 14 };
-    return { min: 1, max: 7 };
+    const s = String(str).toLowerCase().replace(/–/g, '-');
+    const nums = s.match(/\d+/g);
+    if (!nums || !nums.length) return { min: 1, max: 7 };
+    const a = parseInt(nums[0], 10);
+    const b = nums.length > 1 ? parseInt(nums[1], 10) : a;
+    return { min: Math.min(a, b), max: Math.max(a, b) };
   }
 
   function daysOverlap(tripDays, selected) {
@@ -147,20 +141,46 @@
     return range.min <= selected.max && range.max >= selected.min;
   }
 
+  function getSavedIds() {
+    try {
+      return JSON.parse(localStorage.getItem('pb-saved') || '[]');
+    } catch (e) {
+      return [];
+    }
+  }
+
   function scoreTrip(trip) {
     let score = 0;
     const selectedDays = t.days.find(function (d) { return d.id === state.days; });
-    if (selectedDays && daysOverlap(trip.days, selectedDays)) {
-      score += 10;
-      const range = parseDays(trip.days);
-      if (range.min >= selectedDays.min && range.max <= selectedDays.max) score += 5;
+
+    // Time is a hard requirement for ranking — must overlap
+    if (!selectedDays || !daysOverlap(trip.days, selectedDays)) {
+      return 0;
+    }
+
+    score += 10;
+    const range = parseDays(trip.days);
+    // Perfect fit inside selected window
+    if (range.min >= selectedDays.min && range.max <= selectedDays.max) {
+      score += 6;
+    } else if (range.min === selectedDays.min || range.max === selectedDays.max) {
+      score += 2;
     }
 
     if (state.prefs.size > 0) {
+      var prefHits = 0;
       state.prefs.forEach(function (pref) {
         const cats = CATEGORY_MAP[pref] || [];
-        if (cats.indexOf(trip.category) !== -1) score += 8;
+        if (cats.indexOf(trip.category) !== -1) {
+          prefHits += 1;
+          score += 10;
+        }
       });
+      // Bonus for multi-pref hits
+      if (prefHits > 1) score += 3;
+    } else {
+      // No prefs → mild base so days-only still ranks
+      score += 1;
     }
 
     if (state.companion && COMPANION_BIAS[state.companion]) {
@@ -178,13 +198,17 @@
       .filter(function (x) { return x.score > 0; })
       .sort(function (a, b) {
         if (b.score !== a.score) return b.score - a.score;
-        const ha = (a.trip.id.charCodeAt(0) * 31 + reshuffleKey) % 97;
-        const hb = (b.trip.id.charCodeAt(0) * 31 + reshuffleKey) % 97;
+        // Stable-ish rotation for "Losuj inne"
+        const ha = (a.trip.id.charCodeAt(0) * 31 + reshuffleKey * 17 + a.trip.id.length) % 97;
+        const hb = (b.trip.id.charCodeAt(0) * 31 + reshuffleKey * 17 + b.trip.id.length) % 97;
         return ha - hb;
       });
 
-    const poolSize = Math.min(scored.length, limit * 2);
+    const poolSize = Math.min(scored.length, Math.max(limit * 2, limit + 3));
     const pool = scored.slice(0, poolSize);
+    if (pool.length <= limit) {
+      return pool.map(function (x) { return x.trip; });
+    }
     const rot = reshuffleKey % Math.max(1, pool.length - limit + 1);
     const rotated = pool.slice(rot).concat(pool.slice(0, rot));
     return rotated.slice(0, limit).map(function (x) { return x.trip; });
@@ -200,11 +224,11 @@
       '<div class="gen-step" data-step="1">' +
       '<p class="label">' + t.stepOf(1, 3) + '</p>' +
       '<h3>' + t.step1Title + '</h3>' +
-      '<div class="gen-options">' +
+      '<div class="gen-options" role="group" aria-label="' + t.step1Title + '">' +
       t.days.map(function (d) {
-        return '<button type="button" class="gen-option' +
-          (state.days === d.id ? ' active' : '') +
-          '" data-days="' + d.id + '">' + d.label + '</button>';
+        var active = state.days === d.id;
+        return '<button type="button" class="gen-option' + (active ? ' active' : '') +
+          '" data-days="' + d.id + '" aria-pressed="' + active + '">' + d.label + '</button>';
       }).join('') +
       '</div>' +
       '<div class="gen-nav">' +
@@ -218,9 +242,11 @@
       });
     });
     var nextBtn = container.querySelector('.gen-next');
-    if (nextBtn) nextBtn.addEventListener('click', function () {
-      if (state.days) { state.step = 2; render(); }
-    });
+    if (nextBtn) {
+      nextBtn.addEventListener('click', function () {
+        if (state.days) { state.step = 2; render(); }
+      });
+    }
   }
 
   function renderStep2(container) {
@@ -229,11 +255,12 @@
       '<p class="label">' + t.stepOf(2, 3) + '</p>' +
       '<h3>' + t.step2Title + '</h3>' +
       '<p class="gen-hint">' + t.step2Hint + '</p>' +
-      '<div class="gen-options gen-options--grid">' +
+      '<div class="gen-options gen-options--grid" role="group" aria-label="' + t.step2Title + '">' +
       t.prefs.map(function (p) {
-        return '<button type="button" class="gen-option' +
-          (state.prefs.has(p.id) ? ' active' : '') +
-          '" data-pref="' + p.id + '"><span class="gen-icon">' + p.icon + '</span> ' + p.label + '</button>';
+        var active = state.prefs.has(p.id);
+        return '<button type="button" class="gen-option' + (active ? ' active' : '') +
+          '" data-pref="' + p.id + '" aria-pressed="' + active + '">' +
+          '<span class="gen-icon" aria-hidden="true">' + p.icon + '</span> ' + p.label + '</button>';
       }).join('') +
       '</div>' +
       '<div class="gen-nav">' +
@@ -261,11 +288,12 @@
       '<p class="label">' + t.stepOf(3, 3) + '</p>' +
       '<h3>' + t.step3Title + '</h3>' +
       '<p class="gen-hint">' + t.step3Hint + '</p>' +
-      '<div class="gen-options gen-options--grid">' +
+      '<div class="gen-options gen-options--grid" role="group" aria-label="' + t.step3Title + '">' +
       t.companions.map(function (c) {
-        return '<button type="button" class="gen-option' +
-          (state.companion === c.id ? ' active' : '') +
-          '" data-companion="' + c.id + '"><span class="gen-icon">' + c.icon + '</span> ' + c.label + '</button>';
+        var active = state.companion === c.id;
+        return '<button type="button" class="gen-option' + (active ? ' active' : '') +
+          '" data-companion="' + c.id + '" aria-pressed="' + active + '">' +
+          '<span class="gen-icon" aria-hidden="true">' + c.icon + '</span> ' + c.label + '</button>';
       }).join('') +
       '</div>' +
       '<div class="gen-nav">' +
@@ -291,11 +319,13 @@
     var daysOpt = t.days.find(function (d) { return d.id === state.days; });
     var daysLabel = daysOpt ? daysOpt.label : '';
     var metaParts = [daysLabel];
-    if (state.prefs.size) metaParts.push(t.prefsLabel);
+    if (state.prefs.size) metaParts.push(state.prefs.size + ' · ' + t.prefsLabel);
     if (state.companion) {
       var c = t.companions.find(function (x) { return x.id === state.companion; });
       if (c) metaParts.push(c.label);
     }
+
+    var savedIds = getSavedIds();
 
     var body =
       '<div class="gen-step gen-results" data-step="4">' +
@@ -324,6 +354,7 @@
         var card = document.createElement('article');
         card.className = 'trip';
         var img = photoFor(trip.id);
+        var isSaved = savedIds.indexOf(trip.id) !== -1;
         card.innerHTML =
           '<div class="trip-art ' + (trip.art || '') + '" data-id="' + trip.id +
           '" role="img" aria-label="' + trip.title +
@@ -331,7 +362,7 @@
           '\');background-size:cover;background-position:center">' +
           '<span>' + (trip.place || '') + '</span>' +
           '<button class="save-trip" data-id="' + trip.id +
-          '" aria-label="' + t.save + ' ' + trip.title + '">♡</button></div>' +
+          '" aria-label="' + t.save + ' ' + trip.title + '">' + (isSaved ? '♥' : '♡') + '</button></div>' +
           '<p class="meta">' + (trip.region || '').toUpperCase() + ' <b>•</b> ' + trip.days + '</p>' +
           (window.PBBadges ? window.PBBadges.buildHtml(trip) : '') +
           '<h3>' + trip.title + '</h3>' +
@@ -342,18 +373,42 @@
     }
 
     var backBtn = container.querySelector('.gen-back');
-    if (backBtn) backBtn.addEventListener('click', function () { state.step = 3; render(); });
+    if (backBtn) {
+      backBtn.addEventListener('click', function () {
+        state.step = 3;
+        render();
+      });
+    }
     var againBtn = container.querySelector('.gen-again');
-    if (againBtn) againBtn.addEventListener('click', function () { reshuffleKey += 1; render(); });
+    if (againBtn) {
+      againBtn.addEventListener('click', function () {
+        reshuffleKey += 1;
+        render();
+      });
+    }
+
+    // Scroll results into view (smooth)
+    try {
+      var section = document.getElementById('generator');
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    } catch (e) { /* ignore */ }
   }
 
   function render() {
     var root = document.getElementById('weekend-generator');
     if (!root) return;
-    if (state.step === 1) renderStep1(root);
-    else if (state.step === 2) renderStep2(root);
-    else if (state.step === 3) renderStep3(root);
-    else renderResults(root);
+
+    root.classList.add('gen-fade');
+    // Small delay for fade-out feel, then paint
+    window.requestAnimationFrame(function () {
+      if (state.step === 1) renderStep1(root);
+      else if (state.step === 2) renderStep2(root);
+      else if (state.step === 3) renderStep3(root);
+      else renderResults(root);
+      root.classList.remove('gen-fade');
+    });
   }
 
   async function init() {
@@ -362,6 +417,8 @@
 
     lang = detectLang();
     t = I18N[lang] || I18N.pl;
+
+    root.innerHTML = '<p class="label">' + t.loading + '</p>';
 
     try {
       var file = lang === 'en' ? 'trips-en.json' : 'trips-pl.json';
