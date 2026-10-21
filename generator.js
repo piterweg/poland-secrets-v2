@@ -358,8 +358,7 @@
         card.innerHTML =
           '<div class="trip-art ' + (trip.art || '') + '" data-id="' + trip.id +
           '" role="img" aria-label="' + trip.title +
-          '" style="background-image:url(\'images/' + img +
-          '\');background-size:cover;background-position:center">' +
+          '" data-bg="images/' + img + '">' +
           '<span>' + (trip.place || '') + '</span>' +
           '<button class="save-trip" data-id="' + trip.id +
           '" aria-label="' + t.save + ' ' + trip.title + '">' + (isSaved ? '♥' : '♡') + '</button></div>' +
@@ -370,6 +369,16 @@
           '<button class="read open-trip" data-id="' + trip.id + '">' + t.explore + '</button>';
         grid.appendChild(card);
       });
+      if (typeof observeTripArts === 'function') {
+        observeTripArts(grid);
+      } else {
+        grid.querySelectorAll('.trip-art[data-bg]').forEach(function (el) {
+          el.style.backgroundImage = "url('" + el.dataset.bg + "')";
+          el.style.backgroundSize = 'cover';
+          el.style.backgroundPosition = 'center';
+          delete el.dataset.bg;
+        });
+      }
     }
 
     var backBtn = container.querySelector('.gen-back');

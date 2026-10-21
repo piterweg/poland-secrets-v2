@@ -63,6 +63,28 @@ const photos = {
   baltyk: 'baltyk.webp', mazury: 'mazury1.webp', bieszczady: 'bieszczady.webp', tatry: 'tatry.webp', wroclaw: 'wroclaw.webp', biebrza: 'biebrza.webp', 'beskid-niski': 'beskid-niski.webp', gorce: 'gorce.webp', pieniny: 'pieniny.webp', karkonosze: 'karkonosze.webp', stolowe: 'stolowe.webp', babia: 'babia.webp', kaszuby: 'kaszuby1.webp', hel: 'hel1.webp', drawsko: 'drawsko.webp', suwalszczyzna: 'suwalszczyzna1.webp', 'szczecin-zalew': 'szczecin-zalew.webp', narew: 'narew.webp', roztocze: 'roztocze.webp', krakow: 'krakow.webp', gdansk: 'gdansk.webp', torun: 'torun.webp', lublin: 'lublin.webp', poznan: 'poznan.webp', lodz: 'lodz.webp', zamosc: 'zamosc.webp', bialowieza: 'bialowieza.webp', kampinos: 'kampinos1.webp', ojcow: 'ojcow.webp', drawa: 'drawa.webp', polesie: 'polesie.webp', barycz: 'barycz1.webp', notecka: 'notecka.webp', podhale: 'tatry-zachodnie.webp', sopot: 'baltyk1.webp', kudowa: 'karkonosze-swierki.webp', olsztyn: 'wroclaw.webp', sandomierz: 'lublin.webp', zakopane: 'tatry1.webp', 'morskie-oko': 'tatry-zachodnie.webp', giewont: 'karkonosze-zima.webp', 'kasprowy-wierch': 'karkonosze-zima-2.webp', 'dolina-koscieliska': 'pieniny.webp', sniezka: 'sniezka.webp', samotnia: 'karkonosze-swierki.webp', 'polonina-wetlinska': 'bieszczady.webp', 'polonina-carynska': 'bieszczady1.webp', 'jezioro-solińskie': 'solina.webp', 'kolorowe-jeziorka': 'mazury.webp', 'slowinski-park': 'mierzeja.webp', 'tatrzanski-park': 'tatry-zachodnie.webp', szczeliniec: 'stolowe.webp', 'bledne-skaly': 'ojcow.webp', 'wigierski-park': 'suwalszczyzna1.webp', 'swietokrzyskie': 'polesie.webp', 'bory-tucholskie': 'drawa.webp', 'lasy-janowskie': 'polesie.webp', 'puszcza-notecka': 'notecka.webp', leba: 'mierzeja1.webp', ustka: 'baltyk1.webp', 'beskid-zywiecki': 'barycz.webp', augustowska: 'suwalszczyzna.webp', solina: 'solina.webp', 'tatry-zachodnie': 'tatry-zachodnie.webp', 'splyw-dunajcem': 'splyw-dunajcem.webp', 'biebrza-rzeka': 'biebrza-rzeka.webp', 'biebrza-losie': 'biebrza-losie.webp', 'bialowieza-alt': 'bialowieza1.webp', 'gorce-alt': 'gorce2.webp', 'kaszuby-alt': 'kaszuby2.webp', 'kampinos-alt': 'kampinos.webp'
 };
 
+window.photos = photos;
+
+const bgObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    const el = entry.target;
+    const src = el.dataset.bg;
+    if (src) {
+      el.style.backgroundImage = "url('" + src + "')";
+      el.style.backgroundSize = 'cover';
+      el.style.backgroundPosition = 'center';
+      delete el.dataset.bg;
+    }
+    bgObserver.unobserve(el);
+  });
+}, { rootMargin: '250px 0px' });
+
+function observeTripArts(root) {
+  (root || document).querySelectorAll('.trip-art[data-bg]').forEach(el => bgObserver.observe(el));
+}
+window.observeTripArts = observeTripArts;
+
 async function init() {
   try {
     const response = await fetch(config[currentLang].tripsFile);
@@ -73,7 +95,7 @@ async function init() {
         const img = photos[t.id] || 'hero-polska.webp';
         return `
         <article class="trip reveal">
-          <div class="trip-art ${t.art}" data-id="${t.id}" style="background-image:url('images/${img}') !important;background-size:cover;background-position:center">
+          <div class="trip-art ${t.art}" data-id="${t.id}" data-bg="images/${img}" role="img" aria-label="${t.title}">
             <span>${t.place}</span>
             <button class="save-trip" data-id="${t.id}" aria-label="${t.title}">
               ${saved.includes(t.id) ? '♥' : '♡'}
@@ -86,6 +108,7 @@ async function init() {
         </article>
         `;
       }).join('');
+      observeTripArts(grid);
       initReveal();
     };
 

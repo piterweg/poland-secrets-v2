@@ -193,6 +193,7 @@ function observeTripArts(root) {
   const scope = root || document;
   scope.querySelectorAll('.trip-art[data-bg]').forEach(el => bgObserver.observe(el));
 }
+window.observeTripArts = observeTripArts;
 
 /** Zamienia inline background-image z prerenderu na data-bg + lazy */
 function convertPrerenderedBgs() {
