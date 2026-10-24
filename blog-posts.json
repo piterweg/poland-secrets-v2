@@ -2,7 +2,7 @@
   {
     "slug": "slow-travel-co-to-znaczy",
     "category": "manifest",
-    "date": "2026-09-15",
+    "date": "2026-09-07",
     "author": "Polska bliżej",
     "image": "blog-slow-travel.webp",
     "pl": {
@@ -19,7 +19,7 @@
   {
     "slug": "weekend-w-bieszczadach",
     "category": "plany",
-    "date": "2026-09-22",
+    "date": "2026-09-14",
     "author": "Polska bliżej",
     "image": "blog-weekend-bieszczady.webp",
     "pl": {
@@ -35,7 +35,7 @@
   },
   {
   "slug": "baltyk-bez-tlumow",
-  "date": "2026-09-28",
+  "date": "2026-09-20",
   "updated": "2026-10-12",
   "category": "poradniki",
   "tags": ["Bałtyk", "slow travel", "kiedy jechać", "morze", "poza sezonem"],
@@ -54,7 +54,7 @@
 },
   {
   "slug": "polska-kuchnia-regionalna",
-  "date": "2026-10-01",
+  "date": "2026-09-23",
   "updated": "2026-10-12",
   "category": "kuchnia",
   "tags": ["kuchnia polska", "kuchnia regionalna", "slow travel", "polska", "przewodnik"],
@@ -74,7 +74,7 @@
   {
     "slug": "polska-bez-samochodu",
     "category": "poradniki",
-    "date": "2026-10-02",
+    "date": "2026-09-24",
     "author": "Polska bliżej",
     "image": "blog-polska-bez-samochodu.webp",
     "pl": {
@@ -91,7 +91,7 @@
   {
     "slug": "polska-jesienia",
     "category": "inspiracje",
-    "date": "2026-10-03",
+    "date": "2026-09-25",
     "author": "Polska bliżej",
     "image": "blog-polska-jesienia.webp",
     "pl": {
@@ -108,7 +108,7 @@
   {
     "slug": "zima-w-tatrach",
     "category": "inspiracje",
-    "date": "2026-10-05",
+    "date": "2026-09-27",
     "author": "Polska bliżej",
     "image": "blog-zima-w-tatrach.webp",
     "pl": {
@@ -125,7 +125,7 @@
   {
     "slug": "podlasie-weekend",
     "category": "plany",
-    "date": "2026-10-06",
+    "date": "2026-09-28",
     "author": "Polska bliżej",
     "image": "blog-podlasie-weekend.webp",
     "pl": {
@@ -141,7 +141,7 @@
   },
   {
   "slug": "co-zjesc-w-krakowie",
-  "date": "2026-10-07",
+  "date": "2026-09-29",
   "updated": "2026-10-12",
   "category": "kuchnia",
   "tags": ["Kraków", "kuchnia", "jedzenie", "Małopolska", "slow travel"],
@@ -161,7 +161,7 @@
   {
     "slug": "mazury-bez-zagli",
     "category": "poradniki",
-    "date": "2026-10-08",
+    "date": "2026-09-30",
     "author": "Polska bliżej",
     "image": "blog-mazury-bez-zagli.webp",
     "pl": {
@@ -178,7 +178,7 @@
   {
     "slug": "slaskim-szlakiem-zamkow",
     "category": "inspiracje",
-    "date": "2026-10-09",
+    "date": "2026-10-01",
     "author": "Polska bliżej",
     "image": "blog-slaskim-szlakiem-zamkow.webp",
     "pl": {
@@ -194,7 +194,7 @@
   },
   {
   "slug": "jak-planowac-weekend",
-  "date": "2026-10-10",
+  "date": "2026-10-02",
   "updated": "2026-10-12",
   "category": "poradniki",
   "tags": ["weekend", "slow travel", "planowanie", "podróże", "poradnik"],
@@ -214,7 +214,7 @@
   {
     "slug": "polska-wiosna",
     "category": "inspiracje",
-    "date": "2026-10-11",
+    "date": "2026-10-03",
     "author": "Polska bliżej",
     "image": "blog-polska-wiosna.webp",
     "pl": {
@@ -231,7 +231,7 @@
   {
     "slug": "rowerem-po-polsce",
     "category": "poradniki",
-    "date": "2026-10-12",
+    "date": "2026-10-04",
     "author": "Polska bliżej",
     "image": "blog-rowerem-po-polsce.webp",
     "pl": {
@@ -247,7 +247,7 @@
   },
   {
   "slug": "kuchnia-podlaska",
-  "date": "2026-10-13",
+  "date": "2026-10-05",
   "updated": "2026-10-12",
   "category": "kuchnia",
   "tags": ["Podlasie", "Białystok", "kuchnia tatarska", "kuchnia regionalna", "slow travel"],
@@ -266,7 +266,7 @@
 },
   {
   "slug": "kuchnia-podhala",
-  "date": "2026-10-14",
+  "date": "2026-10-06",
   "updated": "2026-10-12",
   "category": "kuchnia",
   "tags": ["Podhale", "Tatry", "Zakopane", "oscypek", "kuchnia góralska"],
@@ -285,7 +285,7 @@
 },
   {
   "slug": "kuchnia-slaska",
-  "date": "2026-10-15",
+  "date": "2026-10-07",
   "updated": "2026-10-12",
   "category": "kuchnia",
   "tags": ["Śląsk", "Katowice", "rolada", "kuchnia regionalna", "slow travel"],
@@ -304,7 +304,7 @@
 },
   {
   "slug": "kuchnia-kaszubska",
-  "date": "2026-10-16",
+  "date": "2026-10-08",
   "updated": "2026-10-12",
   "category": "kuchnia",
   "tags": ["Kaszuby", "kuchnia", "ryby", "Bałtyk", "slow travel"],
@@ -323,7 +323,7 @@
 },
   {
   "slug": "kuchnia-lubelska",
-  "date": "2026-10-17",
+  "date": "2026-10-09",
   "updated": "2026-10-12",
   "category": "kuchnia",
   "tags": ["Lubelszczyzna", "Lublin", "cebularz", "kuchnia regionalna", "slow travel"],
@@ -342,7 +342,7 @@
 },
   {
   "slug": "kuchnia-wielkopolska",
-  "date": "2026-10-18",
+  "date": "2026-10-10",
   "updated": "2026-10-12",
   "category": "kuchnia",
   "tags": ["Wielkopolska", "Poznań", "rogal świętomarciński", "kuchnia regionalna", "slow travel"],
@@ -361,7 +361,7 @@
 },
   {
   "slug": "kuchnia-warminska",
-  "date": "2026-10-19",
+  "date": "2026-10-11",
   "updated": "2026-10-12",
   "category": "kuchnia",
   "tags": ["Warmia", "Mazury", "Olsztyn", "kuchnia regionalna", "slow travel"],
@@ -380,7 +380,7 @@
 },
   {
   "slug": "kuchnia-malopolska",
-  "date": "2026-10-20",
+  "date": "2026-10-12",
   "updated": "2026-10-12",
   "category": "kuchnia",
   "tags": ["Małopolska", "Kraków", "Podhale", "kuchnia regionalna", "slow travel"],
@@ -399,7 +399,7 @@
 },
   {
   "slug": "kuchnia-pomorska",
-  "date": "2026-10-21",
+  "date": "2026-10-13",
   "updated": "2026-10-12",
   "category": "kuchnia",
   "tags": ["Pomorze", "Gdańsk", "Gdynia", "kuchnia nadmorska", "slow travel"],
@@ -418,7 +418,7 @@
 },
   {
   "slug": "kuchnia-dolnoslaska",
-  "date": "2026-10-22",
+  "date": "2026-10-14",
   "updated": "2026-10-12",
   "category": "kuchnia",
   "tags": ["Dolny Śląsk", "Wrocław", "kuchnia", "kuchnia regionalna", "slow travel"],
@@ -437,7 +437,7 @@
 },
   {
   "slug": "kuchnia-podkarpacka",
-  "date": "2026-10-23",
+  "date": "2026-10-15",
   "updated": "2026-10-12",
   "category": "kuchnia",
   "tags": ["Podkarpacie", "Bieszczady", "Rzeszów", "kuchnia regionalna", "slow travel"],
@@ -456,7 +456,7 @@
 },
   {
   "slug": "kuchnia-mazowiecka",
-  "date": "2026-10-24",
+  "date": "2026-10-16",
   "updated": "2026-10-12",
   "category": "kuchnia",
   "tags": ["Mazowsze", "Warszawa", "flaki", "kuchnia regionalna", "slow travel"],
@@ -475,7 +475,7 @@
 },
   {
   "slug": "kuchnia-kujawska",
-  "date": "2026-10-25",
+  "date": "2026-10-17",
   "updated": "2026-10-12",
   "category": "kuchnia",
   "tags": ["Kujawy", "Toruń", "pierniki", "kuchnia regionalna", "slow travel"],
@@ -494,7 +494,7 @@
 },
   {
   "slug": "kuchnia-zachodniopomorska",
-  "date": "2026-10-26",
+  "date": "2026-10-18",
   "updated": "2026-10-12",
   "category": "kuchnia",
   "tags": ["Pomorze Zachodnie", "Szczecin", "paprykarz", "kuchnia regionalna", "slow travel"],
@@ -514,7 +514,7 @@
   {
     "slug": "weekend-w-karkonoszach",
     "category": "plany",
-    "date": "2026-10-27",
+    "date": "2026-10-19",
     "author": "Polska bliżej",
     "image": "blog-karkonosze-weekend.webp",
     "pl": {
@@ -531,7 +531,7 @@
   {
     "slug": "weekend-na-mazurach",
     "category": "plany",
-    "date": "2026-10-28",
+    "date": "2026-10-20",
     "author": "Polska bliżej",
     "image": "blog-mazury-weekend.webp",
     "pl": {
@@ -548,7 +548,7 @@
   {
     "slug": "weekend-w-krakowie",
     "category": "plany",
-    "date": "2026-10-29",
+    "date": "2026-10-21",
     "author": "Polska bliżej",
     "image": "blog-krakow-weekend.webp",
     "pl": {
@@ -565,7 +565,7 @@
   {
     "slug": "weekend-w-trojmiescie",
     "category": "plany",
-    "date": "2026-10-30",
+    "date": "2026-10-22",
     "author": "Polska bliżej",
     "image": "blog-trojmasto-weekend.webp",
     "pl": {
@@ -582,7 +582,7 @@
   {
     "slug": "weekend-w-roztoczu",
     "category": "plany",
-    "date": "2026-10-31",
+    "date": "2026-10-23",
     "author": "Polska bliżej",
     "image": "blog-roztocze-weekend.webp",
     "pl": {
@@ -599,7 +599,7 @@
   {
     "slug": "weekend-w-zakopanem",
     "category": "plany",
-    "date": "2026-11-01",
+    "date": "2026-10-24",
     "author": "Polska bliżej",
     "image": "blog-zakopane-weekend.webp",
     "pl": {
