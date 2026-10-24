@@ -86,6 +86,7 @@
 <link rel="stylesheet" href="../article.css">
 <link rel="stylesheet" href="../destination.css">
 <link rel="stylesheet" href="../search.css">
+<link rel="stylesheet" href="../weather.css">
 </head>
 <body>
 <header class="header">
@@ -145,6 +146,18 @@
         </aside>
       </div>
     </article>
+    <section class="weather" data-weather data-lat="50.451" data-lon="19.521" data-days="4" data-lang="en" data-point="Ogrodzieniec">
+      <div class="weather-head">
+        <p class="label">WEATHER ON THE ROUTE</p>
+        <h2>Forecast for the next days</h2>
+        <p class="weather-sub">Source: <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a> <span data-weather-updated></span></p>
+      </div>
+      <div class="weather-grid" data-weather-grid>
+        <p class="weather-loading">Loading forecast…</p>
+      </div>
+      <p class="weather-note">Forecast for: <strong>Ogrodzieniec</strong> · <a href="../pogoda-en.html">Weather ranking →</a></p>
+    </section>
+
 
     <section class="dest-related">
       <h2>See also</h2>
@@ -196,5 +209,6 @@
 </script>
 <script src="../cookie-consent.js" defer></script>
 <script src="../search.js" defer></script>
+<script src="../weather.js" defer></script>
 </body>
 </html>

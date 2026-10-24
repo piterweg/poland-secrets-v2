@@ -31,6 +31,16 @@ const DOMAIN = 'https://polandsecrets.com';
 const SITE = 'Polska bliżej';
 const OUT_DIR = 'kierunki';
 const MANIFEST = 'destinations-manifest.json';
+
+// Współrzędne do prognozy pogody (weather-coords.json). Brak pliku nie blokuje builda.
+const WEATHER = (() => {
+  try {
+    return JSON.parse(fs.readFileSync('weather-coords.json', 'utf8'));
+  } catch (e) {
+    console.warn('⚠️  Brak weather-coords.json — strony kierunków bez prognozy pogody.');
+    return {};
+  }
+})();
 const MARKER = '<!-- generated-by: generate-destinations.js -->';
 const IMAGES_DIR = 'images';
 const FALLBACK_IMAGE = 'hero-polska.webp';
@@ -57,6 +67,14 @@ const T = {
     plan: 'Plan wyjazdu',
     tip: 'Wskazówka',
     related: 'Zobacz też',
+    weatherLabel: 'POGODA NA TRASIE',
+    weatherTitle: 'Prognoza na najbliższe dni',
+    weatherSub: 'Dane:',
+    weatherLoading: 'Ładowanie prognozy…',
+    weatherNote: 'Prognoza dla punktu:',
+    weatherRankLink: 'Ranking pogody →',
+    weatherMulti: 'To trasa przez wiele regionów — pogodę sprawdź osobno dla każdego przystanku.',
+    weatherDays: '4',
     galleryAlt: 'zdjęcie z podróży',
     privacy: ['Polityka prywatności', 'polityka-prywatnosci.html'],
     cookies: ['Cookies', 'cookies.html'],
@@ -78,6 +96,14 @@ const T = {
     plan: 'Trip plan',
     tip: 'Tip',
     related: 'See also',
+    weatherLabel: 'WEATHER ON THE ROUTE',
+    weatherTitle: 'Forecast for the next days',
+    weatherSub: 'Source:',
+    weatherLoading: 'Loading forecast…',
+    weatherNote: 'Forecast for:',
+    weatherRankLink: 'Weather ranking →',
+    weatherMulti: 'This route crosses many regions — check the weather for each stop separately.',
+    weatherDays: '4',
     galleryAlt: 'travel photo',
     privacy: ['Privacy policy', 'polityka-prywatnosci-en.html'],
     cookies: ['Cookies', 'cookies-en.html'],
@@ -299,6 +325,30 @@ function renderPage(m, ctx) {
   const score = (o) => (o.trip.category === m.trip.category ? 1 : 0);
   const related = [...sameRegion.sort((a, b) => score(b) - score(a)), ...sameCat].slice(0, 3);
 
+  // ── Pogoda na trasie (Open-Meteo, dane pobierane w przeglądarce) ──
+  const wc = WEATHER[m.id];
+  const weatherSection = !wc
+    ? ''
+    : wc.multi
+      ? `    <section class="weather weather-multi">
+      <p class="label">${L.weatherLabel}</p>
+      <h2>${L.weatherTitle}</h2>
+      <p class="weather-multi-note">${L.weatherMulti}</p>
+    </section>
+`
+      : `    <section class="weather" data-weather data-lat="${wc.lat}" data-lon="${wc.lon}" data-days="${L.weatherDays}" data-lang="${L.htmlLang}" data-point="${esc(wc.label)}">
+      <div class="weather-head">
+        <p class="label">${L.weatherLabel}</p>
+        <h2>${L.weatherTitle}</h2>
+        <p class="weather-sub">${L.weatherSub} <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a> <span data-weather-updated></span></p>
+      </div>
+      <div class="weather-grid" data-weather-grid>
+        <p class="weather-loading">${L.weatherLoading}</p>
+      </div>
+      <p class="weather-note">${L.weatherNote} <strong>${esc(wc.label)}</strong> · <a href="../${m.lang === 'en' ? 'pogoda-en.html' : 'pogoda.html'}">${L.weatherRankLink}</a></p>
+    </section>
+`;
+
   const robots = m.indexable
     ? 'index, follow, max-image-preview:large'
     : 'noindex, follow';
@@ -359,6 +409,7 @@ ${jsonLd(ldCrumbs)}
 <link rel="stylesheet" href="../article.css">
 <link rel="stylesheet" href="../destination.css">
 <link rel="stylesheet" href="../search.css">
+<link rel="stylesheet" href="../weather.css">
 </head>
 <body>
 <header class="header">
@@ -438,6 +489,7 @@ ${m.plan.map((p) => `              <li>${esc(p)}</li>`).join('\n')}
   }        </aside>
       </div>
     </article>
+${weatherSection}
 ${
   related.length
     ? `
@@ -487,6 +539,7 @@ ${related
 </script>
 <script src="../cookie-consent.js" defer></script>
 <script src="../search.js" defer></script>
+<script src="../weather.js" defer></script>
 </body>
 </html>
 `;

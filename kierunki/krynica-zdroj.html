@@ -86,6 +86,7 @@
 <link rel="stylesheet" href="../article.css">
 <link rel="stylesheet" href="../destination.css">
 <link rel="stylesheet" href="../search.css">
+<link rel="stylesheet" href="../weather.css">
 </head>
 <body>
 <header class="header">
@@ -143,6 +144,18 @@
         </aside>
       </div>
     </article>
+    <section class="weather" data-weather data-lat="49.421" data-lon="20.961" data-days="4" data-lang="pl" data-point="Krynica-Zdrój">
+      <div class="weather-head">
+        <p class="label">POGODA NA TRASIE</p>
+        <h2>Prognoza na najbliższe dni</h2>
+        <p class="weather-sub">Dane: <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a> <span data-weather-updated></span></p>
+      </div>
+      <div class="weather-grid" data-weather-grid>
+        <p class="weather-loading">Ładowanie prognozy…</p>
+      </div>
+      <p class="weather-note">Prognoza dla punktu: <strong>Krynica-Zdrój</strong> · <a href="../pogoda.html">Ranking pogody →</a></p>
+    </section>
+
 
     <section class="dest-related">
       <h2>Zobacz też</h2>
@@ -194,5 +207,6 @@
 </script>
 <script src="../cookie-consent.js" defer></script>
 <script src="../search.js" defer></script>
+<script src="../weather.js" defer></script>
 </body>
 </html>

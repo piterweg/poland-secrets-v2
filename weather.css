@@ -1,0 +1,164 @@
+/* ─────────────────────────────────────────────────────────────
+   Pogoda na trasie: widget na stronach kierunków + ranking /pogoda
+   ───────────────────────────────────────────────────────────── */
+
+.weather {
+  margin: 48px 0 0;
+  padding: 32px 0 0;
+  border-top: 1px solid rgba(217, 211, 198, 0.8);
+  max-width: 780px;
+}
+.weather-head { margin-bottom: 18px; }
+.weather-head .label { color: var(--orange); }
+.weather-head h2 {
+  font: 500 clamp(24px, 3vw, 32px)/1.15 'Playfair Display', Georgia, serif;
+  letter-spacing: -0.8px;
+  margin: 8px 0 6px;
+}
+.weather-sub {
+  font: 500 10px 'DM Mono', monospace;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0;
+}
+.weather-sub a { border-bottom: 1px solid rgba(100, 115, 109, 0.4); }
+.weather-sub a:hover { color: var(--orange); border-color: var(--orange); }
+
+.weather-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+.weather-day {
+  background: #fff;
+  border: 1px solid rgba(217, 211, 198, 0.9);
+  border-radius: 14px;
+  padding: 14px 10px 12px;
+  text-align: center;
+}
+.weather-day-name {
+  font: 600 10px 'DM Mono', monospace;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 0 0 6px;
+}
+.weather-day-name span {
+  display: block;
+  font-weight: 400;
+  color: var(--muted);
+  letter-spacing: 0.6px;
+  margin-top: 2px;
+}
+.weather-icon { font-size: 26px; line-height: 1; margin: 6px 0 8px; }
+.weather-temp { margin: 0; font: 600 20px/1 'Manrope', sans-serif; }
+.weather-temp strong { color: var(--ink); }
+.weather-temp span { font-size: 13px; font-weight: 500; color: var(--muted); margin-left: 5px; }
+.weather-desc {
+  font-size: 11px;
+  line-height: 1.35;
+  color: var(--muted);
+  margin: 6px 0 8px;
+  min-height: 28px;
+}
+.weather-meta {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  font: 500 9.5px 'DM Mono', monospace;
+  color: #7d8a85;
+  margin: 0;
+}
+.weather-note {
+  font-size: 11px;
+  color: var(--muted);
+  margin: 12px 0 0;
+}
+.weather-loading,
+.weather-error {
+  grid-column: 1 / -1;
+  font-size: 12.5px;
+  color: var(--muted);
+  margin: 0;
+}
+.weather-error { color: #b84a2e; }
+.weather-multi-note {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: 560px;
+  margin: 0;
+}
+
+/* ── Ranking /pogoda ── */
+.wrank-list {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgba(24, 51, 44, 0.15);
+}
+.wrank-item {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) 120px;
+  gap: 18px;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(217, 211, 198, 0.8);
+  transition: background 0.2s ease;
+}
+.wrank-item:hover { background: rgba(255, 255, 255, 0.6); }
+.wrank-pos {
+  font: 500 18px 'Playfair Display', Georgia, serif;
+  color: var(--orange);
+}
+.wrank-body { min-width: 0; }
+.wrank-body strong { display: block; font: 600 16px/1.3 'Manrope', sans-serif; }
+.wrank-region {
+  display: block;
+  font: 500 9.5px 'DM Mono', monospace;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 4px 0 8px;
+}
+.wrank-days { display: flex; gap: 16px; flex-wrap: wrap; }
+.wrank-day {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2px 8px;
+  align-items: baseline;
+  font-size: 11.5px;
+  color: var(--muted);
+}
+.wrank-day span {
+  font: 600 9px 'DM Mono', monospace;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #7d8a85;
+}
+.wrank-day b { font-size: 12.5px; color: var(--ink); }
+.wrank-day em { font-style: normal; font-size: 10.5px; }
+.wrank-day small { grid-column: 1 / -1; font-size: 10px; color: #8b9893; }
+.wrank-score {
+  justify-self: end;
+  text-align: right;
+  font: 600 13px 'Manrope', sans-serif;
+  color: var(--muted);
+}
+.wrank-score.is-best {
+  font: 700 9.5px 'DM Mono', monospace;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--orange);
+  border-radius: 999px;
+  padding: 5px 9px;
+}
+.wrank-loading { font-size: 12.5px; color: var(--muted); }
+
+@media (max-width: 760px) {
+  .weather-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .wrank-item { grid-template-columns: 32px minmax(0, 1fr); gap: 12px; }
+  .wrank-score { grid-column: 2; justify-self: start; margin-top: 4px; }
+}

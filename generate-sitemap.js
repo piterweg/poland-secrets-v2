@@ -135,6 +135,32 @@ xml += '  </url>\n';
   xml += '  </url>\n';
 }
 
+// ───── 3c. Pogoda na trasie (PL + EN) ─────
+{
+  const wPl = `${domain}/pogoda.html`;
+  const wEn = `${domain}/pogoda-en.html`;
+
+  xml += '  <url>\n';
+  xml += `    <loc>${wPl}</loc>\n`;
+  xml += `    <xhtml:link rel="alternate" hreflang="pl" href="${wPl}"/>\n`;
+  xml += `    <xhtml:link rel="alternate" hreflang="en" href="${wEn}"/>\n`;
+  xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${wPl}"/>\n`;
+  xml += `    <lastmod>${fileDate('pogoda.html')}</lastmod>\n`;
+  xml += '    <changefreq>daily</changefreq>\n';
+  xml += '    <priority>0.9</priority>\n';
+  xml += '  </url>\n';
+
+  xml += '  <url>\n';
+  xml += `    <loc>${wEn}</loc>\n`;
+  xml += `    <xhtml:link rel="alternate" hreflang="pl" href="${wPl}"/>\n`;
+  xml += `    <xhtml:link rel="alternate" hreflang="en" href="${wEn}"/>\n`;
+  xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${wPl}"/>\n`;
+  xml += `    <lastmod>${fileDate('pogoda-en.html')}</lastmod>\n`;
+  xml += '    <changefreq>daily</changefreq>\n';
+  xml += '    <priority>0.8</priority>\n';
+  xml += '  </url>\n';
+}
+
 // ───── 4. Huby tematyczne (PL + EN z hreflang) ─────
 for (const hub of hubs) {
   const urlPl = `${domain}/${hub.pl}`;
@@ -341,7 +367,8 @@ const blogHubCount = blogPosts.length > 0 ? 2 : 0;
 const blogPostCount = blogPosts.length * 2;
 const destTotal = destCount * 2;                // kierunki × 2 języki
 const weekendCount = 2;                         // weekendy.html + weekendy-en.html
-const grandTotal = 2 + weekendCount + hubCount + regionHubCount + regionCount + blogHubCount + blogPostCount + destTotal;
+const weatherCount = 2;                         // pogoda.html + pogoda-en.html
+const grandTotal = 2 + weekendCount + weatherCount + hubCount + regionHubCount + regionCount + blogHubCount + blogPostCount + destTotal;
 
 console.log('✅ sitemap.xml — wygenerowany');
 console.log(`   Strony główne:          2 (PL + EN, wersja ES wyłączona)`);

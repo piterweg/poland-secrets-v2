@@ -53,6 +53,19 @@ npm run build:weekends
 **Uwaga:** kalendarz buduje się na rok bieżący (`new Date().getFullYear()`), więc
 na początku stycznia trzeba go przegenerować (albo dodać cron).
 
+## Pogoda na trasie
+
+`generate-weather.js` tworzy `pogoda.html`, `pogoda-en.html` i `weather-points.json`.
+Współrzędne leżą w `weather-coords.json`: 115 kierunków ma konkretny punkt
+(miasto, schronisko, park), a 9 tras ogólnopolskich ma `multi: true` — dla nich
+nie ma prognozy punktowej.
+
+Prognozę pobiera przeglądarka z Open-Meteo (bez klucza API) przez `weather.js`:
+4-dniowy widget na stronie każdego kierunku oraz ranking weekendowy na
+`/pogoda.html` (3 zapytania batchowane po 40 punktów, cache 30 min w sessionStorage).
+Style: `weather.css`. Gdy brakuje `weather-coords.json`, build nadal przechodzi —
+strony kierunków po prostu nie dostają widgetu.
+
 ## Adresy kierunków
 
 Każdy kierunek ma własną, statyczną stronę: `/kierunki/<id>.html` (PL) i

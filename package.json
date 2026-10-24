@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "node serve.js",
     "start": "npm run build",
-    "build": "node generate-blog.js && node generate-blog-categories.js && node generate-destinations.js && node generate-regions.js && node prerender.js && node generate-weekends.js && node generate-sitemap.js && node generate-rss.js",
+    "build": "node generate-blog.js && node generate-blog-categories.js && node generate-destinations.js && node generate-regions.js && node prerender.js && node generate-weekends.js && node generate-weather.js && node generate-sitemap.js && node generate-rss.js",
     "build:sitemap": "node generate-sitemap.js",
     "build:weekends": "node generate-weekends.js",
+    "build:weather": "node generate-weather.js",
     "build:destinations": "node generate-destinations.js"
   },
   "engines": {

@@ -243,6 +243,7 @@ const PL = {
     ctaText: 'Zobacz wszystkie 124 kierunki albo wylosuj plan w generatorze weekendu.',
     ctaAll: 'Wszystkie kierunki',
     ctaGen: 'Generator weekendu',
+    ctaWeather: 'Pogoda na weekend',
     title: `Kalendarz 52 weekendów ${YEAR} — dokąd jechać w każdy weekend | Polska bliżej`,
     desc: `Kalendarz weekendów ${YEAR}: 52 kierunki w Polsce dopasowane do sezonu. Sprawdź, dokąd jechać w ten weekend i zaplanuj cały rok.`,
     h1: 'Kalendarz 52 weekendów'
@@ -296,6 +297,7 @@ const EN = {
     ctaText: 'Browse all 124 destinations or let the weekend generator pick for you.',
     ctaAll: 'All destinations',
     ctaGen: 'Weekend generator',
+    ctaWeather: 'Weekend weather',
     title: `52-Weekend Calendar ${YEAR} — Where to Go Every Weekend in Poland | Poland Closer`,
     desc: `A ${YEAR} weekend calendar: 52 destinations in Poland matched to the season. See where to go this weekend and plan the whole year.`,
     h1: '52-weekend calendar'
@@ -539,6 +541,7 @@ ${monthSections}
     <div class="wk-cta-actions">
       <a class="outline" href="index.html#kierunki">${L.ctaAll} →</a>
       <a class="outline" href="index.html#generator">${L.ctaGen} →</a>
+      <a class="outline" href="${lang.htmlLang === 'pl' ? 'pogoda.html' : 'pogoda-en.html'}">${L.ctaWeather} →</a>
     </div>
   </section>
 </main>
