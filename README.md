@@ -13,7 +13,7 @@ images/              zdjęcia i logo
 generate-*.js        generatory HTML (blog, kierunki, regiony, sitemap, RSS)
 prerender.js         wstrzykuje karty kierunków do stron głównych, hubów i regionów
 generate-weekends.js kalendarz 52 weekendów (weekendy.html + weekendy-en.html)
-weekend.css          style kalendarza weekendów
+weekend.css          źródło stylów kalendarza (wbudowywane w HTML przy buildzie)
 ```
 
 ## Build
@@ -41,6 +41,14 @@ npm run build
 
 Wynik to `weekendy.html` i `weekendy-en.html`: 12 sekcji miesięcznych, 52 wpisy,
 podświetlony najbliższy weekend, `ItemList` w JSON-LD i linki do `/kierunki/`.
+
+Style kalendarza (`weekend.css`) są **wbudowywane w `<style>`** przy generowaniu —
+dzięki temu strona wygląda poprawnie nawet wtedy, gdy plik CSS nie trafi na
+hosting albo podgląd otwiera sam HTML. Edytujesz `weekend.css`, potem:
+
+```bash
+npm run build:weekends
+```
 
 **Uwaga:** kalendarz buduje się na rok bieżący (`new Date().getFullYear()`), więc
 na początku stycznia trzeba go przegenerować (albo dodać cron).

@@ -34,6 +34,17 @@ function loadPhotos() {
 }
 const photos = loadPhotos();
 
+// Style kalendarza wbudowujemy w HTML — strona ma wtedy komplet stylów nawet
+// wtedy, gdy weekend.css nie zostanie wgrany na hosting (albo gdy podgląd
+// otwiera sam plik HTML bez zasobów obok).
+let WEEKEND_CSS = '';
+try {
+  WEEKEND_CSS = fs.readFileSync(path.join(ROOT, 'weekend.css'), 'utf8').trim();
+  if (/<\/style/i.test(WEEKEND_CSS)) throw new Error('weekend.css zawiera niedozwolone "</style"');
+} catch (e) {
+  console.warn('⚠️  Nie udało się wczytać weekend.css:', e.message);
+}
+
 // Kalendarz dotyczy weekendu, więc odsiewamy wielodniowe trasy (5+ dni)
 // oraz miejsca, które nie powinny być „propozycją na weekend”.
 const EXCLUDED_IDS = new Set(['auschwitz']);
@@ -469,7 +480,10 @@ ${jsonld}
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="weekend.css">
+<style>
+/* ── weekend.css — wbudowane przez generate-weekends.js ── */
+${WEEKEND_CSS}
+</style>
 <link rel="stylesheet" href="search.css">
 </head>
 <body class="wk-page">
