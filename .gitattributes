@@ -1,0 +1,13 @@
+# Wymuszamy LF w repo i w katalogu roboczym.
+# Bez tego (core.autocrlf=true) git po każdym `npm run build` pokazuje
+# setki plików jako zmienione, mimo że treść się nie zmieniła.
+* text=auto eol=lf
+
+# Pliki binarne — bez konwersji
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary

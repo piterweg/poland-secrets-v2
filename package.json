@@ -4,10 +4,12 @@
   "description": "Polska bliżej — slow travel guide",
   "private": true,
   "scripts": {
-    "start": "node generate-blog.js",
+    "dev": "node serve.js",
+    "start": "npm run build",
     "build": "node generate-blog.js && node generate-blog-categories.js && node generate-destinations.js && node generate-regions.js && node prerender.js && node generate-weekends.js && node generate-sitemap.js && node generate-rss.js",
     "build:sitemap": "node generate-sitemap.js",
-    "build:weekends": "node generate-weekends.js"
+    "build:weekends": "node generate-weekends.js",
+    "build:destinations": "node generate-destinations.js"
   },
   "engines": {
     "node": ">=18.0.0"
