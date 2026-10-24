@@ -84,7 +84,6 @@ xml += '  <url>\n';
 xml += `    <loc>${domain}/</loc>\n`;
 xml += `    <xhtml:link rel="alternate" hreflang="pl" href="${domain}/"/>\n`;
 xml += `    <xhtml:link rel="alternate" hreflang="en" href="${domain}/index-en.html"/>\n`;
-xml += `    <xhtml:link rel="alternate" hreflang="es" href="${domain}/index-es.html"/>\n`;
 xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${domain}/"/>\n`;
 xml += `    <lastmod>${today}</lastmod>\n`;
 xml += '    <changefreq>weekly</changefreq>\n';
@@ -100,24 +99,15 @@ xml += '  <url>\n';
 xml += `    <loc>${domain}/index-en.html</loc>\n`;
 xml += `    <xhtml:link rel="alternate" hreflang="pl" href="${domain}/"/>\n`;
 xml += `    <xhtml:link rel="alternate" hreflang="en" href="${domain}/index-en.html"/>\n`;
-xml += `    <xhtml:link rel="alternate" hreflang="es" href="${domain}/index-es.html"/>\n`;
 xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${domain}/"/>\n`;
 xml += `    <lastmod>${today}</lastmod>\n`;
 xml += '    <changefreq>weekly</changefreq>\n';
 xml += '    <priority>0.9</priority>\n';
 xml += '  </url>\n';
 
-// ───── 3. Strona główna ES ─────
-xml += '  <url>\n';
-xml += `    <loc>${domain}/index-es.html</loc>\n`;
-xml += `    <xhtml:link rel="alternate" hreflang="pl" href="${domain}/"/>\n`;
-xml += `    <xhtml:link rel="alternate" hreflang="en" href="${domain}/index-en.html"/>\n`;
-xml += `    <xhtml:link rel="alternate" hreflang="es" href="${domain}/index-es.html"/>\n`;
-xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${domain}/"/>\n`;
-xml += `    <lastmod>${today}</lastmod>\n`;
-xml += '    <changefreq>weekly</changefreq>\n';
-xml += '    <priority>0.9</priority>\n';
-xml += '  </url>\n';
+// ───── 3. Wersja ES — wyłączona (niedokończone tłumaczenie) ─────
+// /index-es.html ma noindex i przekierowanie 301 na wersję EN.
+// Nie zgłaszamy jej w sitemapie ani w hreflang, dopóki nie będzie kompletna.
 
 // ───── 4. Huby tematyczne (PL + EN z hreflang) ─────
 for (const hub of hubs) {
@@ -324,10 +314,10 @@ const regionCount = regionSlugs.length * 2;    // 16 regionów × 2 języki = 32
 const blogHubCount = blogPosts.length > 0 ? 2 : 0;
 const blogPostCount = blogPosts.length * 2;
 const destTotal = destCount * 2;                // kierunki × 2 języki
-const grandTotal = 3 + hubCount + regionHubCount + regionCount + blogHubCount + blogPostCount + destTotal;
+const grandTotal = 2 + hubCount + regionHubCount + regionCount + blogHubCount + blogPostCount + destTotal;
 
 console.log('✅ sitemap.xml — wygenerowany');
-console.log(`   Strony główne:          3`);
+console.log(`   Strony główne:          2 (PL + EN, wersja ES wyłączona)`);
 console.log(`   Huby tematyczne:        ${hubCount} (${hubs.length} kategorii × 2 języki)`);
 console.log(`   Hub regionów:           ${regionHubCount} (regiony.html + regiony-en.html)`);
 console.log(`   Regiony:                ${regionCount} (${regionSlugs.length} województw × 2 języki)`);

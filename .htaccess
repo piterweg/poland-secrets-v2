@@ -151,5 +151,15 @@
   RewriteRule ^kierunki/pn-gorczanski-en\.html$ /kierunki/gorce-en.html [R=301,L]
 </IfModule>
 
+# ═══════════════════════════════════════════════════════════
+# 10. Wersja ES wyłączona (niedokończone tłumaczenie)
+# ═══════════════════════════════════════════════════════════
+# /index-es.html pokazywał hiszpańską nawigację z angielskimi treściami.
+# Strona ma noindex; ruch kierujemy na wersję angielską.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^index-es\.html$ /index-en.html [R=301,L]
+</IfModule>
+
 # ───── 8. Własna strona 404 (opcjonalnie) ─────
 ErrorDocument 404 /404.html
