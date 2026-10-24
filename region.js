@@ -72,7 +72,7 @@
         const img = photos[t.id] || 'hero-polska.webp';
         return (
           '<article class="trip">' +
-          '<a href="article.html?id=' + encodeURIComponent(t.id) + '" class="trip-link">' +
+          '<a href="kierunki/' + encodeURIComponent(t.id) + (lang === 'en' ? '-en' : '') + '.html" class="trip-link">' +
           '<div class="trip-art" style="background-image:url(\'images/' + img + '\');background-size:cover;background-position:center">' +
           '<span>' + t.place + '</span>' +
           '</div>' +

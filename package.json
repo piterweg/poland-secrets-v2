@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "start": "node generate-blog.js",
-    "build": "node generate-blog.js && node generate-destinations.js && node generate-sitemap.js && node generate-rss.js"
+    "build": "node generate-blog.js && node generate-destinations.js && node prerender.js && node generate-sitemap.js && node generate-rss.js",
+    "build:sitemap": "node generate-sitemap.js"
   },
   "engines": {
     "node": ">=18.0.0"

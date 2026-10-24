@@ -25,6 +25,14 @@ function esc(s) {
 }
 
 // ───── Karta kierunku (identyczna z app.js render) ─────
+// Karta jest prawdziwym linkiem <a href> do strony kierunku — nie przyciskiem
+// otwierającym modal. Dzięki temu crawler widzi ~124 linki wewnętrzne,
+// a użytkownik może otworzyć kierunek w nowej karcie / skopiować adres.
+function tripHref(t, lang) {
+  const suffix = lang === 'pl' ? '' : '-en';
+  return `kierunki/${t.id}${suffix}.html`;
+}
+
 function buildTripCard(t, lang) {
   const img = photos[t.id] || 'hero-polska.webp';
   const texts = {
@@ -32,13 +40,13 @@ function buildTripCard(t, lang) {
     en: 'Explore route →',
     es: 'Explorar ruta →'
   };
-  return `<article class="trip"><div class="trip-art ${t.art}" data-id="${t.id}" role="img" aria-label="${esc(t.title)}" style="background-image:url('images/${img}') !important;background-size:cover;background-position:center"><span>${esc(t.place)}</span><button class="save-trip" data-id="${t.id}" aria-label="${esc(t.title)}">♡</button></div><p class="meta">${t.region.toUpperCase()} <b>•</b> ${t.days}</p><h3>${esc(t.title)}</h3><p>${esc(t.text)}</p><button class="read open-trip" data-id="${t.id}">${texts[lang] || texts.pl}</button></article>`;
+  return `<article class="trip"><div class="trip-art ${t.art}" data-id="${t.id}" data-bg="images/${img}" role="img" aria-label="${esc(t.title)}" style="background-image:url('images/${img}') !important;background-size:cover;background-position:center"><span>${esc(t.place)}</span><button class="save-trip" data-id="${t.id}" aria-label="${esc(t.title)}">♡</button></div><a class="trip-link" href="${tripHref(t, lang)}"><p class="meta">${t.region.toUpperCase()} <b>•</b> ${t.days}</p><h3>${esc(t.title)}</h3><p>${esc(t.text)}</p><span class="read">${texts[lang] || texts.pl}</span></a></article>`;
 }
 
-// ───── Karta do huba (z linkiem do article) ─────
+// ───── Karta do huba (z linkiem do strony kierunku) ─────
 function buildHubCard(t, lang) {
   const img = photos[t.id] || 'hero-polska.webp';
-  return `<article class="trip"><a href="article.html?id=${encodeURIComponent(t.id)}" class="trip-link"><div class="trip-art" style="background-image:url('images/${img}');background-size:cover;background-position:center"><span>${esc(t.place)}</span></div><p class="meta">${t.region.toUpperCase()} <b>•</b> ${t.days}</p><h3>${esc(t.title)}</h3><p>${esc(t.text)}</p></a></article>`;
+  return `<article class="trip"><a href="${tripHref(t, lang)}" class="trip-link"><div class="trip-art" style="background-image:url('images/${img}');background-size:cover;background-position:center"><span>${esc(t.place)}</span></div><p class="meta">${t.region.toUpperCase()} <b>•</b> ${t.days}</p><h3>${esc(t.title)}</h3><p>${esc(t.text)}</p></a></article>`;
 }
 
 // ═══════════════════════════════════════════════════════════

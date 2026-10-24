@@ -1,80 +1,54 @@
-<<<<<<< HEAD
-# Polska bliżej – Slow travel guide
-
-Statyczna strona z przewodnikiem po Polsce.
-
-## Struktura projektu
-- `articles/` – treści artykułów (JSON)
-- `blog/` – wygenerowane strony bloga
-- `kierunki/` – wygenerowane strony kierunków
-- `images/` – zdjęcia
-- `generate-*.js` – skrypty generujące HTML
-
-## Jak uruchomić lokalnie
-1. Zainstaluj Node.js
-2. `node generate-blog.js`
-3. `node generate-destinations.js`
-4. Otwórz `index.html` w przeglądarce
-
-## Wdrożenie
-- GitHub Pages: [instrukcja](https://docs.github.com/en/pages)
-- Lub własny hosting (FTP)
-
-## Ściągawka — najczęstsze komendy
-Cel	Komenda
-1. Sprawdź stan	git status
-2. Zobacz historię	git log --oneline -10
-3. Dodaj wszystkie zmiany	git add -A
-4. Commit	git commit -m "opis"
-5. Push na GitHub	git push origin main
-6. Pull z GitHuba	git pull origin main
-7. Zobacz zdalne repo	git remote -v
-8. Zmień URL zdalnego repo	git remote set-url origin <nowy-url>
-
-## Skrót — do wklejenia w jednej linii
-
-- git add -A ; git commit -m "Opis zmian" ; git push origin main
-
-
-## Typowy cykl pracy — przykład
-# 1. Otwórz blog-posts.json w VS Code, popraw literówkę, zapisz.
-
-# 2. Przegeneruj HTML-e (jeśli edytowałeś JSON)
-- node generate-blog.js
-
-# 3. Sprawdź, co się zmieniło
-- git status
-
-# 4. Dodaj, commituj, wypchnij
-- git add -A
-- git commit -m "Fix typo in Kashubian cuisine article"
-- git push origin main
-
-# 5. Odśwież GitHub, zobacz nowy commit.
-
-=======
 # Polska bliżej — slow travel guide
 
 Statyczna strona z przewodnikiem po Polsce w duchu slow travel.
 
 ## Struktura projektu
 
-- `articles/` — treści artykułów o kierunkach (JSON, PL + EN)
-- `blog-posts.json` — treści artykułów bloga (m.in. 16 kuchni regionalnych)
-- `blog/` — wygenerowane strony bloga (HTML)
-- `kierunki/` — wygenerowane strony kierunków (HTML)
-- `images/` — zdjęcia i logo
-- `generate-blog.js` — generator HTML-i bloga
-- `generate-destinations.js` — generator stron kierunków
-- `generate-sitemap.js`, `generate-rss.js` — generatory sitemapy i RSS
+```
+articles/            treści artykułów o kierunkach (JSON, PL + EN)
+blog-posts.json      treści wpisów bloga
+blog/                wygenerowane strony bloga
+kierunki/            wygenerowane strony kierunków (PL + EN)
+images/              zdjęcia i logo
+generate-*.js        generatory HTML (blog, kierunki, regiony, sitemap, RSS)
+prerender.js         wstrzykuje karty kierunków do stron głównych, hubów i regionów
+```
 
-## Uruchomienie lokalne
+## Build
 
-Wymagany Node.js (v18+).
+Wymagany Node.js v18+.
 
 ```bash
-node generate-blog.js
-node generate-destinations.js
-node generate-sitemap.js
-node generate-rss.js
->>>>>>> 36c9b42 (Krótki opis co zmieniłeś)
+npm run build
+```
+
+`build` uruchamia kolejno: `generate-blog.js` → `generate-destinations.js` →
+`generate-sitemap.js` → `generate-rss.js`. Karty na stronach głównych, hubach i
+regionach wstrzykuje `prerender.js` (uruchom go po wygenerowaniu kierunków):
+
+```bash
+node prerender.js
+```
+
+## Adresy kierunków
+
+Każdy kierunek ma własną, statyczną stronę: `/kierunki/<id>.html` (PL) i
+`/kierunki/<id>-en.html` (EN). To one są w `sitemap.xml` i do nich linkują karty.
+
+Stare adresy `article.html?id=<id>` są przekierowywane 301 na `/kierunki/<id>.html`
+(reguła w `.htaccess`). `article.html` ma `noindex` i służy już tylko jako
+awaryjny widok.
+
+## Wdrożenie
+
+Hosting obsługuje `.htaccess` (HTTPS, cache, kompresja, 404, przekierowania).
+Wgranie na FTP: cała zawartość katalogu poza plikami `*.js` używanymi tylko
+podczas builda.
+
+## Przydatne komendy
+
+| Cel | Komenda |
+| --- | --- |
+| Stan repo | `git status` |
+| Historia | `git log --oneline -10` |
+| Commit + push | `git add -A ; git commit -m "opis" ; git push origin main` |

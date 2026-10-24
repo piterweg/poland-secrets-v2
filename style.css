@@ -289,3 +289,11 @@
 .trip-art[data-bg] {
   background-color: #dfe7df;
 }
+
+/* ───── Karty kierunków jako prawdziwe linki (SEO + UX) ───── */
+.trip-link { display: block; color: inherit; }
+.trip-link > p:not(.meta) { font-size: 12px; line-height: 1.6; color: var(--muted); margin: 0 20px 15px 0; }
+.trip-link:focus-visible { outline: 2px solid var(--orange); outline-offset: 6px; border-radius: 8px; }
+.trip-link:hover .read { color: var(--orange); border-color: var(--orange); }
+.trip-link:hover h3 { color: #bc4f32; }
+.trip .read { cursor: pointer; }

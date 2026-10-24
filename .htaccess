@@ -93,5 +93,63 @@
   # Require all denied
 </FilesMatch>
 
+# ═══════════════════════════════════════════════════════════
+# 9. Stare adresy → strony kierunków (301)
+# ═══════════════════════════════════════════════════════════
+# Do tej pory sitemap zgłaszał /article.html?id=… jako ~124 osobne strony,
+# ale wszystkie serwowały identyczny HTML z canonicalem /article.html.
+# Kierujemy je 301 na właściwe, unikalne strony /kierunki/*.html.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # /article.html?id=baltyk → /kierunki/baltyk.html
+  RewriteCond %{QUERY_STRING} ^id=([a-z0-9-]+)(&.*)?$ [NC]
+  RewriteRule ^article\.html$ /kierunki/%1.html? [R=301,L]
+
+  # Duplikaty slugów (resolve-duplicates.js)
+  RewriteRule ^kierunki/sopot-plaza\.html$ /kierunki/sopot.html [R=301,L]
+  RewriteRule ^kierunki/sopot-plaza-en\.html$ /kierunki/sopot-en.html [R=301,L]
+  RewriteRule ^kierunki/pn-karkonoski\.html$ /kierunki/karkonosze.html [R=301,L]
+  RewriteRule ^kierunki/pn-karkonoski-en\.html$ /kierunki/karkonosze-en.html [R=301,L]
+  RewriteRule ^kierunki/pn-bieszczadzki\.html$ /kierunki/bieszczady.html [R=301,L]
+  RewriteRule ^kierunki/pn-bieszczadzki-en\.html$ /kierunki/bieszczady-en.html [R=301,L]
+  RewriteRule ^kierunki/pn-pieninski\.html$ /kierunki/pieniny.html [R=301,L]
+  RewriteRule ^kierunki/pn-pieninski-en\.html$ /kierunki/pieniny-en.html [R=301,L]
+  RewriteRule ^kierunki/pn-gor-stolowych\.html$ /kierunki/stolowe.html [R=301,L]
+  RewriteRule ^kierunki/pn-gor-stolowych-en\.html$ /kierunki/stolowe-en.html [R=301,L]
+  RewriteRule ^kierunki/pn-roztoczanski\.html$ /kierunki/roztocze.html [R=301,L]
+  RewriteRule ^kierunki/pn-roztoczanski-en\.html$ /kierunki/roztocze-en.html [R=301,L]
+  RewriteRule ^kierunki/pn-swietokrzyski\.html$ /kierunki/swietokrzyskie.html [R=301,L]
+  RewriteRule ^kierunki/pn-swietokrzyski-en\.html$ /kierunki/swietokrzyskie-en.html [R=301,L]
+  RewriteRule ^kierunki/tatrzanski-park\.html$ /kierunki/tatry.html [R=301,L]
+  RewriteRule ^kierunki/tatrzanski-park-en\.html$ /kierunki/tatry-en.html [R=301,L]
+  RewriteRule ^kierunki/bialowieza\.html$ /kierunki/pn-bialowieski.html [R=301,L]
+  RewriteRule ^kierunki/bialowieza-en\.html$ /kierunki/pn-bialowieski-en.html [R=301,L]
+  RewriteRule ^kierunki/biebrza\.html$ /kierunki/pn-biebrzanski.html [R=301,L]
+  RewriteRule ^kierunki/biebrza-en\.html$ /kierunki/pn-biebrzanski-en.html [R=301,L]
+  RewriteRule ^kierunki/babia\.html$ /kierunki/pn-babiogorski.html [R=301,L]
+  RewriteRule ^kierunki/babia-en\.html$ /kierunki/pn-babiogorski-en.html [R=301,L]
+  RewriteRule ^kierunki/ojcow\.html$ /kierunki/pn-ojcowski.html [R=301,L]
+  RewriteRule ^kierunki/ojcow-en\.html$ /kierunki/pn-ojcowski-en.html [R=301,L]
+  RewriteRule ^kierunki/kampinos\.html$ /kierunki/pn-kampinoski.html [R=301,L]
+  RewriteRule ^kierunki/kampinos-en\.html$ /kierunki/pn-kampinoski-en.html [R=301,L]
+  RewriteRule ^kierunki/narew\.html$ /kierunki/pn-narwianski.html [R=301,L]
+  RewriteRule ^kierunki/narew-en\.html$ /kierunki/pn-narwianski-en.html [R=301,L]
+  RewriteRule ^kierunki/polesie\.html$ /kierunki/pn-poleski.html [R=301,L]
+  RewriteRule ^kierunki/polesie-en\.html$ /kierunki/pn-poleski-en.html [R=301,L]
+  RewriteRule ^kierunki/wigierski-park\.html$ /kierunki/pn-wigierski.html [R=301,L]
+  RewriteRule ^kierunki/wigierski-park-en\.html$ /kierunki/pn-wigierski-en.html [R=301,L]
+  RewriteRule ^kierunki/drawa\.html$ /kierunki/pn-drawienski.html [R=301,L]
+  RewriteRule ^kierunki/drawa-en\.html$ /kierunki/pn-drawienski-en.html [R=301,L]
+  RewriteRule ^kierunki/drawsko\.html$ /kierunki/pn-drawienski.html [R=301,L]
+  RewriteRule ^kierunki/drawsko-en\.html$ /kierunki/pn-drawienski-en.html [R=301,L]
+  RewriteRule ^kierunki/bory-tucholskie\.html$ /kierunki/pn-bory-tucholskie.html [R=301,L]
+  RewriteRule ^kierunki/bory-tucholskie-en\.html$ /kierunki/pn-bory-tucholskie-en.html [R=301,L]
+  RewriteRule ^kierunki/slowinski-park\.html$ /kierunki/pn-slowinski.html [R=301,L]
+  RewriteRule ^kierunki/slowinski-park-en\.html$ /kierunki/pn-slowinski-en.html [R=301,L]
+  RewriteRule ^kierunki/pn-gorczanski\.html$ /kierunki/gorce.html [R=301,L]
+  RewriteRule ^kierunki/pn-gorczanski-en\.html$ /kierunki/gorce-en.html [R=301,L]
+</IfModule>
+
 # ───── 8. Własna strona 404 (opcjonalnie) ─────
 ErrorDocument 404 /404.html

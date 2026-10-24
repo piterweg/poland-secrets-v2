@@ -101,10 +101,12 @@ async function init() {
               ${saved.includes(t.id) ? '♥' : '♡'}
             </button>
           </div>
+          <a class="trip-link" href="kierunki/${t.id}${currentLang === 'pl' ? '' : '-en'}.html">
           <p class="meta">${t.region.toUpperCase()} <b>•</b> ${t.days}</p>
           <h3>${t.title}</h3>
           <p>${t.text}</p>
-          <button class="read open-trip" data-id="${t.id}">${t.exploreRoute || config[currentLang].texts.exploreRoute}</button>
+          <span class="read">${t.exploreRoute || config[currentLang].texts.exploreRoute}</span>
+          </a>
         </article>
         `;
       }).join('');
@@ -121,7 +123,7 @@ async function init() {
         listEl.innerHTML = saved.length
           ? saved.map(id => {
               const trip = trips.find(x => x.id === id);
-              return trip ? `<button class="saved-item open-trip" data-id="${id}"><span>${trip.place}</span>${trip.title} <b>→</b></button>` : '';
+              return trip ? `<a class="saved-item" href="kierunki/${id}${currentLang === 'pl' ? '' : '-en'}.html"><span>${trip.place}</span>${trip.title} <b>→</b></a>` : '';
             }).join('')
           : `<p class="empty">${config[currentLang].texts.emptySaved}</p>`;
       }
@@ -244,12 +246,12 @@ async function init() {
       const labelEl = featureSec.querySelector('.label');
       const titleEl = featureSec.querySelector('h2');
       const leadEl = featureSec.querySelector('p:not(.label)');
-      const btnEl = featureSec.querySelector('.open-trip');
+      const btnEl = featureSec.querySelector('.feature-cta');
       const imgDiv = featureSec.querySelector('.feature-image');
       if (labelEl) labelEl.textContent = season.label;
       if (titleEl) titleEl.innerHTML = season.title;
       if (leadEl) leadEl.textContent = season.lead;
-      if (btnEl) btnEl.dataset.id = season.id;
+      if (btnEl) btnEl.setAttribute('href', `kierunki/${season.id}${currentLang === 'pl' ? '' : '-en'}.html`);
       if (imgDiv) {
         imgDiv.style.backgroundImage = `url('images/${season.image}')`;
         imgDiv.style.backgroundSize = 'cover';

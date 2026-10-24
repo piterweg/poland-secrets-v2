@@ -4,6 +4,17 @@ const domain = 'https://polandsecrets.com';
 
 // ───── Wczytywanie danych ─────
 const trips = JSON.parse(fs.readFileSync('trips-pl.json', 'utf8'));
+const tripsEn = JSON.parse(fs.readFileSync('trips-en.json', 'utf8'));
+const tripsEnById = new Map(tripsEn.map(t => [t.id, t]));
+
+// Data modyfikacji pliku — uczciwy lastmod zamiast "dziś" przy każdym buildzie
+function fileDate(p) {
+  try {
+    return fs.statSync(p).mtime.toISOString().split('T')[0];
+  } catch (e) {
+    return new Date().toISOString().split('T')[0];
+  }
+}
 
 // Mapa photos z app.js
 function loadPhotos() {
@@ -28,7 +39,8 @@ const hubs = [
   { pl: 'szlaki.html',               en: 'szlaki-en.html',               label: 'Szlaki rowerowe' },
   { pl: 'kuchnia.html',              en: 'kuchnia-en.html',              label: 'Kuchnia regionalna' },
   { pl: 'wsie.html',                 en: 'wsie-en.html',                 label: 'Wsie i regiony wiejskie' },
-  { pl: 'podroze-tematyczne.html',   en: 'podroze-tematyczne-en.html',   label: 'Podróże tematyczne' }
+  { pl: 'podroze-tematyczne.html',   en: 'podroze-tematyczne-en.html',   label: 'Podróże tematyczne' },
+  { pl: 'parki-narodowe.html',       en: 'parki-narodowe-en.html',       label: 'Parki narodowe' }
 ];
 
 // Definicje regionów (16 województw × 2 języki)
@@ -249,29 +261,55 @@ if (blogPosts.length > 0) {
   }
 }
 
-// ───── 7. Artykuły (z deduplikacją) ─────
+// ───── 7. Strony kierunków /kierunki/*.html (PL + EN z hreflang) ─────
+// Wcześniej sitemap zgłaszał /article.html?id=… — jeden szablon z identycznym
+// canonicalem dla ~124 stron. Teraz zgłaszamy realne, unikalne strony kierunków.
 const seen = new Set();
-let articleCount = 0;
+let destCount = 0;
 for (const t of trips) {
   if (seen.has(t.id)) {
     console.warn('⚠ Pominięto duplikat id:', t.id);
     continue;
   }
   seen.add(t.id);
-  const img = photos[t.id] || 'hero-polska.webp';
-  const url = `${domain}/article.html?id=${encodeURIComponent(t.id)}`;
 
+  const img = photos[t.id] || 'hero-polska.webp';
+  const urlPl = `${domain}/kierunki/${t.id}.html`;
+  const urlEn = `${domain}/kierunki/${t.id}-en.html`;
+  const lastmod = fileDate(`kierunki/${t.id}.html`);
+  const tEn = tripsEnById.get(t.id);
+
+  // Wersja PL
   xml += '  <url>\n';
-  xml += `    <loc>${url}</loc>\n`;
-  xml += `    <lastmod>${today}</lastmod>\n`;
+  xml += `    <loc>${urlPl}</loc>\n`;
+  xml += `    <xhtml:link rel="alternate" hreflang="pl" href="${urlPl}"/>\n`;
+  xml += `    <xhtml:link rel="alternate" hreflang="en" href="${urlEn}"/>\n`;
+  xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${urlPl}"/>\n`;
+  xml += `    <lastmod>${lastmod}</lastmod>\n`;
   xml += '    <changefreq>monthly</changefreq>\n';
-  xml += '    <priority>0.7</priority>\n';
+  xml += '    <priority>0.8</priority>\n';
   xml += '    <image:image>\n';
   xml += `      <image:loc>${domain}/images/${img}</image:loc>\n`;
   xml += `      <image:title>${escapeXml(t.title)}</image:title>\n`;
   xml += '    </image:image>\n';
   xml += '  </url>\n';
-  articleCount++;
+
+  // Wersja EN
+  xml += '  <url>\n';
+  xml += `    <loc>${urlEn}</loc>\n`;
+  xml += `    <xhtml:link rel="alternate" hreflang="pl" href="${urlPl}"/>\n`;
+  xml += `    <xhtml:link rel="alternate" hreflang="en" href="${urlEn}"/>\n`;
+  xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${urlPl}"/>\n`;
+  xml += `    <lastmod>${fileDate(`kierunki/${t.id}-en.html`)}</lastmod>\n`;
+  xml += '    <changefreq>monthly</changefreq>\n';
+  xml += '    <priority>0.7</priority>\n';
+  xml += '    <image:image>\n';
+  xml += `      <image:loc>${domain}/images/${img}</image:loc>\n`;
+  xml += `      <image:title>${escapeXml(tEn ? tEn.title : t.title)}</image:title>\n`;
+  xml += '    </image:image>\n';
+  xml += '  </url>\n';
+
+  destCount++;
 }
 
 
@@ -285,8 +323,8 @@ const regionHubCount = 2;                      // regiony.html + regiony-en.html
 const regionCount = regionSlugs.length * 2;    // 16 regionów × 2 języki = 32
 const blogHubCount = blogPosts.length > 0 ? 2 : 0;
 const blogPostCount = blogPosts.length * 2;
-const articleTotal = articleCount;
-const grandTotal = 3 + hubCount + regionHubCount + regionCount + blogHubCount + blogPostCount + articleTotal;
+const destTotal = destCount * 2;                // kierunki × 2 języki
+const grandTotal = 3 + hubCount + regionHubCount + regionCount + blogHubCount + blogPostCount + destTotal;
 
 console.log('✅ sitemap.xml — wygenerowany');
 console.log(`   Strony główne:          3`);
@@ -295,9 +333,9 @@ console.log(`   Hub regionów:           ${regionHubCount} (regiony.html + regio
 console.log(`   Regiony:                ${regionCount} (${regionSlugs.length} województw × 2 języki)`);
 console.log(`   Hub bloga:              ${blogHubCount} (blog.html + blog-en.html)`);
 console.log(`   Wpisy bloga:            ${blogPostCount} (${blogPosts.length} × 2 języki)`);
-console.log(`   Artykuły katalogu:      ${articleTotal}`);
+console.log(`   Strony kierunków:       ${destTotal} (${destCount} × 2 języki, /kierunki/*.html)`);
 console.log(`   ─────────────────────────`);
 console.log(`   RAZEM:                  ${grandTotal} URL-i`);
-if (trips.length !== articleTotal) {
-  console.log(`   Pominięto duplikatów:   ${trips.length - articleTotal}`);
+if (trips.length !== destCount) {
+  console.log(`   Pominięto duplikatów:   ${trips.length - destCount}`);
 }
