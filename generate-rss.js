@@ -3,7 +3,10 @@ const path = require('path');
 
 const posts = JSON.parse(fs.readFileSync('blog-posts.json', 'utf8'));
 const domain = 'https://polandsecrets.com';
-const today = new Date().toISOString();
+// Deterministyczna data budowy = data najnowszego wpisu. Dzięki temu
+// `npm run build` nie zmienia feedów przy każdym uruchomieniu.
+const latestPost = posts.map(p => p.date).sort().pop();
+const today = new Date(latestPost + 'T08:00:00Z').toUTCString();
 
 function esc(s) {
   return String(s).replace(/[<>&'"]/g, c => ({
