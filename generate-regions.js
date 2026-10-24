@@ -113,6 +113,7 @@ function build(lang, region) {
   <nav id="nav">
     <a href="${homeLink}">${isEn ? 'Home' : 'Start'}</a>
     <a href="${homeLink}#kierunki">${isEn ? 'Destinations' : 'Kierunki'}</a>
+    <a href="${isEn ? 'weekendy-en.html' : 'weekendy.html'}">${isEn ? 'Weekends' : 'Weekendy'}</a>
     <a href="${homeLink}#o-nas">${isEn ? 'About' : 'O projekcie'}</a>
   </nav>
 </header>

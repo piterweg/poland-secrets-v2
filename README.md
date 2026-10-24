@@ -12,6 +12,8 @@ kierunki/            wygenerowane strony kierunków (PL + EN)
 images/              zdjęcia i logo
 generate-*.js        generatory HTML (blog, kierunki, regiony, sitemap, RSS)
 prerender.js         wstrzykuje karty kierunków do stron głównych, hubów i regionów
+generate-weekends.js kalendarz 52 weekendów (weekendy.html + weekendy-en.html)
+weekend.css          style kalendarza weekendów
 ```
 
 ## Build
@@ -22,13 +24,26 @@ Wymagany Node.js v18+.
 npm run build
 ```
 
-`build` uruchamia kolejno: `generate-blog.js` → `generate-destinations.js` →
-`generate-sitemap.js` → `generate-rss.js`. Karty na stronach głównych, hubach i
-regionach wstrzykuje `prerender.js` (uruchom go po wygenerowaniu kierunków):
+`build` uruchamia kolejno: `generate-blog.js` → `generate-blog-categories.js` →
+`generate-destinations.js` → `generate-regions.js` → `prerender.js` →
+`generate-weekends.js` → `generate-sitemap.js` → `generate-rss.js`.
 
-```bash
-node prerender.js
-```
+## Kalendarz weekendów
+
+`generate-weekends.js` przypisuje każdemu z 52 weekendów roku osobny kierunek:
+
+- punktuje dopasowanie `bestSeason` do miesiąca weekendu,
+- dba o równowagę kategorii i regionów (bez powtórzeń w kolejnych tygodniach),
+- zimą preferuje miasta, zamki i kuchnię zamiast lasów i szlaków,
+- pomija trasy dłuższe niż weekend (4+ dni) oraz miejsca nie będące
+  propozycją na weekend,
+- wybór jest deterministyczny — ten sam plik danych daje ten sam kalendarz.
+
+Wynik to `weekendy.html` i `weekendy-en.html`: 12 sekcji miesięcznych, 52 wpisy,
+podświetlony najbliższy weekend, `ItemList` w JSON-LD i linki do `/kierunki/`.
+
+**Uwaga:** kalendarz buduje się na rok bieżący (`new Date().getFullYear()`), więc
+na początku stycznia trzeba go przegenerować (albo dodać cron).
 
 ## Adresy kierunków
 

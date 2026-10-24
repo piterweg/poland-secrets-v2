@@ -1,0 +1,282 @@
+/* ─────────────────────────────────────────────────────────────
+   Kalendarz weekendów (weekendy.html / weekendy-en.html)
+   ───────────────────────────────────────────────────────────── */
+
+.wk-page { background: var(--cream); }
+
+.wk-hero {
+  padding: clamp(64px, 9vw, 132px) clamp(24px, 8vw, 120px) clamp(40px, 5vw, 64px);
+  background: linear-gradient(180deg, rgba(244, 200, 76, 0.35), rgba(245, 240, 229, 0));
+  border-bottom: 1px solid rgba(217, 211, 198, 0.6);
+}
+.wk-hero-inner { max-width: 860px; }
+.wk-hero h1 {
+  font-size: clamp(44px, 6.4vw, 84px);
+  line-height: 0.98;
+  letter-spacing: -4px;
+  margin: 18px 0 22px;
+}
+.wk-hero h1 em {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: -3px;
+}
+.wk-lead {
+  max-width: 560px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--muted);
+}
+.wk-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+  margin-top: 30px;
+  font: 500 11px 'DM Mono', monospace;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.wk-stats b {
+  color: var(--ink);
+  font-size: 19px;
+  margin-right: 4px;
+}
+
+/* ── Najbliższy weekend ── */
+.wk-now {
+  padding: clamp(36px, 5vw, 64px) clamp(24px, 8vw, 120px);
+  max-width: 1180px;
+}
+.wk-now > .label { margin-bottom: 16px; color: var(--orange); }
+.wk-now-card {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 0;
+  border-radius: 22px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid rgba(217, 211, 198, 0.8);
+  box-shadow: 0 24px 60px rgba(24, 51, 44, 0.08);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.wk-now-card:hover { transform: translateY(-4px); box-shadow: 0 32px 70px rgba(24, 51, 44, 0.12); }
+.wk-now-card img {
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+}
+.wk-now-body { padding: clamp(26px, 4vw, 48px); display: flex; flex-direction: column; justify-content: center; }
+.wk-now-date {
+  font: 500 10px 'DM Mono', monospace;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin: 0 0 12px;
+}
+.wk-now-body h2 {
+  font: 1.4rem/1.25 'Playfair Display', Georgia, serif;
+  letter-spacing: -0.5px;
+  margin: 0 0 10px;
+}
+.wk-now-body .wk-reason { margin: 8px 0 20px; }
+.wk-now-body .primary { font-size: 12px; font-weight: 800; border-bottom: 1.5px solid var(--ink); padding-bottom: 7px; align-self: flex-start; }
+.wk-now-body .primary:hover { color: var(--orange); border-color: var(--orange); }
+
+/* ── Nawigacja miesięcy ── */
+.wk-months {
+  position: sticky;
+  top: 78px;
+  z-index: 20;
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding: 12px clamp(24px, 8vw, 120px);
+  background: rgba(245, 240, 229, 0.94);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(217, 211, 198, 0.6);
+  border-bottom: 1px solid rgba(217, 211, 198, 0.6);
+  scrollbar-width: none;
+}
+.wk-months::-webkit-scrollbar { display: none; }
+.wk-months a {
+  flex: 0 0 auto;
+  border: 1px solid #d6d6cc;
+  background: #fff;
+  border-radius: 20px;
+  padding: 7px 13px;
+  font: 600 10px 'Manrope', sans-serif;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: all 0.25s ease;
+}
+.wk-months a:hover { background: var(--ink); color: var(--cream); border-color: var(--ink); }
+
+/* ── Miesiąc ── */
+.wk-month {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: clamp(44px, 6vw, 76px) clamp(24px, 8vw, 120px) 0;
+  scroll-margin-top: 140px;
+}
+.wk-month-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(24, 51, 44, 0.18);
+}
+.wk-month-head h2 {
+  font: 500 clamp(30px, 4vw, 46px)/1 'Playfair Display', Georgia, serif;
+  letter-spacing: -1.5px;
+  margin: 0;
+}
+.wk-month-head p {
+  flex: 1 1 340px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 0;
+  text-align: right;
+}
+
+/* ── Lista weekendów ── */
+.wk-list { list-style: none; margin: 0; padding: 0; }
+.wk-item {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr) 132px;
+  gap: 24px;
+  align-items: center;
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(217, 211, 198, 0.7);
+  transition: background 0.25s ease, opacity 0.25s ease;
+}
+.wk-item:hover { background: rgba(255, 255, 255, 0.55); }
+.wk-date { line-height: 1.1; }
+.wk-date strong {
+  display: block;
+  font: 500 22px 'Playfair Display', Georgia, serif;
+  letter-spacing: -0.5px;
+}
+.wk-date span {
+  display: block;
+  font: 600 10px 'DM Mono', monospace;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 3px;
+}
+.wk-date em {
+  display: block;
+  font: 400 9px 'DM Mono', monospace;
+  font-style: normal;
+  color: #9aa5a0;
+  margin-top: 6px;
+}
+.wk-body { min-width: 0; }
+.wk-title {
+  font: 600 17px/1.35 'Manrope', sans-serif;
+  letter-spacing: -0.2px;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.wk-title:hover { color: var(--orange); border-color: var(--orange); }
+.wk-meta {
+  font: 500 10px 'DM Mono', monospace;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 7px 0 6px;
+}
+.wk-reason {
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--muted);
+  margin: 0;
+}
+.wk-season {
+  display: inline-block;
+  margin-left: 6px;
+  font: 500 9px 'DM Mono', monospace;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #9aa5a0;
+  white-space: nowrap;
+}
+.wk-thumb { display: block; border-radius: 10px; overflow: hidden; }
+.wk-thumb img {
+  width: 132px;
+  height: 92px;
+  object-fit: cover;
+  display: block;
+  filter: saturate(1.05);
+  transition: transform 0.4s ease;
+}
+.wk-item:hover .wk-thumb img { transform: scale(1.04); }
+
+/* ── Stany ── */
+.wk-item.is-now {
+  background: rgba(238, 118, 82, 0.07);
+  border-left: 3px solid var(--orange);
+  padding-left: 18px;
+  margin-left: -21px;
+}
+.wk-tag {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--orange);
+  color: #fff;
+  font: 700 8.5px 'DM Mono', monospace;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  vertical-align: 1px;
+}
+.wk-item.is-past { opacity: 0.52; }
+.wk-item.is-past:hover { opacity: 0.8; }
+
+/* ── CTA ── */
+.wk-cta {
+  margin: clamp(60px, 8vw, 110px) 0 0;
+  padding: clamp(48px, 7vw, 90px) clamp(24px, 8vw, 120px);
+  background: var(--ink);
+  color: var(--cream);
+  text-align: center;
+}
+.wk-cta h2 {
+  font: clamp(28px, 3.6vw, 42px)/1.1 'Playfair Display', Georgia, serif;
+  letter-spacing: -1.2px;
+  margin: 0 0 12px;
+}
+.wk-cta p { font-size: 14px; line-height: 1.7; opacity: 0.75; max-width: 520px; margin: 0 auto 26px; }
+.wk-cta-actions { display: flex; gap: 26px; justify-content: center; flex-wrap: wrap; }
+.wk-cta .outline { color: var(--cream); border-color: rgba(245, 240, 229, 0.55); font-size: 12px; font-weight: 800; }
+.wk-cta .outline:hover { color: var(--yellow); border-color: var(--yellow); }
+
+/* ── RWD ── */
+@media (max-width: 860px) {
+  .wk-now-card { grid-template-columns: 1fr; }
+  .wk-now-card img { min-height: 220px; aspect-ratio: 16 / 9; }
+  .wk-months { top: 70px; }
+  .wk-month-head p { text-align: left; }
+}
+
+@media (max-width: 760px) {
+  .wk-hero h1 { letter-spacing: -2.5px; }
+  .wk-item {
+    grid-template-columns: 72px minmax(0, 1fr);
+    gap: 14px;
+    padding: 16px 0;
+  }
+  .wk-thumb { display: none; }
+  .wk-date strong { font-size: 19px; }
+  .wk-item.is-now { margin-left: -16px; padding-left: 13px; }
+  .wk-cta-actions { flex-direction: column; gap: 16px; }
+}

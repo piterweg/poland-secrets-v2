@@ -248,6 +248,7 @@ ${JSON.stringify(breadcrumbSchema)}
   <nav id="nav">
     <a href="${homeLink}">${isEn ? 'Home' : 'Start'}</a>
     <a href="${blogLink}">Blog</a>
+    <a href="../${isEn ? 'weekendy-en.html' : 'weekendy.html'}">${isEn ? 'Weekends' : 'Weekendy'}</a>
     <a href="../${isEn ? 'mapa-en.html' : 'mapa.html'}">${isEn ? 'Map' : 'Mapa'}</a>
     <a href="${homeLink}#kierunki">${isEn ? 'Destinations' : 'Kierunki'}</a>
     <div class="lang-group">${isEn
@@ -412,6 +413,7 @@ function buildBlogIndex(lang) {
   <nav id="nav">
     <a href="${homeLink}">${isEn ? 'Home' : 'Start'}</a>
     <a href="${homeLink}#kierunki">${isEn ? 'Destinations' : 'Kierunki'}</a>
+    <a href="${isEn ? 'weekendy-en.html' : 'weekendy.html'}">${isEn ? 'Weekends' : 'Weekendy'}</a>
     <a href="${isEn ? 'mapa-en.html' : 'mapa.html'}">${isEn ? 'Map' : 'Mapa'}</a>
     <a href="${homeLink}#o-nas">${isEn ? 'About' : 'O projekcie'}</a>
   </nav>

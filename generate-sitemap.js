@@ -109,6 +109,32 @@ xml += '  </url>\n';
 // /index-es.html ma noindex i przekierowanie 301 na wersję EN.
 // Nie zgłaszamy jej w sitemapie ani w hreflang, dopóki nie będzie kompletna.
 
+// ───── 3b. Kalendarz weekendów (PL + EN) ─────
+{
+  const wkPl = `${domain}/weekendy.html`;
+  const wkEn = `${domain}/weekendy-en.html`;
+
+  xml += '  <url>\n';
+  xml += `    <loc>${wkPl}</loc>\n`;
+  xml += `    <xhtml:link rel="alternate" hreflang="pl" href="${wkPl}"/>\n`;
+  xml += `    <xhtml:link rel="alternate" hreflang="en" href="${wkEn}"/>\n`;
+  xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${wkPl}"/>\n`;
+  xml += `    <lastmod>${fileDate('weekendy.html')}</lastmod>\n`;
+  xml += '    <changefreq>weekly</changefreq>\n';
+  xml += '    <priority>0.9</priority>\n';
+  xml += '  </url>\n';
+
+  xml += '  <url>\n';
+  xml += `    <loc>${wkEn}</loc>\n`;
+  xml += `    <xhtml:link rel="alternate" hreflang="pl" href="${wkPl}"/>\n`;
+  xml += `    <xhtml:link rel="alternate" hreflang="en" href="${wkEn}"/>\n`;
+  xml += `    <xhtml:link rel="alternate" hreflang="x-default" href="${wkPl}"/>\n`;
+  xml += `    <lastmod>${fileDate('weekendy-en.html')}</lastmod>\n`;
+  xml += '    <changefreq>weekly</changefreq>\n';
+  xml += '    <priority>0.8</priority>\n';
+  xml += '  </url>\n';
+}
+
 // ───── 4. Huby tematyczne (PL + EN z hreflang) ─────
 for (const hub of hubs) {
   const urlPl = `${domain}/${hub.pl}`;
@@ -314,7 +340,8 @@ const regionCount = regionSlugs.length * 2;    // 16 regionów × 2 języki = 32
 const blogHubCount = blogPosts.length > 0 ? 2 : 0;
 const blogPostCount = blogPosts.length * 2;
 const destTotal = destCount * 2;                // kierunki × 2 języki
-const grandTotal = 2 + hubCount + regionHubCount + regionCount + blogHubCount + blogPostCount + destTotal;
+const weekendCount = 2;                         // weekendy.html + weekendy-en.html
+const grandTotal = 2 + weekendCount + hubCount + regionHubCount + regionCount + blogHubCount + blogPostCount + destTotal;
 
 console.log('✅ sitemap.xml — wygenerowany');
 console.log(`   Strony główne:          2 (PL + EN, wersja ES wyłączona)`);

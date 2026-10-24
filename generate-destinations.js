@@ -367,6 +367,7 @@ ${jsonLd(ldCrumbs)}
   <nav id="nav">
     <a href="../${L.indexFile}#kierunki">${esc(L.nav[0])}</a>
     <a href="../${L.blogFile}">${esc(L.nav[1])}</a>
+    <a href="../${m.lang === 'en' ? 'weekendy-en.html' : 'weekendy.html'}">${m.lang === 'en' ? 'Weekends' : 'Weekendy'}</a>
     <a href="../${m.lang === 'en' ? 'mapa-en.html' : 'mapa.html'}">${m.lang === 'en' ? 'Map' : 'Mapa'}</a>
     <div class="lang-group">${langSwitch('pl')}${langSwitch('en')}</div>
   </nav>
