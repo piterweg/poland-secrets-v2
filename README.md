@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Polska bliżej – Slow travel guide
 
 Statyczna strona z przewodnikiem po Polsce.
@@ -77,4 +77,4 @@ node generate-blog.js
 node generate-destinations.js
 node generate-sitemap.js
 node generate-rss.js
->>>>>>> 36c9b42 (Krótki opis co zmieniłeś)
+36c9b42 (Krótki opis co zmieniłeś)
